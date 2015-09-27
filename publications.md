@@ -12,4 +12,4 @@ Moran, J.M., **Jolly, E.**, & Mitchell, J.P. (2014). Spontaneous mentalizing pre
 
 Moran, J.M., **Jolly, E.**, & Mtichell, J.P. (2012). Social-cognitive deficits in normal aging. *Journal of Neuroscience, 32(16)*, 5553-5561.
 
-**Jolly,E.** (2011). Testing domain specificity: Conceptual knowledge of living and non-living things. *The Yale Review of Undergraduate Research in Psychology, 2,* 94-118.
+**Jolly, E.** (2011). Testing domain specificity: Conceptual knowledge of living and non-living things. *The Yale Review of Undergraduate Research in Psychology, 2,* 94-118.
