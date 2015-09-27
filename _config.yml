@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Eshin Jolly
+tagline:          
+name:             Eshin Jolly
+description:      Graduate Student at Dartmouth College
+url:              
+baseurl:          /
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           
+

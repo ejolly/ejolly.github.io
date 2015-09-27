@@ -1,0 +1,35 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1 id = "title">
+          {{ site.title }}
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url  | remove_first: '/' }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <a class="sidebar-nav-item" href="{{ site.url }}/assets/JollyCV_Jul15.pdf" download>CV</a>
+      <hr>
+      <a class="sidebar-nav-item" href="mailto:eshin.jolly.gr@dartmouth.edu">Contact</a>
+      <a class="sidebar-nav-item" href="https://github.com/ejolly">Github</a>
+    </nav>
+
+    <p>Design: <a href="https://github.com/karloespiritu/BlackDoc">Jekyll BlackDoc</a></p>
+    <p>&copy; {{ site.time | date: '%Y' }}, Eshin Jolly. All rights reserved.</p>
+  </div>
+</div>

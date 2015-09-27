@@ -1,0 +1,15 @@
+---
+layout: page
+title: About Me
+---
+
+I'm currently a PhD candidate in the [Computational Social Affective Neuroscience Laboratory](http://cosanlab.com) at Dartmouth College working with [Luke Chang](http://lukejchang.com).
+
+My research focuses on understanding the neural mechanisms and computations that humans employ when trying to connect with one another. In particular I'm interested in how people use their beliefs and predictive inferences about others' mental and emotional states to make decisions and derive value from shared experiences. 
+
+I employ a diverse set of scientific methods in my work, combining approaches from game theory, social psychology and cognitive neuroscience. I also use a wide range of tools for study design and analysis such as [online real-time interactive experiments](https://github.com/HarvardEconCS/turkserver-meteor) and [functional neuroimaging](http://dbic.dartmouth.edu/wiki/index.php/Main_Page). 
+
+Previously I received a BA from the University of Rochester where I studied the origins of conceptual knowledge at the [Concepts, Actions, and Objects Lab](http://caoslab.bcs.rochester.edu) with Professors Jessica Cantlon and Brad Mahon. Subsequently I worked as a lab manager at the [Social Cognitive and Affective Neuroscience Lab](http://www.wjh.harvard.edu/~scanlab/) with Jason Mitchell and Joe Moran.
+
+
+In my little spare time I write and play music with several different bands including my [sister](https://soundcloud.com/thosesiblings). I love learning statistical methods especially [mixed effects modeling](https://cran.r-project.org/web/packages/lme4/index.html) and [machine learning](http://scikit-learn.org/stable/.). I'm also excited about how internet and [new web-based technologies](https://www.meteor.com/) can help us understand [real-world human behavior](http://dbic.dartmouth.edu/~ejolly/temp/visualizingTwitter.html). 
