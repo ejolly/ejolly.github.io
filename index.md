@@ -5,7 +5,7 @@ title: About Me
 
 I'm currently a PhD candidate in the [Computational Social Affective Neuroscience Laboratory](http://cosanlab.com) at Dartmouth College working with [Luke Chang](http://lukejchang.com).
 
-My research focuses on understanding the neural mechanisms and computations that humans employ when trying to connect with one another. In particular I'm interested in how people use their beliefs and predictive inferences about others' mental and emotional states to make decisions and derive value from shared experiences. 
+My research focuses on understanding the neural mechanisms and computations that humans employ when trying to connect with one another. In particular I'm interested in how people use their beliefs and predictive inferences about others' mental and emotional states to make social decisions and derive value from social experiences. 
 
 I employ a diverse set of scientific methods in my work, combining approaches from game theory, social psychology and cognitive neuroscience. I also use a wide range of tools for study design and analysis such as [online real-time interactive experiments](https://github.com/HarvardEconCS/turkserver-meteor) and [functional neuroimaging](http://dbic.dartmouth.edu/wiki/index.php/Main_Page). 
 
