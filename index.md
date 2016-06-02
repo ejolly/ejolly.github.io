@@ -3,7 +3,9 @@ layout: page
 title: About Me
 ---
 
-I'm currently a PhD candidate in the [Computational Social Affective Neuroscience Laboratory](http://cosanlab.com) at Dartmouth College working with [Luke Chang](http://lukejchang.com).
+I'm a PhD candidate in the [Computational Social Affective Neuroscience Laboratory](http://cosanlab.com) at Dartmouth College working with [Luke Chang](http://lukejchang.com).  
+
+At the moment I'm also a research intern in the [Computational Social Science Group](http://research.microsoft.com/en-us/groups/cssnyc/) at Microsoft Research working with [Duncan Watts](http://research.microsoft.com/en-us/people/duncan/).
 
 My research focuses on understanding the neural mechanisms and computations that humans employ when trying to connect with one another. In particular I'm interested in how people use their beliefs and predictive inferences about others' mental and emotional states to make social decisions and derive value from social experiences. 
 
