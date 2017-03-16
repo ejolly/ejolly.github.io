@@ -1,0 +1,20 @@
+
+
+{% if page.title == "Home" %}
+  <header class="header-home animated">
+  <h1 class="title">{{ site.name }}</h1>
+  <h2 class="description">{{ site.bio }}</h2>
+
+  <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+  </a>
+  {% include social-links.html %}
+
+{% else %}
+  <header class="header-home">
+  <a class="link" href="{{ site.url }}">
+  <img class="selfie-small" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+  {% include social-links-small.html %}
+{% endif %}
+</header>
+
+{% include nav.html %}
