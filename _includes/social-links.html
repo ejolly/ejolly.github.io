@@ -52,7 +52,7 @@
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
-    
+
     {% if site.stackoverflow %}
         <a class="link" data-title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank">
             <svg class="icon icon-stackoverflow"><use xlink:href="#icon-stackoverflow"></use></svg>
@@ -88,4 +88,8 @@
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+
+    <a class="link" data-title="CV" href="{{site.cv}}" target="_blank">
+    <img class="image" style="width:13px;height:31px" src="{{site.url}}/assets/images/cv.svg" alt="Alt Text" ></a>
+
 </div>

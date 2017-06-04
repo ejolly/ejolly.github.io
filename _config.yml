@@ -44,6 +44,7 @@ github: ejolly
 #medium: medium
 #vimeo: myvimeo
 email: eshin.jolly.gr@dartmouth.edu
+cv: /assets/JollyCV_June17.pdf
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -60,7 +61,8 @@ blog: true
 pubs: true
 music: true
 research: true
-cv: true
+software: true
+#cv: true
 
 # do you want to show the "read time" of the posts?
 read-time: false
