@@ -9,7 +9,7 @@ node_modules
 package.json
 recentPosts.html
 styles.md
-*.ipynb_checkpoints
+.ipynb_checkpoints
 Rakefile
 npm-debug.log
 .sass-cache
