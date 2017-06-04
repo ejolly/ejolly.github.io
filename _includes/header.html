@@ -12,7 +12,7 @@
 {% else %}
   <header class="header-home">
   <a class="link" href="{{ site.url }}">
-  <img class="selfie-small" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+  <img class="selfie-small" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" /></a>
   {% include social-links-small.html %}
 {% endif %}
 </header>

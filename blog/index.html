@@ -5,7 +5,7 @@ layout: page
 title: Blog
 ---
 
-<h3 style="text-align: center">Random collection of posts, guides, analyses, and visualizations</h3>
+<h3 style="text-align: center">A random collection of posts, guides, analyses, and visualizations</h3>
 
 <section class="list">
 	{% if site.posts.size == 0 %}
@@ -14,10 +14,7 @@ title: Blog
 		{% for post in paginator.posts %}
 	        {% include blog-post.html %}
 	    {% endfor %}
-
-		{% if site.paginate %}
-			{% include pagination.html%}
-		{% endif %}
+		{% include pagination.html%}
 	{% else %}
 		{% for post in site.posts %}
 			{% include blog-post.html %}

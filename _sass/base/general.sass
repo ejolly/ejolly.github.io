@@ -28,13 +28,15 @@ h4
 	font-size: 1.6rem
 
 a
-	color: $beta
-	text-decoration: underline
+	color: $iota
+	text-decoration: none
+	border-bottom: 1px solid transparent
+	transition: all .3s ease-in-out
 	&:visited
-		color: $beta 
+		color: $iota
 	&:hover
-		color: #99ccff 
-
+		color: #99ccff
+		border-color: $gama
 p
 	line-height: 1.7
 	color: $alpha
@@ -136,7 +138,7 @@ pre
 .wrapper-large
 	max-width: 1000px
 
-.nounderline 
+.nounderline
 	color: $iota
 	text-decoration: none
 	border-bottom: 1px solid transparent
@@ -145,4 +147,4 @@ pre
 		color: $iota
 	&:hover
 		color: #99ccff
-		border-color: $gama	
+		border-color: $gama

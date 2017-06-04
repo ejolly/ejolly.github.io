@@ -3,8 +3,8 @@ title: Publications
 layout: page
 ---
 7. **Jolly, E.**, Chang, L.J. (under review). Gossip drives vicarious learning and facilitates robust social connections.  
- 
-6. Rane, S.\*, **Jolly, E.**\*, Park, A.\*, Jang, H\*. & Craddock, R.C. (under review). Developing predictive biomarkers using whole-brain classifiers: Application to the ABIDE I dataset.   
+
+6. Rane, S.\*, **Jolly, E.**\*, Park, A.\*, Jang, H\*. & Craddock, R.C. (under review). Developing predictive biomarkers using whole-brain classifiers: Application to the ABIDE I dataset. *Research Ideas and Outcomes*, 3:e12733  
 \*Equal contribution
 
 5. Cheong, J.C., **Jolly, E.**, Sul, S. & Chang, L.J. (in press). Computational Models in Social and Affective Neuroscience. To appear in Moustafa, A. (Eds). *Computational Models of Brain and Behavior*.
@@ -19,9 +19,9 @@ layout: page
 {: reversed="reversed"}
 
 #### *In Preparation*
-4. **Jolly, E.**, & Chang, L.J. (in prep). Overcoming the Flatland Fallacy: The importance of computational models. 
+4. **Jolly, E.**, & Chang, L.J. (in prep). Overcoming the Flatland Fallacy: The importance of computational models.
 
-3. **Jolly, E.**, Suri, S. & Watts, D.J. (in prep). Motivating prosocial behavior in the field. 
+3. **Jolly, E.**, Suri, S. & Watts, D.J. (in prep). Motivating prosocial behavior in the field.
 
 2. **Jolly, E.**, Gangadharan, A.A. & Chang, L.J. (in prep). Interpersonal decision-making during end-of-life care: A comprehensive review
 

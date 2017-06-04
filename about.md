@@ -2,18 +2,17 @@
 title: About
 layout: page
 ---
-<!-- ![Profile Image]({{ site.url }}/{{ site.picture }}) -->
 <div class="side-by-side">
     <div class="toleft">
     	<a class="link" href="https://www.cosanlab.com/">
         <img class="image" style="border-radius:35px" src="{{site.url}}/assets/cosanlab_logo.jpg" alt="Alt Text" > </a>
     </div>
     <div class="toright">
-        <p>I'm currently a PhD candidate in the <a class="nounderline" href="http://cosanlab.com">Computational Social Affective Neuroscience Laboratory</a> at Dartmouth college working with <a class="nounderline" href="http://lukejchang.com">Luke Chang</a>. My research focuses on understanding the neural mechanisms and computations that humans employ when trying to connect with one another. In particular I'm interested in how people use their beliefs and predictive inferences about others' mental and emotional states to make social decisions and derive value from social experiences.</p>
+        <p>I'm currently a PhD candidate in the <a class="nounderline" href="http://cosanlab.com">Computational Social Affective Neuroscience Laboratory</a> at Dartmouth college working with <a class="nounderline" href="http://lukejchang.com">Luke Chang</a>. My research focuses on understanding the neural mechanisms and computations that humans employ when trying to connect with one another. Checkout my <a class="nounderline" href="{{site.url}}/research">research</a> for more info.</p>
     </div>
 </div>
 
-<div class="side-by-side">
+<div class="side-by-side" style="margin-bottom: 0">
     <div class="toleft">
         <p>I have also worked as a PhD research intern at Microsoft Research NYC with <a class="nounderline" href="http://research.microsoft.com/en-us/people/duncan/">Duncan Watts</a> and <a class="nounderline" href="http://www.sidsuri.com/About_Sid.html">Sid Suri</a>. During this time my work focused on building large scale web-based field experiments to study human cooperation in naturally occurring social networks.</p>
     </div>

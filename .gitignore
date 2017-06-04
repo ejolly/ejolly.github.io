@@ -1,5 +1,5 @@
 _site
-.DS_Store
+*.DS_Store
 .jekyll
 .bundle
 .sass-cache
@@ -9,3 +9,7 @@ node_modules
 package.json
 recentPosts.html
 styles.md
+*.ipynb_checkpoints
+Rakefile
+npm-debug.log
+.sass-cache
