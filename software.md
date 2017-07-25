@@ -12,7 +12,7 @@ In addition to my primary research I also routinely develop, contribute to, and 
 
 **pymer4**
 
->A python wrapper around the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) mixed-modeling [R](https://www.r-project.org/) package. Makes it easy to use lme4 from within python and in conjunction with data analysis libraries like [pandas](http://pandas.pydata.org/).  
+>A python wrapper around the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) mixed-modeling [R](https://www.r-project.org/) package. Makes it much easier to use lme4 from within python and in conjunction with data analysis libraries like [pandas](http://pandas.pydata.org/).  
 >[Github](https://github.com/ejolly/pymer4)
 
 **pyfit**
@@ -23,6 +23,6 @@ In addition to my primary research I also routinely develop, contribute to, and 
 
 **Cosan Lab analysis containers**
 
->A brain-imaging data analysis environment prebuilt with several neuroimaging specific programs, alongside the [scientific python stack](https://www.scipy.org/about.html).  
+>"Containerized" brain-imaging data-analysis environments prebuilt with several neuroimaging specific programs, alongside the [scientific python stack](https://www.scipy.org/about.html). Skips the need to manually go through tedious software installation steps and makes it easier to conduct [reproducible research](http://www.nature.com/nrn/journal/v18/n2/full/nrn.2016.167.html).     
 >Docker: [Github](https://github.com/cosanlab/cosanToolsDocker) | [Docker-Hub](https://hub.docker.com/r/ejolly/cosantoolsdocker/)  
 >Singularity: [Github](https://github.com/cosanlab/cosanToolsSingularity) | [Singularity-Hub](https://singularity-hub.org/collections/108/)
