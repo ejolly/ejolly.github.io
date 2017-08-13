@@ -14,7 +14,7 @@ layout: page
 
 <div class="side-by-side" style="margin-bottom: 0">
     <div class="toleft">
-        <p>I have also worked as a PhD research intern at Microsoft Research NYC with <a class="nounderline" href="http://research.microsoft.com/en-us/people/duncan/">Duncan Watts</a> and <a class="nounderline" href="http://www.sidsuri.com/About_Sid.html">Sid Suri</a>. During this time my work focused on building large scale web-based field experiments to study human cooperation in naturally occurring social networks.</p>
+        <p>I've also worked as a PhD research intern at <a class="nounderline" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research NYC</a> with <a class="nounderline" href="http://research.microsoft.com/en-us/people/duncan/">Duncan Watts</a> and <a class="nounderline" href="http://www.sidsuri.com/About_Sid.html">Sid Suri</a>. During this time my work focused on building large scale web-based field experiments to study human cooperation in naturally occurring social networks.</p>
     </div>
     <div class="toright">
     	<a class="link" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">

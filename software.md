@@ -3,7 +3,7 @@ title: Software
 layout: page
 ---
 
-In addition to my primary research I also routinely develop, contribute to, and maintain several software projects, often revolving around my lab work or some side project. Currently these include:
+In addition to my primary work, I also routinely develop, contribute to, and maintain several research software projects. Currently these include:
 
 **nltools**
 
@@ -23,6 +23,6 @@ In addition to my primary research I also routinely develop, contribute to, and 
 
 **Cosan Lab analysis containers**
 
->"Containerized" brain-imaging data-analysis environments prebuilt with several neuroimaging specific programs, alongside the [scientific python stack](https://www.scipy.org/about.html). Skips the need to manually go through tedious software installation steps and makes it easier to conduct [reproducible research](http://www.nature.com/nrn/journal/v18/n2/full/nrn.2016.167.html).     
+>"Containerized" brain-imaging data-analysis environments prebuilt with several neuroimaging specific programs, alongside the [scientific python stack](https://www.scipy.org/about.html). Skips the need to manually go through tedious software installation steps and makes it easier to conduct [reproducible research](http://www.nature.com/nrn/journal/v18/n2/full/nrn.2016.167.html). The containers are currently used by the [Cosan Lab](http://cosanlab.com/).       
 >Docker: [Github](https://github.com/cosanlab/cosanToolsDocker) | [Docker-Hub](https://hub.docker.com/r/ejolly/cosantoolsdocker/)  
 >Singularity: [Github](https://github.com/cosanlab/cosanToolsSingularity) | [Singularity-Hub](https://singularity-hub.org/collections/108/)
