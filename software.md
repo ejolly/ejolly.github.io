@@ -2,8 +2,8 @@
 title: Software
 layout: page
 ---
+<asciinema-player src="/assets/ascii/software.json" width="200" rows="6"  autoplay="1" font-size="1.05em" speed="6"></asciinema-player>
 
-In addition to my primary work, I also routinely develop, contribute to, and maintain several research software projects. Currently these include:
 
 **nltools**
 
