@@ -3,7 +3,7 @@ title: Publications
 layout: page
 ---
 
-9. **Jolly, E.**, & Chang, L.J. (submitted). The Flatland Fallacy:  Moving Beyond Low Dimensional Thinking. *[PsyArXiv.](https://psyarxiv.com/zdrfg/)*
+9. **Jolly, E.**, & Chang, L.J. (under review). The Flatland Fallacy:  Moving Beyond Low Dimensional Thinking. *[PsyArXiv.](https://psyarxiv.com/zdrfg/)*
 
 8. **Jolly, E.**, Chang, L.J. (under review). Gossip drives vicarious learning and facilitates robust social connections.
 
