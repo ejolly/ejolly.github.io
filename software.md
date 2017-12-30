@@ -7,17 +7,18 @@ layout: page
 
 **nltools**
 
->A python package for analyzing brain-imaging data, though also usable for other types of data. Makes data manipulation, model building and fitting quite simple. Builds upon several popular python libraries for [brain-imaging analysis](http://nipy.org/) and [machine learning](http://scikit-learn.org/stable/) more generally.         
+>A Python package for analyzing brain-imaging data, though also usable for other types of data. Makes data manipulation, model building and fitting quite simple. Builds upon several popular python libraries for [brain-imaging analysis](http://nipy.org/) and [machine learning](http://scikit-learn.org/stable/) more generally.         
 >[Github](https://github.com/ljchang/nltools) |  [Docs](http://neurolearn.readthedocs.io/en/latest/)
 
 **pymer4**
 
->A python wrapper around the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) mixed-modeling [R](https://www.r-project.org/) package. Makes it much easier to use lme4 from within python and in conjunction with data analysis libraries like [pandas](http://pandas.pydata.org/).  
->[Github](https://github.com/ejolly/pymer4)
+>A Python package for analyzing and simulating standard and multi-level regression data. Performs standard and robust regression, but also features a wrapper around the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) mixed-modeling [R](https://www.r-project.org/) package. Makes it much easier to use lme4 from within python and in conjunction with data analysis libraries like [pandas](http://pandas.pydata.org/).  
+>[Github](https://github.com/ejolly/pymer4) |
+[Docs](eshinjolly.com/pymer4/)
 
 **pyfit**
 
->A computational model-fitting toolbox in python. Builds upon functionality from [lmfit](https://github.com/lmfit/lmfit-py) package which itself wraps [scipy.optimize](https://docs.scipy.org/doc/scipy/reference/optimize.html) functionality. Particularly useful for modeling group data from multiple participants and interfacing with data analysis libraries like  [pandas](http://pandas.pydata.org/).  
+>A high-level computational model-fitting toolbox in Python. Particularly useful for easily fitting separate models to different individuals/groups/clusters and interfacing with data analysis libraries like  [pandas](http://pandas.pydata.org/).  
 >[Github](https://github.com/ejolly/pyfit)
 
 
