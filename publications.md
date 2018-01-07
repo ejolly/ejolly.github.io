@@ -7,7 +7,7 @@ layout: page
 
 8. **Jolly, E.**, Chang, L.J. (under review). Gossip drives vicarious learning and facilitates robust social connections.
 
-7. **Jolly, E.**\*, Tamir, D.I.\*, Burum, B.A., Gilbert, D.T., & Mitchell, J.P. (under review). Wanting without enjoying: The social value of sharing experiences.  
+7. **Jolly, E.**\*, Tamir, D.I.\*, Burum, B.A. & Mitchell, J.P. (under review). Wanting without enjoying: The social value of sharing experiences.  
 \*Equal contribution
 
 6. Chang, L. J. & **Jolly E.** (in press). Emotions as computational signals of goal error. To appear in A. Fox, R. Lapate, A. Shackman & R. Davidson (Eds), *The nature of emotions*. [[PDF]](/assets/pdfs/Jolly_Emotions_Chapter.pdf)
