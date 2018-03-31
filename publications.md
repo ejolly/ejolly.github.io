@@ -27,7 +27,7 @@ layout: page
 #### *In Preparation*
 3. **Jolly, E.**, Cheong, J.C. & Chang, L.J. (in prep). Neural models reflect spontaneous impression formation about parasocial relationships.
 
-2. **Jolly, E.**, Smith. A. & Chang, L.J. (in prep). The inelasticity of interpersonal guilt.
+2. **Jolly, E.**, Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Guilt-aversion motivates harm-minimization in surrogate decision-making.
 
 1. **Jolly, E.**, Gangadharan, A.A. & Chang, L.J. (in prep). Interpersonal decision-making during end-of-life care: A comprehensive review
 {: reversed="reversed"}
