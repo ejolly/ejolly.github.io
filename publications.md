@@ -3,7 +3,9 @@ title: Publications
 layout: page
 ---
 
-9. **Jolly, E.**, & Chang, L.J. (under review). The Flatland Fallacy:  Moving Beyond Low Dimensional Thinking. *[PsyArXiv.](https://psyarxiv.com/zdrfg/)*
+10. **Jolly, E.** (under review). Pymer4: Connecting R and Python for linear mixed modeling.  
+
+9. **Jolly, E.**, & Chang, L.J. (in press). The Flatland Fallacy:  Moving Beyond Low Dimensional Thinking. *[PsyArXiv.](https://psyarxiv.com/zdrfg/)*
 
 8. **Jolly, E.**, Chang, L.J. (under review). Gossip drives vicarious learning and facilitates robust social connections.
 
