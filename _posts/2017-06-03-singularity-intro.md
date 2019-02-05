@@ -6,7 +6,7 @@ tag:
 - tutorial
 - analysis
 blog: true
-description: using containers on a HPC
+description: Using containers on a compute cluster for reproducible science
 ---
 
 Recently [Dartmouth graduate students](http://pbs.dartmouth.edu/) collectively organized a full day of workshops to share and help each other out with the plethora of data analysis tools we regularly use in our respective research endeavors. Amongst these was a brief hands-on tutorial I gave with [Matteo Visconti](http://mvdoc.me/) on utilizing container-based analysis environment with [Discovery](http://techdoc.dartmouth.edu/discovery/), Dartmouth's high-performance compute cluster (HPC).

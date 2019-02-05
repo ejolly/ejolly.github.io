@@ -15,7 +15,7 @@ layout: page
 >A Python package for analyzing and simulating standard and multi-level regression data. Performs standard and robust regression, but also features a wrapper around the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) mixed-modeling [R](https://www.r-project.org/) package. Makes it much easier to use lme4 from within python and in conjunction with data analysis libraries like [pandas](http://pandas.pydata.org/).  
 >[Github](https://github.com/ejolly/pymer4) |
 [Docs](http://eshinjolly.com/pymer4/)  
-[![DOI](https://zenodo.org/badge/90598701.svg)](https://zenodo.org/badge/latestdoi/90598701)
+[![DOI](https://zenodo.org/badge/90598701.svg)](https://zenodo.org/record/1523205)
 
 
 **pyfit**

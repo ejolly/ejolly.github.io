@@ -8,7 +8,7 @@ layout: page
         <img class="image" style="border-radius:35px" src="{{site.url}}/assets/cosanlab_logo.jpg" alt="Alt Text" > </a>
     </div>
     <div class="toright">
-        <p>I'm currently a PhD candidate in the <a class="nounderline" href="http://cosanlab.com">Computational Social Affective Neuroscience Laboratory</a> at Dartmouth college working with <a class="nounderline" href="http://lukejchang.com">Luke Chang</a>. My research focuses on understanding the neural mechanisms and computations that humans employ when trying to connect with one another. Checkout my <a class="nounderline" href="{{site.url}}/research">research</a> for more info.</p>
+        <p>I'm currently a PhD candidate in the <a class="nounderline" href="http://cosanlab.com">Computational Social Affective Neuroscience Laboratory</a> at Dartmouth college working with <a class="nounderline" href="http://lukejchang.com">Luke Chang</a>. My research broadly focuses on how humans form impressions and construct representations of other people and ultimately how these representations change as they are transmitted between individuals.  Checkout my <a class="nounderline" href="{{site.url}}/research">research</a> for more info.</p>
     </div>
 </div>
 

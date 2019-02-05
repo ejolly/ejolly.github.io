@@ -1,12 +1,12 @@
 ---
 title: "Hacking the Neuro"
 layout: post
-date: 2016-09-12 
+date: 2016-09-12
 tag:
 - tutorial
 - hackathon
 blog: true
-description: hackathon
+description: Neurohackweek Summer School 
 ---
 
 I recently attended [Neurohackweek](https://neurohackweek.github.io/nhw2016/), a week-long workshop + hackathon focusing on technologies relevant to brain imaging. It was a totally amazing experience. Despite initially feeling like I was way in over-my-head, I learned a ton of new things and (hopefully) helped others do the same. I'd highly recommend other folks check it out if they have the opportunity.  
@@ -15,4 +15,4 @@ I worked as part of a multi-group project that (broadly speaking) was trying  to
 
 Here's a really quick talk I gave on the final day of the week, briefly explaining what we managed to accomplish:
 
-<iframe src="https://www.youtube.com/embed/2LZM0YBV72M?start=2086&end=2436" width="600" height="400"></iframe>	
+<iframe src="https://www.youtube.com/embed/2LZM0YBV72M?start=2086&end=2436" width="600" height="400"></iframe>
