@@ -19,7 +19,7 @@ jupyter nbconvert ./_jupyter/$1.ipynb --to markdown --output-dir=./_posts --outp
 
 # Move the images from the jupyter-generated folder to the images folder.
 echo "Moving images..."
-mv ./_posts/$foldername/* ./images
+mv ./_posts/$foldername/* ./assets/images
 
 # Remove the now empty folder.
 rmdir ./_posts/$foldername
@@ -27,7 +27,7 @@ rmdir ./_posts/$foldername
 # Go through the markdown file and rewrite image paths.
 # NB: this sed command works on OSX, it might need to be tweaked for other platforms.
 echo "Rewriting image paths..."
-sed -i.tmp -e "s/$foldername/\/images/g" ./_posts/$filename.md
+sed -i.tmp -e "s/$foldername/\/assets\/images/g" ./_posts/$filename.md
 
 # Remove backup file created by sed command.
 rm ./_posts/$filename.md.tmp
