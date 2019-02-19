@@ -62,7 +62,7 @@ A key way in which each of these analysis approaches varies is how they handle (
 
 # Simulations can help us build intuitions.
 
-Often in cases like, this we can use simulated data, designed to vary in particular ways,  to help us gain some insight as to how these things influence our different analysis strategies. So let's see how that looks. I'm going to be primarily using the [pymer4](http://eshinjolly.com/pymer4/) Python package that I wrote to simulate some data and compare these different models. I wrote this package originally so I could reduce the [switch cost](https://www.apa.org/research/action/multitask) I kept experiencing bouncing between R and Python for my work. I quickly realized that my primary need for R was using the fantastic [lme4](https://cran.r-project.org/web/packages/lme4/index.html) package for multi-level modeling and so I wrote this Python package as a way to use lme4 from within Python while playing nicely with the rest of the scientific Python stack (e.g. pandas, numpy, scipy, etc). Since then the package has grown quite a bit ([Jolly, 2018](http://joss.theoj.org/papers/10.21105/joss.00862)), including the ability to fit the different types of models discussed above and simulate different kinds of data. Ok let's get started:
+Often in cases like this we can use simulated data, designed to vary in particular ways,  to help us gain some insight as to how these things influence our different analysis strategies. So let's see how that looks. I'm going to be primarily using the [pymer4](http://eshinjolly.com/pymer4/) Python package that I wrote to simulate some data and compare these different models. I wrote this package originally so I could reduce the [switch cost](https://www.apa.org/research/action/multitask) I kept experiencing bouncing between R and Python for my work. I quickly realized that my primary need for R was using the fantastic [lme4](https://cran.r-project.org/web/packages/lme4/index.html) package for multi-level modeling and so I wrote this Python package as a way to use lme4 from within Python while playing nicely with the rest of the scientific Python stack (e.g. pandas, numpy, scipy, etc). Since then the package has grown quite a bit ([Jolly, 2018](http://joss.theoj.org/papers/10.21105/joss.00862)), including the ability to fit the different types of models discussed above and simulate different kinds of data. Ok let's get started:
 
 ```python
 # Import what we need
@@ -90,7 +90,7 @@ data, blups, betas = simulate_lmm(num_obs_grp, num_coef, num_grps)
 data.head()
 ```
 
-We can see that the overall dataset are generated as described above. Simulating data this way also allows us to generate the best-linear-unbiased-predictions ([BLUPs](https://www.wikiwand.com/en/Best_linear_unbiased_prediction)) for each person in our dataset. These are the coefficients for each individual person.
+We can see that the overall dataset is generated as described above. Simulating data this way also allows us to generate the best-linear-unbiased-predictions ([BLUPs](https://www.wikiwand.com/en/Best_linear_unbiased_prediction)) for each person in our dataset. These are the coefficients for each individual person.
 
 <div>
 <style scoped>
@@ -250,7 +250,7 @@ print(f"True betas: {betas}")
 
 Ok time to evaluate some modeling strategies. For each model type I'll fit the model to the data as described, and then compute 3 metrics:
 1. **Absolute Error of Coefficient Recovery** - this is simply the sum of the absolute value differences between the real coefficients and the estimated ones. It gives us the total error of our model with respect to the data-generating coefficients. We could have computed the average instead of the sum, but since our simulated data are all on the same scale, the sum provides us the exact amount we're off from what we were expecting to recover.
-2. **Sum of Model Standard Errors** - this and the next measure are more related to the inferences we want to make on our parameters. SE and the associated confidence intervals tell us the total amount of variance around our estimates given this particular modeling strategy. Once again, we could have computed the averaged, but like above, the sum gives us the total variance across all our parameters.
+2. **Sum of Model Standard Errors** - this and the next measure are more related to the inferences we want to make on our parameters. SE and the associated confidence intervals tell us the total amount of variance around our estimates given this particular modeling strategy. Once again, we could have computed the average, but like above, the sum gives us the total variance across all our parameters.
 3. **Sum of Model T-statistics** - this is the sum of the absolute value of the t-statistics of our model estimates. This gives us a sense of how likely we would be to walk away with the inference that there is a statistically significant relationship between our independent variables and dependent variable. All else being equal, larger t-stats generally mean smaller p-values so we can build an intuition about how sensitive our modeling strategy is to tell us "yup this is a statistically significant effect."
 
 ### Multi-level models
