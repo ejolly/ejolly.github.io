@@ -85,7 +85,7 @@ Let's start out with a single simulated dataset and fit each type of model discu
 num_obs_grp = 50
 num_grps = 50
 num_coef = 3
-formula = 'DV ~ IV1 + IV2 + IV3'
+formula = 'DV ~ IV1 + IV2 + IV3' # Not required for generating data, but just for convenience estimating models below
 data, blups, betas = simulate_lmm(num_obs_grp, num_coef, num_grps)
 data.head()
 ```
