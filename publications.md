@@ -5,7 +5,7 @@ layout: page
 
 #### *Published*
 
-1. **Jolly, E.**\*, Tamir, D.I.\*, Burum, B.A. & Mitchell, J.P. (under review). Wanting without enjoying: The social value of sharing experiences. *PLoS One*, *14(4)*, e0215318. [[PDF]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215318)  
+1. **Jolly, E.**\*, Tamir, D.I.\*, Burum, B.A. & Mitchell, J.P. (2019). Wanting without enjoying: The social value of sharing experiences. *PLoS One*, *14(4)*, e0215318. [[PDF]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215318)  
 \*Equal contribution
 
 2. **Jolly, E.**, & Chang, L.J. (2019). The Flatland Fallacy:  Moving Beyond Low Dimensional Thinking. *Topics in Cognitive Science*, 1-22. [[PDF]](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12404).
