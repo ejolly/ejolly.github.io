@@ -23,6 +23,8 @@ layout: compress
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
     {{ scss_sheet | scssify }}
     </style>
+    {% include asciinema.html %}
+    {% include analytics-google.html %}
 
 </head>
 <body>
@@ -44,8 +46,7 @@ layout: compress
 
     {% include icons.html %}
     {% include statcounter.html %}
-    {% include asciinema.html %}
-    {% include analytics-google.html %}
+
     {% include mathjax.html %}
 
 </body>
