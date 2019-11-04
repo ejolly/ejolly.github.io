@@ -5,14 +5,16 @@ layout: page
 
 #### *Published*
 
-1. **Jolly, E.**\*, Tamir, D.I.\*, Burum, B.A. & Mitchell, J.P. (2019). Wanting without enjoying: The social value of sharing experiences. *PLoS One*, *14(4)*, e0215318. [[PDF]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215318)  
+1. Chen, P.A., Cheong, J.H., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (2019). Socially transmitted placebo effects. *Nature Human Behavior*. [[PDF](http://bit.ly/2Pppjg7)]
+
+2. **Jolly, E.**\*, Tamir, D.I.\*, Burum, B.A. & Mitchell, J.P. (2019). Wanting without enjoying: The social value of sharing experiences. *PLoS One*, *14(4)*, e0215318. [[PDF]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215318)  
 \*Equal contribution
 
-2. **Jolly, E.**, & Chang, L.J. (2019). The Flatland Fallacy:  Moving Beyond Low Dimensional Thinking. *Topics in Cognitive Science*, 1-22. [[PDF]](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12404).
+3. **Jolly, E.**, & Chang, L.J. (2019). The Flatland Fallacy:  Moving Beyond Low Dimensional Thinking. *Topics in Cognitive Science*, 1-22. [[PDF]](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12404).
 
-3. **Jolly, E.** (2018). Pymer4: Connecting R and Python for linear mixed modeling. *Journal of Open Source Software*, *3(31)*, 862. [[PDF]](http://joss.theoj.org/papers/10.21105/joss.00862)
+4. **Jolly, E.** (2018). Pymer4: Connecting R and Python for linear mixed modeling. *Journal of Open Source Software*, *3(31)*, 862. [[PDF]](http://joss.theoj.org/papers/10.21105/joss.00862)
 
-4. Chang, L. J. & **Jolly E.** (2018). Emotions as computational signals of goal error. In A. Fox, R. Lapate, A. Shackman & R. Davidson (Eds), *The Nature of Emotion* (343-351). Oxford University Press. [[PDF]](/assets/pdfs/Jolly_Emotions_Chapter.pdf)
+5. Chang, L. J. & **Jolly E.** (2018). Emotions as computational signals of goal error. In A. Fox, R. Lapate, A. Shackman & R. Davidson (Eds), *The Nature of Emotion* (343-351). Oxford University Press. [[PDF]](/assets/pdfs/Jolly_Emotions_Chapter.pdf)
 
 5. Cheong, J.C., **Jolly, E.**, Sul, S. & Chang, L.J. (2017). Computational Models in Social and Affective Neuroscience in Moustafa, A. (Eds), *Computational Models of Brain and Behavior* (229-245). Hoboken, NJ: Wiley. [[Link]](http://onlinelibrary.wiley.com/doi/10.1002/9781119159193.ch17/summary)
 
@@ -31,7 +33,7 @@ layout: page
 
 2. Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A., Manning, J.R. (under review). Endogenous variation in ventromedial prefrontal cortex state dynamic during naturalistic viewing reflects affective experience. *[bioRxiv](https://www.biorxiv.org/content/10.1101/487892v1)*
 
-3. Chen, P.A., Cheong, J.H., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (under revision). Socially transmitted placebo effects. *Nature Human Behavior*. 
+3. Chen, P. H. A., **Jolly, E.**, Cheong, J. H., & Chang, L. J. (under review). Inter-subject representational similarity analysis reveals individual variations in affective experience when watching erotic movies. *[bioRxiv](https://www.biorxiv.org/content/10.1101/726570v1)*.
 {: reversed="reversed"}
 
 #### *In Preparation*
@@ -39,9 +41,7 @@ layout: page
 
 2. **Jolly, E.**, Sadhukha, S., Cheong, J.C., Chang, L.J. (in prep). Measuring the efficacy and cost-benefit ratio of custom-molded head cases for use in MRI.  
 
-3. Cheong, J.C., **Jolly, E.** & Chang, L.J. (in prep). Endogenous variation in affective experiences.
+3. **Jolly, E.**, Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Guilt-aversion motivates harm-minimization in surrogate decision-making.
 
-4. **Jolly, E.**, Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Guilt-aversion motivates harm-minimization in surrogate decision-making.
-
-5. **Jolly, E.**, Gangadharan, A.A. & Chang, L.J. (in prep). Interpersonal decision-making during end-of-life care: A comprehensive review
+4. **Jolly, E.**, Gangadharan, A.A. & Chang, L.J. (in prep). Interpersonal decision-making during end-of-life care: A comprehensive review
 {: reversed="reversed"}

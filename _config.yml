@@ -10,7 +10,7 @@ description:
 external-image: false
 picture: assets/slices.png
 
-url: http://eshinjolly.com
+url: https://eshinjolly.com
 # your url: http://USERNAME.github.io
 
 permalink: pretty
@@ -34,7 +34,7 @@ twitter: Eshjolly
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: eshin-jolly-164863a1
 #youtube: myyoutube
 #spotify: myspotify
 github: ejolly
@@ -44,7 +44,7 @@ github: ejolly
 #medium: medium
 #vimeo: myvimeo
 email: eshin.jolly.gr@dartmouth.edu
-cv: /assets/JollyCV.pdf
+cv: /assets/pdfs/JollyCV.pdf
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
