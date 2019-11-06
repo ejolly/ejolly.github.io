@@ -58,3 +58,50 @@
             margin: 1em 0
         .next
             text-align: right
+    > .toc-container 
+        background-color: #f9f9f9
+        float: right
+        display: table
+        width: 25%
+        margin-left: 1em
+        padding-top: 1em
+        padding-bottom: 1em
+
+    > .toc-container > .toc
+        display: none
+        height: 0
+        max-height: 0
+        overflow: hidden
+
+    > .toc-container > .toc.is-visible
+        display: inherit
+        list-style: none
+        font-size: 80%
+        padding: 0 1em 0
+        list-style: none
+        height: auto
+        overflow: auto
+    
+    > .toc-container > .toc > li > ul 
+        list-style: none
+    
+    > .toc-container > .toc > li > ul > li > ul 
+        list-style: none
+    
+    > .toc-container > ul ul
+        padding-left: 10%
+    
+    > .toc-container > ul ul ul 
+        padding-left: 10%
+    
+    > .toc-container > .toc-close-btn
+        padding-top: 1em
+        padding-left: 5%
+    
+    > .toc-container > a
+        
+        &:hover
+            color: #99ccff
+            border-bottom: unset
+        &:visited
+            color: #1350AF

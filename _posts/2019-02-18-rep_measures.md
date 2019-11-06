@@ -1,6 +1,6 @@
 ---
 title: "Comparing common analysis strategies for repeated measures data"
-layout: post
+layout: post-toc
 date: 2019-02-18
 tag:
 - statistics

@@ -1,6 +1,6 @@
 ---
 title: "Your favorite time-machine"
-layout: post
+layout: post-toc
 date: 2019-01-04
 tag:
 - tutorial

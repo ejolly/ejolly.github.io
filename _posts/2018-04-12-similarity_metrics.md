@@ -1,6 +1,6 @@
 ---
 title: "Vector similarity reference"
-layout: post
+layout: post-toc
 date: 2018-04-12
 tag:
 - statistics
