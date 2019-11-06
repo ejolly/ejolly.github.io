@@ -1,6 +1,6 @@
 # main text of home
 name: Eshin Jolly
-bio: Graduate Student at Dartmouth College
+bio: Postdoctoral Fellow at Dartmouth College
 
 # twitter summary info
 description:
@@ -17,6 +17,9 @@ permalink: pretty
 
 markdown: kramdown
 highlighter: rouge
+
+# For CV
+style: cv
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-68163011-2'
