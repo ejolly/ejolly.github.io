@@ -28,11 +28,13 @@
 
 ### Under review/revision
 
-1. **Jolly, E.** & Chang, L.J. (under review). Gossip drives vicarious learning and facilitates robust social connections. *[psyArXiv](https://psyarxiv.com/qau5s/)*  
+1. Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under review). The hidden cost of receiving favors: A theory of indebtedness. *[bioRxiv](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)*
 
-2. Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A. & Manning, J.R. (under revision). Endogenous variation in ventromedial prefrontal cortex state dynamic during naturalistic viewing reflects affective experience. *[bioRxiv](https://www.biorxiv.org/content/10.1101/487892v1)*
+2. **Jolly, E.** & Chang, L.J. (under review). Gossip drives vicarious learning and facilitates robust social connections. *[psyArXiv](https://psyarxiv.com/qau5s/)*  
 
-3. Chen, P. H. A., **Jolly, E.**, Cheong, J. H. & Chang, L. J. (under review). Inter-subject representational similarity analysis reveals individual variations in affective experience when watching erotic movies. *[bioRxiv](https://www.biorxiv.org/content/10.1101/726570v1)*.
+3. Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A. & Manning, J.R. (under revision). Endogenous variation in ventromedial prefrontal cortex state dynamic during naturalistic viewing reflects affective experience. *[bioRxiv](https://www.biorxiv.org/content/10.1101/487892v1)*
+
+4. Chen, P. H. A., **Jolly, E.**, Cheong, J. H. & Chang, L. J. (under review). Inter-subject representational similarity analysis reveals individual variations in affective experience when watching erotic movies. *[bioRxiv](https://www.biorxiv.org/content/10.1101/726570v1)*.
 
 ### In Prep
 
