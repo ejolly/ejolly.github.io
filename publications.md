@@ -5,13 +5,15 @@ layout: page
 
 <style>
 ol li{
-  list-style-type: none;
+  list-style-type: decimal;
 }
-code {
-    display: none;
+p code {
+    font-size: 1.6rem;
+    color: #222;
+    text-decoration: underline;
 }
 h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 </style>
 

@@ -92,6 +92,10 @@ __Mt Hope Family Center, University of Rochester__, Rochester, NY
 
 ## Talks & Presentations 
 
+`2020`
+*Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts*.  
+Symposium Talk at Society for Affective Science, San Francisco, CA. (conference cancelled) 
+
 `2019`
 *Introduction to Git and Github*.  
 Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.  
@@ -170,52 +174,60 @@ Presentation at the Social Brain Sciences Brown Bag series at Dartmouth College,
 
 ## Posters & Conference Proceedings
 
+`2020`
+**Jolly, E.** & Chang, L.J. (2019). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.*  
+*Winner, SANS Poster Award  
+Poster at Social Affective Neuroscience Society meeting, Santa Barbara, CA. (conference cancelled). 
+
 `2019`
 **Jolly, E.** & Chang, L.J. (2019). Gossip drives vicarious learning and facilitates robust social connections.  
-Poster presented at Social and Affective Neuroscience Society meeting, Miami, FL.
+Poster at Social and Affective Neuroscience Society meeting, Miami, FL.
 
 `2019`
 Cheong, J.C., Chen, P.A., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (2019). Socially transmitted placebo effects.  
-Poster presented at Society for Affective Science meeting, Boston, MA.
+Poster at Society for Affective Science meeting, Boston, MA.
 
 `2018`
 **Jolly, E.**, Reddan, M.C., Gianaros, P.J., Manuck, S.M. Chang, L.J., Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of complex brain models.  
-Poster presented at Social and Affective Neuroscience Society meeting, New York, NY.
+Poster at Social and Affective Neuroscience Society meeting, New York, NY.
 
 `2018`
 Reddan, M.C., **Jolly, E.**, Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
-Poster presented at the Organization for Human Brain Mapping meeting, Singapore, Singapore.
+Poster at the Organization for Human Brain Mapping meeting, Singapore, Singapore.
 
 `2018`
 Reddan, M.C., **Jolly, E.**, Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
-Poster presented at the Computational and Systems Neuroscience meeting, Denver, CO.
+Poster at the Computational and Systems Neuroscience meeting, Denver, CO.
 
 `2017`
 **Jolly, E.** & Chang, L.J. (2017). Gossip drives vicarious learning and facilitates robust social connections.  
-Poster presented at the Annual Meeting of the Association for Psychological Science, Boston, MA.
+Poster at the Annual Meeting of the Association for Psychological Science, Boston, MA.
 
 `2017`
 Cheong, J.H., **Jolly, E.** & Chang, L.J. (2017). A window into the mind: A computational approach to measuring emotions in response to naturalistic stimuli.  
-Poster presented at the Annual Meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.
+Poster the Annual Meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.
 
 `2016`
 **Jolly, E.** & Chang, L.J (2016). Groups, gossip and social dilemmas.  
-Poster presented at the International Conference on Computational Social Science, Evanston, IL. 
+Poster at the International Conference on Computational Social Science, Evanston, IL. 
 
 `2015`
 **Jolly, E.**, Tamir, D.I. & Mitchell, J.P. (2015). The social value of sharing experiences.*  
-*Winner, SANS Graduate Student Poster Award  
-Poster presented at the Annual Meeting of the Social and Affective Neuroscience Society, Boston, MA.  
+*Winner, SANS Poster Award  
+Poster at the Annual Meeting of the Social and Affective Neuroscience Society, Boston, MA.  
  
 `2012`
 Moran, J.M., **Jolly, E.**, & Mitchell, J.P. (2012). Spontaneous mentalizing supports the fundamental attribution error.  
-Poster presented at the Annual Meeting of the Cognitive Neuroscience Society, Chicago, IL.
+Poster the Annual Meeting of the Cognitive Neuroscience Society, Chicago, IL.
 
 `2010`
 Peltz, J.S. Toth, S.L., Rogosch, F.A., **Jolly, E.**, & Cicchetti, D. (2010). Paternal emotional availability’s effects on children’s socioemotional functioning in maternal depression contexts.  
-Poster presented at the Annual Meeting of the Association for Psychological Science, Boston, MA.
+Poster at the Annual Meeting of the Association for Psychological Science, Boston, MA.
 
 ## Awards
+
+`2020`
+Social Affective Neuroscience Society Poster Award
 
 `2019`
 Kavli Summer Institute in Cognitive Neuroscience
@@ -254,7 +266,7 @@ Methods in Neuroscience Computational Summer School
 Summer School in Social Neuroscience and Neuroeconomics
 
 `2017`
-SANS Trainee Data Blitz Award
+Social Affective Neuroscience Society Trainee Data Blitz Award
 
 `2017`
 Human Neuroimaging Methods Travel Award
@@ -269,7 +281,7 @@ Hack Dartmouth DEN Business Innovation Prize
 Neurohackweek Summer School
 
 `2015`
-SANS Graduate Student Poster Award
+Social Affective Neuroscience Society Poster Award
 
 `2015`
 Dartmouth PBS Graduate Travel Award
@@ -467,6 +479,6 @@ jmmoran77@gmail.com
 
 __
 
-Last updated: February 2020
+Last updated: March 2020
 
 
