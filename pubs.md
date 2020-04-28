@@ -1,6 +1,6 @@
 ### Under review/revision
 
-**Jolly, E.**\*, Sadhukha, S.\*, Cheong, J.C. & Chang, L.J. (submitted). Custom-molded headcases have limited efficacy in reducing head motion for fMRI. *[OSF](https://osf.io/qf6vx/)*    
+**Jolly, E.**\*, Sadhukha, S.\*, Cheong, J.C. & Chang, L.J. (under review). Custom-molded headcases have limited efficacy in reducing head motion for fMRI. *[OSF](https://osf.io/qf6vx/)*    
 \*Equal contribution
 
 Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under review). The hidden cost of receiving favors: A theory of indebtedness. *[bioRxiv](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)*
@@ -8,8 +8,6 @@ Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under review). 
 **Jolly, E.** & Chang, L.J. (under review). Gossip drives vicarious learning and facilitates robust social connections. *[psyArXiv](https://psyarxiv.com/qau5s/)*  
 
 Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A. & Manning, J.R. (under revision). Endogenous variation in ventromedial prefrontal cortex state dynamic during naturalistic viewing reflects affective experience. *[bioRxiv](https://www.biorxiv.org/content/10.1101/487892v1)*
-
-Chen, P. H. A., **Jolly, E.**, Cheong, J. H. & Chang, L. J. (under review). Inter-subject representational similarity analysis reveals individual variations in affective experience when watching erotic movies. *[bioRxiv](https://www.biorxiv.org/content/10.1101/726570v1)*.
 
 
 ### In Prep
@@ -20,6 +18,9 @@ Chen, P. H. A., **Jolly, E.**, Cheong, J. H. & Chang, L. J. (under review). Inte
 
 
 ### Published
+
+`2020`  
+Chen, P. H. A., **Jolly, E.**, Cheong, J. H. & Chang, L. J. (2020). Intersubject representational similarity analysis reveals individual variations in affective experience when watching erotic movies. *NeuroImage*, 116851. [[PDF]](https://reader.elsevier.com/reader/sd/pii/S1053811920303372?token=1BD2A46B741E3A75301A1E357D418D61C6C40CEA4DECE345D7C1D2185C187EDA38C2489607D34FB1F743B6F60BBF0226)
 
 `2019`  
 Chen, P.A., Cheong, J.H., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (2019). Socially transmitted placebo effects. *Nature Human Behavior*, *3*, 1295-1305. [[PDF](http://bit.ly/2Pppjg7)]  

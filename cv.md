@@ -13,6 +13,7 @@ eshin.jolly@gmail.com
 <a href="https://eshinjolly.com">website</a>
 | <a href="https://github.com/ejolly">github</a>
 | <a href="https://twitter.com/eshjolly">twitter</a>
+| <a href="https://www.linkedin.com/in/eshin-jolly-164863a1/">linkedin</a>
 </div>
 
 
@@ -401,17 +402,21 @@ Git/Github, TravisCI, Tox, Pytest, Moab-Torque
 ## Professional Activities
 
 __Reviewer__  
-Journal of Open Source Software, Neuroimage, PLoS One  
-*ad-hoc*: Nature Communications, Special Interest Group on Human Computer Interaction (SIGCHI), Frontiers in Psychology, Social Cognitive Affective Neuroscience, Journal of Personality and Social Psychology, 
+SCAN, JOSS, NeuroImage, PLoS One  
+*ad-hoc*: Nature Communications, SIGCHI, Frontiers in Psych, JPSP 
 
 __Society Memberships__  
-Social and Affective Neuroscience Society, Society for Affective Science, Organization for Human Brain Mapping
+Social and Affective Neuroscience Society, Society for Affective Science, Organization for Human Brain Mapping, Cognitive Neuroscience Society
 
 ## Leadership & Community  
 
+`2019-Present`
+[Code for America](https://codeforuv.org/)    
+__Member__, Code for Upper Valley Brigade
+
 `2017-Present`
-DALI Lab ([LineAtKAF Project](http://lineatkaf.com/))  
-__Partner__, Dartmouth College
+[Line@ Project](http://lineatkaf.com/)  
+__Co-Founder__, Dartmouth College
 
 `2017-Present`
 [Pymer4](http://eshinjolly.com/pymer4/)  
@@ -423,7 +428,7 @@ __Core Contributor__, Open Source Software
 
 `2017-Present`
 Web and Desktop Application Development  
-__Freelance Software Consultant__  
+__Freelance Software Developer__  
 
 `2016-Present`
 Introductory data analysis with Python  
@@ -479,6 +484,6 @@ jmmoran77@gmail.com
 
 __
 
-Last updated: March 2020
+Last updated: April 2020
 
 
