@@ -90,8 +90,6 @@ data, blups, betas = simulate_lmm(num_obs_grp, num_coef, num_grps)
 data.head()
 ```
 
-We can see that the overall dataset is generated as described above. Simulating data this way also allows us to generate the best-linear-unbiased-predictions ([BLUPs](https://www.wikiwand.com/en/Best_linear_unbiased_prediction)) for each person in our dataset. These are the coefficients for each individual person.
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -106,7 +104,7 @@ We can see that the overall dataset is generated as described above. Simulating 
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -162,7 +160,7 @@ We can see that the overall dataset is generated as described above. Simulating 
 </table>
 </div>
 
-
+We can see that the overall dataset is generated as described above. Simulating data this way also allows us to generate the best-linear-unbiased-predictions ([BLUPs](https://www.wikiwand.com/en/Best_linear_unbiased_prediction)) for each person in our dataset. These are the coefficients for each individual person.
 
 ```python
 
@@ -186,7 +184,7 @@ blups.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -282,7 +280,7 @@ print(f"Sum of Model T statistics: {lmer.coefs['T-stat'].abs().sum()}")
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -382,7 +380,7 @@ print(f"Sum of Model T statistics: {lmer_mis.coefs['T-stat'].abs().sum()}")
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -483,7 +481,7 @@ print(f"Sum of Model T statistics: {lm.coefs['T-stat'].abs().sum()}")
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -584,7 +582,7 @@ print(f"Sum of Model T statistics: {lm2.coefs['T-stat'].abs().sum()}")
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>

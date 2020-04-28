@@ -3,8 +3,11 @@ body, html
 
 body
 	line-height: 1
-	font: 16px $fontSans
+	font-family: $fontSans
+	font-size: 16px
 	color: $alpha
+	max-width: 90rem
+	margin: 0 auto
 
 h1, h2, h3, h4
 	font-family: $fontSans
@@ -119,6 +122,20 @@ pre
 	background: #fff
 	border: 1px solid $epsilon
 	border-radius: 2px
+
+div.language-python + div
+	overflow-x: auto
+
+table
+	border-collapse: collapse
+	border: 0
+	margin-bottom: 3rem
+tbody
+	border: none
+th, td 
+	padding: 5px
+	text-align: center
+	border-bottom: 1px solid grey
 
 .wrapper-normal,
 .wrapper-large
