@@ -25,7 +25,7 @@ layout: page
 
 <p class="about-para">Previously I received a BA from the University of Rochester where I studied the origins of conceptual knowledge at the <a href="https://www.cmu.edu/dietrich/psychology/caoslab/" class="nounderline">Concepts, Actions, and Objects Lab</a> with Jessica Cantlon and Brad Mahon. Subsequently I worked as a lab manager at the <a href="http://www.wjh.harvard.edu/~scanlab/" class="nounderline">Social Cognitive and Affective Neuroscience Lab</a> with Jason Mitchell and <a href="http://www.linkedin.com/in/joe-moran-32261662/" class="nounderline">Joe Moran.</a></p>
 
-<p class="about-para">I was originally born in New Delhi, India but have lived and grown up outside New York City since I was about three years old. I have one younger <a href="http://www.jihiijolly.com/" class="nounderline">sister</a> who works as a kick-ass journalist.</p>
+<p class="about-para">I was originally born in New Delhi, India but have lived and grown up outside New York City since I was about three years old, but currently reside in Vermont. I have one younger <a href="http://www.jihiijolly.com/" class="nounderline">sister</a> who works as a kick-ass journalist.</p>
 
 <p class="about-para">And yup that's a structural scan of my brain; I used to make this <a href="https://twitter.com/Eshjolly/status/819221466650705920" class="nounderline">3d print</a>.</p>
 </div>

@@ -94,8 +94,11 @@ __Mt Hope Family Center, University of Rochester__, Rochester, NY
 ## Talks & Presentations 
 
 `2020`
+*Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn*.  
+Symposium talk at Scientific Computing with Python Virtual conference (in-person cancelled)
+
 *Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts*.  
-Symposium Talk at Society for Affective Science, San Francisco, CA. (conference cancelled) 
+Symposium talk at Society for Affective Science, San Francisco, CA. (conference cancelled) 
 
 `2019`
 *Introduction to Git and Github*.  
@@ -105,11 +108,9 @@ Lecture at Methods in Neuroscience Computational Summer School, Dartmouth Colleg
 *Introduction to Git and Github*.  
 Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.
 
-`2018`
 *Introduction to Jupyter Notebooks for Interactive Data Analysis*.  
 Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.
 
-`2018`
 *Introduction to functional alignment methods for fMRI*.  
 Lecture at Sao Paulo School of Advanced Science on Social and Affective Neuroscience. Sao Paulo, Brazil.
 
@@ -117,43 +118,33 @@ Lecture at Sao Paulo School of Advanced Science on Social and Affective Neurosci
 *The Social Benefits of Gossip*  
 Presentation at the New England Research on Decision-Making conference, Brown University, Providence, RI.
 
-`2017`
 *Computational tools for neuroscience: Containers and Jupyter Notebooks*.  
 Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.
 
-`2017`
 *Introduction to Singularity: Running containers on a HPC*.  
 Tutorial at Graduate research roundtable workshop, Dartmouth College, Hanover, NH.
 
-`2017`
 *Introduction to git and github for psychologists*.  
 Presentation at the Reproducible Psychological Science workshop at the Annual Meeting for the Association for Psychological Science, Boston, MA. 
 
-`2017`
 *Interpersonal dynamics and the inelasticity of social guilt*.  
 Presentation at the Boston Area Moral Cognition Group, Boston, MA.
 
-`2017`
 *Interpersonal dynamics and the inelasticity of social guilt*.  
 Presentation at Affectiva, Boston, MA.
 
-`2017`
 *Spontaneous impression-formation about parasocial relationships*.  
 Presentation at the Annual Meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.
 
-`2017`
 *Introduction to Jupyter Notebooks (and why you should love them!)*.  
 Tutorial at Brainhack Dartmouth College, Hanover, N.H.
 
-`2017`
 *Research Methods for Conducting Synchronous Online Experiments*.  
 Guest Lecture at Dartmouth College, Hanover, NH.
 
-`2017`
 *Contemporary fMRI pre-processing: Introduction to Nipype and Docker*.  
 Tutorial at Dartmouth College, Hanover, NH.
 
-`2017`
 *State of the Data: Annual Dartmouth Brain Imaging Center Quality Assurance Report*.  
 Presentation at Dartmouth College, Hanover, NH.
 
@@ -161,30 +152,30 @@ Presentation at Dartmouth College, Hanover, NH.
 *Field experiments on human prosociality using Mechanical Turk*.  
 Presentation at Microsoft Research, New York, NY.
 
-`2016`
 *Research Methods for Conducting Synchronous Online Experiments*.  
 Guest Lecture at Dartmouth College, Hanover, NH.
 
-`2016`
 *The Social Benefits of Gossip*.  
 Guest Lecture at Dartmouth College, Hanover, NH. 
 
-`2016`
 *The Social Benefits of Gossip*.  
 Presentation at the Social Brain Sciences Brown Bag series at Dartmouth College, NH.
 
 ## Posters & Conference Proceedings
 
 `2020`
-**Jolly, E.** & Chang, L.J. (2019). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.*  
-*Winner, SANS Poster Award  
-Poster at Social Affective Neuroscience Society meeting, Santa Barbara, CA. (conference cancelled). 
+**Jolly, E.** (2020). Pymer4: Bringing R's Powerful Mixed-modeling to Python.*  
+Virtual poster at Scientific Computing with Python Virtual Conference. (in-person cancelled).  
+*Winner, Scipy Scholarship
+
+**Jolly, E.** & Chang, L.J. (2020). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.*  
+Poster at Social Affective Neuroscience Society meeting, Santa Barbara, CA. (conference cancelled).  
+*Winner, SANS Poster Award
 
 `2019`
 **Jolly, E.** & Chang, L.J. (2019). Gossip drives vicarious learning and facilitates robust social connections.  
 Poster at Social and Affective Neuroscience Society meeting, Miami, FL.
 
-`2019`
 Cheong, J.C., Chen, P.A., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (2019). Socially transmitted placebo effects.  
 Poster at Society for Affective Science meeting, Boston, MA.
 
@@ -192,11 +183,9 @@ Poster at Society for Affective Science meeting, Boston, MA.
 **Jolly, E.**, Reddan, M.C., Gianaros, P.J., Manuck, S.M. Chang, L.J., Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of complex brain models.  
 Poster at Social and Affective Neuroscience Society meeting, New York, NY.
 
-`2018`
 Reddan, M.C., **Jolly, E.**, Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
 Poster at the Organization for Human Brain Mapping meeting, Singapore, Singapore.
 
-`2018`
 Reddan, M.C., **Jolly, E.**, Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
 Poster at the Computational and Systems Neuroscience meeting, Denver, CO.
 
@@ -204,7 +193,6 @@ Poster at the Computational and Systems Neuroscience meeting, Denver, CO.
 **Jolly, E.** & Chang, L.J. (2017). Gossip drives vicarious learning and facilitates robust social connections.  
 Poster at the Annual Meeting of the Association for Psychological Science, Boston, MA.
 
-`2017`
 Cheong, J.H., **Jolly, E.** & Chang, L.J. (2017). A window into the mind: A computational approach to measuring emotions in response to naturalistic stimuli.  
 Poster the Annual Meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.
 
@@ -228,63 +216,50 @@ Poster at the Annual Meeting of the Association for Psychological Science, Bosto
 ## Awards
 
 `2020`
+Scientific Computing with Python Scholarship Award
+
 Social Affective Neuroscience Society Poster Award
 
 `2019`
 Kavli Summer Institute in Cognitive Neuroscience
 
-`2019`
 Dartmouth Thayer Consulting Case Competition 1st Place
 
-`2019`
 Hack Dartmouth Finalist
 
 `2018`
 Hack Dartmouth Best Community Hack
 
-`2018`
 Sao Paulo Summer School on Social and Affective Neuroscience (SPSAN)
 
-`2018`
 Dartmouth Graduate Arts and Science Travel Award
 
-`2018`
 Dartmouth PBS Graduate Travel Award
 
-`2018`
 Neukom Institute Travel Award
 
 `2017`
 Dartmouth Graduate Alumni Research Award
 
-`2017`
 Dartmouth PBS Graduate Travel Award
 
-`2017`
 Methods in Neuroscience Computational Summer School
 
-`2017`
 Summer School in Social Neuroscience and Neuroeconomics
 
-`2017`
 Social Affective Neuroscience Society Trainee Data Blitz Award
 
-`2017`
 Human Neuroimaging Methods Travel Award
 
 `2016`
 Hack Dartmouth 2nd Place project award
 
-`2016`
-Hack Dartmouth DEN Business Innovation Prize
 
-`2016`
 Neurohackweek Summer School
 
 `2015`
 Social Affective Neuroscience Society Poster Award
 
-`2015`
 Dartmouth PBS Graduate Travel Award
 
 `2013-2016`
@@ -302,7 +277,6 @@ University of Rochester Wilde-Trustee Scholarship
 Functional Alignment Techniques in fMRI (Guest Lecturer)  
 *Mackenzie Presbyterian University, SPSAN, Sao Paulo, Brazil*  
 
-`2018`
 Methods in Neuroscience Computational Summer School (TA)  
 *Dartmouth College*
 
@@ -310,7 +284,6 @@ Methods in Neuroscience Computational Summer School (TA)
 Methods in Neuroscience Computational Summer School (TA)  
 *Dartmouth College*
 
-`2017`
 Experimental Study of Social Behavior (Guest Lecturer)  
 *Dartmouth College*
 
@@ -318,7 +291,6 @@ Experimental Study of Social Behavior (Guest Lecturer)
 Experimental Study of Social Behavior (Guest Lecturer)  
 *Dartmouth College*
 
-`2016`
 Social Psychology (Guest Lecturer)  
 *Dartmouth College*
 
@@ -326,7 +298,6 @@ Social Psychology (Guest Lecturer)
 Brain Mapping with functional MRI (TA and Guest Lecturer)  
 *Dartmouth College*
 
-`2015`
 Laboratory in Psychological Science* (TA and Guest Lecturer)  
  \*Mentored award winning undergraduate group  
 *Dartmouth College*
@@ -484,6 +455,6 @@ jmmoran77@gmail.com
 
 __
 
-Last updated: April 2020
+Last updated: August 2020
 
 

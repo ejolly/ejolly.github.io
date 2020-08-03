@@ -5,12 +5,6 @@ layout: page
 <asciinema-player src="/assets/ascii/software.json" width="200" rows="6"  autoplay="1" font-size="1.05em" speed="6"></asciinema-player>
 
 
-**nltools**
-
->A Python package for analyzing brain-imaging data, though also usable for other types of data. Makes data manipulation, model building and fitting quite simple. Builds upon several popular python libraries for [brain-imaging analysis](http://nipy.org/) and [machine learning](http://scikit-learn.org/stable/) more generally.         
->[Github](https://github.com/ljchang/nltools) |  [Docs](http://neurolearn.readthedocs.io/en/latest/)   
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2229813.svg)](https://doi.org/10.5281/zenodo.2229813)  
-
 **pymer4**
 
 >A Python package for analyzing and simulating standard and multi-level regression data. Performs standard and robust regression, but also features a wrapper around the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) mixed-modeling [R](https://www.r-project.org/) package. Makes it much easier to use lme4 from within python and in conjunction with data analysis libraries like [pandas](http://pandas.pydata.org/).  
@@ -18,6 +12,18 @@ layout: page
 [![DOI](https://zenodo.org/badge/90598701.svg)](https://zenodo.org/record/1523205)  
 [![DOI](http://joss.theoj.org/papers/10.21105/joss.00862/status.svg)](https://doi.org/10.21105/joss.00862)  
 [![Downloads](https://pepy.tech/badge/pymer4)](https://pepy.tech/project/pymer4)
+
+**nltools**
+
+>A Python package for analyzing brain-imaging data, though also usable for other types of data. Makes data manipulation, model building and fitting quite simple. Builds upon several popular python libraries for [brain-imaging analysis](http://nipy.org/) and [machine learning](http://scikit-learn.org/stable/) more generally.         
+>[Github](https://github.com/ljchang/nltools) |  [Docs](http://neurolearn.readthedocs.io/en/latest/) | [Scipy 2020 talk](https://youtu.be/1c1AnXLs7xM)   
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2229813.svg)](https://doi.org/10.5281/zenodo.2229813)  
+
+
+**svelte-turk**
+
+>An desktop application for easily adminstering tasks and experiments on [Amazon Mechanical Turk](https://www.mturk.com/). Provides an GUI-based alternative to tools like [psiturk](http://psiturk.org/). Build in javascript using [svelte](https://svelte.dev/) and [electron](https://www.electronjs.org/).          
+>[Github](https://github.com/ejolly/svelte-turk) |  [Docs & Roadmap](https://www.notion.so/ejolly/Svelte-Turk-6c250e6f736642b0a1271c027514d5fb)   
 
 **pyfit**
 
