@@ -18,7 +18,7 @@ Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A
 ### Published
 
 `2020`  
-**Jolly, E.**\*, Sadhukha, S.\*, Cheong, J.C. & Chang, L.J. (in press). Custom-molded headcases have limited efficacy in reducing head motion during naturalistic fMRI expreiments. *NeuroImage.* [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920306935) [[data & materials]](https://osf.io/qf6vx/)   
+**Jolly, E.**\*, Sadhukha, S.\*, Chang, L.J. (in press). Custom-molded headcases have limited efficacy in reducing head motion during naturalistic fMRI expreiments. *NeuroImage.* [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920306935) [[data & materials]](https://osf.io/qf6vx/)   
 \*Equal contribution
 
 Chen, P. H. A., **Jolly, E.**, Cheong, J. H. & Chang, L. J. (2020). Intersubject representational similarity analysis reveals individual variations in affective experience when watching erotic movies. *NeuroImage*, 116851. [[PDF]](https://reader.elsevier.com/reader/sd/pii/S1053811920303372?token=1BD2A46B741E3A75301A1E357D418D61C6C40CEA4DECE345D7C1D2185C187EDA38C2489607D34FB1F743B6F60BBF0226)
