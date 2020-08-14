@@ -95,10 +95,13 @@ __Mt Hope Family Center, University of Rochester__, Rochester, NY
 
 `2020`
 *Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn*.  
-Symposium talk at Scientific Computing with Python Virtual conference (in-person cancelled)
+Symposium talk at Scientific Computing with Python Virtual conference (virtual talk).
 
 *Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts*.  
-Symposium talk at Society for Affective Science, San Francisco, CA. (conference cancelled) 
+Symposium talk at Society for Affective Science, San Francisco, CA. (conference cancelled). 
+
+*Methodological challenges in contemporary fMRI studies*.  
+Invited talk at Neuroimaging Analysis Methods meeting, Princeton University, Princeton, NJ.
 
 `2019`
 *Introduction to Git and Github*.  
@@ -381,8 +384,15 @@ Social and Affective Neuroscience Society, Society for Affective Science, Organi
 
 ## Leadership & Community  
 
+`2020-Present`  
+[Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/)  
+__Contributing Member__, Dartmouth College  
+
 `2019-Present`
-[Code for America](https://codeforuv.org/)    
+[Inclusivity, Diversity, and Culture Committee](https://pbs.dartmouth.edu/our-commitment-diversity)  
+__Member__, Dartmouth College  
+
+[Code for America](https://codeforuv.org/)   
 __Member__, Code for Upper Valley Brigade
 
 `2017-Present`
