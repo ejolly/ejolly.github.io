@@ -41,6 +41,7 @@ __Dartmouth College__, Hanover, NH
 
 <ul>
 <li>PhD, Cognitive Neuroscience</li>
+<li>NSF Graduate Fellow</li>
 <li class='thesis'>Thesis: <em>Social Cognitive Maps: A Relational Account of Person Representation and Memory</em></li>
 </ul>
 
@@ -56,9 +57,10 @@ __University of Rochester__, Rochester, NY
 
 ## Employment  
 `summer 2016`
-__Visiting PhD Researcher__  
+__PhD Research Intern__  
 *Microsoft Research*, New York City, NY
 
+- Computational Social Science Group
 - PIs: Duncan Watts & Sid Suri
 
 
@@ -94,8 +96,12 @@ __Mt Hope Family Center, University of Rochester__, Rochester, NY
 ## Talks & Presentations 
 
 `2020`
+
+*Social Cognitive Maps: A Relational Account of Person Representation and Memory.*  
+Invited talk at Harvard University, Cambridge, MA. 
+
 *Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn*.  
-Symposium talk at Scientific Computing with Python Virtual conference (virtual talk).
+Symposium talk at Scientific Computing with Python Virtual conference ([virtual talk](https://youtu.be/1c1AnXLs7xM)).
 
 *Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts*.  
 Symposium talk at Society for Affective Science, San Francisco, CA. (conference cancelled). 
@@ -118,6 +124,9 @@ Lecture at Methods in Neuroscience Computational Summer School, Dartmouth Colleg
 Lecture at Sao Paulo School of Advanced Science on Social and Affective Neuroscience. Sao Paulo, Brazil.
 
 `2017`
+*Naturalistic approaches towards an understanding of social reasoning and communication.*  
+Invited talk, Stanford University, Stanford, CA.
+
 *The Social Benefits of Gossip*  
 Presentation at the New England Research on Decision-Making conference, Brown University, Providence, RI.
 
@@ -322,6 +331,11 @@ Mind Perception (ad-hoc workshop)
 
 ## Mentorship
 
+`2019-`  
+Max Farrens '20  
+Full-time Research Assistant  
+*Dartmouth College*  
+
 `2017-`
 Maryam Iqbal ’21  
 Presidential Scholar/Honors Thesis  
@@ -350,10 +364,10 @@ Presidential Scholar
 ## Technical Skills
 
 __Programming Languages__  
-Python, R, Matlab, Javascript, Bash
+Python, Javascript, Matlab, R, Bash
 
 __Frontend Web Development__  
-HTML, CSS, Bootstrap, Bulma, Vue, Svelte
+HTML, CSS, Svelte, Vue
 
 __Backend/Fullstack/App Development__  
 Node, Express, Meteor, Mongodb, Firebase, Flask, Electron
@@ -386,21 +400,23 @@ Social and Affective Neuroscience Society, Society for Affective Science, Organi
 
 `2020-Present`  
 [Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/)  
-__Contributing Member__, Dartmouth College  
+__Board Member__, Dartmouth College  
+
+[SvelteTurk](https://eshinjolly.com/svelteturk)
 
 `2019-Present`
 [Inclusivity, Diversity, and Culture Committee](https://pbs.dartmouth.edu/our-commitment-diversity)  
 __Member__, Dartmouth College  
 
 [Code for America](https://codeforuv.org/)   
-__Member__, Code for Upper Valley Brigade
+__Project Manager__, Code for Upper Valley Brigade
 
 `2017-Present`
-[Line@ Project](http://lineatkaf.com/)  
+[Line@ Project](https://lineatkaf.com/)  
 __Co-Founder__, Dartmouth College
 
 `2017-Present`
-[Pymer4](http://eshinjolly.com/pymer4/)  
+[Pymer4](https://eshinjolly.com/pymer4/)  
 __Project Lead__, Open Source Software
 
 `2016-Present`
@@ -465,6 +481,6 @@ jmmoran77@gmail.com
 
 __
 
-Last updated: August 2020
+Last updated: October 2020
 
 

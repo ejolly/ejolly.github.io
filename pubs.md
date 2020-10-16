@@ -1,16 +1,22 @@
 ### Under review/revision
 
 
-Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under review). The hidden cost of receiving favors: A theory of indebtedness. *[bioRxiv](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)*
+**Jolly, E.** & Chang, L.J. (under revision). Gossip drives vicarious learning and facilitates social connections. *Current Biology.* [[Preprint]](https://psyarxiv.com/qau5s/)  
 
-**Jolly, E.** & Chang, L.J. (under review). Gossip drives vicarious learning and facilitates robust social connections. *[psyArXiv](https://psyarxiv.com/qau5s/)*  
+Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A. & Manning, J.R. (under revision). Endogenous variation in ventromedial prefrontal cortex state dynamic during naturalistic viewing reflects affective experience. *Science Advances.* [[Preprint]](https://www.biorxiv.org/content/10.1101/487892v1)
 
-Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A. & Manning, J.R. (under revision). Endogenous variation in ventromedial prefrontal cortex state dynamic during naturalistic viewing reflects affective experience. *[bioRxiv](https://www.biorxiv.org/content/10.1101/487892v1)*
+Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (submitted). The hidden cost of receiving favors: A theory of indebtedness. [[Preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
 
 
 ### In Prep
 
-**Jolly, E.**, Cheong, J.C. & Chang, L.J. (in prep). Neural models reflect spontaneous impression formation about parasocial relationships.
+**Jolly, E.**, Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D. & Chang, L.J. (in prep). Recovering individual emotional states from sparse ratings using collaborative filtering.
+
+**Jolly, E.** (in prep). SvelteTurk: An open-source graphical application to simplify data collection via Amazon Mechanical Turk. [[documentation site]](https://eshinjolly.com/svelteturk)
+
+**Jolly, E.**, Chang, L.J. (in prep). Social cognitive maps: Encoding and reinstatement of neural patterns that reflect beliefs about social relationships.  
+
+**Jolly, E.**, Cheong, J.C. & Chang, L.J. (in prep). Social relationships not impression formation: Comparing neural models of the social brain during naturalistic neuroimaging.
 
 **Jolly, E.**, Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Guilt-aversion motivates harm-minimization in surrogate decision-making.
 
@@ -18,7 +24,7 @@ Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A
 ### Published
 
 `2020`  
-**Jolly, E.**\*, Sadhukha, S.\*, Chang, L.J. (in press). Custom-molded headcases have limited efficacy in reducing head motion during naturalistic fMRI expreiments. *NeuroImage.* [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920306935) [[data & materials]](https://osf.io/qf6vx/)   
+**Jolly, E.**\*, Sadhukha, S.\*, Chang, L.J. (2020). Custom-molded headcases have limited efficacy in reducing head motion during naturalistic fMRI experiments. *NeuroImage,* 117207. [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920306935) [[data & materials]](https://osf.io/qf6vx/)   
 \*Equal contribution
 
 Chen, P. H. A., **Jolly, E.**, Cheong, J. H. & Chang, L. J. (2020). Intersubject representational similarity analysis reveals individual variations in affective experience when watching erotic movies. *NeuroImage*, 116851. [[PDF]](https://reader.elsevier.com/reader/sd/pii/S1053811920303372?token=1BD2A46B741E3A75301A1E357D418D61C6C40CEA4DECE345D7C1D2185C187EDA38C2489607D34FB1F743B6F60BBF0226)
@@ -32,7 +38,7 @@ Chen, P.A., Cheong, J.H., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (
 **Jolly, E.**, & Chang, L.J. (2019). The Flatland Fallacy:  Moving Beyond Low Dimensional Thinking. *Topics in Cognitive Science*, 1-22. [[PDF]](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12404)
 
 `2018`  
-**Jolly, E.** (2018). Pymer4: Connecting R and Python for linear mixed modeling. *Journal of Open Source Software*, *3(31)*, 862. [[PDF]](http://joss.theoj.org/papers/10.21105/joss.00862)
+**Jolly, E.** (2018). Pymer4: Connecting R and Python for linear mixed modeling. *Journal of Open Source Software*, *3(31)*, 862. [[PDF]](http://joss.theoj.org/papers/10.21105/joss.00862) [[documentation site]](https://eshinjolly.com/pymer4)
 
 Chang, L. J. & **Jolly E.** (2018). Emotions as computational signals of goal error. In A. Fox, R. Lapate, A. Shackman & R. Davidson (Eds), *The Nature of Emotion* (343-351). Oxford University Press. [[PDF]](https://eshinjolly.com/assets/pdfs/Jolly_Emotions_Chapter.pdf)
 
