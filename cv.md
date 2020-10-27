@@ -21,6 +21,8 @@ eshin.jolly@gmail.com
 
 `2019-`
 __Postdoctoral Fellow__  
+Center for Cognitive Neuroscience  
+Center for Interacting Minds  
 [Cosan Lab](https://www.cosanlab.com), *Dartmouth College*, Hanover, NH
 
 - PI: Luke J. Chang
@@ -402,7 +404,8 @@ Social and Affective Neuroscience Society, Society for Affective Science, Organi
 [Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/)  
 __Board Member__, Dartmouth College  
 
-[SvelteTurk](https://eshinjolly.com/svelteturk)
+[SvelteTurk](https://eshinjolly.com/svelteturk)  
+__Project Author__, Open Source Software 
 
 `2019-Present`
 [Inclusivity, Diversity, and Culture Committee](https://pbs.dartmouth.edu/our-commitment-diversity)  
@@ -417,7 +420,7 @@ __Co-Founder__, Dartmouth College
 
 `2017-Present`
 [Pymer4](https://eshinjolly.com/pymer4/)  
-__Project Lead__, Open Source Software
+__Project Author__, Open Source Software
 
 `2016-Present`
 [Neuro-learn](https://neurolearn.readthedocs.io/en/latest/)    

@@ -32,7 +32,7 @@ Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (submitted). The
 Chen, P. H. A., **Jolly, E.**, Cheong, J. H. & Chang, L. J. (2020). Intersubject representational similarity analysis reveals individual variations in affective experience when watching erotic movies. *NeuroImage*, 116851. [[PDF]](https://reader.elsevier.com/reader/sd/pii/S1053811920303372?token=1BD2A46B741E3A75301A1E357D418D61C6C40CEA4DECE345D7C1D2185C187EDA38C2489607D34FB1F743B6F60BBF0226)
 
 `2019`  
-Chen, P.A., Cheong, J.H., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (2019). Socially transmitted placebo effects. *Nature Human Behavior*, *3*, 1295-1305. [[PDF](http://bit.ly/2Pppjg7)]  
+Chen, P.A., Cheong, J.H., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (2019). Socially transmitted placebo effects. *Nature Human Behavior*, *3*, 1295-1305. [[PDF]](http://bit.ly/2Pppjg7)]  
    
 **Jolly, E.**\*, Tamir, D.I.\*, Burum, B.A. & Mitchell, J.P. (2019). Wanting without enjoying: The social value of sharing experiences. *PLoS One*, *14(4)*, e0215318. [[PDF]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215318)  
 \*Equal contribution
