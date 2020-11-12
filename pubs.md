@@ -26,6 +26,8 @@ Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (submitted). The
 ### Published
 
 `2020`  
+**Jolly, E.**\*, Sadhukha, S.\*, Chang, L.J. (2020). Response to Lynch et al: On measuring head motion and effects of head molds during fMRI. *NeuroImage,* 117484. [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920309691?via%3Dihub)
+
 **Jolly, E.**\*, Sadhukha, S.\*, Chang, L.J. (2020). Custom-molded headcases have limited efficacy in reducing head motion during naturalistic fMRI experiments. *NeuroImage,* 117207. [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920306935) [[data & materials]](https://osf.io/qf6vx/)   
 \*Equal contribution
 
