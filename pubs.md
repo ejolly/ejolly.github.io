@@ -3,8 +3,6 @@
 
 **Jolly, E.** & Chang, L.J. (under revision). Gossip drives vicarious learning and facilitates social connections. *Current Biology.* [[Preprint]](https://psyarxiv.com/qau5s/)  
 
-**Jolly, E.** & Chang, L.J. (under revision). Multivariate spatial feature selection in fMRI. *Social Cognitive and Affective Neuroscience.* [[Preprint]](https://osf.io/4exrn/)  
-
 Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A. & Manning, J.R. (under revision). Endogenous variation in ventromedial prefrontal cortex state dynamic during naturalistic viewing reflects affective experience. *Science Advances.* [[Preprint]](https://www.biorxiv.org/content/10.1101/487892v1)
 
 Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (submitted). The hidden cost of receiving favors: A theory of indebtedness. [[Preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
@@ -24,6 +22,9 @@ Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (submitted). The
 
 
 ### Published
+
+`2021`   
+**Jolly, E.** & Chang, L.J. (in press). Multivariate spatial feature selection in fMRI. *Social Cognitive and Affective Neuroscience.* [[Preprint]](https://osf.io/4exrn/)  
 
 `2020`  
 **Jolly, E.**\*, Sadhukha, S.\*, Chang, L.J. (2020). Response to Lynch et al: On measuring head motion and effects of head molds during fMRI. *NeuroImage,* 117484. [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920309691?via%3Dihub)
