@@ -333,15 +333,20 @@ Mind Perception (ad-hoc workshop)
 
 ## Mentorship
 
-`2019-`  
-Max Farrens '20  
-Full-time Research Assistant  
-*Dartmouth College*  
-
-`2017-`
+`2017-2021`
 Maryam Iqbal ’21  
 Presidential Scholar/Honors Thesis  
-*Dartmouth College*  
+*Dartmouth College*
+
+`2020-2021`
+Liza Begunova ’21  
+Honors Thesis  
+*Dartmouth College*
+
+`2019-2020`
+Max Farrens '20  
+Full-time Research Assistant  
+*Dartmouth College*
 
 `2017-2019`
 Nathan P. Greenstein ‘19   
@@ -484,6 +489,6 @@ jmmoran77@gmail.com
 
 __
 
-Last updated: January 2021
+Last updated: April 2021
 
 

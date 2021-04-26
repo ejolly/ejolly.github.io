@@ -13,3 +13,6 @@ styles.md
 Rakefile
 npm-debug.log
 .sass-cache
+_drafts
+_jupyter
+assets/ascii/recordings
