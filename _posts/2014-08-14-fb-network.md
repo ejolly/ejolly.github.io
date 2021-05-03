@@ -17,7 +17,7 @@ Finally got around to playing with some Facebook data in R following in the foot
 
 First up is a network graph of nearly all my FB friends organized by a 5-step random walk community detection algorithm. I've cleaned it a bit, but it captures my IRL networks pretty damn well. I definitely found that the random-walk captured my network modularity more accurately that a fast-greedy algorithm.
 
-![Markdowm Image](/assets/posts/fb-network/friendsNetwork.jpeg){: class="bigger-image" }
+![Markdown Image](/assets/posts/fb-network/friendsNetwork.jpeg){: class="bigger-image" }
 
 
 A few key takeaways:
@@ -30,4 +30,4 @@ A few key takeaways:
 
 Second is a heat-map of the contiguous US that reflects friends' locations. Locations include where my friends currently are or where they hail from.
 
-![Markdowm Image](/assets/posts/fb-network/friendsMap.jpeg)
+![Markdown Image](/assets/posts/fb-network/friendsMap.jpeg)
