@@ -31,7 +31,7 @@ Rather that rehash the details of my particular flavor of misery, suffice to say
 She lovingly had a coffee mug made for me with a minor, but purposeful typo that still annoys (and yet provokes) me to this day. 
 
 <div style="margin-left: auto; margin-right: auto; text-align: center;">
-<img src="/assets/images/mug.jpg" width="400">
+<img src="/assets/images/mug.png" width="400">
 <figcaption style="top: 10px; max-width: 85vw;"><em> (Fig 1) No, no, no. The problem OF science, is that it's done by humans.</em></figcaption>
 </div>
 
