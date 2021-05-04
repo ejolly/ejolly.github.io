@@ -17,12 +17,10 @@ To help out with this I started developing a graphical desktop application (GUI)
 
 Combined with another framework called [Electron](https://www.electronjs.org/) which makes it relatively straighforward to build cross-platform desktop applications using the languages of the web (HTML, CSS, JS), Svelteturk allows you to create, manage, review, and edit MTurk HITs, interact with Workers, and handle Qualifications, without writing a single line of code or using Mturk's clunky web interface. It's *very much* a work-in-progress and I've only been handling bug-fixes or adding new features as needed internally. However, it's entirely [open source](https://github.com/ejolly/svelteturk) and as always contributions are welcome! Clicking the image below will take you to the documentation site that has a ton more information.
 
-<figure>
 <div style="text-align:center">
 <a href="https://eshinjolly.com/svelteturk">
   <img src="https://eshinjolly.com/svelteturk/assets/setup.jpg" width="600">
   </a>
   </div>
-</figure>
-<i style="font-size: .75em; max-width: 75%">SvelteTurk only handles nodes and connections highlighted in green, namely the creation and management of HITs via communication with MTurk and a local database. It's up to you to build your experiment or survey and store appropriate data as see you see fit.</i>
+<figcaption style="top:0"><em>SvelteTurk only handles nodes and connections highlighted in green, namely the creation and management of HITs via communication with MTurk and a local database. It's up to you to build your experiment or survey and store appropriate data as see you see fit.</em></figcaption>
 
