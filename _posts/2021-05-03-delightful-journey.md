@@ -84,7 +84,7 @@ It turns out that people *really like* interacting with other people online and 
 
 ## Back to The Churn, but some how different
 
-The several years that followed my internship, weren't particularly kind to my gossip project. It languished in peer-review hell, sometimes being rejected with no feedback, because "it's not possible to study gossip empirically," (thanks Reviewer 2!). More often, it was because notions about *what gossip is* elicited strong reactions, given our strong folk intuitions [(Foster, 2004)](https://journals.sagepub.com/doi/abs/10.1037/1089-2680.8.2.78). I happen to like this quote by [Paul Bloom (2003)](https://journals.sagepub.com/doi/abs/10.1037/1089-2680.8.2.138?journalCode=rgpa):
+The several years that followed my internship, weren't particularly kind to my gossip project. It languished in peer-review hell cycling through 6 different journals with a combined total of 13 rounds of review. Sometimes it was rejected with no feedback, because "it's not possible to study gossip empirically," (thanks Reviewer 2!). More often, it was because notions about *what gossip is* elicited strong reactions, given our strong folk intuitions [(Foster, 2004)](https://journals.sagepub.com/doi/abs/10.1037/1089-2680.8.2.78). I happen to like this quote by [Paul Bloom (2003)](https://journals.sagepub.com/doi/abs/10.1037/1089-2680.8.2.138?journalCode=rgpa):
 
 > *...gossip is an arena where some of the most interesting aspects of our mental life are laid bare.* 
 
