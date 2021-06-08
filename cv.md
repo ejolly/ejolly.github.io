@@ -177,14 +177,15 @@ Presentation at the Social Brain Sciences Brown Bag series at Dartmouth College,
 
 ## Posters & Conference Proceedings
 
+`2021`
+**Jolly, E.** & Chang, L.J. (2021). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.*  
+Poster at Social Affective Neuroscience Society meeting (online conference; in-person cancelled due to COVID-19)  
+*Winner, SANS Poster Award
+
 `2020`
 **Jolly, E.** (2020). Pymer4: Bringing R's Powerful Mixed-modeling to Python.*  
 Virtual poster at Scientific Computing with Python Virtual Conference. (in-person cancelled).  
 *Winner, Scipy Scholarship
-
-**Jolly, E.** & Chang, L.J. (2020). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.*  
-Poster at Social Affective Neuroscience Society meeting, Santa Barbara, CA. (conference cancelled).  
-*Winner, SANS Poster Award
 
 `2019`
 **Jolly, E.** & Chang, L.J. (2019). Gossip drives vicarious learning and facilitates robust social connections.  
@@ -268,7 +269,6 @@ Human Neuroimaging Methods Travel Award
 `2016`
 Hack Dartmouth 2nd Place project award
 
-
 Neurohackweek Summer School
 
 `2015`
@@ -286,6 +286,10 @@ University of Rochester BCS Dept: Highest Honors in research
 University of Rochester Wilde-Trustee Scholarship
 
 ## Teaching
+
+`2019`
+Methods in Neuroscience Computational Summer School (TA)  
+*Dartmouth College*
 
 `2018`
 Functional Alignment Techniques in fMRI (Guest Lecturer)  
@@ -397,7 +401,7 @@ Git/Github, TravisCI, Tox, Pytest, Moab-Torque
 ## Professional Activities
 
 __Reviewer__  
-SCAN, JOSS, NeuroImage, PLoS One  
+Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognition and Emotion, JESP, PLoS One, GigaScience   
 *ad-hoc*: Nature Communications, SIGCHI, Frontiers in Psych, JPSP 
 
 __Society Memberships__  
@@ -419,7 +423,7 @@ __Member__, Dartmouth College
 [Code for America](https://codeforuv.org/)   
 __Project Manager__, Code for Upper Valley Brigade
 
-`2017-Present`
+`2017-2020`
 [Line@ Project](https://lineatkaf.com/)  
 __Co-Founder__, Dartmouth College
 
@@ -428,7 +432,7 @@ __Co-Founder__, Dartmouth College
 __Project Author__, Open Source Software
 
 `2016-Present`
-[Neuro-learn](https://neurolearn.readthedocs.io/en/latest/)    
+[Neuro-learn](https://nltools.org)    
 __Core Contributor__, Open Source Software
 
 `2017-Present`
@@ -489,6 +493,6 @@ jmmoran77@gmail.com
 
 __
 
-Last updated: April 2021
+Last updated: June 2021
 
 
