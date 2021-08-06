@@ -22,8 +22,13 @@ layout: page
 
 **SvelteTurk**
 
->An desktop application for easily adminstering tasks and experiments on [Amazon Mechanical Turk](https://www.mturk.com/). Provides an GUI-based alternative to tools like [psiturk](http://psiturk.org/). Build in javascript using [svelte](https://svelte.dev/) and [electron](https://www.electronjs.org/).          
+>An desktop application for easily adminstering tasks and experiments on [Amazon Mechanical Turk](https://www.mturk.com/). Provides an GUI-based alternative to tools like [psiturk](http://psiturk.org/). Built in javascript using [svelte](https://svelte.dev/) and [electron](https://www.electronjs.org/).          
 >[Github](https://github.com/ejolly/svelte-turk) |  [Website](https://eshinjolly.com/svelteturk)   
+
+**Neighbors**
+
+>A Python package for using collaborative filtering with social and emotion datasets.  
+>[Github](https://github.com/cosanlab/neighbors) |  [Docs](https://cosanlab.github.io/neighbors)   
 
 **pyfit**
 
