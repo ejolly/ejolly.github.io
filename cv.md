@@ -229,6 +229,9 @@ Poster at the Annual Meeting of the Association for Psychological Science, Bosto
 
 ## Awards
 
+`2021`  
+Mistletoe Research Fellowship finalist  
+
 `2020`  
 Scientific Computing with Python Scholarship Award
 
