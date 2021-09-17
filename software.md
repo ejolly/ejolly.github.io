@@ -4,6 +4,12 @@ layout: page
 ---
 <asciinema-player src="/assets/ascii/software.json" width="200" rows="6"  autoplay="1" font-size="1.05em" speed="6"></asciinema-player>
 
+**Neighbors**
+
+>A Python package for using collaborative filtering to predict affective responses from sparse data.  
+>[Github](https://github.com/cosanlab/neighbors) |  [Docs](https://cosanlab.github.io/neighbors)  
+[![arXiv](https://img.shields.io/badge/arXiv-2109.06906-red.svg)](https://arxiv.org/abs/2109.06906)  
+[![Downloads](https://pepy.tech/badge/neighbors)](https://pepy.tech/project/neighbors)
 
 **Pymer4**
 
@@ -18,17 +24,17 @@ layout: page
 >A Python package for analyzing brain-imaging data, though also usable for other types of data. Makes data manipulation, model building and fitting quite simple. Builds upon several popular python libraries for [brain-imaging analysis](http://nipy.org/) and [machine learning](http://scikit-learn.org/stable/) more generally.         
 >[Github](https://github.com/cosanlab/nltools) |  [Docs](https://nltools.org) | [Scipy 2020 talk](https://youtu.be/1c1AnXLs7xM)   
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2229813.svg)](https://doi.org/10.5281/zenodo.2229813)  
-
+[![Downloads](https://pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
 
 **SvelteTurk**
 
 >An desktop application for easily adminstering tasks and experiments on [Amazon Mechanical Turk](https://www.mturk.com/). Provides an GUI-based alternative to tools like [psiturk](http://psiturk.org/). Built in javascript using [svelte](https://svelte.dev/) and [electron](https://www.electronjs.org/).          
 >[Github](https://github.com/ejolly/svelte-turk) |  [Website](https://eshinjolly.com/svelteturk)   
 
-**Neighbors**
+**Utilz**
 
->A Python package for using collaborative filtering with social and emotion datasets.  
->[Github](https://github.com/cosanlab/neighbors) |  [Docs](https://cosanlab.github.io/neighbors)   
+>A Python package for faster and easier declarative data analysis like [dpylr in R](https://dplyr.tidyverse.org/)    
+>[Github](https://github.com/ejolly/utilz) | [Docs](https://eshinjolly.com/utilz/)
 
 **pyfit**
 

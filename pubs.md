@@ -1,7 +1,5 @@
 ### In Prep
 
-**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D. & Chang, L.J. (in prep). Recovering individual emotional states from sparse ratings using collaborative filtering. [[toolbox]](https://cosanlab.github.io/neighbors/)
-
 **Jolly, E.** (in prep). SvelteTurk: An open-source graphical application to simplify data collection via Amazon Mechanical Turk. [[documentation site]](https://eshinjolly.com/svelteturk)
 
 **Jolly, E.**, Chang, L.J. (in prep). Social cognitive maps: Encoding and reinstatement of neural patterns that reflect beliefs about social relationships.  
@@ -12,7 +10,9 @@
 
 ### Under review/revision
 
-Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision). The hidden cost of receiving favors: A theory of indebtedness. [[Preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
+**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D. & Chang, L.J. (in prep). Recovering individual emotional states from sparse ratings using collaborative filtering. [[arXiv preprint]](https://arxiv.org/abs/2109.06906) [[toolbox]](https://cosanlab.github.io/neighbors/)
+
+Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision). The hidden cost of receiving favors: A theory of indebtedness. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
 
 ### Published
 
