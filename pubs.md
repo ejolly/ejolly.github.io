@@ -19,7 +19,8 @@ Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision)
 `2021`   
 **Jolly, E.** & Chang, L.J. (2021). Multivariate spatial feature selection in fMRI. *Social Cognitive and Affective Neuroscience,* *16(8)*, 795-806. [[Link]](https://academic.oup.com/scan/article/16/8/795/6121195)  
 
-**Jolly, E.** & Chang, L.J. (2021). Gossip drives vicarious learning and facilitates social connections. *Current Biology,* *31*, 1-11. [[Link]](https://www.sciencedirect.com/science/article/pii/S0960982221004632) [[data & materials]](https://osf.io/c9mdx/) [[press - New York Times]](https://www.nytimes.com/2021/05/28/style/gossip-a-bit.html) [[press - VPR News]](https://www.vpr.org/vpr-news/2021-05-13/gossips-good-side-dartmouth-researcher-finds-sharing-it-aids-learning-boosts-cooperation#stream/0) [[press - PNAS Journal Club]](https://blog.pnas.org/2021/05/gossip-drives-social-bonding-and-helps-people-learn/)
+**Jolly, E.** & Chang, L.J. (2021). Gossip drives vicarious learning and facilitates social connections. *Current Biology,* *31*, 1-11. [[Link]](https://www.sciencedirect.com/science/article/pii/S0960982221004632) [[data & materials]](https://osf.io/c9mdx/)  
+Coverage: [New York Times](https://www.nytimes.com/2021/05/28/style/gossip-a-bit.html), [VPR News](https://www.vpr.org/vpr-news/2021-05-13/gossips-good-side-dartmouth-researcher-finds-sharing-it-aids-learning-boosts-cooperation#stream/0), [PNAS Journal Club](https://blog.pnas.org/2021/05/gossip-drives-social-bonding-and-helps-people-learn/)
 
 Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A. & Manning, J.R. (2021). Endogenous variation in ventromedial prefrontal cortex state dynamics during naturalistic viewing reflects affective experience. *Science Advances,* *7(17)*, 1-17. [[Link]](https://doi.org/10.1126/sciadv.abf7129) [[data & materials]](https://github.com/cosanlab/vmPFC_dynamics)
 
