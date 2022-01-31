@@ -339,6 +339,11 @@ Mind Perception (ad-hoc workshop)
 
 ## Mentorship
 
+`2021-2022`  
+Maxwell Ranger '22  
+Honors Thesis  
+*Dartmouth College*
+
 `2017-2021`  
 Maryam Iqbal ’21  
 Presidential Scholar/Honors Thesis  
@@ -406,9 +411,13 @@ Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognit
 *ad-hoc*: Nature Communications, SIGCHI, Frontiers in Psych, JPSP 
 
 __Society Memberships__  
-Social and Affective Neuroscience Society, Society for Affective Science, Organization for Human Brain Mapping, Cognitive Neuroscience Society
+Social and Affective Neuroscience Society, Society for Affective Science, Organization for Human Brain Mapping, Cognitive Neuroscience Society, Society for Personality and Social Psychology
 
 ## Leadership & Community  
+
+`2022-Present`  
+[Py-feat](https://py-feat.org/)  
+__Core Contributor__, Open Source Software
 
 `2020-Present`  
 [Neighbors](https://cosanlab.github.io/neighbors)  
@@ -495,6 +504,6 @@ jmmoran77@gmail.com
 
 __
 
-Last updated: October 2021
+Last updated: January 2022
 
 

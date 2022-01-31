@@ -10,7 +10,7 @@
 
 ### Under review/revision
 
-**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D. & Chang, L.J. (under review). Recovering individual emotional states from sparse ratings using collaborative filtering. [[arXiv preprint]](https://arxiv.org/abs/2109.06906) [[toolbox]](https://cosanlab.github.io/neighbors/)
+**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D. & Chang, L.J. (under revision). Recovering individual emotional states from sparse ratings using collaborative filtering. [[arXiv preprint]](https://arxiv.org/abs/2109.06906) [[toolbox]](https://cosanlab.github.io/neighbors/)
 
 Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision). The hidden cost of receiving favors: A theory of indebtedness. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
 
