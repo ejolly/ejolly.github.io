@@ -4,6 +4,13 @@ layout: page
 ---
 <asciinema-player src="/assets/ascii/software.json" width="200" rows="6"  autoplay="1" font-size="1.05em" speed="6"></asciinema-player>
 
+**Py-Feat**
+
+>Python toolbox for facial expression analysis.  
+>[Github](https://github.com/cosanlab/py-feat) |  [Docs](https://py-feat.org)  |  [Slides](https://ejolly-py-feat.surge.sh/)   
+[![arXiv](https://img.shields.io/badge/arXiv-2104.03509-red.svg)](https://arxiv.org/abs/2104.03509)  
+[![Downloads](https://pepy.tech/badge/py-feat)](https://pepy.tech/project/py-feat)
+
 **Neighbors**
 
 >A Python package for using collaborative filtering to predict affective responses from sparse data.  

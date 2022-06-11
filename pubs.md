@@ -1,14 +1,19 @@
 ### In Prep
 
-**Jolly, E.** (in prep). SvelteTurk: An open-source graphical application to simplify data collection via Amazon Mechanical Turk. [[documentation site]](https://eshinjolly.com/svelteturk)
+**Jolly, E.**, Ranger, M.S. & Chang, L.J. (in prep). The neural basis of guilt diffusion in interpersonal harm-minimization.
 
 **Jolly, E.**, Chang, L.J. (in prep). Social cognitive maps: Encoding and reinstatement of neural patterns that reflect beliefs about social relationships.  
 
 **Jolly, E.**, Cheong, J.C. & Chang, L.J. (in prep). Social relationships not impression formation: Comparing neural models of the social brain during naturalistic neuroimaging.
 
+**Jolly, E.** (in prep). SvelteTurk: An open-source graphical application to simplify data collection via Amazon Mechanical Turk. [[documentation site]](https://eshinjolly.com/svelteturk)
+
 **Jolly, E.**, Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Guilt-aversion motivates harm-minimization in surrogate decision-making.
 
 ### Under review/revision
+
+**Jolly, E.**\*, Cheong, J.H.\*, Xie, T. Byrne, S. Kenny, M. & Change, L.J. (under revision). Py-Feat: Python Facial Expression Analysis Toolbox. [arXiv preprint](https://arxiv.org/abs/2104.03509) [[toolbox]](https://py-feat.org/)  
+\*Equal contribution
 
 **Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D. & Chang, L.J. (under revision). Recovering individual emotional states from sparse ratings using collaborative filtering. [[arXiv preprint]](https://arxiv.org/abs/2109.06906) [[toolbox]](https://cosanlab.github.io/neighbors/)
 
