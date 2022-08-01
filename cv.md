@@ -58,6 +58,20 @@ __University of Rochester__, Rochester, NY
 
 
 ## Employment  
+`2021-`
+__Scientific Advisor__  
+[*Parsnip.ai*](https://www.parsnip.ai/)  
+
+- Food and Ed-tech startup
+
+
+`2020-2021`
+__Co-Founder & CTO__  
+[*Parsnip.ai*](https://www.parsnip.ai/)  
+
+- Food and Ed-tech startup
+
+
 `summer 2016`
 __PhD Research Intern__  
 *Microsoft Research*, New York City, NY
@@ -71,6 +85,18 @@ __Lab Manager__
 *Harvard University*, Cambridge, MA
 
 - PI: Jason P. Mitchell  
+
+## Funding
+`2019-`  
+__Co-PI__  
+*National Science Foundation*, Career Award 1848370 ($886,457, Co-PI: Luke Chang)  
+Neural and computational basis of guilt in decision-making
+
+
+`2013-2016`  
+__Fellow__    
+*National Science Foundation*, Graduate Research Fellowship ($90,000)  
+Uncovering the represention of self: A multivariate approach
 
 ## Research Experience  
 `2009-2010`
@@ -97,8 +123,19 @@ __Mt Hope Family Center, University of Rochester__, Rochester, NY
 
 ## Talks & Presentations 
 
+`2022`  
+*Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts*.  
+Syposium talk at International Society for Research on Emotion, USC, Los Angeles, CA.
+
+*Emotion and Social Perception in Naturalistic Contexts: Perspectives from Affective Computing and Affective Neuroscience*.  
+Syposium organizer at International Society for Research on Emotion, USC, Los Angeles, CA.
+
+[*Introduction to Facial Expression Analysis with Py-Feat*.](https://ejolly-py-feat.surge.sh/)    
+Talk at Center for Interacting Minds, Dartmouth College, Hanover, NH.
+
+
 `2020`  
-*Social Cognitive Maps: A Relational Account of Person Representation and Memory.*  
+*Social Cognitive Maps: A Relational Account of Person Representation and Memory*.  
 Invited talk at Harvard University, Cambridge, MA. 
 
 *Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn*.  
@@ -229,63 +266,92 @@ Poster at the Annual Meeting of the Association for Psychological Science, Bosto
 
 ## Awards
 
+`2022`  
+Complex Systems Summer School (CSSS)  
+*Santa Fe Institute*
+
 `2021`  
 Mistletoe Research Fellowship finalist  
+*Dartmouth College*
 
 `2020`  
-Scientific Computing with Python Scholarship Award
+Scientific Computing with Python Scholarship Award  
+*Scipy*
 
-Social Affective Neuroscience Society Poster Award
+Poster Award  
+*SANS*
 
 `2019`  
-Kavli Summer Institute in Cognitive Neuroscience
+Kavli Summer Institute in Cognitive Neuroscience  
+*UC Santa Barbara*
 
-Dartmouth Thayer Consulting Case Competition 1st Place
+Thayer Consulting Case Competition 1st Place  
+*Thayer School of Engineering, Dartmouth College*
 
-Hack Dartmouth Finalist
+Hack Dartmouth Finalist  
+*Dartmouth College*
 
 `2018`  
-Hack Dartmouth Best Community Hack
+Hack Dartmouth Best Community Hack  
+*Dartmouth College*
 
-Sao Paulo Summer School on Social and Affective Neuroscience (SPSAN)
+Sao Paulo Summer School on Social and Affective Neuroscience (SPSAN)  
+*Mackenzie Presbyterian University, Sao Paulo*
 
-Dartmouth Graduate Arts and Science Travel Award
+Graduate Arts and Science Travel Award  
+*Dartmouth College*
 
-Dartmouth PBS Graduate Travel Award
+PBS Graduate Travel Award  
+*Dartmouth College*
 
-Neukom Institute Travel Award
+Neukom Institute Travel Award  
+*Dartmouth College*
 
 `2017`  
-Dartmouth Graduate Alumni Research Award
+Graduate Alumni Research Award  
+*Dartmouth College*
 
-Dartmouth PBS Graduate Travel Award
+PBS Graduate Travel Award  
+*Dartmouth College*
 
-Methods in Neuroscience Computational Summer School
+Methods in Neuroscience Computational Summer School  
+*Dartmouth College*
 
-Summer School in Social Neuroscience and Neuroeconomics
+Summer School in Social Neuroscience and Neuroeconomics  
+*Duke University*
 
-Social Affective Neuroscience Society Trainee Data Blitz Award
+Social Affective Neuroscience Society Trainee Data Blitz Award  
+*SANS*
 
-Human Neuroimaging Methods Travel Award
+Human Neuroimaging Methods Travel Award  
+*OHBM*
 
 `2016`  
-Hack Dartmouth 2nd Place project award
+Hack Dartmouth 2nd Place project award  
+*Dartmouth College*
 
-Neurohackweek Summer School
+Neurohackweek Summer School  
+*University of Washington eScience Institute*
+
 
 `2015`  
-Social Affective Neuroscience Society Poster Award
+Social Affective Neuroscience Society Poster Award  
+*SANS*
 
-Dartmouth PBS Graduate Travel Award
+PBS Graduate Travel Award  
+*Dartmouth College*
 
 `2013-2016`  
-National Science Foundation Graduate Research Fellowship
+National Science Foundation Graduate Research Fellowship  
+*Dartmouth College*
 
 `2010`  
-University of Rochester BCS Dept: Highest Honors in research
+BCS Dept: Highest Honors in research  
+*University of Rochester*
 
 `2006-2010`  
-University of Rochester Wilde-Trustee Scholarship
+Wilder-Trustee Scholarship  
+*University of Rochester*
 
 ## Teaching
 
@@ -407,7 +473,7 @@ Git/Github, TravisCI, Tox, Pytest, Moab-Torque
 ## Professional Activities
 
 __Reviewer__  
-Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognition and Emotion, JESP, PLoS One, GigaScience   
+Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognition and Emotion, JESP, PLoS One, GigaScience, JOSS     
 *ad-hoc*: Nature Communications, SIGCHI, Frontiers in Psych, JPSP 
 
 __Society Memberships__  
@@ -417,11 +483,11 @@ Social and Affective Neuroscience Society, Society for Affective Science, Organi
 
 `2022-Present`  
 [Py-feat](https://py-feat.org/)  
-__Core Contributor__, Open Source Software
+__Core Developer__, Open Source Software
 
 `2020-Present`  
 [Neighbors](https://cosanlab.github.io/neighbors)  
-__Core Maintainer__, Open Source Software
+__Core Developer__, Open Source Software
 
 [SvelteTurk](https://eshinjolly.com/svelteturk)  
 __Project Author__, Open Source Software 
@@ -442,7 +508,7 @@ __Freelance Software Developer__
 
 `2016-Present`  
 [Nltools](https://nltools.org)    
-__Core Maintainer__, Open Source Software
+__Core Developer__, Open Source Software
 
 Introductory data analysis with Python  
 __Private Tutor__  
@@ -470,40 +536,8 @@ __Primary Organizer__, Dartmouth College
 Social Area Graduate Student Representative  
 __Graduate Representative__, Dartmouth College
 
-<!-- ## References
-
-__Luke J. Chang__  
-Dept of Psychological and Brain Sciences  
-Dartmouth College  
-luke.j.chang@dartmouth.edu  
-(603) 646 2056
-
-__Thalia P. Wheatley__  
-Dept of Psychological and Brain Sciences  
-Dartmouth College  
-thalia.p.wheatley@dartmouth.edu  
-(603) 646 0769
-
-__Diana I. Tamir__  
-Dept of Psychology  
-Princeton University  
-dtamir@princeton.edu  
-(609) 258 7845 
-
-__Jason P. Mitchell__  
-Dept of Psychology  
-Harvard University  
-jason_mitchell@harvard.edu  
-(617) 384 5875  
-
-__Joe M. Moran__  
-Senior UX Research Manager  
-Rapid7  
-jmmoran77@gmail.com  
-(603) 318 6897 -->
-
 __
 
-Last updated: January 2022
+Last updated: August 2022
 
 
