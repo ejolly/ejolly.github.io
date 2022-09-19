@@ -21,8 +21,8 @@ eshin.jolly@gmail.com
 
 `2019-`
 __Postdoctoral Fellow__  
-Center for Cognitive Neuroscience  
 Center for Interacting Minds  
+Center for Cognitive Neuroscience  
 [Cosan Lab](https://www.cosanlab.com), *Dartmouth College*, Hanover, NH
 
 - PI: Luke J. Chang
@@ -121,95 +121,120 @@ __Mt Hope Family Center, University of Rochester__, Rochester, NY
 
 {% include_relative pubs.md %}
 
+## Open Scientific Software  
+
+`2022-Present`  
+[Py-feat](https://py-feat.org/)   
+__Core Developer__, [[Documentation]](https://py-feat.org) [[Slides]](https://ejolly-py-feat.surge.sh/) [[Github]](https://github.com/cosanlab/py-feat)  
+[![Downloads](https://pepy.tech/badge/py-feat)](https://pepy.tech/project/py-feat)
+
+`2020-Present`  
+[Neighbors](https://neighbors.cosanlab.com)  
+__Core Developer__, [[Documentation]](https://cosanlab.github.io/neighbors) [[Github]](https://github.com/cosanlab/neighbors)  
+[![Downloads](https://pepy.tech/badge/neighbors)](https://pepy.tech/project/neighbors)
+
+[SvelteTurk](https://eshinjolly.com/svelteturk)  
+__Project Author__, [[Documentation]](https://eshinjolly.com/svelteturk) [[Github]](https://github.com/ejolly/svelte-turk)
+
+`2017-Present`  
+[Pymer4](https://eshinjolly.com/pymer4/)  
+__Project Author__, [[Documentation]](https://eshinjolly.com/pymer4/) [[Github]](https://github.com/ejolly/pymer4)  
+[![Downloads](https://pepy.tech/badge/pymer4)](https://pepy.tech/project/pymer4)
+
+`2016-Present`  
+[Nltools](https://nltools.org)    
+__Core Developer__, [[Documentation]](https://nltools.org/) [[Video Talk]](https://youtu.be/1c1AnXLs7xM) [[Github]](https://github.com/cosanlab/nltools)  
+[![Downloads](https://pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
+
 ## Talks & Presentations 
 
 `2022`  
-*Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts*.  
-Syposium talk at International Society for Research on Emotion, USC, Los Angeles, CA.
+Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
+*Syposium talk at International Society for Research on Emotion, USC, Los Angeles, CA.*
 
-*Emotion and Social Perception in Naturalistic Contexts: Perspectives from Affective Computing and Affective Neuroscience*.  
-Syposium organizer at International Society for Research on Emotion, USC, Los Angeles, CA.
+Emotion and Social Perception in Naturalistic Contexts: Perspectives from Affective Computing and Affective Neuroscience.  
+*Syposium organizer at International Society for Research on Emotion, USC, Los Angeles, CA.*
 
-[*Introduction to Facial Expression Analysis with Py-Feat*.](https://ejolly-py-feat.surge.sh/)    
-Talk at Center for Interacting Minds, Dartmouth College, Hanover, NH.
+Introduction to Facial Expression Analysis with Py-Feat. [[Slides]](https://ejolly-py-feat.surge.sh/)    
+*Talk at Center for Interacting Minds, Dartmouth College, Hanover, NH.*
 
 
 `2020`  
-*Social Cognitive Maps: A Relational Account of Person Representation and Memory*.  
-Invited talk at Harvard University, Cambridge, MA. 
+Social Cognitive Maps: A Relational Account of Person Representation and Memory.  
+*Invited talk at Harvard University, Cambridge, MA.* 
 
-*Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn*.  
-Symposium talk at Scientific Computing with Python Virtual conference ([virtual talk](https://youtu.be/1c1AnXLs7xM)).
+Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn. [[Video]](https://youtu.be/1c1AnXLs7xM)  
+*Symposium talk at Scientific Computing with Python Virtual conference.*
 
-*Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts*.  
-Symposium talk at Society for Affective Science, San Francisco, CA. (conference cancelled). 
+Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
+*Symposium talk at Society for Affective Science, San Francisco, CA. (conference cancelled).* 
 
-*Methodological challenges in contemporary fMRI studies*.  
-Invited talk at Neuroimaging Analysis Methods meeting, Princeton University, Princeton, NJ.
+Methodological challenges in contemporary fMRI studies.  
+*Invited talk at Neuroimaging Analysis Methods meeting, Princeton University, Princeton, NJ.*
 
 `2019`  
-*Introduction to Git and Github*.  
-Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.  
+Introduction to Git and Github.  
+*Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.*  
 
 `2018`  
-*Introduction to Git and Github*.  
-Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.
+Introduction to Git and Github.  
+*Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.*
 
-*Introduction to Jupyter Notebooks for Interactive Data Analysis*.  
-Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.
+Introduction to Jupyter Notebooks for Interactive Data Analysis.  
+*Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.*
 
-*Introduction to functional alignment methods for fMRI*.  
-Lecture at Sao Paulo School of Advanced Science on Social and Affective Neuroscience. Sao Paulo, Brazil.
+Introduction to functional alignment methods for fMRI.  
+*Lecture at Sao Paulo School of Advanced Science on Social and Affective Neuroscience. Sao Paulo, Brazil.*
 
 `2017`  
-*Naturalistic approaches towards an understanding of social reasoning and communication.*  
-Invited talk, Stanford University, Stanford, CA.
+Naturalistic approaches towards an understanding of social reasoning and communication.  
+*Invited talk, Stanford University, Stanford, CA.*
 
-*The Social Benefits of Gossip*  
-Presentation at the New England Research on Decision-Making conference, Brown University, Providence, RI.
+The social benefits of gossip  
+*Presentation at the New England Research on Decision-Making conference, Brown University, Providence, RI.*
 
-*Computational tools for neuroscience: Containers and Jupyter Notebooks*.  
-Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.
+Computational tools for neuroscience: Containers and jupyter notebooks.  
+*Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.*
 
-*Introduction to Singularity: Running containers on a HPC*.  
-Tutorial at Graduate research roundtable workshop, Dartmouth College, Hanover, NH.
+Introduction to Singularity: Running containers on a HPC.  
+*Tutorial at Graduate research roundtable workshop, Dartmouth College, Hanover, NH.*
 
-*Introduction to git and github for psychologists*.  
-Presentation at the Reproducible Psychological Science workshop at the Annual Meeting for the Association for Psychological Science, Boston, MA. 
+Introduction to Git and Github for psychologists.  
+*Presentation at the Reproducible Psychological Science workshop at the Annual Meeting for the Association for Psychological Science, Boston, MA.* 
 
-*Interpersonal dynamics and the inelasticity of social guilt*.  
-Presentation at the Boston Area Moral Cognition Group, Boston, MA.
+Interpersonal dynamics and the inelasticity of social guilt.  
+*Presentation at the Boston Area Moral Cognition Group, Boston, MA.*
 
-*Interpersonal dynamics and the inelasticity of social guilt*.  
-Presentation at Affectiva, Boston, MA.
+Interpersonal dynamics and the inelasticity of social guilt.  
+*Presentation at Affectiva, Boston, MA.*
 
-*Spontaneous impression-formation about parasocial relationships*.  
-Presentation at the Annual Meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.
+Spontaneous impression-formation about parasocial relationships.  
+*Presentation at the Annual Meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.*
 
-*Introduction to Jupyter Notebooks (and why you should love them!)*.  
-Tutorial at Brainhack Dartmouth College, Hanover, N.H.
+Introduction to Jupyter notebooks (and why you should love them!).  
+*Tutorial at Brainhack Dartmouth College, Hanover, NH*
 
-*Research Methods for Conducting Synchronous Online Experiments*.  
-Guest Lecture at Dartmouth College, Hanover, NH.
+Research Methods for Conducting Synchronous Online Experiments.  
+*Guest Lecture at Dartmouth College, Hanover, NH.*
 
-*Contemporary fMRI pre-processing: Introduction to Nipype and Docker*.  
-Tutorial at Dartmouth College, Hanover, NH.
+Contemporary fMRI pre-processing: Introduction to Nipype and Docker.  
+*Tutorial at Dartmouth College, Hanover, NH.*
 
-*State of the Data: Annual Dartmouth Brain Imaging Center Quality Assurance Report*.  
-Presentation at Dartmouth College, Hanover, NH.
+State of the Data: Annual Dartmouth Brain Imaging Center Quality Assurance Report.  
+*Presentation at Dartmouth College, Hanover, NH.*
 
 `2016`  
-*Field experiments on human prosociality using Mechanical Turk*.  
-Presentation at Microsoft Research, New York, NY.
+Field experiments on human prosociality using Mechanical Turk.  
+*Presentation at Microsoft Research, New York, NY.*
 
-*Research Methods for Conducting Synchronous Online Experiments*.  
-Guest Lecture at Dartmouth College, Hanover, NH.
+Research Methods for Conducting Synchronous Online Experiments.  
+*Guest Lecture at Dartmouth College, Hanover, NH.*
 
-*The Social Benefits of Gossip*.  
-Guest Lecture at Dartmouth College, Hanover, NH. 
+The Social Benefits of Gossip.  
+*Guest Lecture at Dartmouth College, Hanover, NH.*
 
-*The Social Benefits of Gossip*.  
-Presentation at the Social Brain Sciences Brown Bag series at Dartmouth College, NH.
+The Social Benefits of Gossip.  
+*Presentation at the Social Brain Sciences Brown Bag series at Dartmouth College, NH.*
 
 ## Posters & Conference Proceedings
 
@@ -370,30 +395,30 @@ Methods in Neuroscience Computational Summer School (TA)
 Methods in Neuroscience Computational Summer School (TA)  
 *Dartmouth College*
 
-Experimental Study of Social Behavior (Guest Lecturer)  
+Online research methods for the experimental study of social behavior (Guest Lecturer)  
 *Dartmouth College*
 
 `2016`  
-Experimental Study of Social Behavior (Guest Lecturer)  
+Online research methods for the experimental study of social behavior (Guest Lecturer)  
 *Dartmouth College*
 
 Social Psychology (Guest Lecturer)  
 *Dartmouth College*
 
 `2015`  
-Brain Mapping with functional MRI (TA and Guest Lecturer)  
+Brain Mapping with functional MRI (TA and Lecturer)  
 *Dartmouth College*
 
-Laboratory in Psychological Science* (TA and Guest Lecturer)  
+Laboratory in Psychological Science* (TA and Lecturer)  
  \*Mentored award winning undergraduate group  
 *Dartmouth College*
 
 `2014`  
-Experimental Design and Methodology (TA and Guest Lecturer)  
+Experimental Design and Methodology (TA and Lecturer)  
 *Dartmouth College*
 
 `2013`  
-Laboratory in Psychological Science (TA and Guest Lecturer)  
+Laboratory in Psychological Science (TA and Lecturer)  
 *Dartmouth College*
 
 `2011`  
@@ -470,6 +495,7 @@ Seaborn/Matplotlib, D3, Dash/Plotly, ggplot
 __Dev Ops__  
 Git/Github, TravisCI, Tox, Pytest, Moab-Torque  
 
+
 ## Professional Activities
 
 __Reviewer__  
@@ -479,65 +505,62 @@ Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognit
 __Society Memberships__  
 Social and Affective Neuroscience Society, Society for Affective Science, Organization for Human Brain Mapping, Cognitive Neuroscience Society, Society for Personality and Social Psychology
 
+
 ## Leadership & Community  
 
-`2022-Present`  
-[Py-feat](https://py-feat.org/)  
-__Core Developer__, Open Source Software
+`2022-`  
+__Technical Lead__  
+[Rural Internet Project](https://codeforuv.org/)  
+*[Code for Upper Valley (Local C4A Brigade)](https://codeforuv.org), Bradford, VT*  
 
-`2020-Present`  
-[Neighbors](https://cosanlab.github.io/neighbors)  
-__Core Developer__, Open Source Software
-
-[SvelteTurk](https://eshinjolly.com/svelteturk)  
-__Project Author__, Open Source Software 
-
-`2019-Present`  
+`2019-2022`  
+__Committee Member__    
 [Inclusivity, Diversity, and Culture Advisory Committee](https://pbs.dartmouth.edu/our-commitment-diversity)  
-__Member__, Dartmouth College  
+*Dartmouth College, Hanover, NH*  
 
-[Code for America](https://codeforuv.org/)   
-__Project Manager__, Code for Upper Valley Brigade
+__Project Manager__  
+[Rural Internet Project](https://codeforuv.org/)  
+*[Code for Upper Valley (Local C4A Brigade)](https://codeforuv.org), Bradford, VT*  
 
-`2017-Present`  
-[Pymer4](https://eshinjolly.com/pymer4/)  
-__Project Author__, Open Source Software
-
-Web and Desktop Application Development  
-__Freelance Software Developer__  
-
-`2016-Present`  
-[Nltools](https://nltools.org)    
-__Core Developer__, Open Source Software
-
-Introductory data analysis with Python  
-__Private Tutor__  
+`2018-2020`  
+__VP of Client Outreach__  
+*[Dartmouth Graduate Consulting Group](https://sites.dartmouth.edu/dgcg/), Hanover, NH*  
 
 `2020-2021`  
-[Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/)  
-__Board Member__, Dartmouth College  
+__Board Member__  
+*[Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/), Hanover NH*  
 
 `2017-2020`  
+__Co-Founder__  
 [Line@ Project](https://lineatkaf.com/)  
-__Co-Founder__, Dartmouth College
+*Dartmouth College, Hanover, NH*
 
 `2017`  
-Dartmouth Brainhack  
-__Organizing committee member__, Dartmouth College
+__Organizing committee member__  
+*Dartmouth Brainhack, Hanover, NH*    
 
 `2014`  
+__Station Leader__  
 GWISE Science day for local middle schools  
-__Station Leader__, Dartmouth College
+*Dartmouth College, Hanover, NH*
 
 `2013-2015`  
+__Primary Organizer__  
 Social Brain Sciences Symposium talk series  
-__Primary Organizer__, Dartmouth College
+*Dartmouth College, Hanover, NH*
 
+__Graduate Representative__  
 Social Area Graduate Student Representative  
-__Graduate Representative__, Dartmouth College
+*Dartmouth College, Hanover, NH*  
 
+`2019-`  
+__Freelance Software Developer__  
+Web and Desktop Application Development  
+
+__Private Tutor__  
+Introductory data analysis with Python  
 __
 
-Last updated: August 2022
+Last updated: September 2022
 
 

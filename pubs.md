@@ -1,10 +1,10 @@
 ### In Prep
 
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z. & Chang, L.J. (in prep). The structure of social memory. 
+
 **Jolly, E.**, Ranger, M.S. & Chang, L.J. (in prep). The neural basis of guilt diffusion in interpersonal harm-minimization.
 
 **Jolly, E.**, Chang, L.J. (in prep). Social cognitive maps: Encoding and reinstatement of neural patterns that reflect beliefs about social relationships.  
-
-**Jolly, E.**, Cheong, J.C. & Chang, L.J. (in prep). Social relationships not impression formation: Comparing neural models of the social brain during naturalistic neuroimaging.
 
 **Jolly, E.** (in prep). SvelteTurk: An open-source graphical application to simplify data collection via Amazon Mechanical Turk. [[documentation site]](https://eshinjolly.com/svelteturk)
 
