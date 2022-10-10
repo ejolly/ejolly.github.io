@@ -85,11 +85,11 @@ show-author: false
 # do you want some animations?
 animation: true
 
-sass:
-    sass_dir: _sass
-    style: :compressed
+# sass:
+#     sass_dir: _sass
+#     style: :compressed
 
-gems:
+plugins:
   - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
@@ -97,6 +97,10 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-postcss
+
+postcss:
+  cache: false
 
 jekyll-mentions:
     base_url: https://github.com

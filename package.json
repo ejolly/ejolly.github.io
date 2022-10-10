@@ -1,0 +1,26 @@
+{
+  "name": "indigo",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sergiokopplin/indigo#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergiokopplin/indigo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiokopplin/indigo.git"
+  },
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "dev": "bundle exec jekyll serve --livereload",
+    "test": "bundle exec htmlproofer ./_site"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.12",
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.17",
+    "postcss-import": "^15.0.0",
+    "tailwindcss": "^3.1.8"
+  }
+}
