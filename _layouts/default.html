@@ -30,12 +30,12 @@ layout: compress
 </head>
 <body>
 
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+    <div class="body-container">
         {% if page.tag %}
             <div class="post">
         {% else %}
             {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
+                <div class="mt-32 {{ page.title | downcase }}">
             {% else %}
                 <div class="{{ page.title | downcase }}">
             {% endif %}
@@ -45,7 +45,7 @@ layout: compress
         </div>
     </div>
 
-    {% include icons.html %}
+    <!-- {% include icons.html %} -->
     {% include statcounter.html %}
 
     {% include mathjax.html %}

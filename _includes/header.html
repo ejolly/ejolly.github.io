@@ -2,11 +2,12 @@
 
 {% if page.title == "Home" %}
   <header class="header-home animated">
-  <h1 class="title">{{ site.name }}</h1>
+  <h1 class="text-4xl font-bold text-center mb-4">{{ site.name }}</h1>
 
   <asciinema-player src="/assets/ascii/banner_postdoc.json" width="100" rows="2" cols="43" loop="1" autoplay="1" speed="5" font-size="1.01em"></asciinema-player>
 
-  <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+  <img class="rounded-full" alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
+  
   </a>
   {% include social-links.html %}
 
