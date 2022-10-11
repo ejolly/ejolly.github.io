@@ -53,6 +53,9 @@
   .divider {
     @apply h-[1px] w-1/2 mx-auto mb-4 bg-black;
   }
+  .photo-sm {
+    @apply hover:opacity-80; 
+  }
   /*  */
 
   /* social-links.html */
