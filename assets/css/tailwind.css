@@ -16,17 +16,25 @@
 @layer components {
 
     /* default.html */
-    .body-container {
-        @apply max-w-[90rem] mx-auto p-6;
+    .body {
+        @apply flex flex-col h-screen justify-between max-w-[90rem] mx-auto p-6;
     }
-    .headerless-page-wrapper {
-        @apply mt-28;
+    .page {
+        @apply mb-auto;
+    }
+
+    /* footer.html */
+    .footer {
+        @apply flex flex-col sm:flex-row sm:justify-center sm:space-x-2 items-center border;
     }
     /*  */
 
     /* home.html */
+    .home-container {
+        @apply flex flex-col justify-between gap-y-8 mt-16 sm:mt-28;
+    }
     .h1 {
-        @apply text-5xl text-center font-bold mb-4;
+        @apply text-5xl text-center font-bold;
     }
     .cover-photo-home {
         @apply rounded-[100%] w-full sm:max-w-3xl mx-auto;
@@ -35,14 +43,24 @@
 
     /* social-links.html */
     .links-row {
-        @apply flex flex-row justify-center my-12 gap-x-6;
+        @apply flex flex-row justify-center gap-x-6 border;
     }
     .link {
-        @apply border;
+        @apply hover:fill-blue-400 hover:text-blue-400;
     }
     .icon {
-        @apply h-6 w-6 stroke-current text-black fill-black hover:fill-blue-400 hover:text-blue-400;
+        @apply h-6 w-6 stroke-current text-black fill-black;
     }
     /*  */
+
+    /* nav.html */
+    .nav {
+        @apply text-2xl font-light;
+    }
+    .nav-row {
+        @apply flex flex-wrap justify-center gap-x-6;
+    }
+    /*  */
+
 
 }

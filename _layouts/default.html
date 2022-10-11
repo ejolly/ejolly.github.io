@@ -28,27 +28,18 @@ layout: compress
     {% include analytics-google.html %}
 
 </head>
-<body>
-
-    <div class="body-container">
+<body class="body">
+    <div class="page">
         {% if page.tag %}
             <div class="post">
         {% else %}
-            {% if showHeader != true %}
-                <div class="headerless-page-wrapper {{ page.title | downcase }}">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
-            {% endif %}
+            <div class="{{ page.title | downcase }}">
         {% endif %}
-
             {{ content }}
         </div>
     </div>
-
-    <!-- {% include icons.html %} -->
+    {% include footer.html %}
     {% include statcounter.html %}
-
     {% include mathjax.html %}
-
 </body>
 </html>
