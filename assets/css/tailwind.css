@@ -14,53 +14,71 @@
 */
 
 @layer components {
+  /* default.html */
+  .body {
+    @apply flex flex-col h-screen justify-between max-w-[90rem] mx-auto p-6;
+  }
+  .page {
+    @apply mb-auto;
+  }
 
-    /* default.html */
-    .body {
-        @apply flex flex-col h-screen justify-between max-w-[90rem] mx-auto p-6;
-    }
-    .page {
-        @apply mb-auto;
-    }
+  /* footer.html */
+  .footer {
+    @apply text-gray-400 pb-2;
+  }
+  .footer-divider {
+    @apply h-[1px] w-1/2 mx-auto mb-4;
+  }
+  /*  */
 
-    /* footer.html */
-    .footer {
-        @apply flex flex-col sm:flex-row sm:justify-center sm:space-x-2 items-center border;
-    }
-    /*  */
+  /* home.html */
+  .home-container {
+    @apply flex flex-col justify-between gap-y-8 mt-16 sm:mt-28;
+  }
+  .h1 {
+    @apply text-5xl text-center font-bold;
+  }
+  .cover-photo {
+    @apply rounded-[100%];
+  }
+  .photo-lg {
+    @apply sm:max-w-3xl mx-auto;
+  }
+  /*  */
 
-    /* home.html */
-    .home-container {
-        @apply flex flex-col justify-between gap-y-8 mt-16 sm:mt-28;
-    }
-    .h1 {
-        @apply text-5xl text-center font-bold;
-    }
-    .cover-photo-home {
-        @apply rounded-[100%] w-full sm:max-w-3xl mx-auto;
-    }
-    /*  */
+  /* header.html */
+  .header-container {
+    @apply flex flex-col mt-16 gap-y-8;
+  }
+  .divider {
+    @apply h-[1px] w-1/2 mx-auto mb-8 bg-black;
+  }
+  /*  */
 
-    /* social-links.html */
-    .links-row {
-        @apply flex flex-row justify-center gap-x-6 border;
-    }
-    .link {
-        @apply hover:fill-blue-400 hover:text-blue-400;
-    }
-    .icon {
-        @apply h-6 w-6 stroke-current text-black fill-black;
-    }
-    /*  */
+  /* social-links.html */
+  .links-row {
+    @apply flex flex-row justify-center gap-x-6;
+  }
+  .link {
+    @apply hover:fill-blue-400 hover:text-blue-400;
+  }
+  .icon {
+    @apply h-5 w-5 sm:h-6 sm:w-6 stroke-current text-black fill-black;
+  }
+  /*  */
 
-    /* nav.html */
-    .nav {
-        @apply text-2xl font-light;
-    }
-    .nav-row {
-        @apply flex flex-wrap justify-center gap-x-6;
-    }
-    /*  */
+  /* nav.html */
+  .nav {
+    @apply font-light text-xl sm:text-2xl;
+  }
+  .nav-row {
+    @apply flex flex-wrap justify-center gap-x-6;
+  }
+  /*  */
 
-
+  /* page.html */
+  .content {
+    @apply mx-auto prose sm:prose-lg prose-a:text-sky-500 hover:prose-a:underline hover:prose-a:decoration-dotted prose-a:no-underline hover:prose-a:underline-offset-4 hover:prose-a:text-rose-500;
+  }
+  /*  */
 }
