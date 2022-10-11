@@ -35,7 +35,7 @@ layout: compress
             <div class="post">
         {% else %}
             {% if showHeader != true %}
-                <div class="mt-32 {{ page.title | downcase }}">
+                <div class="headerless-page-wrapper {{ page.title | downcase }}">
             {% else %}
                 <div class="{{ page.title | downcase }}">
             {% endif %}
