@@ -11,7 +11,6 @@ external-image: false
 picture: assets/slices.png
 
 url: https://eshinjolly.com
-# your url: http://USERNAME.github.io
 
 permalink: pretty
 
@@ -24,9 +23,6 @@ style: cv
 # To enable google analytics, supply your token below
 analytics-google: 'UA-68163011-2'
 
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
 disqus: false
@@ -34,29 +30,10 @@ disqus: false
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
 twitter: Eshjolly
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
 linkedin: eshin-jolly-phd-164863a1
-#youtube: myyoutube
-#spotify: myspotify
 github: ejolly
-#stackoverflow: 7044681/mystackoverflow
-#quora: userquora
-#reddit: username
-#medium: medium
-#vimeo: myvimeo
 email: eshin.jolly@gmail.com
 cv: /assets/pdfs/JollyCV.pdf
-
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: large
-
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
 
 projects: false
 about: true
@@ -65,7 +42,6 @@ pubs: true
 music: true
 research: true
 software: true
-#cv: true
 
 # do you want to show the "read time" of the posts?
 read-time: false
@@ -84,10 +60,6 @@ show-author: false
 
 # do you want some animations?
 animation: true
-
-# sass:
-#     sass_dir: _sass
-#     style: :compressed
 
 plugins:
   - jemoji
