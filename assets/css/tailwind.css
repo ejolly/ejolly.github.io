@@ -103,7 +103,16 @@
     @apply mb-2 group-hover:text-rose-500/50 text-base sm:text-lg;
   }
   .post-date {
-    @apply text-sm text-gray-400 group-hover:text-rose-500/50;;
+    @apply text-sm text-gray-400 group-hover:text-rose-500/50;
   }
   /*  */
+  /* post.html */
+  .tag {
+    @apply text-sm italic;
+  }
+  .tag::before {
+    content: '#';
+  }
+  /*  */
+
 }
