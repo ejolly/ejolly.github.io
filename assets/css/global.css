@@ -1,0 +1,11 @@
+  /* Need this for styling the search bar in publications.md That's cause the file is
+  already converted to HTML and thus isn't accessible to tailwind's compiler */
+  #search {
+    display: inline;
+    margin-left: 1rem;
+    padding: 0 1rem 0 1rem;
+    background: #f1f5f9;
+    border: solid 1px #0f172a;
+    border-radius: 0.5rem;
+    outline-width: 0px;
+  }
