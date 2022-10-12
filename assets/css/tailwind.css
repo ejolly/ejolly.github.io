@@ -80,6 +80,9 @@
   .link {
     @apply hover:fill-blue-400 hover:text-blue-400;
   }
+  .link-red {
+    @apply hover:fill-rose-400 hover:text-rose-400;
+  }
   .icon {
     @apply h-5 w-5 sm:h-6 sm:w-6 stroke-current text-black fill-black;
   }
