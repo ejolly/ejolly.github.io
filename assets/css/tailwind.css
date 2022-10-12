@@ -14,6 +14,21 @@
 */
 
 @layer components {
+  /* Globals */
+  h1 {
+    @apply text-3xl sm:text-4xl !important;
+  }
+  figure > img {
+    @apply w-1/2 mx-auto;
+  }
+  figure > figcaption {
+    @apply text-sm italic text-center !important;
+  }
+  p > img {
+    @apply mx-auto;
+  }
+  /*  */
+
   /* default.html */
   .body {
     @apply flex flex-col h-screen justify-between max-w-[90rem] mx-auto p-6;
@@ -54,7 +69,7 @@
     @apply h-[1px] w-1/2 mx-auto mb-4 bg-black;
   }
   .photo-sm {
-    @apply hover:opacity-80; 
+    @apply hover:opacity-80;
   }
   /*  */
 
@@ -81,10 +96,9 @@
 
   /* page.html */
   .content {
-    @apply mx-auto prose sm:prose-lg md:max-w-[75ch] prose-a:text-sky-500 hover:prose-a:underline hover:prose-a:decoration-dotted prose-a:no-underline hover:prose-a:underline-offset-4 hover:prose-a:text-rose-500;
+    @apply mx-auto prose sm:prose-lg sm:max-w-[70ch] prose-a:text-sky-500 hover:prose-a:underline hover:prose-a:decoration-dotted prose-a:no-underline hover:prose-a:underline-offset-4 hover:prose-a:text-rose-500;
   }
   /*  */
-
 
   /* blog.html */
   .post-list-wrapper {
@@ -97,10 +111,10 @@
     @apply px-1 sm:px-6;
   }
   .post-title {
-    @apply text-xl sm:text-2xl font-bold mb-2 group-hover:text-rose-500/50;
+    @apply text-xl sm:text-2xl font-bold mb-2 group-hover:text-rose-500/90;
   }
   .post-description {
-    @apply mb-2 group-hover:text-rose-500/50 text-base sm:text-lg;
+    @apply mb-2 group-hover:text-rose-500/75 text-base sm:text-lg;
   }
   .post-date {
     @apply text-sm text-gray-400 group-hover:text-rose-500/50;
@@ -111,8 +125,7 @@
     @apply text-sm italic;
   }
   .tag::before {
-    content: '#';
+    content: "#";
   }
   /*  */
-
 }

@@ -66,4 +66,4 @@ Notify a remote repository owner you would like them to review+incorporate your 
 ![pull request](/assets/example_command_gifs/pullrequest.gif)
 
 ---
-<iframe src="https://www.youtube.com/embed/0DGCnBZBoc0" width="600" height="400"></iframe>
+<iframe class="mx-auto" src="https://www.youtube.com/embed/0DGCnBZBoc0" width="600" height="400"></iframe>

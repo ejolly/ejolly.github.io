@@ -15,4 +15,4 @@ I worked as part of a multi-group project that (broadly speaking) was trying  to
 
 Here's a really quick talk I gave on the final day of the week, briefly explaining what we managed to accomplish:
 
-<iframe src="https://www.youtube.com/embed/2LZM0YBV72M?start=2086&end=2436" width="600" height="400"></iframe>
+<iframe class="mx-auto" src="https://www.youtube.com/embed/2LZM0YBV72M?start=2086&end=2436" width="600" height="400"></iframe>

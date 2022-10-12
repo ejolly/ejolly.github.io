@@ -13,12 +13,13 @@ description: The project taketh, but the project also giveth.
 
 *This post is a reflection on my experiences as a grad-student and the unexpected ways that a [recently published project](https://www.sciencedirect.com/science/article/pii/S0960982221004632) impacted my life. I wrote this as a current post-doc looking back, and I have no expectations this will generalize to everyone (or anyone) in similar circumstances, but maybe some folks might it useful or entertaining.*
 
-### The hamster-wheel death-spiral
+## The hamster-wheel death-spiral
 
-<div >
-<img src="https://images.squarespace-cdn.com/content/v1/59bc9a021f318d2ce39268c8/1506233183117-B968XGVTX2WMGDZ7SQ4R/ke17ZwdGBToddI8pDm48kPPJlLwfF1ZKCaao6uPxYBJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k6sq9GEl9ZUDkp1sRKcAyKq73LBCgj7GHSm2wXSrBl1oXcWlnrWoBiy1_RNtaPhhA/101+-+Searching.jpg?format=2500w" class="w-1/2 mx-auto">
-<figcaption class="text-sm italic text-center">Inspecting his fridge for something to eat, the grad student peers into a box as barren as his stomach, heart, and wallet<sup id="algs"><a href="#flgs">*</a></sup></figcaption>
-</div>
+<figure>
+    <img src="https://images.squarespace-cdn.com/content/v1/59bc9a021f318d2ce39268c8/1506233183117-B968XGVTX2WMGDZ7SQ4R/ke17ZwdGBToddI8pDm48kPPJlLwfF1ZKCaao6uPxYBJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k6sq9GEl9ZUDkp1sRKcAyKq73LBCgj7GHSm2wXSrBl1oXcWlnrWoBiy1_RNtaPhhA/101+-+Searching.jpg?format=2500w">
+    <figcaption>Inspecting his fridge for something to eat, the grad student peers into a box as barren as his stomach, heart, and wallet<sup id="algs"><a href="#flgs">*</a></sup></figcaption>
+</figure>
+
 
 You don't have to doom-scroll for long on Twitter to get a sense for how graduate school (and academia writ large) can wear away at even the most excited or resilient folks. While academia suffers from many of the same systemic cultural issues that affect other parts of society, there's also the long, pseudo-predictable delay between the effort you put into a project and the traditional "outcome," i.e. publication; kind of like a variable-interval reward-schedule [(Miltenberger, 1996)](https://www.google.com/books/edition/Behavior_Modification_Principles_and_Pro/8TZBBAAAQBAJ?hl=en&gbpv=1&dq=Behavior+Modification:+Principles+and+Procedures+%7C+6th+Edition&pg=PR4&printsec=frontcover). I'm certainly no exception and [my recently published work on the social value and function of gossip](https://www.sciencedirect.com/science/article/pii/S0960982221004632) has been one of the longest roller coasters of my academic life.
 
@@ -30,12 +31,12 @@ Rather than rehash the details of my particular flavor of misery, suffice to say
 
 She lovingly had a coffee mug made for me with a minor, but purposeful typo that still annoys (and yet provokes) me to this day. 
 
-<div>
-<img src="/assets/images/mug.png" class="w-1/2 mx-auto">
-<figcaption class="text-sm italic text-center">(Fig 1) No, no, no. The problem OF science, is that it's done by humans.</figcaption>
-</div>
+<figure>
+    <img src="/assets/images/mug.png">
+    <figcaption>(Fig 1) No, no, no. The problem OF science, is that it's done by humans.</figcaption>
+</figure>
 
-### And so it begins...
+## And so it begins...
 
 When I started working with my then recently hired [advisor](http://lukejchang.com/) (~2015), not only was I coming from a pretty dismal *mental* place, I was very much lacking the technical competency that our study ultimately required to pull off. We were both interested in understanding why gossip seems so ubiquitous [(Dunbar, 1996)](https://www.google.com/books/edition/Grooming_Gossip_and_the_Evolution_of_Lan/nN5DFNT-6ToC?hl=en&gbpv=1&pg=PA1&printsec=frontcover) and what social function(s) it serves. We began by piloting *group* experiments in a laboratory setting, because we were very committed to fostering *real* interactions between people. As life would have it, when you live and work in [The Shire](https://pbs.dartmouth.edu/) with a small student body that's mostly away during summers, scheduling multi-person studies can be a bit of a... challenge<sup id="a2">[2](#f2)</sup>. If my memory serves, over many months, we collected a grand total of about 4 groups (of 6 people) worth of useable pilot data (~24) that wasn't otherwise plagued by technical or scheduling issues. Not a great start, but a great hamper on enthusiasm.
 
@@ -43,17 +44,17 @@ Around the same time, my advisor shared with me how he had recently learned enou
 
 Rather than suggest I "learn enough to get the project going," I was fortunate to be mentored by someone who encouraged me to jump head-first into any number of rabbit holes, no matter how directly or in-directly related to my work. Gifted a small supply of Red Bull, I threw myself headfirst into the wild west of web-app development and [JavaScript](https://www.destroyallsoftware.com/talks/wat).
 
-<div>
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S1097276509006418-gr2_lrg.jpg" class="w-1/2 mx-auto">
-<figcaption class="text-sm italic text-center">(Fig 2) In Alon's (2009) <a href="https://www.sciencedirect.com/science/article/pii/S1097276509006418">How to Choose a Good Scientific Problem</a> he encourages PIs to adopt the mentorship schema on the right, suggesting that meandering is an integral part of the research process rather than a nuisance. He suggests that sailing into the unknown can facilitate more rich, strange and unique experiences and combat the emotional toll of perceived failure that comes from expecting the trajectory on the left. However, embracing meandering, Alon notes, requires an "uncommon degree of openness." In my experience, this can be especially true the farther you meander from where you think you should be going.</figcaption>
-</div>
+<figure>
+    <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1097276509006418-gr2_lrg.jpg" >
+    <figcaption>(Fig 2) In Alon's (2009) <a href="https://www.sciencedirect.com/science/article/pii/S1097276509006418">How to Choose a Good Scientific Problem</a> he encourages PIs to adopt the mentorship schema on the right, suggesting that meandering is an integral part of the research process rather than a nuisance. He suggests that sailing into the unknown can facilitate more rich, strange and unique experiences and combat the emotional toll of perceived failure that comes from expecting the trajectory on the left. However, embracing meandering, Alon notes, requires an "uncommon degree of openness." In my experience, this can be especially true the farther you meander from where you think you should be going.</figcaption>
+</figure>
 
-### Someone was right: it's about the journey not the destination
+## Someone was right: it's about the journey not the destination
 
-<div>
-<img src="https://images.squarespace-cdn.com/content/v1/59bc9a021f318d2ce39268c8/1536166062949-ZKW14T8AMSRU9YYBZ1VR/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/191+-+Enjoying+%28smaller%29.jpg?format=2500w" class="w-1/2 mx-auto">
-<figcaption class="text-sm italic text-center">Enjoying his work, the grad student solemnly ponders whether he is a victim of Stockholm Syndrome<sup id="algs"><a href="#flgs">*</a></sup></figcaption>
-</div>
+<figure>
+    <img src="https://images.squarespace-cdn.com/content/v1/59bc9a021f318d2ce39268c8/1536166062949-ZKW14T8AMSRU9YYBZ1VR/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/191+-+Enjoying+%28smaller%29.jpg?format=2500w" >
+    <figcaption >Enjoying his work, the grad student solemnly ponders whether he is a victim of Stockholm Syndrome<sup id="algs"><a href="#flgs">*</a></sup></figcaption>
+</figure>
 
 Not only did I find myself becoming as interested in web development as our original research question, but in hindsight, it's the *way* it unfolded that had a huge impact on me. Rather than learning a new skill as a "means to an end," I found myself amused at the irony of intently reading a large literature on human communication and coordination on the one hand, while trying to engineer a system that allowed *machines* (internet browsers) to communicate and coordinate on the other. My amusement grew into obsession, the kind of obsession you're told is an implicit "requirement" for a successful research career. But mine wasn't really about a scientific topic per se. Rather, it was learning to *think differently about what was possible* as a budding theoretician and experimentalist. Of finding inspiration in unexpected places.
 
@@ -64,10 +65,10 @@ Over many caffeine-induced manic sessions I came across ideas and concepts that 
 
 It turns out that [finite-state machines](https://en.wikipedia.org/wiki/Finite-state_machine) are a useful abstraction for handling exactly this type of complexity:
 
-<div>
-<img src="https://turkserver.readthedocs.io/en/latest/_images/experiment-flow.png" class="w-1/2 mx-auto">
-<figcaption class="text-sm italic text-center">(Fig 3) An early version of a state diagram I made to track a participant's "flow" through our study. The hand-drawn version on my office white-board along with my lack of hygiene at the time, looked a lot like a scene from <a href="https://i.pinimg.com/originals/d5/1a/43/d51a434cc8daa460a700a3a3d4b5d402.jpg">A Beautiful Mind</a> minus any semblance of genius.</figcaption>
-</div>
+<figure>
+    <img src="https://turkserver.readthedocs.io/en/latest/_images/experiment-flow.png" >
+    <figcaption >(Fig 3) An early version of a state diagram I made to track a participant's "flow" through our study. The hand-drawn version on my office white-board along with my lack of hygiene at the time, looked a lot like a scene from <a href="https://i.pinimg.com/originals/d5/1a/43/d51a434cc8daa460a700a3a3d4b5d402.jpg">A Beautiful Mind</a> minus any semblance of genius.</figcaption>
+</figure>
 
 Little did I know that ideas like this would serve as a kind of mental and conceptual "[scaffold](https://en.wikipedia.org/wiki/Zone_of_proximal_development)" for contributing to later work in the lab, such as how [state dynamics in the ventromedial prefrontal cortex seem to reflect on-going emotional experiences](https://advances.sciencemag.org/content/7/17/eabf7129). I came to see this project as an opportunity to *actually* practice the technical skills I had read about, and that I (much) later had the honor of teaching to *other* folks, e.g. [version control via git and github](https://eshinjolly.com/2019/01/04/git_github/)<sup id="a3">[3](#f3)</sup>. Bolstered by tiny bits of confidence and enthusiasm (or just sheer mania) I began asking a few questions to the author of one of the software libraries that my project used. I ended up contributing to *their* [documentation](https://turkserver.readthedocs.io/en/latest/launching/live-management.html#troubleshooting) based on my own experiences running my study and was encouraged to apply for a PhD internship at [Microsoft Research NYC](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/)<sup id="a4">[4](#f4)</sup>. 
 
@@ -82,7 +83,7 @@ It turns out that people *really like* interacting with other people online and 
 > *Purple birdie, if you are reading this - it was nice chatting with you. Thanks for liking my bee, but your bird was still better!*
 
 
-### Back to The Churn, but somehow different
+## Back to The Churn, but somehow different
 
 The several years that followed my internship, weren't particularly kind to my gossip project. It languished in peer-review hell cycling through 6 different journals with a combined total of 13 rounds of review. Sometimes it was rejected with no feedback, because "it's not possible to study gossip empirically," (thanks Reviewer 2!). More often, it was because notions about *what gossip is* elicited strong reactions, given our strong folk intuitions [(Foster, 2004)](https://journals.sagepub.com/doi/abs/10.1037/1089-2680.8.2.78). I happen to like this quote by [Paul Bloom (2003)](https://journals.sagepub.com/doi/abs/10.1037/1089-2680.8.2.138?journalCode=rgpa):
 
@@ -97,7 +98,7 @@ Receiving even the smallest piece of positive feedback from a student or indepen
 I've always loved the *social* side of the scientific enterprise, and in my mind it's not made up of publication records and tenure track job markets, but rather the surprising and unexpected ways that we can shape each other's thinking and perspective of the world. 
 
 
-### You *are* in the right place at the right time
+## You *are* in the right place at the right time
 
 The [Social Affective Neuroscience Society's](https://socialaffectiveneuro.org/) 2021 virtual conference wrapped up this past weekend and one of my personal highlights was a lovely distinguished scholars Q&A session with venerable [Chris](https://www.wikiwand.com/en/Chris_Frith) and [Uta Frith](https://www.wikiwand.com/en/Uta_Frith)<sup id="a6">[6](#f6)</sup>. When asked a question about what drove their own interests, research program, and ultimately careers, and any advice they had for aspiring researchers, they both humbly discussed the outsized role of luck. Chris Frith cheekily joked: "Maybe the advice to young scientists is to be in the right place at the right time." Uta Frith, however was quick to correct him stating:
 
