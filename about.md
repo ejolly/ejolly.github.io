@@ -4,8 +4,8 @@ layout: page
 ---
 <div>
 <div class="side-by-side">
-    <div class="toleft">
-    	<a class="link" href="https://www.cosanlab.com/">
+    <div>
+    	<a href="https://www.cosanlab.com/">
         <img class="image" style="border-radius:35px" src="{{site.url}}/assets/cosanlab_logo.jpg" alt="Alt Text" > </a>
     </div>
     <div class="toright">

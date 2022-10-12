@@ -136,4 +136,7 @@
     content: "#";
   }
   /*  */
+  .side-by-side {
+    @apply flex flex-row;
+  }
 }
