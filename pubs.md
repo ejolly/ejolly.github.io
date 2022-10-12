@@ -1,4 +1,4 @@
-### In Prep
+## In Prep
 
 **Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z. & Chang, L.J. (in prep). The structure of social memory. 
 
@@ -10,7 +10,7 @@
 
 **Jolly, E.**, Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Guilt-aversion motivates harm-minimization in surrogate decision-making.
 
-### Under review/revision
+## Under review/revision
 
 **Jolly, E.**\*, Cheong, J.H.\*, Xie, T. Byrne, S. Kenny, M. & Change, L.J. (under revision). Py-Feat: Python Facial Expression Analysis Toolbox. [arXiv preprint](https://arxiv.org/abs/2104.03509) [[toolbox]](https://py-feat.org/)  
 \*Equal contribution
@@ -19,9 +19,9 @@
 
 Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision). The hidden cost of receiving favors: A theory of indebtedness. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
 
-### Published
+## Published
 
-`2021`   
+### 2021
 **Jolly, E.** & Chang, L.J. (2021). Multivariate spatial feature selection in fMRI. *Social Cognitive and Affective Neuroscience,* *16(8)*, 795-806. [[Link]](https://academic.oup.com/scan/article/16/8/795/6121195)  
 
 **Jolly, E.** & Chang, L.J. (2021). Gossip drives vicarious learning and facilitates social connections. *Current Biology,* *31*, 1-11. [[Link]](https://www.sciencedirect.com/science/article/pii/S0960982221004632) [[data & materials]](https://osf.io/c9mdx/)  
@@ -29,7 +29,7 @@ Coverage: [New York Times](https://www.nytimes.com/2021/05/28/style/gossip-a-bit
 
 Chang, L.J., **Jolly, E.**, Cheong, J.H., Rapuano, K., Greenstein, N., Chen, P.A. & Manning, J.R. (2021). Endogenous variation in ventromedial prefrontal cortex state dynamics during naturalistic viewing reflects affective experience. *Science Advances,* *7(17)*, 1-17. [[Link]](https://doi.org/10.1126/sciadv.abf7129) [[data & materials]](https://github.com/cosanlab/vmPFC_dynamics)
 
-`2020`  
+### 2020
 **Jolly, E.**\*, Sadhukha, S.\*, Chang, L.J. (2020). Response to Lynch et al: On measuring head motion and effects of head molds during fMRI. *NeuroImage,* 117484. [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920309691?via%3Dihub) [[data & materials]](https://github.com/cosanlab/headcase)   
 
 **Jolly, E.**\*, Sadhukha, S.\*, Chang, L.J. (2020). Custom-molded headcases have limited efficacy in reducing head motion during naturalistic fMRI experiments. *NeuroImage,* 117207. [[Link]](https://www.sciencedirect.com/science/article/pii/S1053811920306935) [[data & materials]](https://github.com/cosanlab/headcase)   

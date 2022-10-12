@@ -154,12 +154,14 @@ h2 {
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 90%;
+    font-family: Monaco,Menlo,monospace,sans-serif;
+    color: #aaa;
 	line-height: 2em;
 	position: relative;
 	top: 1.7em;
 	text-align: right;
-	width: 20%;
+	width: 91%;
 }
 
 a {

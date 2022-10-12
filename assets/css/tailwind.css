@@ -14,20 +14,25 @@
 */
 
 @layer components {
-  /* Globals */
+  /* start: GLOBALS */
+
+  /* Make h1's smaller */
   h1 {
     @apply text-3xl sm:text-4xl !important;
   }
+  /* always center images inside figures */
   figure > img {
     @apply w-1/2 mx-auto;
   }
+  /* style fig captions */
   figure > figcaption {
     @apply text-sm italic text-center !important;
   }
+  /* center images inside paragraphs */
   p > img {
     @apply mx-auto;
   }
-  /*  */
+  /* end: GLOBALS */
 
   /* default.html */
   .body {
