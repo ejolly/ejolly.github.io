@@ -42,6 +42,13 @@
     @apply mb-auto;
   }
 
+  /* software.md */
+  img[alt$="badge"] {
+    @apply inline;
+  }
+
+  /*  */
+
   /* footer.html */
   .footer {
     @apply text-gray-400 pb-2 mt-4;
@@ -128,6 +135,7 @@
     @apply text-sm text-gray-400 group-hover:text-rose-500/50;
   }
   /*  */
+
   /* post.html */
   .tag {
     @apply text-sm italic;
@@ -145,6 +153,8 @@
     @apply hover:text-rose-400 ml-6 my-2 text-sm text-gray-600;
   }
   /*  */
+
+  /* Within blog posts */
   .dataframe {
     @apply px-4 overflow-scroll text-base;
   }
@@ -157,4 +167,5 @@
   .dataframe td {
     @apply px-4 py-2;
   }
+  /*  */
 }

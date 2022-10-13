@@ -26,8 +26,7 @@ A Python package for analyzing and simulating standard and multi-level regressio
 
 A Python package for analyzing brain-imaging data, though also usable for other types of data. Makes data manipulation, model building and fitting quite simple. Builds upon several popular python libraries for [brain-imaging analysis](http://nipy.org/) and [machine learning](http://scikit-learn.org/stable/) more generally.         
 [Github](https://github.com/cosanlab/nltools) |  [Docs](https://nltools.org) | [Scipy 2020 talk](https://youtu.be/1c1AnXLs7xM)   
-[![DOI-badge](https://zenodo.org/badge/DOI/10.5281/zenodo.2229813.svg)](https://doi.org/10.5281/zenodo.2229813)  
-[![Downloads-badge](https://pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
+[![DOI-badge](https://zenodo.org/badge/DOI/10.5281/zenodo.2229813.svg)](https://doi.org/10.5281/zenodo.2229813) [![Downloads-badge](https://pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
 
 ## SvelteTurk
 
