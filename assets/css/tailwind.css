@@ -155,6 +155,7 @@
   /*  */
 
   /* Within blog posts */
+  /*  can be appled to markdown with {:.class} syntax under an element */
   .dataframe {
     @apply px-4 overflow-scroll text-base;
   }
@@ -167,10 +168,22 @@
   .dataframe td {
     @apply px-4 py-2;
   }
-  .figcaption {
+  .fig {
+    @apply w-1/2 mx-auto;
+  }
+  .fig-lg {
+    @apply w-[80%] mx-auto;
+  }
+  .caption {
     @apply -mt-6 text-sm italic w-[98%] mx-auto text-gray-500 leading-tight;
   }
-  .figcaption code {
+  .caption-centered {
+    @apply -mt-6 text-sm italic w-[98%] mx-auto text-gray-500 leading-tight text-center;
+  }
+  .caption code {
+    @apply text-indigo-900/90 !important;
+  }
+  .caption-centered code {
     @apply text-indigo-900/90 !important;
   }
   p code {
