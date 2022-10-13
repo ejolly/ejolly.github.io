@@ -36,7 +36,7 @@
 
   /* default.html */
   .body {
-    @apply flex flex-col h-screen justify-between max-w-[90rem] mx-auto p-6;
+    @apply flex flex-col h-screen justify-between max-w-[90rem] mx-auto p-6 bg-stone-100;
   }
   .page {
     @apply mb-auto;
