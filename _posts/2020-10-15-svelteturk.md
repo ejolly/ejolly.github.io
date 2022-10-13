@@ -19,7 +19,7 @@ Combined with another framework called [Electron](https://www.electronjs.org/) w
 
 <div style="text-align:center">
 <a href="https://eshinjolly.com/svelteturk">
-  <img src="https://eshinjolly.com/svelteturk/assets/setup.jpg" width="600">
+  <img class="mx-auto" src="https://eshinjolly.com/svelteturk/assets/setup.jpg" width="600">
   </a>
   </div>
 <figcaption style="top:0"><em>SvelteTurk only handles nodes and connections highlighted in green, namely the creation and management of HITs via communication with MTurk and a local database. It's up to you to build your experiment or survey and store appropriate data as see you see fit.</em></figcaption>
