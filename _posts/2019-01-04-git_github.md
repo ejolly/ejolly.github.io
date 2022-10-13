@@ -1,6 +1,6 @@
 ---
 title: "Your favorite time-machine"
-layout: post-toc
+layout: post
 date: 2019-01-04
 tag:
 - tutorial
@@ -8,6 +8,7 @@ tag:
 - hackathon
 - reference
 blog: true
+toc: true
 description: Understanding version control
 ---
 

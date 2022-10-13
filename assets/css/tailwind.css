@@ -135,10 +135,16 @@
   .tag::before {
     content: "#";
   }
-  /*  */
-  .side-by-side {
-    @apply flex flex-row;
+  .responsive-metadata-container {
+    @apply flex flex-col sm:justify-start sm:space-x-4 sm:flex-row sm:items-baseline;
   }
+  .toc-container {
+    @apply border px-4 py-2 font-bold max-w-max bg-slate-100 rounded-lg my-4;
+  }
+  .toc-container li {
+    @apply hover:text-rose-400 ml-6 my-2 text-sm text-gray-600;
+  }
+  /*  */
   .dataframe {
     @apply px-4 overflow-scroll text-base;
   }

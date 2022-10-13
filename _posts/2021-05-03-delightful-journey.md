@@ -110,7 +110,7 @@ It's only in hindsight that I realize how much I unconsciously took this advice 
 
 And if you're *really* lucky, Jimmy Fallon might use your work as the setup to a mediocre joke:
 
-<iframe class="mx-auto" width="600" height="400" src="https://www.youtube.com/embed/W4ARRNm4Idk?start=278" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="mx-auto sm:h-[400px] sm:w-[600px]" src="https://www.youtube.com/embed/W4ARRNm4Idk?start=278" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

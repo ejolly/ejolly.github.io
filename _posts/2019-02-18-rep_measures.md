@@ -1,12 +1,13 @@
 ---
 title: "Comparing common analysis strategies for repeated measures data"
-layout: post-toc
+layout: post
 date: 2019-02-18
 tag:
 - statistics
 - analysis
 - simulation
 blog: true
+toc: true
 description: Dealing with dependencies in data
 ---
 

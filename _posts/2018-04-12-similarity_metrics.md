@@ -1,11 +1,12 @@
 ---
 title: "Vector similarity reference"
-layout: post-toc
+layout: post
 date: 2018-04-12
 tag:
 - statistics
 - reference
 blog: true
+toc: true
 description: How different similarity measures are related to each other
 ---
 
