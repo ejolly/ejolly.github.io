@@ -54,3 +54,9 @@
     position: relative;
     top: -13px;
 }
+code:before {
+    content: '' !important;
+}
+code:after {
+    content: '' !important;
+}
