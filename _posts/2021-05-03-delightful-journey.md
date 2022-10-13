@@ -8,6 +8,7 @@ tag:
 - web development
 - scientific tooling
 blog: true
+toc: true
 description: The project taketh, but the project also giveth.
 ---
 
