@@ -12,8 +12,10 @@
   },
   "scripts": {
     "build": "bundle exec jekyll build",
-    "dev": "bundle exec jekyll serve --livereload --incremental",
-    "drafts": "bundle exec jekyll serve --livereload --incremental --drafts",
+    "build_drafts": "bundle exec jekyll build --drafts",
+    "draft": "npm run build_drafts && clear && bundle exec jekyll serve --livereload --incremental --drafts",
+    "write": "npm run build && clear && bundle exec jekyll serve --livereload --incremental",
+    "dev": "bundle exec jekyll serve --livereload",
     "test": "bundle exec htmlproofer ./_site"
   },
   "devDependencies": {

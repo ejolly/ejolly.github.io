@@ -1,21 +1,24 @@
 # Personal Website Code
 
-Code for my personal website hosted using [Github Pages](https://pages.github.com/), built using [Jekyll](https://jekyllrb.com/), styled using the [Indigo](https://github.com/sergiokopplin/indigo) theme, with CV generation handled using a [markdown-cv template](https://elipapa.github.io/markdown-cv/).
-
-Open sourced under the [MIT license](https://github.com/ejolly/ejolly.github.io/blob/master/LICENSE.md).
+Code for my personal website hosted using [Github Pages](https://pages.github.com/), built using [Jekyll](https://jekyllrb.com/), styled using the [TailwindCSS](https://tailwindcss.com) and [AnimateCSS](https://animate.style/), with CV generation handled using a [markdown-cv template](https://elipapa.github.io/markdown-cv/).
 
 ## Development
 
-`bundle install`: install all ruby packages  
-`npm run dev`: start local server
-`npm run build`: build site to `_site/`
+- `bundle install` install all ruby packages  
+- `npm install` install tailwind
+- `npm run write` for incremental builds using only files in `_posts`  
+- `npm run draft` for incremental builds using files in `_posts` and `_drafts`  
+- Both scripts run `jekyll build` once *before* `serve` to "reset" the `--incremental` builds
+- `npm run build`: build site to `_site/`
 
 ## Cheatsheet
 
 - Create new pages but putting `.html` or `.md` files inside the root of this repo (e.g. `about.md`)
 - `_includes` = reusable HTML snippets used within `.md` files or by `.html` files in `_layouts`
 - `_layouts` = folder of HTML templates dictating how `.md` files should be processed using the `layout: name` frontmatter
-- `assets/css/tailwind.css` = main file with all style classes
+- `assets/css/tailwind.css` = main file with all tailwind classes
+- `assets/css/global.css` = additional styles *after* jekyll process markdown
+- `assets/css/syntax.css` = code block syntax highlighting generated using `rouge style molokai > assets/css/syntax.css`
 
 ## Development
 
@@ -58,7 +61,6 @@ graph TD;
     default-->page((page.html));
     page-->post((post.html));
     compress-->cv((cv.html));
-    page-->posttoc((post-toc.html));
 
     header>header.html]-.->unstyled;
     header-.->page
@@ -70,6 +72,7 @@ graph TD;
     statcounter>statcounter.html]-.->default
     mathjax>mathjax.html]-.->default
     google>analytics-google.html]-.->default
+    toc>toc.html]-.->post
 
     seo{ seo }-.->cv
     seo-.->default
