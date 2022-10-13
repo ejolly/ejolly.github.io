@@ -111,7 +111,7 @@
 
   /* page.html */
   .content {
-    @apply mx-auto prose sm:prose-lg sm:max-w-[70ch] prose-a:text-sky-500 hover:prose-a:underline hover:prose-a:decoration-dotted prose-a:no-underline hover:prose-a:underline-offset-4 hover:prose-a:text-rose-500;
+    @apply mx-auto prose sm:prose-lg sm:max-w-[70ch] prose-a:text-sky-500 hover:prose-a:underline hover:prose-a:decoration-dotted prose-a:no-underline hover:prose-a:underline-offset-4 hover:prose-a:text-rose-500  prose-code:not-italic;
   }
   /*  */
 
@@ -166,6 +166,15 @@
   }
   .dataframe td {
     @apply px-4 py-2;
+  }
+  .figcaption {
+    @apply -mt-6 text-sm italic w-[98%] mx-auto text-gray-500 leading-tight;
+  }
+  .figcaption code {
+    @apply text-indigo-900/90 !important;
+  }
+  p code {
+    @apply text-indigo-900/90 !important;
   }
   /*  */
 }
