@@ -90,23 +90,10 @@ data, blups, betas = simulate_lmm(num_obs_grp, num_coef, num_grps)
 data.head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table class="dataframe">
+<div class="dataframe">
+<table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>DV</th>
       <th>IV1</th>
@@ -170,23 +157,10 @@ blups.head()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table class="dataframe">
+<div class='dataframe'>
+<table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>Intercept</th>
       <th>IV1</th>
@@ -266,23 +240,10 @@ print(f"Sum of Model Standard Errors: {lmer.coefs['SE'].sum()}")
 print(f"Sum of Model T statistics: {lmer.coefs['T-stat'].abs().sum()}")
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table class="dataframe">
+<div class='dataframe'>
+<table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>Estimate</th>
       <th>2.5_ci</th>
@@ -366,23 +327,10 @@ print(f"Sum of Model T statistics: {lmer_mis.coefs['T-stat'].abs().sum()}")
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table class="dataframe">
+<div class='dataframe'>
+<table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>Estimate</th>
       <th>2.5_ci</th>
@@ -467,23 +415,10 @@ print(f"Sum of Model T statistics: {lm.coefs['T-stat'].abs().sum()}")
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table class="dataframe">
+<div class='dataframe'>
+<table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>Estimate</th>
       <th>2.5_ci</th>
@@ -568,23 +503,10 @@ print(f"Sum of Model T statistics: {lm2.coefs['T-stat'].abs().sum()}")
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table class="dataframe">
+<div class='dataframe'>
+<table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>Estimate</th>
       <th>2.5_ci</th>

@@ -139,4 +139,7 @@
   .side-by-side {
     @apply flex flex-row;
   }
+  .dataframe {
+    @apply px-4 overflow-scroll text-base;
+  }
 }
