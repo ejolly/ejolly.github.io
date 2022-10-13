@@ -49,10 +49,14 @@ function search(ev) {
     }
 }
 
+
+
 document.addEventListener('DOMContentLoaded', () => {
+    // Setup search
     const searchInput = document.getElementById('search');
     const debouncedSearch = debounce(search, 50)
     searchInput.addEventListener('keyup',
         debouncedSearch
     );
+
 });

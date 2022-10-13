@@ -148,4 +148,13 @@
   .dataframe {
     @apply px-4 overflow-scroll text-base;
   }
+  .dataframe tr {
+    @apply hover:bg-gray-100;
+  }
+  .dataframe th {
+    @apply px-4 py-2;
+  }
+  .dataframe td {
+    @apply px-4 py-2;
+  }
 }

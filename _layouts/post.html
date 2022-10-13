@@ -53,15 +53,4 @@ layout: page
     </div>
 {% endif %}
 
-<script>
-function close_toc () {
-    console.log('clicked');
-    var el = document.getElementById('toc');
-    if (el.classList.contains('is-visible')) {
-        el.classList.remove('is-visible');
-    } else {
-        el.classList.add('is-visible');
-    }
-    return false;
-}
-</script>
+<script async src="{{base.url | prepend: site.url }}/assets/copyCode.js"></script>

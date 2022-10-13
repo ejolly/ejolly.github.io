@@ -151,7 +151,6 @@ data.head()
 We can see that the overall dataset is generated as described above. Simulating data this way also allows us to generate the best-linear-unbiased-predictions ([BLUPs](https://www.wikiwand.com/en/Best_linear_unbiased_prediction)) for each person in our dataset. These are the coefficients for each individual person.
 
 ```python
-
 blups.head()
 ```
 

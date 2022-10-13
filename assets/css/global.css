@@ -54,9 +54,49 @@
     position: relative;
     top: -13px;
 }
+/* remove the surrounding `` that tailwind typography adds */
 code:before {
     content: '' !important;
 }
 code:after {
     content: '' !important;
 }
+
+div[class*="language-"] {
+  position: relative;
+}
+
+button{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #cbd5e1;
+  color: #1e293b;
+  font-size: .85rem;
+  padding: .35rem .75rem;
+  border-radius: .8rem;
+
+  /* more stuff */
+}
+
+/* CSS-only code line numbers, but doesn't work ATM. Because rouge syntax highlighting
+wraps each word in a span, we can't split on spans to count lines and there doesn't seem
+to be any obvious new line delimeter*/
+
+/* pre {
+    counter-reset: line;
+}
+pre span {
+    display: block;
+    line-height: 1.5rem;
+}
+pre span:before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 0 .5rem;
+    margin-right: 0.5rem;
+    color: #888;
+} */
+
