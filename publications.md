@@ -3,10 +3,11 @@ title: Publications
 layout: page
 ---
 
-
+<div class="paper-list-search">
 <p><em>I try to make all my published work and materials openly accessible. If any of the links below don't work feel free to <a href="mailto:eshin.jolly@gmail.com">email me!</a></em>
-<input type="text" id="search" class='search' placeholder='Search...esc to clear'>
 </p>
+{% include search.html %}
+</div>
 
 {% include_relative pubs.md %}
 
