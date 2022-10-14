@@ -2,7 +2,8 @@
 title: Software
 layout: page
 ---
-<asciinema-player src="/assets/ascii/software.json" width="200" rows="6"  autoplay="1" font-size="1.05em" speed="6"></asciinema-player>
+
+{% include asciinema.html recording="/assets/ascii/software.json" loop="false" rows="6" %}
 
 ## Py-Feat
 

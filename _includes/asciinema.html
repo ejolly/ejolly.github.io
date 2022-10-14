@@ -1,7 +1,37 @@
-<link rel="stylesheet" type="text/css" href="/assets/ascii/asciinema-player.css" media="print" onload="this.media='all'"/>
-<script src="/assets/ascii/asciinema-player.js"></script>
-<script>
-window.onload = function(){
-    document.getElementsByClassName('control-bar')[0].hidden=true;
-}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/assets/css/asciinema-player.css"
+  media="print"
+  onload="this.media='all'"
+/>
+<div id="demo" class="md:mx-auto md:max-w-prose"></div>
+<script src="/assets/js/asciinema-player.min.js"></script>
+
+<!-- Set width cutoff based on iphone 14 pro max -->
+
+<script defer>
+  const player = AsciinemaPlayer.create(
+    "{{ include.recording }}",
+    document.getElementById("demo"),
+    {
+      loop: "{{ include.loop }}" === "true",
+      preload: true,
+      autoPlay: true,
+      rows: parseInt("{{ include.rows }}"),
+      cols: 200,
+      speed: 6,
+      fit: false,
+      terminalFontSize: document.URL.includes("software")
+        ? screen.width <= 430
+          ? ".60rem"
+          : "1rem"
+        : screen.width <= 430
+        ? ".80rem"
+        : "1.2rem",
+    }
+  );
+  player.addEventListener("play", () => {
+    document.getElementsByClassName("control-bar")[0].hidden = true;
+  });
 </script>

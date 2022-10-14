@@ -2,30 +2,20 @@
 layout: default
 ---
 
-<div class="home-container ">
+<div class="home-container">
   <h1 class="h1 animate__animated animate__fadeInDown">Eshin Jolly</h1>
 
-  <asciinema-player
-    class="animate__animated animate__fadeInDown"
-    src="/assets/ascii/banner_postdoc.json"
-    width="100"
-    rows="2"
-    cols="43"
-    loop="1"
-    autoplay="1"
-    speed="5"
-    font-size="1.01em"
-  ></asciinema-player>
+  {% include asciinema.html recording="/assets/ascii/banner_postdoc.json"
+  loop="true" rows="2" %}
 
   <div class="cover-photo-container">
-      <img
-        class="cover-photo animate__animated animate__zoomIn"
-        alt="{{ site.name }}"
-        src="{{ site.url }}/{{ site.picture
+    <img
+      class="cover-photo animate__animated animate__zoomIn"
+      alt="{{ site.name }}"
+      src="{{ site.url }}/{{ site.picture
       }}"
-      />
+    />
   </div>
 
-  {% include social-links.html %} 
-  {% include nav.html %}
+  {% include social-links.html %} {% include nav.html %}
 </div>
