@@ -2,7 +2,6 @@
 title: About
 layout: page
 ---
-<div>
 <div class="side-by-side">
     <div class="image">
     	<a href="https://www.cosanlab.com/">
@@ -13,7 +12,7 @@ layout: page
     </div>
 </div>
 
-<div class="side-by-side">
+<div class="side-by-side-reversed">
     <div class="text">
         <p>I've also worked as a PhD research intern at <a class="nounderline" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research NYC</a> with <a class="nounderline" href="https://www.asc.upenn.edu/people/faculty/duncan-watts-phd">Duncan Watts</a> and <a class="nounderline" href="https://www.sidsuri.com/">Sid Suri</a>. During this time my work focused on building large scale web-based field experiments to study human cooperation in naturally occurring social networks.</p>
     </div>

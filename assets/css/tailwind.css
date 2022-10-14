@@ -133,6 +133,28 @@
   }
   /*  */
 
+  /* about.md */
+  .about .content .side-by-side {
+    @apply flex flex-col md:flex-row md:space-x-4;
+  }
+  .about .content .side-by-side-reversed {
+    @apply flex flex-col-reverse md:flex-row md:space-x-4;
+  }
+  .about .content .side-by-side div {
+    @apply md:basis-1/2;
+  }
+  .about .content .side-by-side-reversed div {
+    @apply md:basis-1/2;
+  }
+  .about .content .side-by-side img.image {
+    @apply w-1/2 max-w-[16rem] mx-auto md:w-full;
+  }
+  .about .content .side-by-side-reversed img.image {
+    @apply w-1/2 max-w-[16rem] mx-auto md:w-full;
+  }
+
+  /*  */
+
   /* blog-post.html */
   .post-item {
     @apply px-1 md:px-6;
