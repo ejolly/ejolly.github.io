@@ -36,7 +36,7 @@
 
   /* default.html */
   .body {
-    @apply flex flex-col h-screen justify-between max-w-[90rem] mx-auto p-6 bg-stone-100;
+    @apply flex flex-col h-screen justify-between max-w-[90rem] mx-auto p-6 bg-white;
   }
   .page {
     @apply mb-auto;
@@ -191,10 +191,10 @@
   /* Within blog posts */
   /*  can be appled to markdown with {:.class} syntax under an element */
   .dataframe {
-    @apply px-4 overflow-scroll text-base;
+    @apply px-4 overflow-auto text-base;
   }
-  .dataframe tr {
-    @apply hover:bg-gray-100;
+  .dataframe tbody tr {
+    @apply hover:bg-slate-100;
   }
   .dataframe th {
     @apply px-4 py-2;

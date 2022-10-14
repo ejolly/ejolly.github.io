@@ -33,7 +33,7 @@ Rather than rehash the details of my particular flavor of misery, suffice to say
 
 She lovingly had a coffee mug made for me with a minor, but purposeful typo that still annoys (and yet provokes) me to this day. 
 
-![](/assets/images/mug.png)
+![](/assets/images/journey/mug.png)
 {:.fig}
 
 (Fig 1) No, no, no. The problem OF science, is that it's done by humans.

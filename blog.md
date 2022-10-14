@@ -13,5 +13,3 @@ layout: unstyled
     {% include blog-post.html %}
 {% endfor %}
 </div>
-
-<script src="{{base.url | prepend: site.url }}/assets/search.js"></script>

@@ -20,51 +20,51 @@ Something summer school attendees told me they found really useful were some ani
 
 ## `git status`  
 See what files are ready to be made into a "snapshot" (committed) and which ones are not being kept track of  
-![git status](/assets/example_command_gifs/gitstatus.gif)  
+![git status](/assets/images/example_command_gifs/gitstatus.gif)  
 
 ## `git init`  
 Create a new git repository for the first time (will not add any files)  
-![git init](/assets/example_command_gifs/gitinit.gif)  
+![git init](/assets/images/example_command_gifs/gitinit.gif)  
 
 ## `git add`  
 Add file(s) to the list of files that should be made into a "snapshot" (committed)
-![git add](/assets/example_command_gifs/gitadd.gif)  
+![git add](/assets/images/example_command_gifs/gitadd.gif)  
 
 ## `git commit`  
 Take a "snapshot" of all currently tracked project files. Files need to be "prepped" (staged) for commit using `git add` beforehand.    
-![git commit](/assets/example_command_gifs/gitcommit.gif)  
+![git commit](/assets/images/example_command_gifs/gitcommit.gif)  
 
 ## `git log`  
 See the full historical timeline of the project  
-![git log](/assets/example_command_gifs/gitlog.gif)  
+![git log](/assets/images/example_command_gifs/gitlog.gif)  
 
 ## `git push`  
 Send latest local changes to a remote location (e.g. github)  
-![git push](/assets/example_command_gifs/gitpush.gif)  
+![git push](/assets/images/example_command_gifs/gitpush.gif)  
 
 ## `git pull`  
 Get the latest changes from a remote location (e.g. github)  
-![git pull](/assets/example_command_gifs/gitpull.gif)  
+![git pull](/assets/images/example_command_gifs/gitpull.gif)  
 
 ## `git clone`  
 Duplicate a remote repository (e.g. github) on your local computer  
-![git clone](/assets/example_command_gifs/gitclone.gif)
+![git clone](/assets/images/example_command_gifs/gitclone.gif)
 
 ## `git branch`  
 Create a new independent "timeline" for the project  
-![git branch](/assets/example_command_gifs/gitbranch.gif)  
+![git branch](/assets/images/example_command_gifs/gitbranch.gif)  
 
 ## `git revert`  
 Undo changes by reversing any specific "snapshot" (commit)  
-![git revert](/assets/example_command_gifs/gitrevert.gif)  
+![git revert](/assets/images/example_command_gifs/gitrevert.gif)  
 
 ## `forking`  
 Copy a remote repository on github, to your own remote account on github  
-![git fork](/assets/example_command_gifs/gitfork.gif)  
+![git fork](/assets/images/example_command_gifs/gitfork.gif)  
 
 ## `pull request`  
 Notify a remote repository owner you would like them to review+incorporate your additions  
-![pull request](/assets/example_command_gifs/pullrequest.gif)
+![pull request](/assets/images/example_command_gifs/pullrequest.gif)
 
 ---
 <iframe class="mx-auto" src="https://www.youtube.com/embed/0DGCnBZBoc0" width="600" height="400"></iframe>

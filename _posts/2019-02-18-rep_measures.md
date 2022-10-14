@@ -22,7 +22,7 @@ Datasets come in all different shapes and sizes. In many introductory tutorials,
 However, many types of data contain "repeats" or "replicates" such as measuring the same people over time or under different conditions. These data notably  _violate_ this assumption. In these cases, some data points _are_ more similar to each other than other data points. Violations of these assumptions can lead to model estimates that are not as accurate as they could possibly be ([Ugrinowitsch et al, 2004](https://pdfs.semanticscholar.org/fe95/9879dbf2b06f33b9ef07b67897135be57abf.pdf)). The more insidious issue is that inferences made using these estimates (e.g. computing t-statistics and by extension p-values) can be wildly inaccurate and produce [false-positives](https://www.wikiwand.com/en/False_positives_and_false_negatives) ([Vasey & Thayer, 1987](https://www.ncbi.nlm.nih.gov/pubmed/3615759)). Let's try to make this more concrete by considering two different datasets.
 
 
-![png](/assets/images/2019-02-18-compare_rfxlm_robustlm_and_lmm_scatter.png)
+![png](/assets/images/compare_rfx/2019-02-18-compare_rfxlm_robustlm_and_lmm_scatter.png)
 
 In case 1 (left) we give 21 people a survey 1 time each and try to see if their survey responses share any relationship with some demographic about them. 21 total data points, pretty straightforward. In case 2 (right), we give 3 people a survey 7 times each and do the same thing. 21 total data points again, but this time each data point is not independent of every other. In the first case, each survey response is independent of any other. That is, knowing something about one person's response tells you little about another person's response. However, in the second case this is not true. Knowing something about person A's survey response the first time you survey them tells you a bit more about person A's survey response the second time you survey them, whereas it does necessarily give you more information about any of person B's responses. Hence the non-independence. In the most extreme case estimating a model ignoring these dependencies in the data can completely reverse the resulting estimates, a phenomenon known as [Simpson's Paradox](https://www.wikiwand.com/en/Simpson%27s_paradox).
 
@@ -578,7 +578,7 @@ print(f"Sum of Model T statistics: {lm2.coefs['T-stat'].abs().sum()}")
 
 Now, this was only one particular dataset with a particular size and particular level of between-person variability. Remember the dimensions outlined above? The real question we want to answer is how these different modeling strategies vary with respect to each of those dimensions. So let's expand our simulation here. Let's generate a "grid" of settings such that we simulate every combination of dimensions we can in a reasonable amount of time. Here's the grid we'll try to simulate:
 
-![png](/assets/images/2019-02-18-compare_rfxlm_robustlm_and_lmm_params.png)
+![png](/assets/images/compare_rfx/2019-02-18-compare_rfxlm_robustlm_and_lmm_params.png)
 
 Going down the rows we'll vary *dimension 1* the sample size of the units we're making inferences over (number of people) from 5 -> 100. Going across columns we'll vary *dimension 2*, the sample size of the units nested within the units we're making inferences over (number of observations per person) from 5 -> 100. Going over the z-plane we'll vary *dimension 3* the variance between the units we're making inferences over (between-person variability) from 0.10 -> 4 standard deviations.
 
@@ -586,7 +586,7 @@ Since varying *dimension 1* and *dimension 2* should make intuitive sense (they'
 
 <span style="font-size: 0.85em; font-style: italic">For the sake of brevity I've removed the plotting code for the figures below, but am happy to share them on request.</span>   
 
-![png](/assets/images/2019-02-18-compare_rfxlm_robustlm_and_lmm_11_0.png)
+![png](/assets/images/compare_rfx/2019-02-18-compare_rfxlm_robustlm_and_lmm_11_0.png)
 
 ## Setting it up
 
@@ -696,21 +696,21 @@ In medium data situations (middle column) cluster-robust models seem to do a sli
 
 Finally, in the high observations per cluster situation (right-most column), all models seem to perform rather similarly suggesting that each modeling strategy is about as good as any other when we densely sampling the unit of interest (increasing number of observations per cluster) even if the desire is to make inferences about the clusters themselves.
 
-![png](/assets/images/2019-02-18-compare_rfxlm_robustlm_and_lmm_15_0.png)
+![png](/assets/images/compare_rfx/2019-02-18-compare_rfxlm_robustlm_and_lmm_15_0.png)
 
 ## Making Inferences (SEs + T-stats)
 
 Next, let's look at both standard errors and t-statistics to see how our inferences might vary. The effect of increased between cluster variance has a very notable effect on SEs and t-stats values generally making it less likely to identify a statistically significant relationship regardless of the size of the data. Interestingly, what two-stage-regression models exhibit in terms of poorer coefficient recovery in situations with few observations per cluster, they make up for with higher standard error estimates. We can see that their t-statistics are low in these situations suggesting that in these situations this approach may tip the scales towards lower false-positive, higher false-negative inferences. However, unlike other model types, they do not necessarily benefit from _more clusters_ overall (bottom left panel) and run the risk of an inflated level of [false negatives](https://www.wikiwand.com/en/False_positives_and_false_negatives). Misspecified multilevel models seem to have the opposite properties: they have higher t-stats and lower SEs in most situations with medium to high between-cluster variability and benefit the most from situations with a high number of observations per cluster. This suggests they might run the risk of introducing more false positives in situations where other models may behave more conservatively, but also may be more sensitive to detecting true relationships in the face of high between-cluster variance. They also seem to benefit most from increasing _observations within cluster_. Inferences from cluster-robust and full-specified multi-level models seem to be largely comparable which is consistent with the proliferate use of both these model types across multiple literatures.
 
-![png](/assets/images/2019-02-18-compare_rfxlm_robustlm_and_lmm_16_0.png)
+![png](/assets/images/compare_rfx/2019-02-18-compare_rfxlm_robustlm_and_lmm_16_0.png)
 
-![png](/assets/images/2019-02-18-compare_rfxlm_robustlm_and_lmm_17_0.png)
+![png](/assets/images/compare_rfx/2019-02-18-compare_rfxlm_robustlm_and_lmm_17_0.png)
 
 ## Bonus: When fully-specified multi-level models fail
 
 Finally, we can take a brief look at what situations most often cause convergence failures for our fully-specified multi-level models (note: the simple multi-level models examined earlier never failed to converge in these simulations). In general, this seems to occur when between cluster variability is low, or the number of observations per cluster is very small. This makes sense because even though the data were generated in a multi-level manner, clusters are quite similar and simplifying models by discarding terms which try to model variance that may not be exhibited by the data in a meaningful way (e.g. dropping "random-slopes") achieve better estimation overall. In other words, the model may be trying to fit a variance parameter that is small enough to cause it to run out of optimizer iterations before it reaches a suitably small change in error. This is like trying to [find the lowest point](https://towardsdatascience.com/gradient-descent-d3a58eb72404) on a "hill" that has a very shallow declining slope by comparing the height of your current step to the height of your previous step.
 
-![png](/assets/images/2019-02-18-compare_rfxlm_robustlm_and_lmm_18_0.png)
+![png](/assets/images/compare_rfx/2019-02-18-compare_rfxlm_robustlm_and_lmm_18_0.png)
 
 ## Conclusions
 

@@ -18,5 +18,3 @@ layout: page
     {{ my_include | markdownify }}
 
 </div>
-
-<script src="{{base.url | prepend: site.url }}/assets/search.js"></script>

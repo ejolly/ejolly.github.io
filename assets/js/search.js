@@ -1,4 +1,8 @@
-const debounce = (func, wait) => {
+// Custom client-side search function
+var nonMatches = [];
+var headings = [];
+
+function debounce (func, wait) {
     // Source: https://davidwalsh.name/javascript-debounce-function
     let timeout;
 
@@ -13,9 +17,6 @@ const debounce = (func, wait) => {
     };
 };
 
-// Custom client-side search function
-let nonMatches = [];
-let headings = [];
 
 function search(ev) {
     let term;
@@ -88,7 +89,7 @@ function search(ev) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Setup search
+    // Setup search on page
     const searchInput = document.getElementById('search');
     const debouncedSearch = debounce(search, 50);
     searchInput.addEventListener('input',
