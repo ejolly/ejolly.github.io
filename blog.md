@@ -1,10 +1,10 @@
 ---
-layout: unstyled
 title: Blog
+layout: unstyled
 ---
 
 <div class="post-list-search">
-    <h2 class="not-prose">A random collection of guides, ideas, analyses, and visualizations </h2>
+    <h2>A random collection of guides, ideas, analyses, and visualizations </h2>
     {% include search.html %}
 </div>
 

@@ -112,18 +112,24 @@
   }
   /*  */
 
-  /* unstyled.html and blog.md */
-  .post-list-wrapper {
+  /* blog.md */
+  .blog .post-list-wrapper {
     @apply flex flex-col max-w-full md:max-w-3xl mx-auto space-y-8;
   }
-  .post-list-wrapper > .post-list-search {
-    @apply flex flex-col items-center text-center;
+  .blog .post-list-search {
+    @apply flex flex-col items-center prose md:prose-lg mx-auto;
   }
+  .blog .post-list-search h2 {
+    @apply mb-4;
+  } 
   /*  */
 
   /* publications.md */
-  .content > .paper-list-search {
+  .publications .content > .paper-list-search {
     @apply flex flex-col items-center text-center;
+  }
+  .publications .content h2:first-child {
+    @apply mt-0;
   }
   /*  */
 
