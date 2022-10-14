@@ -14,10 +14,13 @@ const debounce = (func, wait) => {
 };
 
 // Custom client-side search function
-let matches = [];
+let nonMatches = [];
+let headings = [];
+
 function search(ev) {
     let term;
     const searchInput = document.getElementById('search');
+    const searchIcon = document.getElementById('search-icon');
 
     // Escape clears everything
     if (ev.key == 'Escape') {
@@ -29,6 +32,7 @@ function search(ev) {
 
     // search contents of the paragraph tags on this page
     if (term) {
+        nonMatches = [];
         let content;
         if (document.URL.includes('publications')) {
             console.log("searching pubs!");
@@ -37,25 +41,47 @@ function search(ev) {
             content = Array.from(content).slice(1);
             content = content.filter(elem => elem.innerHTML.includes('<strong>'));
 
-       } else if (document.URL.includes('blog')) {
+            // Hide headings by default when searching otherwise it looks weird
+            headings = Array.from(document.querySelectorAll("h1, h2, h3, h4, h5, h6"));
+            headings.forEach(h => h.style.display = "none");
+
+        } else if (document.URL.includes('blog')) {
             console.log('search posts!');
             // All header, content, date, tags have post-* in class name
-            content = document.getElementsByClassName("group")
-            content = Array.from(content)
-       }
-        // Actually search
+            content = document.getElementsByClassName("group");
+            content = Array.from(content);
+        }
+
+        // Actually search by setting non-matches to display none
         content.forEach((pub) => {
-            if (!pub.innerText.toLowerCase().includes(term.toLowerCase())) {
-                let toHide = document.URL.includes('publications') ? pub : pub.parentNode
-                matches.push(toHide);
-                toHide.style.display = "none";
+            let elem = document.URL.includes('publications') ? pub : pub.parentNode;
+            if (!elem.innerText.toLowerCase().includes(term.toLowerCase())) {
+                nonMatches.push(elem);
+                elem.style.display = "none";
+            } else {
+                elem.style.display = 'block';
             }
         });
-        return matches;
+
+        // Style the input box red if there are no results
+        if (nonMatches.length === content.length) {
+            searchInput.classList.add('no-results');
+            searchIcon.classList.add('no-results');
+        } else {
+            searchInput.classList.remove('no-results');
+            searchIcon.classList.remove('no-results');
+        }
     } else {
+        // Reset everything
         console.log('reset');
-        matches.forEach(m => m.style.display = 'block');
-        matches = [];
+        nonMatches.forEach(m => m.style.display = 'block');
+        nonMatches = [];
+        if (headings.length) {
+            headings.forEach(h => h.style.display = 'block');
+            headings = [];
+        }
+        searchInput.classList.remove('no-results');
+        searchIcon.classList.remove('no-results');
     }
 }
 

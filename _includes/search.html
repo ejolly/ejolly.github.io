@@ -1,6 +1,6 @@
 <!-- Custom html search element styled with tailwind. The actual search functionality is
 in assets/js/search.js which needs to be sourced at the *bottom* of any page that wants it -->
-<div class="relative text-gray-600 focus-within:text-gray-400">
+<div class="relative mb-4 text-gray-300 focus-within:text-gray-400">
   <span class="absolute inset-y-0 left-0 flex items-center pl-2">
       <svg
         fill="none"
@@ -10,6 +10,7 @@ in assets/js/search.js which needs to be sourced at the *bottom* of any page tha
         stroke-width="2"
         viewBox="0 0 24 24"
         class="w-6 h-6"
+        id="search-icon"
       >
         <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
       </svg>
@@ -18,8 +19,27 @@ in assets/js/search.js which needs to be sourced at the *bottom* of any page tha
     type="search"
     name="search"
     id="search"
-  class="px-2 py-2 pl-10 text-sm text-white bg-black border-2 border-black rounded-md focus:outline-none focus:bg-stone-200 focus:border-stone-600 focus:text-gray-900"
+  class="px-2 py-2 pl-10 text-sm text-blue-400 bg-black border-2 border-black rounded-md focus:outline-none focus:bg-stone-200 focus:border-stone-600 focus:text-gray-900"
     placeholder="Filter..."
     autocomplete="off"
   />
 </div>
+
+<style>
+    input::placeholder {
+        color: rgb(209 213 219);
+    }
+    input:focus::placeholder {
+        color: rgb(17 24 39);
+    }
+    .no-results {
+        color: rgb(190 18 60);
+        border-color: rgb(190 18 60);
+        stroke: rgb(190 18 60);
+    }
+    .no-results:focus {
+        color: rgb(190 18 60);
+        border-color: rgb(190 18 60);
+        stroke: rgb(190 18 60);
+    }
+</style>
