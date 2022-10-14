@@ -4,20 +4,20 @@ layout: page
 ---
 <div>
 <div class="side-by-side">
-    <div>
+    <div class="image">
     	<a href="https://www.cosanlab.com/">
         <img class="image" style="border-radius:35px" src="{{site.url}}/assets/cosanlab_logo.jpg" alt="Alt Text" > </a>
     </div>
-    <div class="toright">
+    <div class="text">
         <p>I'm currently a post-doctoral researcher in the <a class="nounderline" href="http://cosanlab.com">Computational Social Affective Neuroscience Laboratory</a> at Dartmouth college working with <a class="nounderline" href="http://lukejchang.com">Luke Chang</a> where I also competed my PhD. My research broadly focuses on how humans form psychological impressions and construct neural representations of other people and ultimately how these representations change as they are transmitted between individuals.  Checkout my <a class="nounderline" href="{{site.url}}/research">research</a> for more info.</p>
     </div>
 </div>
 
 <div class="side-by-side">
-    <div class="toleft">
+    <div class="text">
         <p>I've also worked as a PhD research intern at <a class="nounderline" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research NYC</a> with <a class="nounderline" href="https://www.asc.upenn.edu/people/faculty/duncan-watts-phd">Duncan Watts</a> and <a class="nounderline" href="https://www.sidsuri.com/">Sid Suri</a>. During this time my work focused on building large scale web-based field experiments to study human cooperation in naturally occurring social networks.</p>
     </div>
-    <div class="toright">
+    <div class="image">
     	<a class="link" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">
         <img class="image" src="{{site.url}}/assets/MSFT_logo.png" alt="Alt Text"> </a>
     </div>

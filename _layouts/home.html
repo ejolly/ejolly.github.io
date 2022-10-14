@@ -17,12 +17,14 @@ layout: default
     font-size="1.01em"
   ></asciinema-player>
 
-  <img
-    class="cover-photo photo-lg animate__animated animate__zoomIn"
-    alt="{{ site.name }}"
-    src="{{ site.url }}/{{ site.picture
-  }}"
-  />
+  <div class="cover-photo-container">
+      <img
+        class="cover-photo animate__animated animate__zoomIn"
+        alt="{{ site.name }}"
+        src="{{ site.url }}/{{ site.picture
+      }}"
+      />
+  </div>
 
   {% include social-links.html %} 
   {% include nav.html %}

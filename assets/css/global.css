@@ -15,7 +15,7 @@
 @media screen and (min-width: 675px) {
   #search {
     display: inline;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     padding: 0 1rem 0 1rem;
     background: #f1f5f9;
     border: solid 1px #0f172a;
@@ -27,54 +27,69 @@
   }
 }
 /* Same deal with making the side by side tag available  */
+
 .side-by-side {
   display: flex;
-  flex-direction: row;
-  column-gap: 2rem;
+  flex-direction: column;
 }
-.side-by-side div {
-  flex-basis: 50%;
+
+.side-by-side img.image {
+  width: 50%;
+  max-width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 841px) {
+  .side-by-side {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+  .side-by-side div {
+    flex-basis: 50%;
+  }
 }
 .breaker {
-    width: 50%;
-    margin: auto;
-    margin-top: 2rem;
-    border: none;
-    border-top: 3px double rgb(156 163 175);
-    opacity: .5;
-    color: #333;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  border: none;
+  border-top: 3px double rgb(156 163 175);
+  opacity: 0.5;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
 }
 .breaker:after {
-    background: #fff;
-    content: '"';
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
+  background: #fff;
+  content: '"';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
 }
 /* remove the surrounding `` that tailwind typography adds */
 code:before {
-    content: '' !important;
+  content: "" !important;
 }
 code:after {
-    content: '' !important;
+  content: "" !important;
 }
 
 div[class*="language-"] {
   position: relative;
 }
 
-button{
+button {
   position: absolute;
   top: 5px;
   right: 5px;
   background: #cbd5e1;
   color: #1e293b;
-  font-size: .85rem;
-  padding: .35rem .75rem;
-  border-radius: .8rem;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.8rem;
 
   /* more stuff */
 }
@@ -99,4 +114,3 @@ pre span:before {
     margin-right: 0.5rem;
     color: #888;
 } */
-
