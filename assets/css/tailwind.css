@@ -108,7 +108,7 @@
 
   /* page.html */
   .content {
-    @apply mx-auto prose md:prose-lg md:max-w-[70ch] prose-a:text-sky-500 hover:prose-a:underline hover:prose-a:decoration-dotted prose-a:no-underline hover:prose-a:underline-offset-4 hover:prose-a:text-rose-500  prose-code:not-italic;
+    @apply mx-auto prose md:prose-lg md:max-w-[70ch] prose-a:text-sky-500 hover:prose-a:underline hover:prose-a:decoration-dotted prose-a:no-underline hover:prose-a:underline-offset-4 hover:prose-a:text-rose-500  prose-code:not-italic min-h-[2000px];
   }
   /*  */
 

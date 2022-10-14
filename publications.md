@@ -9,6 +9,14 @@ layout: page
 {% include search.html %}
 </div>
 
-{% include_relative pubs.md %}
+<div class="content">
+
+    {% capture my_include %}
+        {% include_relative pubs.md %}
+    {% endcapture %}
+
+    {{ my_include | markdownify }}
+
+</div>
 
 <script src="{{base.url | prepend: site.url }}/assets/search.js"></script>
