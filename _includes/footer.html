@@ -1,12 +1,15 @@
 <footer class="footer">
-  <hr class="footer-divider" />
-  <div
-    class="flex flex-col sm:flex-row sm:justify-center sm:space-x-2 items-center"
-  >
-    <p>{{ site.name }} © {{ site.time | date: '%Y' }}</p>
+  <hr class="footer-divider"/>
+  <div class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2">
+    <p>{{ site.name }}
+      ©
+      {{ site.time | date: '%Y' }}
+    </p>
     <p class="extra">
       built with
-      <a class="link" href="https://jekyllrb.com/">jekyll </a> and
+      <a class="link" href="https://jekyllrb.com/">jekyll
+      </a>
+      and
       <a href="https://tailwindcss.com" class="link">tailwind</a>
     </p>
   </div>

@@ -1,33 +1,38 @@
 {% if post.blog == true %}
-    <div class="post-item">
-        <div class='group' >
-            <h3 class="post-title">
-                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-            </h3>
-            <p class="post-description">
-                <a href="{{ site.url }}{{ post.url }}">{{ post.description }}</a>
-            </p>
-            <div class="flex flex-row justify-between">
-                <p class="post-date">
-                    <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date:
-                        "%b %d %Y" }}</time>
-                    </p>
-                    <ul class="post-tags">
-                        {% assign sorted_tags = post.tags | sort %}
-                        {% for tag in sorted_tags %}
-                            <li class="post-tag" id="{{ tag }}" onclick="searchByTag(this)"> {{ tag }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+  <div class="post-item">
+    <div class='group'>
+      <h3 class="post-title">
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+        </a>
+      </h3>
+      <p class="post-description">
+        <a href="{{ site.url }}{{ post.url }}">{{ post.description }}
+        </a>
+      </p>
+      <div class="flex flex-row justify-between">
+        <p class="post-date">
+          <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date:
+                          "%b %d %Y" }}
+          </time>
+        </p>
+        <ul class="post-tags">
+          {% assign sorted_tags = post.tags | sort %}
+          {% for tag in sorted_tags %}
+            <li class="post-tag" id="{{ tag }}" onclick="searchByTag(this)">
+              {{ tag }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-    <script>
-        function searchByTag(elem) {
-            const tag = elem.id;
-            const searchInput = document.getElementById('search');
-            searchInput.value = tag
-            searchInput.dispatchEvent(new Event('input', {bubbles:true}));
-            searchInput.focus()
-        }
-    </script>
+  </div>
+  <script>
+    function searchByTag(elem) {
+      const tag = elem.id;
+      const searchInput = document.getElementById('search');
+      searchInput.value = tag
+      searchInput.dispatchEvent(new Event('input', {bubbles: true}));
+      searchInput.focus()
+    }
+  </script>
 {% endif %}

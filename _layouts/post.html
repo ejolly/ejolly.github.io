@@ -3,64 +3,72 @@ layout: page
 ---
 
 {% if page.image and page.headerImage %}
-    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+  <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% endif %}
 
-<h1 class="title">{{ page.title }}</h1>
+<h1 class="title">{{ page.title }}
+</h1>
 
 <div class="responsive-metadata-container">
 
-    <!-- date -->
-    <span class="post-date">
-        <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
-        {% if site.read-time %} ({% include read-time.html %}){% endif %}
-    </span>
+  <!-- date -->
+  <span class="post-date">
+    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}
+    </time>
+    {% if site.read-time %}
+      ({% include read-time.html %}
+      ){% endif %}
+  </span>
 
-    <!-- tags -->
-    <!-- hidden so user doesn't interact with them, but around for SEO -->
-    <div>
-        {% for tag in page.tags %}
-            <a class="hidden tag" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
-        {% endfor %}
-    </div>
+  <!-- tags -->
+  <!-- hidden so user doesn't interact with them, but around for SEO -->
+  <div>
+    {% for tag in page.tags %}
+      <a class="hidden tag" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}
+      </a>
+    {% endfor %}
+  </div>
 </div>
 
 <!-- TOC if requested -->
 {% if page.toc %}
-<div class='toc-container not-prose'>
+  <div class='toc-container not-prose'>
     <details>
-        <summary>
-            Table of Contents
-        </summary>
-        {% include toc.html html=content class='toc' id='toc' %}
+      <summary>
+        Table of Contents
+      </summary>
+      {% include toc.html html=content class='toc' id='toc' %}
     </details>
-</div>
+  </div>
 {% endif %}
 
 {{content}}
 
 {% if page.blog and site.blog-nav-links %}
-    <div class="blog-navigation">
-        {% if page.previous.url %}
-            <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
-        {% else %}
-            <a class="prev"></a>
-        {% endif %}
-        {% if page.next.url %}
-            <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-        {% endif %}
-    </div>
+  <div class="blog-navigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo;
+        {{ page.previous.title }}
+      </a>
+    {% else %}
+      <a class="prev"></a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }}
+        &raquo;</a>
+    {% endif %}
+  </div>
 {% endif %}
 
 {% include mathjax.html %}
 <script async src="{{base.url | prepend: site.url }}/assets/js/copyCode.js"></script>
 
 <style>
-/* Need style here because selectors get purged by tailwind since button is created via js */
-    div[class*="language-"] {
+  /* Need style here because selectors get purged by tailwind since button is created via js */
+  div[class*="language-"] {
     position: relative;
-    }
-    .copy-button {
+  }
+  .copy-button {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -69,5 +77,5 @@ layout: page
     font-size: 0.85rem;
     padding: 0.35rem 0.75rem;
     border-radius: 0.8rem;
-    }
-</style>
+  }
+</style>>>

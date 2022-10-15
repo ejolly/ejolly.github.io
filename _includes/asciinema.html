@@ -1,34 +1,24 @@
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="/assets/css/asciinema-player.min.css"
-  media="print"
-  onload="this.media='all'"
-/>
+<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.min.css" media="print" onload="this.media='all'"/>
 <div id="demo" class="md:mx-auto md:max-w-prose"></div>
 <script src="/assets/js/asciinema-player.min.js"></script>
 
 <!-- Set width cutoff based on iphone 14 pro max -->
 
 <script defer>
-  const player = AsciinemaPlayer.create(
-    "{{ include.recording }}",
-    document.getElementById("demo"),
-    {
-      loop: "{{ include.loop }}" === "true",
-      preload: true,
-      autoPlay: true,
-      rows: parseInt("{{ include.rows }}"),
-      cols: 200,
-      speed: 6,
-      fit: false,
-      terminalFontSize: document.URL.includes("software")
-        ? screen.width <= 430
-          ? ".60rem"
-          : "1rem"
-        : screen.width <= 430
+  const player = AsciinemaPlayer.create("{{ include.recording }}", document.getElementById("demo"), {
+    loop: "{{ include.loop }}" === "true",
+    preload: true,
+    autoPlay: true,
+    rows: parseInt("{{ include.rows }}"),
+    cols: 200,
+    speed: 6,
+    fit: false,
+    terminalFontSize: document.URL.includes("software")
+      ? screen.width <= 430
+        ? ".60rem"
+        : "1rem"
+      : screen.width <= 430
         ? ".80rem"
-        : "1.2rem",
-    }
-  );
+        : "1.2rem"
+  });
 </script>
