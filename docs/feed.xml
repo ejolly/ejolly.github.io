@@ -1,6 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://eshinjolly.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eshinjolly.com/" rel="alternate" type="text/html" /><updated>2022-10-15T06:56:43-04:00</updated><id>https://eshinjolly.com/feed.xml</id><title type="html">Eshin Jolly</title><entry><title type="html">A handy guide to managing projects with conda</title><link href="https://eshinjolly.com/2021/11/22/conda/" rel="alternate" type="text/html" title="A handy guide to managing projects with conda" /><published>2021-11-22T00:00:00-05:00</published><updated>2021-11-22T00:00:00-05:00</updated><id>https://eshinjolly.com/2021/11/22/conda</id><content type="html" xml:base="https://eshinjolly.com/2021/11/22/conda/"><![CDATA[<p><em>I’m experimenting with a new blogging platform for a bit so the post below is embedded from that service. If you prefer the fullscreen version you can check it out and even leave comments <a href="https://www.craft.do/s/0MKzYVAYgRan2x">here</a></em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://eshinjolly.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eshinjolly.com/" rel="alternate" type="text/html" /><updated>2022-10-15T18:43:28-04:00</updated><id>https://eshinjolly.com/feed.xml</id><title type="html">Eshin Jolly</title><entry><title type="html">Reproducible scientific Python environments with conda</title><link href="https://eshinjolly.com/2022/10/15/conda-environments/" rel="alternate" type="text/html" title="Reproducible scientific Python environments with conda" /><published>2022-10-15T00:00:00-04:00</published><updated>2022-10-15T00:00:00-04:00</updated><id>https://eshinjolly.com/2022/10/15/conda-environments</id><content type="html" xml:base="https://eshinjolly.com/2022/10/15/conda-environments/"><![CDATA[<p>This is a brief explanation of a workflow that I’ve been using for research/data-science projects in Python. It makes use of <code class="language-plaintext highlighter-rouge">conda</code> environments <strong>co-located</strong> with project files. This meets several key criteria that I was looking for:</p>
 
-<iframe src="https://www.craft.do/s/0MKzYVAYgRan2x" width="100%" height="1000"></iframe>]]></content><author><name></name></author><category term="academia" /><category term="scientific tooling" /><summary type="html"><![CDATA[How to setup anaconda and create project environments]]></summary></entry><entry><title type="html">Sometimes a project can be an unexpected but delightful journey</title><link href="https://eshinjolly.com/2021/05/03/delightful-journey/" rel="alternate" type="text/html" title="Sometimes a project can be an unexpected but delightful journey" /><published>2021-05-03T00:00:00-04:00</published><updated>2021-05-03T00:00:00-04:00</updated><id>https://eshinjolly.com/2021/05/03/delightful-journey</id><content type="html" xml:base="https://eshinjolly.com/2021/05/03/delightful-journey/"><![CDATA[<p><em>This post is a reflection on my experiences as a grad-student and the unexpected ways that a <a href="https://www.sciencedirect.com/science/article/pii/S0960982221004632">recently published project</a> impacted my life. I wrote this as a current post-doc looking back, and I have no expectations this will generalize to everyone (or anyone) in similar circumstances, but maybe some folks might it useful or entertaining.</em></p>
+<ul>
+  <li>Enviroments are easily recreatable, meaning less worry about ever borking things</li>
+  <li>Reproducible workspace across different machines</li>
+  <li>Dependencies placed under version control for open-science and collaboration</li>
+  <li>“Portable” environments that are easy to move around like normal folders</li>
+</ul>
+
+<p>Below are the key steps to use this setup.</p>
+
+<p class="note"><strong>Note</strong> This post replaces an earlier version I was drafting using <a href="https://www.craft.do/">Craft</a>. I took down that post from this site, but you can still access the draft version <a href="https://www.craft.do/s/0MKzYVAYgRan2x">here</a>. The commands below were run on macOS and should be relatively similar to other Nix-y systems (e.g. Ubuntu and Windows subsystem for Linux).</p>
+
+<h1 id="setting-up-anaconda-or-minconda">Setting up Anaconda or Minconda</h1>
+
+<p>You can use <a href="https://docs.conda.io/en/latest/miniconda.html">this link</a> to grab the latest Miniconda (on macOS you want the <code class="language-plaintext highlighter-rouge">bash</code> script). Or you can use the installation the link at the <a href="https://www.anaconda.com/products/individual">bottom of this page</a> to download Anaconda instead. Miniconda is a bit faster cause it’s more bare-bones, but Anaconda includes some default packages. Once you’ve downloaded either of those files you’ll need to open up a Terminal and <code class="language-plaintext highlighter-rouge">cd</code> to the location of the file (probably <code class="language-plaintext highlighter-rouge">Downloads</code> or <code class="language-plaintext highlighter-rouge">Desktop</code>). From there you’ll need to run the installer and follow the prompts, which you can do by typing <code class="language-plaintext highlighter-rouge">bash fileYouDownloaded.sh</code>.</p>
+
+<p>You can verify the installation worked by asking your system what Python it sees now using <code class="language-plaintext highlighter-rouge">which python</code>. If everything worked it should point to the Python installed inside your <code class="language-plaintext highlighter-rouge">anaconda3</code> or <code class="language-plaintext highlighter-rouge">miniconda3</code> directory.</p>
+
+<h1 id="creating-a-new-environment-for-each-project">Creating a new environment for each project</h1>
+
+<p>Most guides will tell you to create a new <em>named</em> environment using the <code class="language-plaintext highlighter-rouge">-n/--name</code> flag to <code class="language-plaintext highlighter-rouge">conda create</code>. But a more reproducible setup is to create a <em>local</em> environment within your project folder. Let’s say you have a project folder called <code class="language-plaintext highlighter-rouge">myproject/</code>. The command below creates a new environment in a sub-directory called <code class="language-plaintext highlighter-rouge">env</code>. It installs Python 3.8, <code class="language-plaintext highlighter-rouge">pip</code> (for libraries on <a href="https://pypi.org/">pypi</a>), and specifically uses the <a href="https://conda-forge.org/">conda-forge</a> channel for grabbing them:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># From within myproject/</span>
+conda create <span class="nt">-p</span> ./env <span class="nv">python</span><span class="o">=</span>3.8 pip <span class="nt">-c</span> conda-forge
+</code></pre></div></div>
+<p class="caption">Change your Python version to what makes most sense for your project. You can also omit <code class="language-plaintext highlighter-rouge">-c conda-forge</code> to just install from the normal <code class="language-plaintext highlighter-rouge">defaults</code> channel.</p>
+
+<p>You should now see a new <code class="language-plaintext highlighter-rouge">env/</code> directory. You can activate the environment by pointing to it: <code class="language-plaintext highlighter-rouge">conda activate ./env</code>. You <strong>should not</strong> commit this folder to version control as it can be quite large depending on how complex your project requirements get. So make sure to <code class="language-plaintext highlighter-rouge">echo 'env/' &gt;&gt; .gitignore</code>.</p>
+
+<h1 id="backing-up-and-restoring-your-environment">Backing up and restoring your environment</h1>
+
+<p>This is the critical piece that makes this setup work: the <code class="language-plaintext highlighter-rouge">environment.yml</code> file. This file is a <em>recipe</em> for rebuilding your environment in a platform-independent way. To create this recipe run the following command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Export the environment recipe to a file called environment.yml</span>
+conda <span class="nb">env export</span> <span class="nt">--no-builds</span> <span class="nt">-f</span> environment.yml
+</code></pre></div></div>
+<p class="caption">The <code class="language-plaintext highlighter-rouge">--no-builds</code> flag exports the current environment in a platform-independent way. This means you should be able to use the same <code class="language-plaintext highlighter-rouge">environment.yml</code> across different operating systems (e.g. macOS, Windows, etc)</p>
+
+<p>You should <strong>rerun this command any time you install or uninstall new libraries and packages</strong>. You should also commit those changes to version control:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add environment.yml
+git commit <span class="nt">-m</span> <span class="s2">"saved environment"</span>
+</code></pre></div></div>
+
+<p>To restore an environment from this file (e.g. if you or a collaborator are working on another machine or you break something) just do:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Make sure the env isn't active </span>
+conda deactivate
+<span class="c"># Delete the env folder</span>
+<span class="nb">rm</span> <span class="nt">-r</span> <span class="nb">env</span>
+<span class="c"># Create a new env using the spec in environment.yml</span>
+conda <span class="nb">env </span>create <span class="nt">-p</span> ./env <span class="nt">-f</span> environment.yml
+</code></pre></div></div>
+
+<p>You can also make sure your environment is in-sync with <code class="language-plaintext highlighter-rouge">environment.yml</code> by running the following command which will install and uninstall dependencies as needed:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda <span class="nb">env </span>update <span class="nt">-p</span> ./env <span class="nt">-f</span> environment.yml <span class="nt">--prune</span>
+</code></pre></div></div>
+
+<h1 id="a-few-closing-suggestions">A few closing suggestions</h1>
+
+<h2 id="make-sure-you-know-what-environment-is-active-before-running-conda-install-commands">Make sure you know what environment is active before running conda install commands</h2>
+
+<p>Make sure whenever you want to add or remove package to a project environment (e.g. <code class="language-plaintext highlighter-rouge">myproject</code> ), you <code class="language-plaintext highlighter-rouge">conda activate ./env</code> it first. If you don’t, you’ll accidentally be adding and removing things from your <code class="language-plaintext highlighter-rouge">base</code> environment!</p>
+
+<h2 id="be-careful-about-mixing-and-matching-conda-channels">Be careful about mixing and matching conda channels!</h2>
+
+<p>In snipped above I used the <code class="language-plaintext highlighter-rouge">-c</code> flag to <code class="language-plaintext highlighter-rouge">conda install</code> from the <code class="language-plaintext highlighter-rouge">conda-forge</code> channel. By default <code class="language-plaintext highlighter-rouge">conda</code> will install from the <code class="language-plaintext highlighter-rouge">defaults</code> channel which points to <a href="https://anaconda.org/">anaconda.org</a>, whereas <code class="language-plaintext highlighter-rouge">conda-forge</code> points to <a href="https://conda-forge.org/">conda-forge.org</a>.</p>
+
+<p>In general, you can save yourself a lot of headaches by simply <strong>sticking with the same channel for installing everything.</strong> For example if I installed <a href="https://numpy.org/">numpy</a> using <code class="language-plaintext highlighter-rouge">conda install -c conda-forge numpy</code>, then it’s a good idea to <strong>keep using</strong> <code class="language-plaintext highlighter-rouge">conda-forge</code> for other packages I want like <code class="language-plaintext highlighter-rouge">pandas</code>: <code class="language-plaintext highlighter-rouge">conda install -c conda-forge pandas</code>, rather than <code class="language-plaintext highlighter-rouge">conda install pandas</code>, which is equivalent to <code class="language-plaintext highlighter-rouge">conda install -c defaults pandas</code>.</p>
+
+<p>There might be times when you can’t avoid mixing and matching, but it’s a good heuristic to help avoid the dreaded “environment conflict” messages that you might encounter otherwise. I have been a long time <code class="language-plaintext highlighter-rouge">defaults</code> user because of one or two less than pleasant experiences with <code class="language-plaintext highlighter-rouge">conda-forge</code> several years ago. Plus there used to be a significant speed difference when using the Intel compiled MKL (Math Kernel Libraries) and the open BLAS (Basic Linear Algebra Subprograms) that power libraries like <code class="language-plaintext highlighter-rouge">numpy</code>. But lately most of that seems to have changed and for the last few projects I’ve been exclusively preferring <code class="language-plaintext highlighter-rouge">conda-forge</code> for its breadth and especially for any <a href="https://eshinjolly.com/pymer4">R related dependencies</a>.</p>
+
+<h2 id="optional-extra-automation">Optional extra automation</h2>
+
+<p>If you’re interested in automating this workflow a bit, I made a few bash functions and aliases that you should be able to drop in to a <code class="language-plaintext highlighter-rouge">.zshrc</code> or <code class="language-plaintext highlighter-rouge">.bashrc</code> file. Specifically:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">envinit()</code> for creating a brand new <code class="language-plaintext highlighter-rouge">env/</code> with a few basic libs and exporting its <code class="language-plaintext highlighter-rouge">environment.yml</code></li>
+  <li><code class="language-plaintext highlighter-rouge">envsave()</code> which exports the current <code class="language-plaintext highlighter-rouge">env</code> to <code class="language-plaintext highlighter-rouge">environment.yml</code> and also appends <code class="language-plaintext highlighter-rouge">pip</code> packages installed from something other than <a href="https://pypi.org/">pypi</a>, e.g. github or locally from source. That’s because currently conda <a href="https://github.com/conda/conda/issues/9308">doesn’t install these packages</a> when recreating an environment. So you’ll have to install them manually with <code class="language-plaintext highlighter-rouge">pip</code></li>
+  <li><code class="language-plaintext highlighter-rouge">envcheck()</code> which checks if <code class="language-plaintext highlighter-rouge">envsave</code> needs to be run and does so. Useful as a <a href="https://www.atlassian.com/git/tutorials/git-hooks#conceptual-overview">git precommit hook</a>.</li>
+  <li><code class="language-plaintext highlighter-rouge">envactivate()</code> which basically “overloads” <code class="language-plaintext highlighter-rouge">conda activate</code> to prefer a <code class="language-plaintext highlighter-rouge">./env</code> if one exists in the current directory</li>
+  <li><code class="language-plaintext highlighter-rouge">newproject.py</code> a python script that bootstraps a folder structure I often use while also seting up a <a href="https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings">VSCode Workspace</a> and git repo</li>
+</ul>
+
+<p>When starting a new project I’ll usually do something like this:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Create new project scaffold using the `newproject` script at the end of this post</span>
+newproject <span class="nt">--name</span> coolscience
+
+<span class="c"># Create a new conda env using an alias for the `envinit()` bash function</span>
+<span class="nb">cd </span>coolscience
+ie
+
+<span class="c"># Setup up verison control for env</span>
+<span class="nb">echo</span> <span class="s1">'env'</span> <span class="o">&gt;&gt;</span> .gitignore
+git add environment.yml
+git commit <span class="nt">-m</span> <span class="s2">"saved environment"</span>
+</code></pre></div></div>
+
+<p>This creates the following project structure and gives me a Python environment ready to go with some reasonable defaults and editor setup:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># contents of coolscience/</span>
+|-- analysis/
+|-- code/
+|-- data/
+|-- docs/
+|-- <span class="nb">env</span>/                  <span class="c"># actual env contents</span>
+|-- figures/
+|-- presentations/
+|-- LICENSE
+|-- README.md
+|-- environment.yml       <span class="c"># env recipe</span>
+|-- .vscode/
+|-- .gitignore
+</code></pre></div></div>
+
+<p>As I continue working I’ll do the following:</p>
+<ul>
+  <li>whenever I first <code class="language-plaintext highlighter-rouge">cd</code> into <code class="language-plaintext highlighter-rouge">coolscience</code> I’ll use <code class="language-plaintext highlighter-rouge">ca</code> to activate the environment installed in <code class="language-plaintext highlighter-rouge">coolscience/env</code></li>
+  <li>I’ll <code class="language-plaintext highlighter-rouge">ce</code> to check if my <code class="language-plaintext highlighter-rouge">environment.yml</code> needs to be updated with any new packages I <code class="language-plaintext highlighter-rouge">conda install</code>-ed or removed</li>
+  <li>If I remember I’ll use <code class="language-plaintext highlighter-rouge">se</code> whenever I <code class="language-plaintext highlighter-rouge">conda install</code> something. But honestly I forget alot so end up using <code class="language-plaintext highlighter-rouge">ce</code></li>
+</ul>
+
+<p class="note"><strong>Note</strong> As mentioned above the <code class="language-plaintext highlighter-rouge">environment.yml</code> generated by <code class="language-plaintext highlighter-rouge">envsave()</code> and <code class="language-plaintext highlighter-rouge">envcheck()</code> will also output  installed <code class="language-plaintext highlighter-rouge">pip</code> packages for convenience. However, any pip packages installed from source or after <code class="language-plaintext highlighter-rouge">git clone</code>-ing something will need to be reinstalled manually whenever you recreate the environment. The aliases will print out a message indicating whenever you’re in that situation.</p>
+
+<p>And the aliases/functions/scripts are here:</p>
+
+<div class="not-prose gist-wrapper">
+<script src="https://gist.github.com/ejolly/6c2dcf4b7a1ce39121859770a4f5a5d2.js"></script>
+</div>
+
+<div class="not-prose gist-wrapper">
+    <script src="https://gist.github.com/ejolly/0f448085a35540ab42dfd5cec1d9ce19.js"></script>
+</div>]]></content><author><name></name></author><category term="scientific tooling" /><category term="python" /><category term="anaconda" /><summary type="html"><![CDATA[How to setup anaconda and create portable project environments]]></summary></entry><entry><title type="html">Sometimes a project can be an unexpected but delightful journey</title><link href="https://eshinjolly.com/2021/05/03/delightful-journey/" rel="alternate" type="text/html" title="Sometimes a project can be an unexpected but delightful journey" /><published>2021-05-03T00:00:00-04:00</published><updated>2021-05-03T00:00:00-04:00</updated><id>https://eshinjolly.com/2021/05/03/delightful-journey</id><content type="html" xml:base="https://eshinjolly.com/2021/05/03/delightful-journey/"><![CDATA[<p><em>This post is a reflection on my experiences as a grad-student and the unexpected ways that a <a href="https://www.sciencedirect.com/science/article/pii/S0960982221004632">recently published project</a> impacted my life. I wrote this as a current post-doc looking back, and I have no expectations this will generalize to everyone (or anyone) in similar circumstances, but maybe some folks might it useful or entertaining.</em></p>
 
 <h2 id="the-hamster-wheel-death-spiral">The hamster-wheel death-spiral</h2>
 

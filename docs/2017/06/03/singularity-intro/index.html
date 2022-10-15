@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
    <meta charset="utf-8">
    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
    <meta name=viewport content="width=device-width, initial-scale=1">
@@ -23,47 +23,41 @@
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2017-06-03T00:00:00-04:00","datePublished":"2017-06-03T00:00:00-04:00","description":"Using containers on a compute cluster for reproducible science","headline":"Analysis containers and compute clusters","mainEntityOfPage":{"@type":"WebPage","@id":"https://eshinjolly.com/2017/06/03/singularity-intro/"},"url":"https://eshinjolly.com/2017/06/03/singularity-intro/"}</script>
-  <link rel="apple-touch-icon-precomposed" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png" />
-<link rel="apple-touch-icon-precomposed" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png" />
-<link rel="apple-touch-icon-precomposed" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png" />
-<link rel="apple-touch-icon-precomposed" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png" />
-<link rel="apple-touch-icon-precomposed" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png" />
-<link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png" />
-<link rel="apple-touch-icon-precomposed" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png" />
-<link rel="icon" type="image/png" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png" />
-<link rel="icon" type="image/png" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png" />
-<link rel="icon" type="image/png" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png" />
-<link rel="icon" type="image/png" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png" />
-<link rel="icon" type="image/png" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png" />
-<link rel="icon" type="image/png" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png"/>
+<link rel="icon" type="image/png" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png"/>
+<link rel="icon" type="image/png" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png"/>
+<link rel="icon" type="image/png" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png"/>
+<link rel="icon" type="image/png" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png"/>
+<link rel="icon" type="image/png" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png"/>
+<link rel="icon" type="image/png" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png"/>
 <meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="favicon-128x128.png" />
-<meta name="msapplication-square72x72logo" content="favicon-72x72.png" />
-<meta name="msapplication-square128x128logo" content="favicon-128x128.png" />
-<meta name="msapplication-square256x256logo" content="favicon-256x256.png" />
+<meta name="msapplication-TileColor" content="#FFFFFF"/>
+<meta name="msapplication-TileImage" content="favicon-128x128.png"/>
+<meta name="msapplication-square72x72logo" content="favicon-72x72.png"/>
+<meta name="msapplication-square128x128logo" content="favicon-128x128.png"/>
+<meta name="msapplication-square256x256logo" content="favicon-256x256.png"/>
   <link rel="canonical" href="https://eshinjolly.com/2017/06/03/singularity-intro/">
-  <link rel="alternate" type="application/rss+xml" title="" href="https://eshinjolly.com/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="" href="https://eshinjolly.com/feed.xml"/>
   <link rel="stylesheet" href="/assets/css/tailwind.css">
   <link rel="stylesheet" href="/assets/css/syntax.min.css">
     <script async defer data-website-id="4a8aa9aa-84ea-4c68-b908-c32d9488972b" src="https://umami.eshin.codes/umami.js"></script>
-<body class="body">
+ <body class="body">
    <div class="page">
-           <div class="post">
-          <header class="header-container">
+       <div class="post">
+        <header class="header-container">
   <a class="cover-photo-container" href="/">
-    <img
-      class="cover-photo hover:opacity-80"
-      alt="Eshin Jolly"
-      src="https://eshinjolly.com/assets/images/slices.png"
-      width="448px"
-      height="200px"
-    />
+    <img class="cover-photo hover:opacity-80" alt="Eshin Jolly" src="https://eshinjolly.com/assets/images/slices.png" width="448px" height="200px"/>
   </a>
  <div class="links-row">
   <a
@@ -153,38 +147,42 @@
     </svg>
   </a>
 </div>
-<nav class="nav">
-   <ul class="nav-row">
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/about">About</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/research">Research</a>
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/software">Software</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/publications">Publications</a>
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/music">Music</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/blog">Blog</a>
-   </ul>
+ <nav class="nav">
+ <ul class="nav-row">
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/about">About</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/research">Research</a>
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/software">Software</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/publications">Publications</a>
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/music">Music</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/blog">Blog</a>
+ </ul>
 </nav>
- <hr class="divider" />
+ <hr class="divider"/>
 </header>
 <div class="content">
-<h1 class="title">Analysis containers and compute clusters</h1>
+<h1 class="title">Analysis containers and compute clusters
+</h1>
 <div class="responsive-metadata-container">
-    <span class="post-date">
-        <time datetime="03-06-2017">Saturday. June 03, 2017</time>
-         (<span class="reading-time" title="Estimated read time">
-        ~1m read
+  <span class="post-date">
+    <time datetime="03-06-2017">Saturday. June 03, 2017
+    </time>
+      (<span class="reading-time" title="Estimated read time">
+    ~1m read
 </span>
-)
-    </span>
-   <div>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#tutorial">tutorial</a>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#analysis">analysis</a>
-   </div>
+      )
+  </span>
+ <div>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#tutorial">tutorial
+      </a>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#analysis">analysis
+      </a>
+ </div>
 </div>
 <p>Recently <a href="http://pbs.dartmouth.edu/">Dartmouth graduate students</a> collectively organized a full day of workshops to share and help each other out with the plethora of data analysis tools we regularly use in our respective research endeavors. Amongst these was a brief hands-on tutorial I gave with <a href="http://mvdoc.me/">Matteo Visconti</a> on utilizing container-based analysis environment with <a href="http://techdoc.dartmouth.edu/discovery/">Discovery</a>, Dartmouth’s high-performance compute cluster (HPC).</p>
 <p>For a nice primer on what containers are and how they can be useful for sharing and reproducing research I highly recommend checking out Matteo’s <a href="http://mvdoc.me/2017/using-singularity-to-make-analyses-reproducible.html">blog post</a>. The general idea is to create a portable computing environment that has all the tools one might need to conduct a particular analysis workflow (i.e. the actual programs and system architecture that your analysis scripts can be executed with).</p>
@@ -195,11 +193,11 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script async src="https://eshinjolly.com/assets/js/copyCode.js"></script>
 <style>
-/* Need style here because selectors get purged by tailwind since button is created via js */
-    div[class*="language-"] {
+  /* Need style here because selectors get purged by tailwind since button is created via js */
+  div[class*="language-"] {
     position: relative;
-    }
-    .copy-button {
+  }
+  .copy-button {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -208,20 +206,25 @@
     font-size: 0.85rem;
     padding: 0.35rem 0.75rem;
     border-radius: 0.8rem;
-    }
-</style></div>
+  }
+</style>
+</div>
        </div>
-   </div>
-   <footer class="footer">
- <hr class="footer-divider" />
- <div
-    class="flex flex-col sm:flex-row sm:justify-center sm:space-x-2 items-center"
-  >
-   <p>Eshin Jolly © 2022</p>
+     </div>
+     <footer class="footer">
+ <hr class="footer-divider"/>
+ <div class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2">
+   <p>Eshin Jolly
+      ©
+      2022
+   </p>
    <p class="extra">
       built with
-      <a class="link" href="https://jekyllrb.com/">jekyll </a> and
+      <a class="link" href="https://jekyllrb.com/">jekyll
+      </a>
+      and
       <a href="https://tailwindcss.com" class="link">tailwind</a>
    </p>
  </div>
 </footer>
+  

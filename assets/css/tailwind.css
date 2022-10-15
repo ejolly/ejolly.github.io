@@ -44,7 +44,7 @@
   }
   /* home.html */
   .home-container {
-    @apply flex flex-col justify-between gap-y-8 mt-16 md:mt-28;
+    @apply flex flex-col justify-between gap-y-8 mt-8 md:mt-28;
   }
   .title {
     @apply text-5xl md:text-6xl text-center font-bold !important;
@@ -59,6 +59,9 @@
     @apply flex flex-col gap-y-8;
   }
   /* post.html */
+  .post .content > h1.title {
+    @apply text-4xl md:text-5xl text-center font-extrabold mt-2 !important;
+  }
   .tag {
     @apply text-sm italic;
   }
@@ -131,7 +134,7 @@
     @apply flex flex-row basis-1/2 flex-wrap justify-end space-x-2 tracking-tight italic;
   }
   .post-tag {
-    @apply tracking-tight italic relative text-xs md:text-sm text-sky-500 opacity-50 hover:opacity-100 cursor-pointer before:content-['<'] after:content-['/>;'] before:mr-[-.15rem] after:ml-[-.15rem]; 
+    @apply tracking-tight italic relative text-xs md:text-sm text-sky-500 opacity-50 hover:opacity-100 cursor-pointer before:content-['<'] after:content-['/>;'] before:mr-[-.15rem] after:ml-[-.15rem];
   }
   .post-tag:last-of-type {
     @apply after:content-['/>'];
@@ -228,26 +231,41 @@
     @apply w-[80%] mx-auto;
   }
   .caption {
-    @apply -mt-6 text-sm italic w-[98%] mx-auto text-gray-500 leading-tight;
+    @apply -mt-6 md:-mt-8 text-sm italic w-[98%] mx-auto text-gray-500 leading-5 md:leading-6;
   }
   .caption-centered {
-    @apply -mt-6 text-sm italic w-[98%] mx-auto text-gray-500 leading-tight text-center;
+    @apply -mt-6 md:-mt-8 text-sm italic w-[98%] mx-auto text-gray-500 leading-tight text-center;
   }
-  .caption code {
-    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-xs !important;
-  }
+
+  .caption code,
   .caption-centered code {
-    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-xs !important;
+    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-[.1rem] md:py-1 px-0 text-xs font-normal !important;
   }
-  p code {
-    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-sm font-normal !important;
+
+  p code,
+  u code,
+  li code {
+    @apply text-[#f8f8f2] bg-[#3c4143] py-1 text-sm font-normal rounded !important;
   }
-  ul code {
+  p code:before,
+  u code:before,
+  li code:before {
+    content: " " !important;
+    white-space: pre !important;
+  }
+  p code:after,
+  u code:after,
+  li code:after {
+    content: " " !important;
+    white-space: pre !important;
+  }
+
+  /* ul code {
     @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-sm !important;
   }
   li code {
     @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-sm font-normal !important;
-  }
+  } */
   .note {
     @apply bg-slate-200 p-4 border-4 border-slate-400 rounded-xl text-sm leading-7 w-full sm:w-[90%] sm:mx-auto shadow-xl;
   }

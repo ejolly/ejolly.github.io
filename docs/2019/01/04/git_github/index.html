@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
    <meta charset="utf-8">
    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
    <meta name=viewport content="width=device-width, initial-scale=1">
@@ -23,47 +23,41 @@
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2019-01-04T00:00:00-05:00","datePublished":"2019-01-04T00:00:00-05:00","description":"Understanding version control","headline":"Your favorite time-machine","mainEntityOfPage":{"@type":"WebPage","@id":"https://eshinjolly.com/2019/01/04/git_github/"},"url":"https://eshinjolly.com/2019/01/04/git_github/"}</script>
-  <link rel="apple-touch-icon-precomposed" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png" />
-<link rel="apple-touch-icon-precomposed" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png" />
-<link rel="apple-touch-icon-precomposed" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png" />
-<link rel="apple-touch-icon-precomposed" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png" />
-<link rel="apple-touch-icon-precomposed" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png" />
-<link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png" />
-<link rel="apple-touch-icon-precomposed" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png" />
-<link rel="icon" type="image/png" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png" />
-<link rel="icon" type="image/png" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png" />
-<link rel="icon" type="image/png" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png" />
-<link rel="icon" type="image/png" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png" />
-<link rel="icon" type="image/png" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png" />
-<link rel="icon" type="image/png" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png"/>
+<link rel="icon" type="image/png" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png"/>
+<link rel="icon" type="image/png" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png"/>
+<link rel="icon" type="image/png" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png"/>
+<link rel="icon" type="image/png" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png"/>
+<link rel="icon" type="image/png" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png"/>
+<link rel="icon" type="image/png" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png"/>
 <meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="favicon-128x128.png" />
-<meta name="msapplication-square72x72logo" content="favicon-72x72.png" />
-<meta name="msapplication-square128x128logo" content="favicon-128x128.png" />
-<meta name="msapplication-square256x256logo" content="favicon-256x256.png" />
+<meta name="msapplication-TileColor" content="#FFFFFF"/>
+<meta name="msapplication-TileImage" content="favicon-128x128.png"/>
+<meta name="msapplication-square72x72logo" content="favicon-72x72.png"/>
+<meta name="msapplication-square128x128logo" content="favicon-128x128.png"/>
+<meta name="msapplication-square256x256logo" content="favicon-256x256.png"/>
   <link rel="canonical" href="https://eshinjolly.com/2019/01/04/git_github/">
-  <link rel="alternate" type="application/rss+xml" title="" href="https://eshinjolly.com/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="" href="https://eshinjolly.com/feed.xml"/>
   <link rel="stylesheet" href="/assets/css/tailwind.css">
   <link rel="stylesheet" href="/assets/css/syntax.min.css">
     <script async defer data-website-id="4a8aa9aa-84ea-4c68-b908-c32d9488972b" src="https://umami.eshin.codes/umami.js"></script>
-<body class="body">
+ <body class="body">
    <div class="page">
-           <div class="post">
-          <header class="header-container">
+       <div class="post">
+        <header class="header-container">
   <a class="cover-photo-container" href="/">
-    <img
-      class="cover-photo hover:opacity-80"
-      alt="Eshin Jolly"
-      src="https://eshinjolly.com/assets/images/slices.png"
-      width="448px"
-      height="200px"
-    />
+    <img class="cover-photo hover:opacity-80" alt="Eshin Jolly" src="https://eshinjolly.com/assets/images/slices.png" width="448px" height="200px"/>
   </a>
  <div class="links-row">
   <a
@@ -153,62 +147,212 @@
     </svg>
   </a>
 </div>
-<nav class="nav">
-   <ul class="nav-row">
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/about">About</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/research">Research</a>
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/software">Software</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/publications">Publications</a>
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/music">Music</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/blog">Blog</a>
-   </ul>
+ <nav class="nav">
+ <ul class="nav-row">
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/about">About</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/research">Research</a>
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/software">Software</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/publications">Publications</a>
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/music">Music</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/blog">Blog</a>
+ </ul>
 </nav>
- <hr class="divider" />
+ <hr class="divider"/>
 </header>
 <div class="content">
-<h1 class="title">Your favorite time-machine</h1>
+<h1 class="title">Your favorite time-machine
+</h1>
 <div class="responsive-metadata-container">
-    <span class="post-date">
-        <time datetime="04-01-2019">Friday. January 04, 2019</time>
-         (<span class="reading-time" title="Estimated read time">
-        ~2m read
+  <span class="post-date">
+    <time datetime="04-01-2019">Friday. January 04, 2019
+    </time>
+      (<span class="reading-time" title="Estimated read time">
+    ~2
+    m read
 </span>
-)
-    </span>
-   <div>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#tutorial">tutorial</a>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#software">software</a>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#hackathon">hackathon</a>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#reference">reference</a>
-   </div>
+      )
+  </span>
+ <div>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#tutorial">tutorial
+      </a>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#software">software
+      </a>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#hackathon">hackathon
+      </a>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#reference">reference
+      </a>
+ </div>
 </div>
-<div class='toc-container not-prose'>
+ <div class='toc-container not-prose'>
     <details>
-        <summary>
-            Table of Contents
-        </summary>
-       <ul id="toc" class="toc">
- <li><a href="#git-status"><code class="language-plaintext highlighter-rouge">git status</code></a>
- <li><a href="#git-init"><code class="language-plaintext highlighter-rouge">git init</code></a>
- <li><a href="#git-add"><code class="language-plaintext highlighter-rouge">git add</code></a>
- <li><a href="#git-commit"><code class="language-plaintext highlighter-rouge">git commit</code></a>
- <li><a href="#git-log"><code class="language-plaintext highlighter-rouge">git log</code></a>
- <li><a href="#git-push"><code class="language-plaintext highlighter-rouge">git push</code></a>
- <li><a href="#git-pull"><code class="language-plaintext highlighter-rouge">git pull</code></a>
- <li><a href="#git-clone"><code class="language-plaintext highlighter-rouge">git clone</code></a>
- <li><a href="#git-branch"><code class="language-plaintext highlighter-rouge">git branch</code></a>
- <li><a href="#git-revert"><code class="language-plaintext highlighter-rouge">git revert</code></a>
- <li><a href="#forking"><code class="language-plaintext highlighter-rouge">forking</code></a>
- <li><a href="#pull-request"><code class="language-plaintext highlighter-rouge">pull request</code></a>
-</ul>
+      <summary>
+        Table of Contents
+      </summary>
+<div id="toc" class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {:.toc
+  }
+  -
+  
+  
+  [
+  
+    2 id="git-status"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git status&lt;/code&gt;
+  
+
+  ](#git-status
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-init"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git init&lt;/code&gt;
+  
+
+  ](#git-init
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-add"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git add&lt;/code&gt;
+  
+
+  ](#git-add
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-commit"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git commit&lt;/code&gt;
+  
+
+  ](#git-commit
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-log"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git log&lt;/code&gt;
+  
+
+  ](#git-log
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-push"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git push&lt;/code&gt;
+  
+
+  ](#git-push
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-pull"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git pull&lt;/code&gt;
+  
+
+  ](#git-pull
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-clone"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git clone&lt;/code&gt;
+  
+
+  ](#git-clone
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-branch"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git branch&lt;/code&gt;
+  
+
+  ](#git-branch
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="git-revert"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;git revert&lt;/code&gt;
+  
+
+  ](#git-revert
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="forking"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;forking&lt;/code&gt;
+  
+
+  ](#forking
+  )
+
+  
+  
+-
+  
+  
+  [
+  
+    2 id="pull-request"&gt;&lt;code class="language-plaintext highlighter-rouge"&gt;pull request&lt;/code&gt;
+  
+
+  ](#pull-request
+  )
+</code></pre></div></div>
+}}
     </details>
-</div>
+ </div>
 <p>This is a long overdue post regarding one of the tutorials I taught at the 2018 Dartmouth Methods in Neuroscience (MIND) summer school on version control for researchers. Rather than recount my 30 minute talk and demo here, I figured I would share direct links to the materials so interested folks could peruse them at their leisure.</p>
 <p>In this talk, and for myself, I’ve found the analogy of a version control system (e.g. git) as a (social) time-machine incredibly useful for understanding fundamental concepts. In case this framing is useful for others, my talk can be seen in it’s entirety at the bottom of this post; the slides accompanying the talk can be found <a href="https://github.com/Summer-MIND/mind_2018/blob/master/slides/git_github_slides.pdf">here</a>.</p>
 <p>Something summer school attendees told me they found really useful were some animated gifs I generated capturing the output of the most commonly used git commands, as well as actions on github.com, to see what to expect and how they work. I’ve embedded those below as a reference as well. Enjoy!</p>
@@ -254,11 +398,11 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script async src="https://eshinjolly.com/assets/js/copyCode.js"></script>
 <style>
-/* Need style here because selectors get purged by tailwind since button is created via js */
-    div[class*="language-"] {
+  /* Need style here because selectors get purged by tailwind since button is created via js */
+  div[class*="language-"] {
     position: relative;
-    }
-    .copy-button {
+  }
+  .copy-button {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -267,20 +411,25 @@
     font-size: 0.85rem;
     padding: 0.35rem 0.75rem;
     border-radius: 0.8rem;
-    }
-</style></div>
+  }
+</style>
+</div>
        </div>
-   </div>
-   <footer class="footer">
- <hr class="footer-divider" />
- <div
-    class="flex flex-col sm:flex-row sm:justify-center sm:space-x-2 items-center"
-  >
-   <p>Eshin Jolly © 2022</p>
+     </div>
+     <footer class="footer">
+ <hr class="footer-divider"/>
+ <div class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2">
+   <p>Eshin Jolly
+      ©
+      2022
+   </p>
    <p class="extra">
       built with
-      <a class="link" href="https://jekyllrb.com/">jekyll </a> and
+      <a class="link" href="https://jekyllrb.com/">jekyll
+      </a>
+      and
       <a href="https://tailwindcss.com" class="link">tailwind</a>
    </p>
  </div>
 </footer>
+  

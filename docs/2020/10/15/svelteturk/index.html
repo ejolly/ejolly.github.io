@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
    <meta charset="utf-8">
    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
    <meta name=viewport content="width=device-width, initial-scale=1">
@@ -23,47 +23,41 @@
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-10-15T00:00:00-04:00","datePublished":"2020-10-15T00:00:00-04:00","description":"Giving Mturk the paint job it needs","headline":"Managing Amazon’s Mechanical Turk with a nice user interface","mainEntityOfPage":{"@type":"WebPage","@id":"https://eshinjolly.com/2020/10/15/svelteturk/"},"url":"https://eshinjolly.com/2020/10/15/svelteturk/"}</script>
-  <link rel="apple-touch-icon-precomposed" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png" />
-<link rel="apple-touch-icon-precomposed" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png" />
-<link rel="apple-touch-icon-precomposed" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png" />
-<link rel="apple-touch-icon-precomposed" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png" />
-<link rel="apple-touch-icon-precomposed" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png" />
-<link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png" />
-<link rel="apple-touch-icon-precomposed" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png" />
-<link rel="icon" type="image/png" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png" />
-<link rel="icon" type="image/png" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png" />
-<link rel="icon" type="image/png" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png" />
-<link rel="icon" type="image/png" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png" />
-<link rel="icon" type="image/png" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png" />
-<link rel="icon" type="image/png" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png"/>
+<link rel="icon" type="image/png" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="48x48" href="https://eshinjolly.com/assets/images/favicon/favicon-48x48.png"/>
+<link rel="icon" type="image/png" sizes="64x64" href="https://eshinjolly.com/assets/images/favicon/favicon-64x64.png"/>
+<link rel="icon" type="image/png" sizes="72x72" href="https://eshinjolly.com/assets/images/favicon/favicon-72x72.png"/>
+<link rel="icon" type="image/png" sizes="96x96" href="https://eshinjolly.com/assets/images/favicon/favicon-96x96.png"/>
+<link rel="icon" type="image/png" sizes="128x128" href="https://eshinjolly.com/assets/images/favicon/favicon-128x128.png"/>
+<link rel="icon" type="image/png" sizes="256x256" href="https://eshinjolly.com/assets/images/favicon/favicon-256x256.png"/>
 <meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="favicon-128x128.png" />
-<meta name="msapplication-square72x72logo" content="favicon-72x72.png" />
-<meta name="msapplication-square128x128logo" content="favicon-128x128.png" />
-<meta name="msapplication-square256x256logo" content="favicon-256x256.png" />
+<meta name="msapplication-TileColor" content="#FFFFFF"/>
+<meta name="msapplication-TileImage" content="favicon-128x128.png"/>
+<meta name="msapplication-square72x72logo" content="favicon-72x72.png"/>
+<meta name="msapplication-square128x128logo" content="favicon-128x128.png"/>
+<meta name="msapplication-square256x256logo" content="favicon-256x256.png"/>
   <link rel="canonical" href="https://eshinjolly.com/2020/10/15/svelteturk/">
-  <link rel="alternate" type="application/rss+xml" title="" href="https://eshinjolly.com/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="" href="https://eshinjolly.com/feed.xml"/>
   <link rel="stylesheet" href="/assets/css/tailwind.css">
   <link rel="stylesheet" href="/assets/css/syntax.min.css">
     <script async defer data-website-id="4a8aa9aa-84ea-4c68-b908-c32d9488972b" src="https://umami.eshin.codes/umami.js"></script>
-<body class="body">
+ <body class="body">
    <div class="page">
-           <div class="post">
-          <header class="header-container">
+       <div class="post">
+        <header class="header-container">
   <a class="cover-photo-container" href="/">
-    <img
-      class="cover-photo hover:opacity-80"
-      alt="Eshin Jolly"
-      src="https://eshinjolly.com/assets/images/slices.png"
-      width="448px"
-      height="200px"
-    />
+    <img class="cover-photo hover:opacity-80" alt="Eshin Jolly" src="https://eshinjolly.com/assets/images/slices.png" width="448px" height="200px"/>
   </a>
  <div class="links-row">
   <a
@@ -153,41 +147,49 @@
     </svg>
   </a>
 </div>
-<nav class="nav">
-   <ul class="nav-row">
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/about">About</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/research">Research</a>
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/software">Software</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/publications">Publications</a>
-               <li class="item">
-                    <a class="link-red" href="https://eshinjolly.com/music">Music</a>
-               <li class="item">
-                    <a class="link" href="https://eshinjolly.com/blog">Blog</a>
-   </ul>
+ <nav class="nav">
+ <ul class="nav-row">
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/about">About</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/research">Research</a>
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/software">Software</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/publications">Publications</a>
+       <li class="item">
+          <a class="link-red" href="https://eshinjolly.com/music">Music</a>
+       <li class="item">
+          <a class="link" href="https://eshinjolly.com/blog">Blog</a>
+ </ul>
 </nav>
- <hr class="divider" />
+ <hr class="divider"/>
 </header>
 <div class="content">
-<h1 class="title">Managing Amazon's Mechanical Turk with a nice user interface</h1>
+<h1 class="title">Managing Amazon's Mechanical Turk with a nice user interface
+</h1>
 <div class="responsive-metadata-container">
-    <span class="post-date">
-        <time datetime="15-10-2020">Thursday. October 15, 2020</time>
-         (<span class="reading-time" title="Estimated read time">
-        ~2m read
+  <span class="post-date">
+    <time datetime="15-10-2020">Thursday. October 15, 2020
+    </time>
+      (<span class="reading-time" title="Estimated read time">
+    ~2
+    m read
 </span>
-)
-    </span>
-   <div>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#scientific-tooling">scientific-tooling</a>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#svelte">svelte</a>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#javascript">javascript</a>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#web-development">web development</a>
-            <a class="hidden tag" href="https://eshinjolly.com/tags/#project">project</a>
-   </div>
+      )
+  </span>
+ <div>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#scientific-tooling">scientific-tooling
+      </a>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#svelte">svelte
+      </a>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#javascript">javascript
+      </a>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#web-development">web development
+      </a>
+      <a class="hidden tag" href="https://eshinjolly.com/tags/#project">project
+      </a>
+ </div>
 </div>
 <p>In the <a href="https://www.cosanlab.com">Cosan Lab</a>, like many other reserach groups, we often run experiments or surveys on the web using <a href="https://www.mturk.com/">Amazon’s Mechanical Turk marketplace</a>. One of the constant pain points we’ve run into is on the <em>administration</em> side of things. In other words, quickly and reliably creating and managing HITs and contacting and paying Workers, which Mturk’s ownsite is lackluster for (when using custom URLs). There already exist several great libraries like <a href="https://psiturk.org/">psiturk</a> which act as a stort of “one-stop-shop” for building, managing and hosting web studies. However, we’ve often found that it’s helpful to decouple administration from the tasks themselves such as in the case of <a href="https://www.sciencedirect.com/science/article/pii/S0960982221004632">multiplayer synchronous experiments</a>. While there are several great software libraries for programmatically controlling Mturk as a requestor such as <a href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/mturk.html">Boto</a> in Python, this can be a bit of a chore and still presents a hurdle for less experienced or younger students (e.g. undergraduates) in the lab who were less comfortable with programming.</p>
 <p>To help out with this I started developing a graphical desktop application (GUI) to make life a bit easier. Its working name is <a href="https://eshinjolly.com/svelteturk/#">SvelteTurk</a>, because I’ve fallen absolutely in love with a Javascript framework called <a href="https://svelte.dev/">Svelte</a>. What attracted me to Svelte was not only it’s ease of use and <a href="https://eshinjolly.com/2020/07/12/scipy">intuition-building design</a>, but that it was, and is, explicitly used in a context where not every team member has to be highly technically proficient: editorial teams at the The New York Times. Many of their latest interactive graphics <a href="https://www.nytimes.com/interactive/2021/us/covid-cases.html">especially around coronavirus</a>, are built and embedded alongside content using Svelte. Further, the original author, <a href="https://twitter.com/Rich_Harris">Rich Harris</a> is a very compelling and thought-provoking speaker when it comes to <a href="https://www.youtube.com/watch?v=AdNJ3fydeao">rethinking the approach to modern web development</a>.</p>
@@ -202,11 +204,11 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script async src="https://eshinjolly.com/assets/js/copyCode.js"></script>
 <style>
-/* Need style here because selectors get purged by tailwind since button is created via js */
-    div[class*="language-"] {
+  /* Need style here because selectors get purged by tailwind since button is created via js */
+  div[class*="language-"] {
     position: relative;
-    }
-    .copy-button {
+  }
+  .copy-button {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -215,20 +217,25 @@
     font-size: 0.85rem;
     padding: 0.35rem 0.75rem;
     border-radius: 0.8rem;
-    }
-</style></div>
+  }
+</style>
+</div>
        </div>
-   </div>
-   <footer class="footer">
- <hr class="footer-divider" />
- <div
-    class="flex flex-col sm:flex-row sm:justify-center sm:space-x-2 items-center"
-  >
-   <p>Eshin Jolly © 2022</p>
+     </div>
+     <footer class="footer">
+ <hr class="footer-divider"/>
+ <div class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2">
+   <p>Eshin Jolly
+      ©
+      2022
+   </p>
    <p class="extra">
       built with
-      <a class="link" href="https://jekyllrb.com/">jekyll </a> and
+      <a class="link" href="https://jekyllrb.com/">jekyll
+      </a>
+      and
       <a href="https://tailwindcss.com" class="link">tailwind</a>
    </p>
  </div>
 </footer>
+  
