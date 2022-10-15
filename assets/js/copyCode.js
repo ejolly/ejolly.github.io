@@ -1,13 +1,16 @@
-function addCopyButtons() {
-    const copyButtonLabel = "Copy Code";
+// Copy button that appears on hover for code blocks. Also appears if the code block is
+// tapped/clicked on to indicate a successful copy.
 
-    // use a class selector if available
+function addCopyButtons() {
+
+    // Get all code blocks
     let blocks = document.querySelectorAll("pre");
 
     blocks.forEach((block) => {
         // only add a button if browser supports Clipboard API
         if (navigator.clipboard) {
             let button = document.createElement("button");
+            button.classList.add('copy-button');
             button.innerText = 'Copied!';
             button.style.display = 'none';
             block.appendChild(button);
@@ -30,7 +33,7 @@ function addCopyButtons() {
         if (e.target !== e.currentTarget) {
             // console.log('child clicked')
             const code = e.srcElement.parentElement;
-            pre = code.parentElement
+            pre = code.parentElement;
             text = code.innerText;
         } else {
             // console.log('pre clicked')
@@ -47,35 +50,6 @@ function addCopyButtons() {
         }, 1000);
     }
 }
-
-function addCopyClick() {
-
-    // use a class selector if available
-    let blocks = document.querySelectorAll("pre");
-
-    blocks.forEach((block) => {
-        // only add a button if browser supports Clipboard API
-        if (navigator.clipboard) {
-            block.addEventListener("click", copyCode);
-        }
-    });
-
-    async function copyCode(event) {
-        const pre = event.target;
-        let code = pre.querySelector("code");
-        let text = code.innerText;
-        await navigator.clipboard.writeText(text);
-        let button = document.createElement("button");
-        button.innerText = 'Copied!';
-        block.appendChild(button);
-        setTimeout(() => {
-            code.innerText = text;
-        }, 1000);
-    }
-}
 document.addEventListener('DOMContentLoaded', () => {
-
-    // Setup copy buttons
     addCopyButtons();
-    // addCopyClick()
 });

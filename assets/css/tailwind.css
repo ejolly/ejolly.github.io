@@ -14,7 +14,6 @@
 */
 
 @layer components {
-
   /* GLOBALS */
   /* Make h1's smaller */
   h1 {
@@ -130,7 +129,7 @@
   }
   /* end: INCLUDES */
 
-   /* PAGES */
+  /* PAGES */
   /* software.md */
   img[alt$="badge"] {
     @apply inline;
@@ -144,10 +143,10 @@
   }
   .blog .post-list-search h2 {
     @apply mb-4 mt-4;
-  } 
-    /* prevent jumping when searching */
+  }
+  /* prevent jumping when searching */
   .blog .content {
-    @apply  min-h-[2000px];
+    @apply min-h-[2000px];
   }
   /* publications.md */
   .publications .content > .paper-list-search {
@@ -156,9 +155,9 @@
   .publications .content h2:first-child {
     @apply mt-0;
   }
-    /* prevent jumping when searching */
+  /* prevent jumping when searching */
   .publications .content {
-     @apply min-h-[2000px];
+    @apply min-h-[2000px];
   }
   /* about.md */
   .about .content .side-by-side {
@@ -233,5 +232,25 @@
   }
   p code {
     @apply text-indigo-900/90 !important;
+  }
+
+  /* remove the surrounding `` that tailwind typography adds */
+  code:before {
+    content: "" !important;
+  }
+  code:after {
+    content: "" !important;
+  }
+
+  /* Nicer line break */
+  .breaker {
+    @apply w-1/2 mx-auto mt-8 border-t-2 border-t-gray-400 overflow-visible text-center h-1 border-double text-gray-700 text-opacity-50;
+  }
+  .breaker:after {
+    background: #fff;
+    content: '"';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
   }
 }

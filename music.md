@@ -4,7 +4,7 @@ layout: page
 ---
 In my little spare time I love writing and playing music. I grew up playing several different instruments and studied drumset jazz performance as an undergrad for a few years. I've played as a drummer in several different bands, spanning genres from funk, jazz and hip-hop, to electronica, metal and rock. Most  recently I recorded an early effort album with Davis, based out of Boston, MA. I also write music with my [sister](http://www.jihii.com/) and if we get around to finishing something it'll often get thrown up on our Soundcloud. Enjoy! 
 
-<div class="breaker"></div>
+<hr class="breaker"/>
 
 <h2 style="text-align: center">Davis</h2>
 
