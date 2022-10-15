@@ -7,6 +7,7 @@ tag:
 - javascript
 - web development
 - scientific tooling
+- conference
 blog: true
 toc: true
 description: The project taketh, but the project also giveth.

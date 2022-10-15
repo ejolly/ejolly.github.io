@@ -131,7 +131,7 @@
     @apply flex flex-row basis-1/2 flex-wrap justify-end space-x-2 tracking-tight italic;
   }
   .post-tag {
-    @apply tracking-tight italic relative text-xs md:text-sm text-sky-500 opacity-50 group-hover:text-rose-500/50 before:content-['<'] after:content-['/>;'] before:mr-[-.15rem] after:ml-[-.15rem]; 
+    @apply tracking-tight italic relative text-xs md:text-sm text-sky-500 opacity-50 hover:opacity-100 cursor-pointer before:content-['<'] after:content-['/>;'] before:mr-[-.15rem] after:ml-[-.15rem]; 
   }
   .post-tag:last-of-type {
     @apply after:content-['/>'];
@@ -154,7 +154,7 @@
     @apply mb-4 mt-4;
   }
   /* prevent jumping when searching */
-  .blog .content {
+  .blog .post-list-wrapper {
     @apply min-h-[2000px];
   }
   /* publications.md */

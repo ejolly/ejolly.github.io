@@ -5,6 +5,7 @@ date: 2019-02-11
 tag:
 - machine-learning
 - web app
+- project
 blog: true
 description: Real-time queue tracking 
 ---

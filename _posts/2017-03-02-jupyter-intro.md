@@ -5,6 +5,8 @@ date: 2017-03-02
 tag:
 - tutorial
 - analysis
+- python
+- scientific-tooling
 blog: true
 description: Introduction to Jupyter Notebooks
 ---

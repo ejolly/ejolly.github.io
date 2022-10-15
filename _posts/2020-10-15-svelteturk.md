@@ -7,6 +7,7 @@ tag:
 - svelte
 - javascript
 - web development
+- project
 blog: true
 description: Giving Mturk the paint job it needs
 ---
