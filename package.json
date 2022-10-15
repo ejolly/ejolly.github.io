@@ -11,16 +11,19 @@
     "url": "git+https://github.com/sergiokopplin/indigo.git"
   },
   "scripts": {
-    "build": "bundle exec jekyll build",
+    "build:jekyll": "bundle exec jekyll build",
     "build_drafts": "bundle exec jekyll build --drafts",
     "draft": "npm run build_drafts && clear && bundle exec jekyll serve --livereload --incremental --drafts",
     "write": "npm run build && clear && bundle exec jekyll serve --livereload --incremental",
     "dev": "bundle exec jekyll serve --livereload",
-    "test": "bundle exec htmlproofer ./_site"
+    "test": "bundle exec htmlproofer ./_site", 
+    "minify": "npx tailwindcss -i _site/assets/css/cv-screen.css -o _site/assets/css/cv-screen.css --minify && npx tailwindcss -i _site/assets/css/cv-print.css -o _site/assets/css/cv-print.css --minify && npx tailwindcss -i _site/assets/css/tailwind.css -o _site/assets/css/tailwind.css --minify",
+    "build": "npm run build:jekyll && npm run minify"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.7",
     "autoprefixer": "^10.4.12",
+    "concurrently": "^7.4.0",
     "cssnano": "^5.1.13",
     "postcss": "^8.4.17",
     "postcss-import": "^15.0.0",

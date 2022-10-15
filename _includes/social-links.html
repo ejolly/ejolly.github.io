@@ -4,6 +4,7 @@
     data-title="twitter.com/{{ site.twitter }}"
     href="https://twitter.com/{{ site.twitter }}"
     target="_blank"
+    aria-label="twitter"
     ><svg
       class="icon link"
       viewBox="0 0 1024 1024"
@@ -22,6 +23,7 @@
     data-title="linkedin.com/in/{{ site.linkedin }}"
     href="https://linkedin.com/in/{{ site.linkedin }}"
     target="_blank"
+    aria-label="linkedin"
   >
     <svg
       class="icon link-red"
@@ -46,6 +48,7 @@
     data-title="github.com/{{ site.github }}"
     href="https://github.com/{{ site.github }}"
     target="_blank"
+    aria-label="github"
   >
     <svg
       class="icon link"
@@ -62,7 +65,11 @@
   </a>
 
   <!-- email -->
-  <a data-title="{{ site.email }}" href="mailto:{{ site.email }}">
+  <a
+    data-title="{{ site.email }}"
+    href="mailto:{{ site.email }}"
+    aria-label="email"
+  >
     <svg class="icon link-red" viewBox="0 0 1024 1024">
       <path
         class="path1"
@@ -72,7 +79,7 @@
   </a>
 
   <!-- cv -->
-  <a data-title="CV" href="{{ site.cv }}" target="_blank">
+  <a data-title="CV" href="{{ site.cv }}" target="_blank" aria-label="cv">
     <svg
       class="icon link"
       viewBox="0 0 64 64"
