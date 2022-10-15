@@ -8,7 +8,7 @@ description:
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/slices.png
+picture: assets/images/slices.png
 
 url: https://eshinjolly.com
 
@@ -59,7 +59,16 @@ blog-nav-links: false
 show-author: false
 
 # do you want some animations?
-animation: true
+# animation: true
+
+# compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  blanklines: true
+  profile: false
+
 
 plugins:
   - jemoji
