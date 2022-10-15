@@ -53,7 +53,7 @@
     @apply max-w-sm mx-auto md:max-w-md;
   }
   .cover-photo {
-    @apply rounded-[100%];
+    @apply w-[28rem] rounded-[100%];
   }
   .links-container {
     @apply flex flex-col gap-y-8;
