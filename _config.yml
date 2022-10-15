@@ -48,3 +48,4 @@ postcss:
 exclude: ["convert_notebooks.sh", "npm-debug.log", "package.json", "package-lock.json",
 "postcss.config.js", "Rakefile", "README.md", "tailwind.config.js", "assets/drafts",
 "pubs.md", "LICENSE", "tags", "projects"]
+destination: ./docs
