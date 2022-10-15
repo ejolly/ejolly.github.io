@@ -3,10 +3,18 @@
         <a class='group' href="{{ site.url }}{{ post.url }}">
             <h3 class="post-title">{{ post.title }}</h3>
             <p class="post-description">{{ post.description }}</p>
-            <p class="post-date">
-                <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date:
-                "%b %d %Y" }}</time>
-                </p>
+            <div class="flex flex-row justify-between">
+                <p class="post-date">
+                    <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date:
+                        "%b %d %Y" }}</time>
+                    </p>
+                    <ul class="post-tags">
+                        {% assign sorted_tags = post.tags | sort %}
+                        {% for tag in sorted_tags %}
+                            <li class="post-tag"> {{ tag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
         </a>
     </div>
 {% endif %}

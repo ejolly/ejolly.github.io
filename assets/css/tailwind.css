@@ -122,7 +122,16 @@
     @apply mb-2 group-hover:text-rose-500/75 text-base md:text-lg;
   }
   .post-date {
-    @apply text-sm text-gray-400 group-hover:text-rose-500/50;
+    @apply text-sm text-gray-400 basis-1/2 group-hover:text-rose-500/50;
+  }
+  .post-tags {
+    @apply flex flex-row basis-1/2 flex-wrap justify-end space-x-2 tracking-tight italic;
+  }
+  .post-tag {
+    @apply tracking-tight italic relative text-xs text-indigo-300 group-hover:text-rose-500/50 before:content-['<'] after:content-['/>;'] before:mr-[-.15rem] after:ml-[-.15rem]; 
+  }
+  .post-tag:last-of-type {
+    @apply after:content-['/>'];
   }
   /* end: INCLUDES */
 
