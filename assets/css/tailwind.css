@@ -71,6 +71,9 @@
   .cover-photo {
     @apply rounded-[100%];
   }
+  .links-container {
+    @apply flex flex-col gap-y-8;
+  }
   /*  */
 
   /* header.html */
@@ -102,7 +105,7 @@
     @apply font-light text-xl md:text-2xl;
   }
   .nav-row {
-    @apply flex flex-wrap justify-center gap-x-6;
+    @apply flex flex-wrap justify-center gap-x-6 gap-y-2;
   }
   /*  */
 
@@ -117,10 +120,10 @@
     @apply flex flex-col max-w-full md:max-w-3xl mx-auto space-y-8;
   }
   .blog .post-list-search {
-    @apply flex flex-col items-center prose md:prose-lg mx-auto;
+    @apply flex flex-col items-center prose md:prose-lg mx-auto mb-1;
   }
   .blog .post-list-search h2 {
-    @apply mb-4;
+    @apply mb-4 mt-4;
   } 
   /*  */
 

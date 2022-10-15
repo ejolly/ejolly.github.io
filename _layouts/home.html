@@ -3,20 +3,114 @@ layout: default
 ---
 
 <div class="home-container">
-  <h1 class="h1 animate__animated animate__fadeInDown">Eshin Jolly</h1>
+  <h1 class="h1 animated fadeInDown">Eshin Jolly</h1>
 
-  {% include asciinema.html recording="/assets/ascii/banner_postdoc.json"
-  loop="true" rows="2" %}
+  <div class="animated fadeInDown">
+      {% include asciinema.html recording="/assets/ascii/banner_postdoc.json"
+      loop="true" rows="2" %}
+  </div>
 
-  <div class="cover-photo-container">
+  <div class="cover-photo-container animated-slow fadeIn">
     <img
-      class="cover-photo animate__animated animate__zoomIn"
+      class="cover-photo"
       alt="{{ site.name }}"
       src="{{ site.url }}/{{ site.picture
       }}"
     />
   </div>
 
-  {% include social-links.html %}
-  {% include nav.html %}
+  <div class="links-container animated fadeInUp">
+      {% include social-links.html %}
+      {% include nav.html %}
+  </div>
 </div>
+
+<style>
+  .animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .animated-slow {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(5rem);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(5rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-5rem);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-5rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+</style>
