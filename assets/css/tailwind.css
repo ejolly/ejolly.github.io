@@ -14,7 +14,7 @@
   /* GLOBALS */
   /* Make h1's smaller */
   h1 {
-    @apply text-3xl md:text-4xl !important;
+    @apply text-3xl md:text-4xl my-10 !important;
   }
   /* always center images inside figures */
   figure > img {
@@ -222,13 +222,28 @@
     @apply -mt-6 text-sm italic w-[98%] mx-auto text-gray-500 leading-tight text-center;
   }
   .caption code {
-    @apply text-indigo-900/90 !important;
+    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-xs !important;
   }
   .caption-centered code {
-    @apply text-indigo-900/90 !important;
+    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-xs !important;
   }
   p code {
-    @apply text-indigo-900/90 !important;
+    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-sm font-normal !important;
+  }
+  ul code {
+    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-sm !important;
+  }
+  li code {
+    @apply text-[#f8f8f2] bg-[#3c4143] border-[#3c4143] rounded py-1 px-2 text-sm font-normal !important;
+  }
+  .note {
+    @apply bg-slate-200 p-4 border-4 border-slate-400 rounded-xl text-sm leading-7 w-full sm:w-[90%] sm:mx-auto shadow-xl;
+  }
+  .note code {
+    @apply text-xs !important;
+  }
+  .note strong {
+    @apply text-xl font-extrabold block mb-2 text-slate-600;
   }
 
   /* remove the surrounding `` that tailwind typography adds */

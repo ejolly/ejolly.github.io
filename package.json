@@ -14,7 +14,7 @@
     "build:jekyll": "rm -r docs && bundle exec jekyll build",
     "build_drafts": "bundle exec jekyll build --drafts",
     "draft": "npm run build_drafts && clear && bundle exec jekyll serve --livereload --incremental --drafts",
-    "write": "npm run build && clear && bundle exec jekyll serve --livereload --incremental",
+    "write": "npm run build:jekyll && clear && bundle exec jekyll serve --livereload --incremental",
     "dev": "bundle exec jekyll serve --livereload",
     "test": "bundle exec htmlproofer ./docs", 
     "minify": "npx tailwindcss -i docs/assets/css/cv-screen.css -o docs/assets/css/cv-screen.css --minify && npx tailwindcss -i docs/assets/css/cv-print.css -o docs/assets/css/cv-print.css --minify && npx tailwindcss -i docs/assets/css/tailwind.css -o docs/assets/css/tailwind.css --minify",
