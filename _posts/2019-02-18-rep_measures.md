@@ -734,14 +734,14 @@ I don't want to end this post with the feeling that we've figured everything out
 
 I hope this was useful for some folks out there and even if it wasn't, it certainly helped _me_ build some intuitions about the different analysis strategies that are available. Moreover, I hope if nothing else, this might motivate people who feel like they have limited formal training in statistics/machine-learning to take a more tinker/hacker approach to their own learning. I remember when as a kid, breaking things and taking them apart was one of my favorite ways to learn about how things worked. With the mass availability of free and open-source tools like scientific Python and R, I see no reason why statistical education can't be the same.
 
-#### Appendix
+## Appendix
 
 This is a [nice quick guide](https://www.reed.edu/economics/parker/s11/312/notes/Notes13.pdf
 ) that defines much of the terminology across different fields and reviews a lot of the concepts covered here (plus more) in a much more pithy way. For those interested, p-values for multi-level models were computed using the [lmerTest R package](https://cran.r-project.org/web/packages/lmerTest/index.html) using Satterthwaite approximation for degrees of freedom calculation; note that based on the random-effects structure specified, these degrees of freedom can change dramatically. P-values for other model types were computed using a standard t-distribution, but [pymer4 also offers](http://eshinjolly.com/pymer4/usage.html) non-parametric permutation testing and boot-strapped confidence intervals for other styles of inference. At the time of this writing, fitting two-stage-regression models is only available in [development branch on github](https://github.com/ejolly/pymer4/tree/dev), but should be incorporated in a new release in the future.
 
 
 
-##### _Notes and Corrections_
+## _Notes and Corrections_
 
 <b id="f1">*</b><em>In a previous version of this post, this approach was mistakenly called two-stage-least-squares (2SLS). 2SLS is a formal name for a completely different technique which falls under the broader scope of [instrumental variable estimation](https://www.wikiwand.com/en/Instrumental_variables_estimation#/Interpretation_as_two-stage_least_squares). This confusion is because the two-stage-regression approach discussed above technically does employ "two-stages" of ordinary-least-squares estimation, yet this is not what 2SLS is in the literature. Thanks to [Jonas Oblesser](http://jonasobleser.com/) for pointing this out and [Stephen John Senn](http://www.senns.demon.co.uk/home.html) for appropriate terminology that is in fact consistent across medical and fMRI literatures.</em>[↩](#a1)
 

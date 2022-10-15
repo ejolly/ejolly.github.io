@@ -12,14 +12,15 @@ layout: page
 
     <!-- date -->
     <span class="post-date">
-        {% if site.read-time %} ({% include read-time.html %}){% endif %}
         <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
+        {% if site.read-time %} ({% include read-time.html %}){% endif %}
     </span>
 
     <!-- tags -->
+    <!-- hidden so user doesn't interact with them, but around for SEO -->
     <div>
         {% for tag in page.tags %}
-            <a class="tag" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+            <a class="hidden tag" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
         {% endfor %}
     </div>
 </div>
