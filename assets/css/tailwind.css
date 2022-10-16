@@ -302,4 +302,11 @@
   input[type="search"]::-webkit-search-results-decoration {
     -webkit-appearance: none;
   }
+
+  div[class*="language-"] {
+    @apply relative !important;
+  }
+  .post .copy-button {
+    @apply absolute top-1 right-1 text-slate-800 bg-slate-300 text-[.5rem] sm:text-xs md:text-sm py-[.1rem] px-[.25rem] sm:py-[.25rem] sm:px-[.35rem] md:py-1 md:px-2 rounded sm:rounded-md md:rounded-lg;
+  }
 }

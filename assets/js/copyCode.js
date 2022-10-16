@@ -1,5 +1,4 @@
-// Copy button that appears on hover for code blocks. Also appears if the code block is
-// tapped/clicked on to indicate a successful copy.
+// Copy button that indicates a successful copy.
 
 function addCopyButtons() {
 
@@ -11,44 +10,22 @@ function addCopyButtons() {
     if (navigator.clipboard) {
       let button = document.createElement("button");
       button.classList.add('copy-button');
-      button.innerText = 'Copied!';
-      button.style.display = 'none';
+      button.addEventListener("click", copyCode, false);
+      button.addEventListener("touchend", copyCode, false);
+      button.innerText = 'Copy Code';
       block.appendChild(button);
-      block.addEventListener("click", copyCode, false);
-      block.addEventListener("touchend", copyCode, false);
-      block.addEventListener("mouseenter", () => {
-        button.innerText = 'Copy Code';
-        button.style.display = 'unset';
-      });
-      // Reset
-      block.addEventListener("mouseleave", () => {
-        button.style.display = 'none';
-        button.innerText = 'Copied!';
-      });
     }
   });
 
   async function copyCode(e) {
     e.preventDefault();
-    let text;
-    let pre;
-    if (e.target !== e.currentTarget) {
-      // console.log('child clicked')
-      const code = e.srcElement.parentElement;
-      pre = code.parentElement;
-      text = code.innerText;
-    } else {
-      // console.log('pre clicked')
-      pre = e.srcElement;
-      let code = pre.querySelector("code");
-      text = code.innerText;
-    }
-    let button = pre.querySelector('button');
-    button.innerText = 'Copied!';
-    await navigator.clipboard.writeText(text);
-    button.style.display = 'unset';
+    const pre = e.srcElement.parentElement;
+    let code = pre.querySelector("code");
+    e.target.innerText = 'Copied!';
+    await navigator.clipboard.writeText(code.innerText);
+    console.log(code.innerText)
     setTimeout(() => {
-      button.style.display = 'none';
+      e.target.innerText = 'Copy Code';
     }, 1000);
   }
 }
