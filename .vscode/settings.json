@@ -1,9 +1,7 @@
 {
-  "files.associations": {
-    "*.html": "liquid",
-  },
   "editor.tabSize": 2,
   "editor.formatOnSave": false,
   "editor.insertSpaces": true,
-  "prettier.enable": true
+  "prettier.enable": true,
+  
 }

@@ -19,20 +19,18 @@ function debounce(func, wait) {
 
 
 function search(ev) {
-  let term;
   const searchInput = document.getElementById('search');
   const searchIcon = document.getElementById('search-icon');
+  const closeIcon = document.getElementById('close-icon');
 
   // Escape clears everything
   if (ev.key == 'Escape') {
-    term = '';
-    searchInput.value = '';
-  } else {
-    term = searchInput.value;
+    reset();
   }
-
   // search contents of the paragraph tags on this page
-  if (term) {
+  if (searchInput.value) {
+    searchIcon.classList.add('hidden');
+    closeIcon.classList.remove('hidden');
     nonMatches = [];
     let content;
     if (document.URL.includes('publications')) {
@@ -56,7 +54,7 @@ function search(ev) {
     // Actually search by setting non-matches to display none
     content.forEach((pub) => {
       let elem = document.URL.includes('publications') ? pub : pub.parentNode;
-      if (!elem.innerText.toLowerCase().includes(term.toLowerCase())) {
+      if (!elem.innerText.toLowerCase().includes(searchInput.value.toLowerCase())) {
         nonMatches.push(elem);
         elem.style.display = "none";
       } else {
@@ -73,19 +71,28 @@ function search(ev) {
       searchIcon.classList.remove('no-results');
     }
   } else {
-    // Reset everything
-    console.log('reset');
-    nonMatches.forEach(m => m.style.display = 'block');
-    nonMatches = [];
-    if (headings.length) {
-      headings.forEach(h => h.style.display = 'block');
-      headings = [];
-    }
-    searchInput.classList.remove('no-results');
-    searchIcon.classList.remove('no-results');
+    reset();
   }
 }
 
+function reset() {
+  console.log('reset');
+  const searchInput = document.getElementById('search');
+  const searchIcon = document.getElementById('search-icon');
+  const closeIcon = document.getElementById('close-icon');
+  nonMatches.forEach(m => m.style.display = 'block');
+  nonMatches = [];
+  if (headings.length) {
+    headings.forEach(h => h.style.display = 'block');
+    headings = [];
+  }
+  searchInput.classList.remove('no-results');
+  searchIcon.classList.remove('no-results');
+  searchIcon.classList.remove('hidden');
+  closeIcon.classList.add('hidden');
+  searchInput.value = '';
+  searchInput.focus()
+}
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -95,5 +102,10 @@ document.addEventListener('DOMContentLoaded', () => {
   searchInput.addEventListener('input',
     debouncedSearch
   );
+  // Setup event listener for close button
+  const closeIcon = document.getElementById('close-icon');
+  ['click', 'touchend'].forEach((event) => {
+    closeIcon.addEventListener(event, reset);
+  });
 
 });

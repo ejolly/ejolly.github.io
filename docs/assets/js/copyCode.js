@@ -14,7 +14,8 @@ function addCopyButtons() {
       button.innerText = 'Copied!';
       button.style.display = 'none';
       block.appendChild(button);
-      block.addEventListener("click", copyCode);
+      block.addEventListener("click", copyCode, false);
+      block.addEventListener("touchend", copyCode, false);
       block.addEventListener("mouseenter", () => {
         button.innerText = 'Copy Code';
         button.style.display = 'unset';
@@ -28,6 +29,7 @@ function addCopyButtons() {
   });
 
   async function copyCode(e) {
+    e.preventDefault();
     let text;
     let pre;
     if (e.target !== e.currentTarget) {

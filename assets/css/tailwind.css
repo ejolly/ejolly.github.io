@@ -44,7 +44,7 @@
   }
   /* home.html */
   .home-container {
-    @apply flex flex-col justify-between gap-y-8 mt-8 md:mt-28;
+    @apply flex flex-col justify-between gap-y-8 mt-2 md:mt-8 lg:mt-28;
   }
   .title {
     @apply text-5xl md:text-6xl text-center font-bold !important;
@@ -294,5 +294,12 @@
     padding: 0 4px;
     position: relative;
     top: -13px;
+  }
+  /* Remove X in search inputs as it only appears in chrome */
+  input[type="search"]::-webkit-search-decoration,
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
   }
 }
