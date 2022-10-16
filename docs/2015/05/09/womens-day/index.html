@@ -57,7 +57,13 @@
        <div class="post">
         <header class="header-container">
   <a class="cover-photo-container" href="/">
-    <img class="cover-photo hover:opacity-80" alt="Eshin Jolly" src="https://eshinjolly.com/assets/images/slices.png" width="448px" height="200px"/>
+    <img
+      class="cover-photo hover:opacity-80"
+      alt="Eshin Jolly"
+      src="https://eshinjolly.com/assets/images/slices.png"
+      width="448px"
+      height="200px"
+    />
   </a>
  <div class="links-row">
   <a
@@ -147,23 +153,23 @@
     </svg>
   </a>
 </div>
- <nav class="nav">
+<nav class="nav">
  <ul class="nav-row">
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/about">About</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/research">Research</a>
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/software">Software</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/publications">Publications</a>
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/music">Music</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/blog">Blog</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/about">About</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/research">Research</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/software">Software</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/publications">Publications</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/music">Music</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/blog">Blog</a>
  </ul>
 </nav>
- <hr class="divider"/>
+ <hr class="divider" />
 </header>
 <div class="content">
 <h1 class="title">Visualizing 10,000 Tweets for #InternationalWomensDay
@@ -172,11 +178,9 @@
   <span class="post-date">
     <time datetime="09-05-2015">Saturday. May 09, 2015
     </time>
-      (<span class="reading-time" title="Estimated read time">
-    ~4
-    m read
+      <span class="reading-time" title="Estimated read time">
+    (~4m read) 
 </span>
-      )
   </span>
  <div>
       <a class="hidden tag" href="https://eshinjolly.com/tags/#dataviz">dataviz
@@ -271,15 +275,22 @@ $(document).ready(function () {
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script
+  defer
+  src="https://polyfill.io/v3/polyfill.min.js?features=es6"
+></script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
 <script async src="https://eshinjolly.com/assets/js/copyCode.js"></script>
 <style>
   /* Need style here because selectors get purged by tailwind since button is created via js */
-  /* div[class*="language-"] {
+  div[class*="language-"] {
     position: relative;
-  } */
-  /* .copy-button {
+  }
+  .copy-button {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -288,22 +299,19 @@ $(document).ready(function () {
     font-size: 0.85rem;
     padding: 0.35rem 0.75rem;
     border-radius: 0.8rem;
-  } */
-</style>
-</div>
+  }
+</style></div>
        </div>
      </div>
      <footer class="footer">
- <hr class="footer-divider"/>
- <div class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2">
-   <p>Eshin Jolly
-      ©
-      2022
-   </p>
+ <hr class="footer-divider" />
+ <div
+    class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2"
+  >
+   <p>Eshin Jolly © 2022</p>
    <p class="extra">
       built with
-      <a class="link" href="https://jekyllrb.com/">jekyll
-      </a>
+      <a class="link" href="https://jekyllrb.com/">jekyll </a>
       and
       <a href="https://tailwindcss.com" class="link">tailwind</a>
    </p>

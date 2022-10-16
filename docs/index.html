@@ -55,30 +55,46 @@
          <div class="home-container">
  <h1 class="title animated fadeInDown">Eshin Jolly</h1>
  <div class="animated fadeInDown">
-  <link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.min.css" media="print" onload="this.media='all'"/>
+  <link
+  rel="stylesheet"
+  type="text/css"
+  href="/assets/css/asciinema-player.min.css"
+  media="print"
+  onload="this.media='all'"
+/>
 <div id="demo" class="md:mx-auto md:max-w-prose"></div>
 <script src="/assets/js/asciinema-player.min.js"></script>
 <script defer>
-  const player = AsciinemaPlayer.create("/assets/ascii/banner_postdoc.json", document.getElementById("demo"), {
-    loop: "true" === "true",
-    preload: true,
-    autoPlay: true,
-    rows: parseInt("2"),
-    cols: 200,
-    speed: 6,
-    fit: false,
-    terminalFontSize: document.URL.includes("software")
-      ? screen.width <= 430
-        ? ".60rem"
-        : "1rem"
-      : screen.width <= 430
+  const player = AsciinemaPlayer.create(
+    "/assets/ascii/banner_postdoc.json",
+    document.getElementById("demo"),
+    {
+      loop: "true" === "true",
+      preload: true,
+      autoPlay: true,
+      rows: parseInt("2"),
+      cols: 200,
+      speed: 6,
+      fit: false,
+      terminalFontSize: document.URL.includes("software")
+        ? screen.width <= 430
+          ? ".60rem"
+          : "1rem"
+        : screen.width <= 430
         ? ".80rem"
-        : "1.2rem"
-  });
+        : "1.2rem",
+    }
+  );
 </script>
  </div>
  <div class="cover-photo-container animated-slow fadeIn">
-    <img class="cover-photo" alt="Eshin Jolly" src="https://eshinjolly.com/assets/images/slices.png" width="448px" height="200px"/>
+    <img
+      class="cover-photo"
+      alt="Eshin Jolly"
+      src="https://eshinjolly.com/assets/images/slices.png"
+      width="448px"
+      height="200px"
+    />
  </div>
  <div class="links-container animated fadeInUp">
    <div class="links-row">
@@ -169,20 +185,20 @@
     </svg>
   </a>
 </div>
-   <nav class="nav">
+<nav class="nav">
  <ul class="nav-row">
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/about">About</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/research">Research</a>
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/software">Software</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/publications">Publications</a>
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/music">Music</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/blog">Blog</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/about">About</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/research">Research</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/software">Software</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/publications">Publications</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/music">Music</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/blog">Blog</a>
  </ul>
 </nav>
  </div>
@@ -274,16 +290,14 @@
        </div>
      </div>
      <footer class="footer">
- <hr class="footer-divider"/>
- <div class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2">
-   <p>Eshin Jolly
-      ©
-      2022
-   </p>
+ <hr class="footer-divider" />
+ <div
+    class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2"
+  >
+   <p>Eshin Jolly © 2022</p>
    <p class="extra">
       built with
-      <a class="link" href="https://jekyllrb.com/">jekyll
-      </a>
+      <a class="link" href="https://jekyllrb.com/">jekyll </a>
       and
       <a href="https://tailwindcss.com" class="link">tailwind</a>
    </p>

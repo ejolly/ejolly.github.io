@@ -7,17 +7,22 @@ layout: default
 
   <div class="animated fadeInDown">
     {% include asciinema.html recording="/assets/ascii/banner_postdoc.json"
-        loop="true" rows="2" %}
+    loop="true" rows="2" %}
   </div>
 
   <div class="cover-photo-container animated-slow fadeIn">
-    <img class="cover-photo" alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture
-                  }}" width="448px" height="200px"/>
+    <img
+      class="cover-photo"
+      alt="{{ site.name }}"
+      src="{{ site.url }}/{{ site.picture
+                  }}"
+      width="448px"
+      height="200px"
+    />
   </div>
 
   <div class="links-container animated fadeInUp">
-    {% include social-links.html %}
-    {% include nav.html %}
+    {% include social-links.html %} {% include nav.html %}
   </div>
 </div>
 

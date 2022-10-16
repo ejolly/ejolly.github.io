@@ -16,8 +16,8 @@ layout: page
     <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}
     </time>
     {% if site.read-time %}
-      ({% include read-time.html %}
-      ){% endif %}
+      {% include read-time.html %}
+    {% endif %}
   </span>
 
   <!-- tags -->
@@ -65,10 +65,10 @@ layout: page
 
 <style>
   /* Need style here because selectors get purged by tailwind since button is created via js */
-  /* div[class*="language-"] {
+  div[class*="language-"] {
     position: relative;
-  } */
-  /* .copy-button {
+  }
+  .copy-button {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -77,5 +77,5 @@ layout: page
     font-size: 0.85rem;
     padding: 0.35rem 0.75rem;
     border-radius: 0.8rem;
-  } */
+  }
 </style>

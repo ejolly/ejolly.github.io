@@ -57,7 +57,13 @@
        <div class="post">
         <header class="header-container">
   <a class="cover-photo-container" href="/">
-    <img class="cover-photo hover:opacity-80" alt="Eshin Jolly" src="https://eshinjolly.com/assets/images/slices.png" width="448px" height="200px"/>
+    <img
+      class="cover-photo hover:opacity-80"
+      alt="Eshin Jolly"
+      src="https://eshinjolly.com/assets/images/slices.png"
+      width="448px"
+      height="200px"
+    />
   </a>
  <div class="links-row">
   <a
@@ -147,23 +153,23 @@
     </svg>
   </a>
 </div>
- <nav class="nav">
+<nav class="nav">
  <ul class="nav-row">
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/about">About</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/research">Research</a>
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/software">Software</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/publications">Publications</a>
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/music">Music</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/blog">Blog</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/about">About</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/research">Research</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/software">Software</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/publications">Publications</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/music">Music</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/blog">Blog</a>
  </ul>
 </nav>
- <hr class="divider"/>
+ <hr class="divider" />
 </header>
 <div class="content">
 <h1 class="title">Vector similarity reference
@@ -172,11 +178,9 @@
   <span class="post-date">
     <time datetime="12-04-2018">Thursday. April 12, 2018
     </time>
-      (<span class="reading-time" title="Estimated read time">
-    ~4
-    m read
+      <span class="reading-time" title="Estimated read time">
+    (~4m read) 
 </span>
-      )
   </span>
  <div>
       <a class="hidden tag" href="https://eshinjolly.com/tags/#statistics">statistics
@@ -190,85 +194,14 @@
       <summary>
         Table of Contents
       </summary>
-<div id="toc" class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {:.toc
-  }
-  -
-  
-  
-  [
-  
-    2 id="inner-product"&gt;Inner product
-  
-
-  ](#inner-product
-  )
-
-  
-  
--
-  
-  
-  [
-  
-    2 id="covariance"&gt;Covariance
-  
-
-  ](#covariance
-  )
-
-  
-  
--
-  
-  
-  [
-  
-    2 id="cosine-similarity"&gt;Cosine Similarity
-  
-
-  ](#cosine-similarity
-  )
-
-  
-  
--
-  
-  
-  [
-  
-    2 id="pearson-correlation"&gt;Pearson Correlation
-  
-
-  ](#pearson-correlation
-  )
-
-  
-  
--
-  
-  
-  [
-  
-    2 id="ols-univariate-wo-intercept"&gt;OLS (univariate w/o intercept)
-  
-
-  ](#ols-univariate-wo-intercept
-  )
-
-  
-  
--
-  
-  
-  [
-  
-    2 id="ols-univariate-w-intercept"&gt;OLS (univariate w/ intercept)
-  
-
-  ](#ols-univariate-w-intercept
-  )
-</code></pre></div></div>
-}}
+     <ul id="toc" class="toc">
+ <li><a href="#inner-product">Inner product</a>
+ <li><a href="#covariance">Covariance</a>
+ <li><a href="#cosine-similarity">Cosine Similarity</a>
+ <li><a href="#pearson-correlation">Pearson Correlation</a>
+ <li><a href="#ols-univariate-wo-intercept">OLS (univariate w/o intercept)</a>
+ <li><a href="#ols-univariate-w-intercept">OLS (univariate w/ intercept)</a>
+</ul>
     </details>
  </div>
 <p>This is a quick post to illustrate with python code how several common vector similarity computations are related to each other. For more details I highly encourage you to check out Brendan O’Connor’s really nice <a href="https://brenocon.com/blog/2012/03/cosine-similarity-pearson-correlation-and-ols-coefficients/">elaboration</a>.</p>
@@ -360,15 +293,22 @@
 <span class="n">model</span><span class="p">.</span><span class="n">coefs</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
 <span class="o">-</span><span class="mf">0.07620054357106855</span>
 </code></pre></div></div>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script
+  defer
+  src="https://polyfill.io/v3/polyfill.min.js?features=es6"
+></script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
 <script async src="https://eshinjolly.com/assets/js/copyCode.js"></script>
 <style>
   /* Need style here because selectors get purged by tailwind since button is created via js */
-  /* div[class*="language-"] {
+  div[class*="language-"] {
     position: relative;
-  } */
-  /* .copy-button {
+  }
+  .copy-button {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -377,22 +317,19 @@
     font-size: 0.85rem;
     padding: 0.35rem 0.75rem;
     border-radius: 0.8rem;
-  } */
-</style>
-</div>
+  }
+</style></div>
        </div>
      </div>
      <footer class="footer">
- <hr class="footer-divider"/>
- <div class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2">
-   <p>Eshin Jolly
-      ©
-      2022
-   </p>
+ <hr class="footer-divider" />
+ <div
+    class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2"
+  >
+   <p>Eshin Jolly © 2022</p>
    <p class="extra">
       built with
-      <a class="link" href="https://jekyllrb.com/">jekyll
-      </a>
+      <a class="link" href="https://jekyllrb.com/">jekyll </a>
       and
       <a href="https://tailwindcss.com" class="link">tailwind</a>
    </p>

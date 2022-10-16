@@ -57,7 +57,13 @@
        <div class="post">
         <header class="header-container">
   <a class="cover-photo-container" href="/">
-    <img class="cover-photo hover:opacity-80" alt="Eshin Jolly" src="https://eshinjolly.com/assets/images/slices.png" width="448px" height="200px"/>
+    <img
+      class="cover-photo hover:opacity-80"
+      alt="Eshin Jolly"
+      src="https://eshinjolly.com/assets/images/slices.png"
+      width="448px"
+      height="200px"
+    />
   </a>
  <div class="links-row">
   <a
@@ -147,23 +153,23 @@
     </svg>
   </a>
 </div>
- <nav class="nav">
+<nav class="nav">
  <ul class="nav-row">
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/about">About</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/research">Research</a>
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/software">Software</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/publications">Publications</a>
-       <li class="item">
-          <a class="link-red" href="https://eshinjolly.com/music">Music</a>
-       <li class="item">
-          <a class="link" href="https://eshinjolly.com/blog">Blog</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/about">About</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/research">Research</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/software">Software</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/publications">Publications</a>
+   <li class="item">
+      <a class="link-red" href="https://eshinjolly.com/music">Music</a>
+   <li class="item">
+      <a class="link" href="https://eshinjolly.com/blog">Blog</a>
  </ul>
 </nav>
- <hr class="divider"/>
+ <hr class="divider" />
 </header>
 <div class="content">
 <h1 class="title">Reproducible scientific Python environments with conda
@@ -172,11 +178,9 @@
   <span class="post-date">
     <time datetime="15-10-2022">Saturday. October 15, 2022
     </time>
-      (<span class="reading-time" title="Estimated read time">
-    ~8
-    m read
+      <span class="reading-time" title="Estimated read time">
+    (~8m read) 
 </span>
-      )
   </span>
  <div>
       <a class="hidden tag" href="https://eshinjolly.com/tags/#scientific-tooling">scientific tooling
@@ -192,98 +196,17 @@
       <summary>
         Table of Contents
       </summary>
-<div id="toc" class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {:.toc
-  }
-  -
-  
-  
-  [
-  
-    1 id="setting-up-anaconda-or-miniconda"&gt;Setting up Anaconda or Miniconda
-  
-
-  ](#setting-up-anaconda-or-miniconda
-  )
-
-  
-  
--
-  
-  
-  [
-  
-    1 id="creating-a-new-environment-for-each-project"&gt;Creating a new environment for each project
-  
-
-  ](#creating-a-new-environment-for-each-project
-  )
-
-  
-  
--
-  
-  
-  [
-  
-    1 id="backing-up-and-restoring-your-environment"&gt;Backing up and restoring your environment
-  
-
-  ](#backing-up-and-restoring-your-environment
-  )
-
-  
-  
--
-  
-  
-  [
-  
-    1 id="a-few-closing-suggestions"&gt;A few closing suggestions
-  
-
-  ](#a-few-closing-suggestions
-  )
-
-      
-  
--
-  
-  
-  [
-  
-    2 id="make-sure-you-know-what-environment-is-active-before-running-conda-install-commands"&gt;Make sure you know what environment is active before running conda install commands
-  
-
-  ](#make-sure-you-know-what-environment-is-active-before-running-conda-install-commands
-  )
-
-      
-  
--
-  
-  
-  [
-  
-    2 id="be-careful-about-mixing-and-matching-conda-channels"&gt;Be careful about mixing and matching conda channels!
-  
-
-  ](#be-careful-about-mixing-and-matching-conda-channels
-  )
-
-      
-  
--
-  
-  
-  [
-  
-    2 id="optional-extra-automation"&gt;Optional extra automation
-  
-
-  ](#optional-extra-automation
-  )
-</code></pre></div></div>
-}}
+     <ul id="toc" class="toc">
+ <li><a href="#setting-up-anaconda-or-miniconda">Setting up Anaconda or Miniconda</a>
+ <li><a href="#creating-a-new-environment-for-each-project">Creating a new environment for each project</a>
+ <li><a href="#backing-up-and-restoring-your-environment">Backing up and restoring your environment</a>
+ <li><a href="#a-few-closing-suggestions">A few closing suggestions</a>
+   <ul>
+     <li><a href="#make-sure-you-know-what-environment-is-active-before-running-conda-install-commands">Make sure you know what environment is active before running conda install commands</a>
+     <li><a href="#be-careful-about-mixing-and-matching-conda-channels">Be careful about mixing and matching conda channels!</a>
+     <li><a href="#optional-extra-automation">Optional extra automation</a>
+   </ul>
+</ul>
     </details>
  </div>
 <p>This is a brief explanation of a workflow that I’ve been using for research/data-science projects in Python. It makes use of <code class="language-plaintext highlighter-rouge">conda</code> environments <strong>co-located</strong> with project files. This meets several key criteria that I was looking for:</p>
@@ -384,15 +307,22 @@ git commit <span class="nt">-m</span> <span class="s2">"saved environment"</span
 <div class="not-prose gist-wrapper">
     <script src="https://gist.github.com/ejolly/0f448085a35540ab42dfd5cec1d9ce19.js"></script>
 </div>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script
+  defer
+  src="https://polyfill.io/v3/polyfill.min.js?features=es6"
+></script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
 <script async src="https://eshinjolly.com/assets/js/copyCode.js"></script>
 <style>
   /* Need style here because selectors get purged by tailwind since button is created via js */
-  /* div[class*="language-"] {
+  div[class*="language-"] {
     position: relative;
-  } */
-  /* .copy-button {
+  }
+  .copy-button {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -401,22 +331,19 @@ git commit <span class="nt">-m</span> <span class="s2">"saved environment"</span
     font-size: 0.85rem;
     padding: 0.35rem 0.75rem;
     border-radius: 0.8rem;
-  } */
-</style>
-</div>
+  }
+</style></div>
        </div>
      </div>
      <footer class="footer">
- <hr class="footer-divider"/>
- <div class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2">
-   <p>Eshin Jolly
-      ©
-      2022
-   </p>
+ <hr class="footer-divider" />
+ <div
+    class="flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-2"
+  >
+   <p>Eshin Jolly © 2022</p>
    <p class="extra">
       built with
-      <a class="link" href="https://jekyllrb.com/">jekyll
-      </a>
+      <a class="link" href="https://jekyllrb.com/">jekyll </a>
       and
       <a href="https://tailwindcss.com" class="link">tailwind</a>
    </p>
