@@ -88,13 +88,13 @@ __Lab Manager__
 
 ## Funding
 `2019-`  
-__Co-PI__  
-*National Science Foundation*, Career Award 1848370 ($886,457, Co-PI: Luke Chang)  
+__Postdoctoral Fellow__  
+*National Science Foundation*, Career Award 1848370 ($886,457, PI: Luke Chang)  
 Neural and computational basis of guilt in decision-making
 
 
 `2013-2016`  
-__Fellow__    
+__Graduate Fellow__    
 *National Science Foundation*, Graduate Research Fellowship ($90,000)  
 Uncovering the represention of self: A multivariate approach
 
@@ -150,10 +150,10 @@ __Core Developer__, [[Documentation]](https://nltools.org/) [[Video Talk]](https
 
 `2022`  
 Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
-*Syposium talk at International Society for Research on Emotion, USC, Los Angeles, CA.*
+*Symposium talk at International Society for Research on Emotion, USC, Los Angeles, CA.*
 
 Emotion and Social Perception in Naturalistic Contexts: Perspectives from Affective Computing and Affective Neuroscience.  
-*Syposium organizer at International Society for Research on Emotion, USC, Los Angeles, CA.*
+*Symposium organizer at International Society for Research on Emotion, USC, Los Angeles, CA.*
 
 Introduction to Facial Expression Analysis with Py-Feat. [[Slides]](https://ejolly-py-feat.surge.sh/)    
 *Talk at Center for Interacting Minds, Dartmouth College, Hanover, NH.*
@@ -455,7 +455,7 @@ Nathan P. Greenstein ‘19
 Presidential Scholar  
 *Dartmouth College*
 
-Sushmita Sadhukua ’18  
+Sushmita Sadhukha ’18  
 Full-time Research Assistant  
 *Dartmouth College*
 
