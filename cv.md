@@ -561,6 +561,6 @@ __Private Tutor__
 Introductory data analysis with Python  
 __
 
-Last updated: September 2022
+Last updated: November 2022
 
 

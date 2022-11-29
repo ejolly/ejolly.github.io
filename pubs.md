@@ -22,7 +22,7 @@ Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision)
 
 ### 2022
 
-**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D. & Chang, L.J. (in press). Recovering individual emotional states from sparse ratings using collaborative filtering. *Affective Science*. [[arXiv preprint]](https://arxiv.org/abs/2109.06906) [[toolbox]](https://cosanlab.github.io/neighbors/)
+**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D. & Chang, L.J. (2022). Recovering individual emotional states from sparse ratings using collaborative filtering. *Affective Science*. [[Link]](https://link.springer.com/article/10.1007/s42761-022-00161-2) [[toolbox]](https://cosanlab.github.io/neighbors/) [[data & materials]](https://github.com/cosanlab/collab_filter)
 
 ### 2021
 

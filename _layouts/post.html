@@ -63,6 +63,10 @@ layout: page
 {% include mathjax.html %}
 <script async src="{{base.url | prepend: site.url }}/assets/js/copyCode.js"></script>
 
+{% if page.mermaid %}
+<script async src="https://unpkg.com/mermaid@9.1.7/dist/mermaid.min.js"></script>
+{% endif %}
+
 <style>
   /* Need style here because selectors get purged by tailwind since button is created via js */
   div[class*="language-"] {
