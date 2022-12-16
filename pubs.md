@@ -1,7 +1,7 @@
 
 ## In Prep
 
-**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z. & Chang, L.J. (in prep). The structure of social memory. 
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M. & Chang, L.J. (in prep). The structure of social memory. 
 
 **Jolly, E.**, Ranger, M.S. & Chang, L.J. (in prep). The neural basis of guilt diffusion in interpersonal harm-minimization.
 
@@ -13,7 +13,7 @@
 
 ## Under review/revision
 
-**Jolly, E.**\*, Cheong, J.H.\*, Xie, T. Byrne, S. Kenny, M. & Change, L.J. (under revision). Py-Feat: Python Facial Expression Analysis Toolbox. [arXiv preprint](https://arxiv.org/abs/2104.03509) [[toolbox]](https://py-feat.org/)  
+**Jolly, E.**\*, Cheong, J.H.\*, Xie, T.\* Byrne, S. Kenny, M. & Change, L.J. (under revision). Py-Feat: Python Facial Expression Analysis Toolbox. [arXiv preprint](https://arxiv.org/abs/2104.03509) [[toolbox]](https://py-feat.org/)  
 \*Equal contribution
 
 Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision). The hidden cost of receiving favors: A theory of indebtedness. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
