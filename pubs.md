@@ -1,7 +1,7 @@
 
 ## In Prep
 
-**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M. & Chang, L.J. (in prep). The structure of social memory. 
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Chen, J., Manning, J.R. & Chang, L.J. (in prep). The structure of social memory. 
 
 **Jolly, E.**, Ranger, M.S. & Chang, L.J. (in prep). The neural basis of guilt diffusion in interpersonal harm-minimization.
 

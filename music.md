@@ -15,7 +15,7 @@ In my little spare time I love writing and playing music. I grew up playing seve
         </p>
     </div>
     <div>
-        <iframe src="https://embed.spotify.com/?uri=spotify:album:0wguru0gUyDZe9jIo2PHE1" width="100%" height="320" frameborder="0" allowtransparency="true"></iframe>
+        <iframe src="https://embed.spotify.com/?uri=spotify:album:0wguru0gUyDZe9jIo2PHE1" width="100%" height="400" frameborder="0" allowtransparency="true"></iframe>
     </div>
 </div>
 
@@ -24,7 +24,7 @@ In my little spare time I love writing and playing music. I grew up playing seve
 
 <div class="side-by-side">
     <div>
-		<iframe width="100%" height="320" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/283330568&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
+		<iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/283330568&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
     </div>
     <div>
         <p>I often fool around with software tools like Logic and Garageband, interfaced with a simple midi controller. Using this setup I'll compose for several different instruments and as a result I have a growing collection of musical tidbits and starter songs. Several of these have turned into collaborations with my sister who provides all the awesome lyrics and vocals. Thanks to the Internet we can pull this off despite living hundreds of miles apart.</p>
@@ -33,3 +33,15 @@ In my little spare time I love writing and playing music. I grew up playing seve
 
 
 
+<h2 style="text-align: center">On Beyond Penguin</h2>
+
+<div class="side-by-side">
+    <div>
+        <p>How to embed music files? (1) Only some hosted on soundcloud (2) stream rest from dropbox using toggle css element for albums and generated dropbox links</p>
+    </div>
+    <div>
+      <audio controls>
+        <source src="https://www.dropbox.com/s/6ipllqop17zlgr9/Ain%27t%20It%20The%20Truth.mp3?dl=1" type="audio/mpeg">
+      </audio>
+    </div>
+</div>

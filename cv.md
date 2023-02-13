@@ -13,72 +13,76 @@ eshin.jolly@gmail.com
 <a href="https://eshinjolly.com">website</a>
 | <a href="https://github.com/ejolly">github</a>
 | <a href="https://twitter.com/eshjolly">twitter</a>
+| <a href="https://littleplanet.life/@eshjolly">mastodon/fediverse</a>
 | <a href="https://www.linkedin.com/in/eshin-jolly-phd-164863a1/">linkedin</a>
 </div>
 
 
 ## Currently
 
-`2019-`
+`2020-`
 __Postdoctoral Fellow__  
 Center for Interacting Minds  
 Center for Cognitive Neuroscience  
-[Cosan Lab](https://www.cosanlab.com), *Dartmouth College*, Hanover, NH
-
-- PI: Luke J. Chang
-
-<!-- ### Research Area
-
-Computational Social Neuroscience
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples. -->
-
+[Cosan Lab](https://www.cosanlab.com), *Dartmouth College*, Hanover, NH  
+PI: Luke Chang
 
 ## Education
 
 `2012-2019`
-__Dartmouth College__, Hanover, NH
+__PhD, Cognitive Neuroscience__  
+NSF Graduate Fellow  
+[Cosan Lab](https://www.cosanlab.com), *Dartmouth College*, Hanover, NH  
 
 <ul>
-<li>PhD, Cognitive Neuroscience</li>
-<li>NSF Graduate Fellow</li>
 <li class='thesis'>Thesis: <em>Social Cognitive Maps: A Relational Account of Person Representation and Memory</em></li>
+<li class='thesis'>Committee: <a href="https://www.cosanlab.com">Luke Chang</a>, <a href="http://www.wheatlab.com/"> Thalia Wheatley</a>, <a href="http://www.context-lab.com/">Jeremy Manning</a>,<a href="https://jchenlab.johnshopkins.edu/"> Janice Chen</a></li>
 </ul>
 
 `2006-2010`
-__University of Rochester__, Rochester, NY
+__BA, Brain and Cognitive Science; Psychology__  
+Minor: Music & Jazz Performance  
+*University of Rochester*, Rochester, NY  
 
 <ul>
-<li>BA, Brain and Cognitive Science/Psychology</li>
-<li>Minor, Music</li>
 <li class='thesis'>Thesis: <em>Testing Domain Specificity: Conceptual Knowledge of Living and Non-living Things</em></li>
+<li class='thesis'>Committee: <a href="https://www.cmu.edu/dietrich/psychology/kidneurolab/index.html">Jessica Cantlon</a>, <a href="https://www.cmu.edu/dietrich/psychology/caoslab/"> Brad Mahon</a></li>
 </ul>
 
 
 ## Employment  
+
+`2023-`
+__Senior UX Scientist__  
+[MoreMore AI]()  
+*Media & Arts startup*
+
+
+`2022-`
+__Technical Support Lead__  
+[Code for America (Upper Valley Brigade)](https://codeforuv.org)   
+*Rural Internet Project*
+
 `2021-`
 __Scientific Advisor__  
-[*Parsnip.ai*](https://www.parsnip.ai/)  
-
-- Food and Ed-tech startup
-
+[Parsnip.ai](https://www.parsnip.ai/)  
+*Food and Ed-tech startup*
 
 `2020-2021`
 __Co-Founder & CTO__  
-[*Parsnip.ai*](https://www.parsnip.ai/)  
+[Parsnip.ai](https://www.parsnip.ai/)  
+*Food and Ed-tech startup*
 
-- Food and Ed-tech startup
+`2019-2022`
+__Project Manager__  
+[Rural Internet Project](https://codeforuv.org/)  
+*Code for Upper Valley (Local Code for America Brigade)*
 
-
-`summer 2016`
+`2016`
 __PhD Research Intern__  
-*Microsoft Research*, New York City, NY
-
-- Computational Social Science Group
-- PIs: Duncan Watts & Sid Suri
-
+[Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/)  
+*Computational Social Science Group*
+PIs: Duncan Watts & Sid Suri
 
 `2010-2012`
 __Lab Manager__  
@@ -87,7 +91,8 @@ __Lab Manager__
 - PI: Jason P. Mitchell  
 
 ## Funding
-`2019-`  
+
+`2019-`
 __Postdoctoral Fellow__  
 *National Science Foundation*, Career Award 1848370 ($886,457, PI: Luke Chang)  
 Neural and computational basis of guilt in decision-making
@@ -99,6 +104,7 @@ __Graduate Fellow__
 Uncovering the represention of self: A multivariate approach
 
 ## Research Experience  
+
 `2009-2010`
 __University of Rochester__, Rochester, NY
 
@@ -430,6 +436,16 @@ Mind Perception (ad-hoc workshop)
 
 ## Mentorship
 
+`2022-`
+Wasita Mahaphanit  
+Graduate Student  
+*Dartmouth College*
+
+`2022-`
+Sushmita Sadhukha  
+Graduate Student  
+*Dartmouth College*
+
 `2021-2022`  
 Maxwell Ranger '22  
 Honors Thesis  
@@ -508,19 +524,10 @@ Social and Affective Neuroscience Society, Society for Affective Science, Organi
 
 ## Leadership & Community  
 
-`2022-`  
-__Technical Lead__  
-[Rural Internet Project](https://codeforuv.org/)  
-*[Code for Upper Valley (Local C4A Brigade)](https://codeforuv.org), Bradford, VT*  
-
-`2019-2022`  
+`2019-2022`
 __Committee Member__    
 [Inclusivity, Diversity, and Culture Advisory Committee](https://pbs.dartmouth.edu/our-commitment-diversity)  
 *Dartmouth College, Hanover, NH*  
-
-__Project Manager__  
-[Rural Internet Project](https://codeforuv.org/)  
-*[Code for Upper Valley (Local C4A Brigade)](https://codeforuv.org), Bradford, VT*  
 
 `2018-2020`  
 __VP of Client Outreach__  
@@ -561,6 +568,6 @@ __Private Tutor__
 Introductory data analysis with Python  
 __
 
-Last updated: November 2022
+Last updated: February 2023
 
 
