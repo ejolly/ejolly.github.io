@@ -16,7 +16,7 @@
     "draft": "npm run build:jekyll:drafts && clear && bundle exec jekyll serve --livereload --incremental --drafts",
     "write": "npm run build:jekyll && clear && bundle exec jekyll serve --livereload --incremental",
     "dev-jekyll": "bundle exec jekyll serve --livereload",
-    "dev-tailwind": "npx tailwindcss -i ./assets/css/tailwind.css -o /docs/assets/css/tailwind.css --watch",
+    "dev-tailwind": "npx tailwindcss -i ./assets/css/tailwind.css -o ./docs/assets/css/tailwind.css --watch",
     "dev": "concurrently \"npm:dev-jekyll\" \"npm:dev-tailwind\"",
     "minify": "npx tailwindcss -i docs/assets/css/cv-screen.css -o docs/assets/css/cv-screen.css --minify && npx tailwindcss -i docs/assets/css/cv-print.css -o docs/assets/css/cv-print.css --minify && npx tailwindcss -i docs/assets/css/tailwind.css -o docs/assets/css/tailwind.css --minify",
     "build": "npm run build:jekyll && npm run minify && touch docs/.nojekyll",
