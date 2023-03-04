@@ -209,6 +209,9 @@
   .music .content .side-by-side-reversed img.image {
     @apply w-1/2 max-w-[16rem] mx-auto md:w-full;
   }
+  .music .content .side-by-side audio.obp-audio {
+    @apply my-2 h-10 w-3/4;
+  }
 
   /* Within blog posts */
   /*  can be appled to markdown with {:.class} syntax under an element */
