@@ -16,3 +16,4 @@ assets/drafts
 .jekyll-cache
 npm-debug.log
 .jekyll-metadata
+**/*/*.docx
