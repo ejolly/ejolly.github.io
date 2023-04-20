@@ -22,7 +22,7 @@ eshin.jolly@gmail.com
 
 `2020-`
 __Postdoctoral Fellow__  
-Center for Interacting Minds  
+Consortium for Interacting Minds  
 Center for Cognitive Neuroscience  
 [Cosan Lab](https://www.cosanlab.com), *Dartmouth College*, Hanover, NH  
 PI: Luke Chang
