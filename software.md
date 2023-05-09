@@ -42,10 +42,10 @@ A Python package for analyzing brain-imaging data, though also usable for other 
 An desktop application for easily adminstering tasks and experiments on [Amazon Mechanical Turk](https://www.mturk.com/). Provides an GUI-based alternative to tools like [psiturk](http://psiturk.org/). Built in javascript using [svelte](https://svelte.dev/) and [electron](https://www.electronjs.org/).          
 [Github](https://github.com/ejolly/svelte-turk) |  [Website](https://eshinjolly.com/svelteturk)   
 
-## Utilz
+## Py-utilz
 
 A Python package for faster and easier declarative data analysis like [dpylr in R](https://dplyr.tidyverse.org/)    
-[Github](https://github.com/ejolly/utilz) | [Docs](https://eshinjolly.com/utilz/)
+[Github](https://github.com/ejolly/py-utilz) | [Docs](https://eshinjolly.com/py-utilz/)
 
 ## pyfit
 
