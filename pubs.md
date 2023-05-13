@@ -1,7 +1,7 @@
 
 ## In Prep
 
-**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Chen, J., Manning, J.R. & Chang, L.J. (in prep). People as Contexts: The Structure of Social Memory. 
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R. & Chang, L.J. (in prep). People as Contexts: The Structure of Social Memory. 
 
 **Jolly, E.**, Chang, L.J. (in prep). Social cognitive maps: Encoding and reinstatement of neural patterns that reflect beliefs about social relationships.  
 
@@ -13,12 +13,14 @@
 
 ## Under review/revision
 
-**Jolly, E.**\*, Cheong, J.H.\*, Xie, T.\* Byrne, S. Kenny, M. & Change, L.J. (under revision). Py-Feat: Python Facial Expression Analysis Toolbox. [arXiv preprint](https://arxiv.org/abs/2104.03509) [[toolbox]](https://py-feat.org/)  
-\*Equal contribution
-
 Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision). The hidden cost of receiving favors: A theory of indebtedness. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
 
 ## Published
+
+### 2023
+
+**Jolly, E.**\*, Cheong, J.H.\*, Xie, T.\* Byrne, S. Kenny, M. & Change, L.J. (2023). Py-Feat: Python Facial Expression Analysis Toolbox. *Affective Science*. [[arXiv preprint]](https://arxiv.org/abs/2104.03509) [[toolbox]](https://py-feat.org/)  
+\*Equal contribution
 
 ### 2022
 
