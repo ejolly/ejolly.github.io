@@ -1,17 +1,15 @@
 
 ## In Prep
 
-**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R. & Chang, L.J. (in prep). People as Contexts: The Structure of Social Memory. 
-
-**Jolly, E.**, Chang, L.J. (in prep). Social cognitive maps: Encoding and reinstatement of neural patterns that reflect beliefs about social relationships.  
-
-**Jolly, E.** (in prep). SvelteTurk: An open-source graphical application to simplify data collection via Amazon Mechanical Turk. [[documentation site]](https://eshinjolly.com/svelteturk)
+**Jolly, E.**, Chang, L.J. (in prep). Neural encoding and reinstatement of social motifs.  
 
 **Jolly, E.**, Ranger, M.S. & Chang, L.J. (in prep). The neural basis of guilt diffusion in interpersonal harm-minimization.
 
 **Jolly, E.**, Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Guilt-aversion motivates harm-minimization in surrogate decision-making.
 
 ## Under review/revision
+
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R. & Chang, L.J. (under review). People are represented and remembered through their relationships with others.  [[psyarxiv preprint]](https://psyarxiv.com/bw9r2)
 
 Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., Chang, L. J. (under revision). The hidden cost of receiving favors: A theory of indebtedness. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
 

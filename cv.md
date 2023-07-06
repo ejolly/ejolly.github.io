@@ -568,6 +568,6 @@ __Private Tutor__
 Introductory data analysis with Python  
 __
 
-Last updated: May 2023
+Last updated: July 2023
 
 
