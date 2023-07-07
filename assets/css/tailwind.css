@@ -220,6 +220,34 @@
     @apply pr-2;
   }
 
+  /* Portfolio */
+  .portfolio .content .img-text {
+    @apply flex space-x-6 items-center my-8;
+  }
+
+  .portfolio .content .img-text-lg {
+    @apply flex space-x-6 items-center mb-8 mt-12;
+  }
+
+  .portfolio .content .img-container {
+    @apply shrink-0;
+  }
+  .portfolio .content img {
+    @apply w-28 h-28;
+  }
+  .portfolio .content .icon {
+    @apply w-28 h-28;
+  }
+  .portfolio .content .icon-sm {
+    @apply w-28 h-20;
+  }
+  .portfolio .content .name {
+    @apply text-3xl mb-0 font-semibold text-black;
+  }
+  .portfolio .content .years {
+    @apply text-sm -mt-1 mb-2;
+  }
+
   /* Within blog posts */
   /*  can be appled to markdown with {:.class} syntax under an element */
   .dataframe {
