@@ -16,7 +16,7 @@ layout: page
       <p class="role">Senior UX/UI Engineer; Designer</p>
     </div>
   </div>
-  <p class="description">A film and media startup, currently in stealth. We're building a better recommendation engine to help folks find what they're looking for <em>and</em> understand why they might enjoy it.</p>
+  <p class="description">A film and media startup. We're building a better recommendation engine to help folks find what they're looking for <em>and</em> understand why they might enjoy it.</p>
 </div>
 
 <div class="item not-prose">
