@@ -3,7 +3,7 @@ title: Portfolio
 layout: page
 ---
 
-<div>In addition to my academic career and I often do design, research, and engineering with startups and non-profits. Here's a list of some of the projects I've had the pleasure of leading and consulting on:</div>
+<div>In addition to my academic career I often do design, research, and engineering with startups and non-profits. Here's a list of some of the projects I've had the pleasure of leading and consulting on and some of the different roles I've played:</div>
 
 <div class="item not-prose">
   <div class="img-text">
