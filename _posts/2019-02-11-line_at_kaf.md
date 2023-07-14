@@ -10,10 +10,11 @@ blog: true
 description: Real-time queue tracking 
 ---
 
-<figure>
-  <img src="/assets/images/lineatkaf/main.png" width="400">
-    <figcaption>This blog post was co-written with Jin.</figcaption>
-</figure>
+<div class="flex w-1/2 mx-auto gap-x-2">
+  <img src="/assets/images/lineatkaf/main.png" class="w-3/5">
+  <img src="/assets/images/kaf_people.png" class="w-2/5">
+</div>
+<figcaption class="text-sm italic text-center">This blog post was co-written with Jin.</figcaption>
 
 For the past year I've been working on the Line@KAF project with [Jin Cheong](http://jinhyuncheong.com/) with the support from [COSAN lab](http://cosanlab.com), [DALI lab](http://dali.dartmouth.edu/projects-blog/kaf), and [Magnuson Center of Entrepreneurship](https://magnuson.dartmouth.edu/).
 
