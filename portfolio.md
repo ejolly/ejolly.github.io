@@ -16,7 +16,7 @@ layout: page
       <p class="role">Senior UX/UI Engineer; Designer</p>
     </div>
   </div>
-  <p class="description">A film and media startup. We're building a better recommendation engine to help folks find what they're looking for <em>and</em> understand why they might enjoy it.</p>
+  <p class="description">A film and media arts startup. We're building a better recommendation engine to help folks find what they're looking for <em>and</em> understand why they might enjoy it.</p>
 </div>
 
 <div class="item not-prose">
@@ -30,7 +30,7 @@ layout: page
     <p class="role">Co-founder & CTO</p>
   </div>
 </div>
-  <p class="description">An ed-tech startup I co-founded with <a class="link" href="https://www.andrewmao.net/">Andrew Mao</a> and <a class="link" href="https://www.linkedin.com/in/edward-w-huang/">Edward Huang</a> that teaches you how to cook at home in the gamified style of Duolingo. Early on I built out the mobile app and backend infrastructure for our MVP which you can checkout <a class="link" href="https://www.dropbox.com/scl/fi/wt8ktjf2pxh8uz1gmper1/parsnip.mp4?rlkey=qtl8cto0ryf01qc7hakh8nhdd&dl=0">here</a>. Later, I stepped back to play more of an advisory role. Our iOS app was very well received getting 4.9 stars in the <a class="link" href="https://apps.apple.com/us/app/parsnip-level-up-your-cooking/id1592325213?_branch_match_id=1208472994325309684&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL0gsKs7LLNBLLCjQy8nMy9ZPyS/Py8lPTAEKAAB24JCrJAAAAA%3D%3D">App Store</a>. Try it out today!</p>
+  <p class="description"><a class="link" href="https://parsnip.ai">Parsnip</a> is an ed-tech startup I co-founded with <a class="link" href="https://www.andrewmao.net/">Andrew Mao</a> and <a class="link" href="https://www.linkedin.com/in/edward-w-huang/">Edward Huang</a> that teaches you how to cook at home in the gamified style of Duolingo. Early on I built out the mobile app and backend infrastructure for our MVP which you can checkout <a class="link" href="https://www.dropbox.com/scl/fi/wt8ktjf2pxh8uz1gmper1/parsnip.mp4?rlkey=qtl8cto0ryf01qc7hakh8nhdd&dl=0">here</a>. Later, I stepped back to play more of an advisory role. Our iOS app was very well received getting 4.9 stars in the <a class="link" href="https://apps.apple.com/us/app/parsnip-level-up-your-cooking/id1592325213?_branch_match_id=1208472994325309684&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL0gsKs7LLNBLLCjQy8nMy9ZPyS/Py8lPTAEKAAB24JCrJAAAAA%3D%3D">App Store</a>. Try it out today!</p>
 </div>
 
 <div class="item not-prose">

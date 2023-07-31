@@ -20,108 +20,81 @@ eshin.jolly@gmail.com
 
 ## Currently
 
-`2020-`
+`2020-Present`
 __Postdoctoral Fellow__  
 Consortium for Interacting Minds  
 Center for Cognitive Neuroscience  
-[Cosan Lab](https://www.cosanlab.com), *Dartmouth College*, Hanover, NH  
-PI: Luke Chang
+*Dartmouth College (Hanover, NH)*  
+Mentors: [Luke Chang](https://pbs.dartmouth.edu/people/luke-j-chang-0), [Thalia Wheatley](https://pbs.dartmouth.edu/people/thalia-wheatley), [Emily Finn](https://pbs.dartmouth.edu/people/emily-s-finn), [Jeremy Manning](https://pbs.dartmouth.edu/people/jeremy-r-manning)
 
-## Education
+## Education & Training
 
 `2012-2019`
 __PhD, Cognitive Neuroscience__  
 NSF Graduate Fellow  
-[Cosan Lab](https://www.cosanlab.com), *Dartmouth College*, Hanover, NH  
-
-<ul>
-<li class='thesis'>Thesis: <em>Social Cognitive Maps: A Relational Account of Person Representation and Memory</em></li>
-<li class='thesis'>Committee: <a href="https://www.cosanlab.com">Luke Chang</a>, <a href="http://www.wheatlab.com/"> Thalia Wheatley</a>, <a href="http://www.context-lab.com/">Jeremy Manning</a>,<a href="https://jchenlab.johnshopkins.edu/"> Janice Chen</a></li>
-</ul>
+*Dartmouth College (Hanover, NH)*  
+Thesis: Social Cognitive Maps: A Relational Account of Person Representation and Memory  
+Committee: [Luke Chang](https://www.cosanlab.com), [Thalia Wheatley](http://www.wheatlab.com/), [Jeremy Manning](http://www.context-lab.com/), [Janice Chen](https://jchenlab.johnshopkins.edu/)  
 
 `2006-2010`
 __BA, Brain and Cognitive Science; Psychology__  
 Minor: Music & Jazz Performance  
-*University of Rochester*, Rochester, NY  
-
-<ul>
-<li class='thesis'>Thesis: <em>Testing Domain Specificity: Conceptual Knowledge of Living and Non-living Things</em></li>
-<li class='thesis'>Committee: <a href="https://www.cmu.edu/dietrich/psychology/kidneurolab/index.html">Jessica Cantlon</a>, <a href="https://www.cmu.edu/dietrich/psychology/caoslab/"> Brad Mahon</a></li>
-</ul>
-
-
-## Employment  
-
-`2023-`
-__Senior UX Scientist__  
-[MoreMore AI]()  
-*Media & Arts startup*
-
-
-`2022-`
-__Technical Support Lead__  
-[Code for America (Upper Valley Brigade)](https://codeforuv.org)   
-*Rural Internet Project*
-
-`2021-`
-__Scientific Advisor__  
-[Parsnip.ai](https://www.parsnip.ai/)  
-*Food and Ed-tech startup*
-
-`2020-2021`
-__Co-Founder & CTO__  
-[Parsnip.ai](https://www.parsnip.ai/)  
-*Food and Ed-tech startup*
-
-`2019-2022`
-__Project Manager__  
-[Rural Internet Project](https://codeforuv.org/)  
-*Code for Upper Valley (Local Code for America Brigade)*
+*University of Rochester (Rochester, NY)*  
+Thesis: Testing Domain Specificity: Conceptual Knowledge of Living and Non-living Things  
+Committee: [Jessica Cantlon](https://www.cmu.edu/dietrich/psychology/kidneurolab/index.html), [Brad Mahon](https://www.cmu.edu/dietrich/psychology/caoslab/), [Elissa Newport](https://cbpr.georgetown.edu/elissa-newport/)
 
 `2016`
-__PhD Research Intern__  
-[Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/)  
-*Computational Social Science Group*
-PIs: Duncan Watts & Sid Suri
+__Microsoft Research PhD Intern__  
+*MSR Computational Social Science Group (NYC, NY)*    
+PIs: [Duncan Watts](https://www.asc.upenn.edu/people/faculty/duncan-j-watts-phd) & [Sid Suri](https://www.sidsuri.com/)
 
 `2010-2012`
 __Lab Manager__  
-*Harvard University*, Cambridge, MA
+*Harvard University (Cambridge, MA)*  
+PI: [Jason Mitchell](https://psychology.fas.harvard.edu/people/jason-p-mitchell)
 
-- PI: Jason P. Mitchell  
+`2008-2010`
+__Research Assistant__  
+*Baruch College (NYC, NY)*  
+PI: [Jennifer Mangels](https://www.gc.cuny.edu/people/jennifer-mangels)
+
+__Research Assistant__  
+*Mt Hope Family Center, University of Rochester (Rochester, NY)*  
+PIs: [Sheree Toth](https://www.sas.rochester.edu/psy/people/faculty/toth_sheree/index.html) & [Jack Peltz](https://www2.brockport.edu/live/profiles/1608-jack-peltz)
+
+## Industry Consulting  
+
+`2023-Present`
+__Senior UX/UI Engineer & Designer__  
+[MoreMore AI]()  
+*Film & media arts startup*
+
+`2020-Present`
+__Co-Founder & CTO; Scientific Advisor__  
+[Parsnip.ai](https://www.parsnip.ai/)  
+*Food and ed-tech startup*
+
+`2020`
+__Scientific Advisor__  
+[The Sukhi Project](https://www.thesukhiproject.com/)  
+*Employee well-being and mental health startup*
+
+`2019-Present`
+__Project Manager; Technical Support Lead__  
+[Code for America (Upper Valley Brigade)](https://codeforuv.org)   
+*Rural Internet Project*
 
 ## Funding
 
-`2019-`
+`2019-Present`
 __Postdoctoral Fellow__  
 *National Science Foundation*, Career Award 1848370 ($886,457, PI: Luke Chang)  
-Neural and computational basis of guilt in decision-making
+Neural and computational basis of guilt in decision-making (co-written)
 
-
-`2013-2016`  
+`2013-2016`
 __Graduate Fellow__    
 *National Science Foundation*, Graduate Research Fellowship ($90,000)  
 Uncovering the represention of self: A multivariate approach
-
-## Research Experience  
-
-`2009-2010`
-__University of Rochester__, Rochester, NY
-
-- PIs: Jessica F. Cantlon & Bradford Z. Mahon
-- Honors Thesis Student
-
-`2008-2010`
-__Baruch College__, New York City, NY
-
-- PI: Jennifer Mangels  
-- Research Assistant
-
-`2008-2010`
-__Mt Hope Family Center, University of Rochester__, Rochester, NY
-
-- PI: Sheree Toth; Mentor: Jack Peltz  
-- Research Assistant
 
 ## Manuscripts
 
@@ -129,190 +102,279 @@ __Mt Hope Family Center, University of Rochester__, Rochester, NY
 
 ## Open Scientific Software  
 
-`2022-Present`  
-[Py-feat](https://py-feat.org/)   
-__Core Developer__, [[Documentation]](https://py-feat.org) [[Slides]](https://ejolly-py-feat.surge.sh/) [[Github]](https://github.com/cosanlab/py-feat)  
+`2022-Present`
+__[Py-feat](https://py-feat.org/)__  
+*Analysis of facial expressions from images and videos, (Core Developer)*  
+[[Documentation]](https://py-feat.org) [[Slides]](https://ejolly-py-feat.surge.sh/) [[Github]](https://github.com/cosanlab/py-feat)  
 [![Downloads](https://pepy.tech/badge/py-feat)](https://pepy.tech/project/py-feat)
 
-`2020-Present`  
-[Neighbors](https://neighbors.cosanlab.com)  
-__Core Developer__, [[Documentation]](https://cosanlab.github.io/neighbors) [[Github]](https://github.com/cosanlab/neighbors)  
+`2020-Present`
+__[Neighbors](https://neighbors.cosanlab.com)__  
+*Predicting affective responses from sparse measurement data, (Project Author)*  
+[[Documentation]](https://cosanlab.github.io/neighbors) [[Github]](https://github.com/cosanlab/neighbors)  
 [![Downloads](https://pepy.tech/badge/neighbors)](https://pepy.tech/project/neighbors)
 
-[SvelteTurk](https://eshinjolly.com/svelteturk)  
-__Project Author__, [[Documentation]](https://eshinjolly.com/svelteturk) [[Github]](https://github.com/ejolly/svelte-turk)
+__[SvelteTurk](https://eshinjolly.com/svelteturk)__  
+*Graphical User Interface for managing experiments on Mturk, (Project Author)*  
+[[Documentation]](https://eshinjolly.com/svelteturk) [[Github]](https://github.com/ejolly/svelte-turk)
 
-`2017-Present`  
-[Pymer4](https://eshinjolly.com/pymer4/)  
-__Project Author__, [[Documentation]](https://eshinjolly.com/pymer4/) [[Github]](https://github.com/ejolly/pymer4)  
+`2017-Present`
+__[Pymer4](https://eshinjolly.com/pymer4/)__  
+*Statistics library for estimating linear mixed-effects models, (Project Author)*  
+[[Documentation]](https://eshinjolly.com/pymer4/) [[Github]](https://github.com/ejolly/pymer4)  
 [![Downloads](https://pepy.tech/badge/pymer4)](https://pepy.tech/project/pymer4)
 
-`2016-Present`  
-[Nltools](https://nltools.org)    
-__Core Developer__, [[Documentation]](https://nltools.org/) [[Video Talk]](https://youtu.be/1c1AnXLs7xM) [[Github]](https://github.com/cosanlab/nltools)  
+`2016-Present`
+__[Nltools](https://nltools.org)__  
+*Toolbox for intuitively analyzing neuroimaging data, (Core Developer)*  
+[[Documentation]](https://nltools.org/) [[Video Talk]](https://youtu.be/1c1AnXLs7xM) [[Github]](https://github.com/cosanlab/nltools)  
 [![Downloads](https://pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
 
-## Talks & Presentations 
+## Invited Talks & Presentations 
 
-`2022`  
+`2023`
+Representing and remembering people through their relationships.  
+*Invited talk at the MIND Summer School, Dartmouth College (Hanover, NH)*  
+
+The structure of social memory: People as contexts.  
+*Presentation at the Social and Affective Neuroscience Society conference (Santa Barbara, CA)*
+
+Navigating the social world: A relational account of how we represent, remember, and talk about people.  
+*Invited talk at Stanford University (Stanford, CA)*
+
+People as contexts: A relational account of person representation and memory.  
+*Invited talk for Innovators in Cognitive Neuroscience (virtual).*
+
+`2022`
 Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
-*Symposium talk at International Society for Research on Emotion, USC, Los Angeles, CA.*
+*Symposium presentation at the International Society for Research on Emotion, USC (Los Angeles, CA)*
 
 Emotion and Social Perception in Naturalistic Contexts: Perspectives from Affective Computing and Affective Neuroscience.  
-*Symposium organizer at International Society for Research on Emotion, USC, Los Angeles, CA.*
+*Symposium organizer at the International Society for Research on Emotion, USC (Los Angeles, CA)*
 
-Introduction to Facial Expression Analysis with Py-Feat. [[Slides]](https://ejolly-py-feat.surge.sh/)    
-*Talk at Center for Interacting Minds, Dartmouth College, Hanover, NH.*
-
-
-`2020`  
+`2020`
 Social Cognitive Maps: A Relational Account of Person Representation and Memory.  
-*Invited talk at Harvard University, Cambridge, MA.* 
+*Invited talk at Harvard University (Cambridge, MA)* 
 
 Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn. [[Video]](https://youtu.be/1c1AnXLs7xM)  
-*Symposium talk at Scientific Computing with Python Virtual conference.*
+*Symposium presentation at the Scientific Computing with Python conference (virtual)*
 
 Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
-*Symposium talk at Society for Affective Science, San Francisco, CA. (conference cancelled).* 
+*Symposium presentation at the Society for Affective Science conference (San Francisco, CA; cancelled due to COVID-19).* 
 
 Methodological challenges in contemporary fMRI studies.  
-*Invited talk at Neuroimaging Analysis Methods meeting, Princeton University, Princeton, NJ.*
+*Invited talk at the Neuroimaging Analysis Methods meeting, Princeton University (Princeton, NJ)*
 
-`2019`  
-Introduction to Git and Github.  
-*Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.*  
-
-`2018`  
-Introduction to Git and Github.  
-*Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.*
-
-Introduction to Jupyter Notebooks for Interactive Data Analysis.  
-*Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.*
-
+`2018`
 Introduction to functional alignment methods for fMRI.  
-*Lecture at Sao Paulo School of Advanced Science on Social and Affective Neuroscience. Sao Paulo, Brazil.*
+*Invited lecture at the Sao Paulo School of Advanced Science on Social and Affective Neuroscience (Sao Paulo, Brazil)*
 
-`2017`  
+`2017`
 Naturalistic approaches towards an understanding of social reasoning and communication.  
-*Invited talk, Stanford University, Stanford, CA.*
+*Invited talk at Stanford University (Stanford, CA)*
 
 The social benefits of gossip  
-*Presentation at the New England Research on Decision-Making conference, Brown University, Providence, RI.*
-
-Computational tools for neuroscience: Containers and jupyter notebooks.  
-*Lecture at Methods in Neuroscience Computational Summer School, Dartmouth College, Hanover, NH.*
-
-Introduction to Singularity: Running containers on a HPC.  
-*Tutorial at Graduate research roundtable workshop, Dartmouth College, Hanover, NH.*
+*Presentation at the New England Research on Decision-Making conference, Brown University (Providence, RI)*
 
 Introduction to Git and Github for psychologists.  
-*Presentation at the Reproducible Psychological Science workshop at the Annual Meeting for the Association for Psychological Science, Boston, MA.* 
+*Invited talk at the Reproducible Psychological Science workshop at the Annual Meeting for the Association for Psychological Science (Boston, MA)* 
 
 Interpersonal dynamics and the inelasticity of social guilt.  
-*Presentation at the Boston Area Moral Cognition Group, Boston, MA.*
+*Invited talk at the Boston Area Moral Cognition Group (Boston, MA)*
 
 Interpersonal dynamics and the inelasticity of social guilt.  
-*Presentation at Affectiva, Boston, MA.*
+*Invited talk at Affectiva Inc (Boston, MA)*
 
 Spontaneous impression-formation about parasocial relationships.  
-*Presentation at the Annual Meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.*
-
-Introduction to Jupyter notebooks (and why you should love them!).  
-*Tutorial at Brainhack Dartmouth College, Hanover, NH*
-
-Research Methods for Conducting Synchronous Online Experiments.  
-*Guest Lecture at Dartmouth College, Hanover, NH.*
-
-Contemporary fMRI pre-processing: Introduction to Nipype and Docker.  
-*Tutorial at Dartmouth College, Hanover, NH.*
+*Presentation at the Social and Affective Neuroscience Society conference (Los Angeles, CA)*
 
 State of the Data: Annual Dartmouth Brain Imaging Center Quality Assurance Report.  
-*Presentation at Dartmouth College, Hanover, NH.*
+*Presentation at Dartmouth College (Hanover, NH)*
 
-`2016`  
+`2016`
 Field experiments on human prosociality using Mechanical Turk.  
-*Presentation at Microsoft Research, New York, NY.*
-
-Research Methods for Conducting Synchronous Online Experiments.  
-*Guest Lecture at Dartmouth College, Hanover, NH.*
+*Presentation at Microsoft Research (New York City, NY)*
 
 The Social Benefits of Gossip.  
-*Guest Lecture at Dartmouth College, Hanover, NH.*
-
-The Social Benefits of Gossip.  
-*Presentation at the Social Brain Sciences Brown Bag series at Dartmouth College, NH.*
+*Presentation at the Social Brain Sciences Brown Bag (Dartmouth College, NH)*
 
 ## Posters & Conference Proceedings
 
-`2021`  
-**Jolly, E.** & Chang, L.J. (2021). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.*  
-Poster at Social Affective Neuroscience Society meeting (online conference; in-person cancelled due to COVID-19)  
-*Winner, SANS Poster Award
+`2023`
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2023). The structure of social memory: People as contexts.  
+*Poster at the Social and Affective Neuroscience Society conference (Santa Barbara, CA)*
 
-`2020`  
-**Jolly, E.** (2020). Pymer4: Bringing R's Powerful Mixed-modeling to Python.*  
-Virtual poster at Scientific Computing with Python Virtual Conference. (in-person cancelled).  
-*Winner, Scipy Scholarship
+Kwon, D., **Jolly, E.**, Chang, L.J., & Shim, W.M. (2023). Neural representations of dynamic social interactions.  
+*Poster at the 26th Annual Meeting of the Korean Society for Brain and Neural Sciences (Busan, Korea)*
 
-`2019`  
+`2022`
+**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D., & Chang, L.J. (2022). Recovering individual emotional states from sparse ratings using collaborative filtering.  
+*Poster at the Society for Affective Science conference (virtual)*
+
+`2021`
+**Jolly, E.** & Chang, L.J. (2021). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
+*Poster at the Social and Affective Neuroscience Society conference (virtual)*  
+**Winner Poster Award**
+
+`2020`
+**Jolly, E.** (2020). Pymer4: Bringing R's Powerful Mixed-modeling to Python.  
+*Poster at the Scientific Computing with Python conference (virtual)*    
+**Winner Scipy Scholarship**
+
+`2019`
 **Jolly, E.** & Chang, L.J. (2019). Gossip drives vicarious learning and facilitates robust social connections.  
-Poster at Social and Affective Neuroscience Society meeting, Miami, FL.
+*Poster at the Social and Affective Neuroscience Society conference (Miami, FL)*
 
-Cheong, J.C., Chen, P.A., **Jolly, E.**, Elhence, H., Wager, T.D., Chang, L.J. (2019). Socially transmitted placebo effects.  
-Poster at Society for Affective Science meeting, Boston, MA.
+Cheong, J.C., Chen, P.A., **Jolly, E.**, Elhence, H., Wager, T.D., & Chang, L.J. (2019). Socially transmitted placebo effects.  
+*Poster at the Society for Affective Science conference (Boston, MA)*
 
-`2018`  
-**Jolly, E.**, Reddan, M.C., Gianaros, P.J., Manuck, S.M. Chang, L.J., Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of complex brain models.  
-Poster at Social and Affective Neuroscience Society meeting, New York, NY.
+`2018`
+**Jolly, E.**, Reddan, M.C., Gianaros, P.J., Manuck, S.M. Chang, L.J., & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of complex brain models.  
+*Poster at the Social and Affective Neuroscience Society conference (New York, NY)*
 
-Reddan, M.C., **Jolly, E.**, Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
-Poster at the Organization for Human Brain Mapping meeting, Singapore, Singapore.
+Reddan, M.C., **Jolly, E.**, & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
+*Poster at the Organization for Human Brain Mapping conference (Singapore, Singapore)*
 
-Reddan, M.C., **Jolly, E.**, Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
-Poster at the Computational and Systems Neuroscience meeting, Denver, CO.
+Reddan, M.C., **Jolly, E.**, & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
+*Poster at the Computational and Systems Neuroscience conference (Denver, CO)*
 
-`2017`  
+`2017`
 **Jolly, E.** & Chang, L.J. (2017). Gossip drives vicarious learning and facilitates robust social connections.  
-Poster at the Annual Meeting of the Association for Psychological Science, Boston, MA.
+*Poster at the Annual Meeting of the Association for Psychological Science (Boston, MA)*
 
-Cheong, J.H., **Jolly, E.** & Chang, L.J. (2017). A window into the mind: A computational approach to measuring emotions in response to naturalistic stimuli.  
-Poster the Annual Meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.
+Cheong, J.H., **Jolly, E.**, & Chang, L.J. (2017). A window into the mind: A computational approach to measuring emotions in response to naturalistic stimuli.  
+*Poster the Social and Affective Neuroscience Society conference (Los Angeles, CA)*
 
-`2016`  
-**Jolly, E.** & Chang, L.J (2016). Groups, gossip and social dilemmas.  
-Poster at the International Conference on Computational Social Science, Evanston, IL. 
+`2016`
+**Jolly, E.** & Chang, L.J. (2016). Groups, gossip and social dilemmas.  
+*Poster at the International Conference on Computational Social Science (Evanston, IL)*
 
-`2015`  
-**Jolly, E.**, Tamir, D.I. & Mitchell, J.P. (2015). The social value of sharing experiences.*  
-*Winner, SANS Poster Award  
-Poster at the Annual Meeting of the Social and Affective Neuroscience Society, Boston, MA.  
+`2015`
+**Jolly, E.**, Tamir, D.I., & Mitchell, J.P. (2015). The social value of sharing experiences.  
+*Poster at the Social and Affective Neuroscience Society conference (Boston, MA)*  
+**Winner Poster Award**
  
-`2012`  
+`2012`
 Moran, J.M., **Jolly, E.**, & Mitchell, J.P. (2012). Spontaneous mentalizing supports the fundamental attribution error.  
-Poster the Annual Meeting of the Cognitive Neuroscience Society, Chicago, IL.
+*Poster at the Cognitive Neuroscience Society conference (Chicago, IL)*
 
-`2010`  
+`2010`
 Peltz, J.S. Toth, S.L., Rogosch, F.A., **Jolly, E.**, & Cicchetti, D. (2010). Paternal emotional availability’s effects on children’s socioemotional functioning in maternal depression contexts.  
-Poster at the Annual Meeting of the Association for Psychological Science, Boston, MA.
+*Poster at the Annual Meeting of the Association for Psychological Science (Boston, MA)*
+
+## Teaching
+
+`2023`
+__Introduction to facial expression analysis with py-feat__  
+Tutorial at the Consortium for Interacting Minds  
+*Dartmouth College (Hanover, NH)* [[Slides]](https://ejolly-py-feat.surge.sh/)    
+
+`2019`
+__Introduction to version control for neuroscientists__  
+Lecture at MIND Summer School  
+*Dartmouth College (Hanover, NH)*
+
+`2018`
+__Introduction to version control for neuroscientists__  
+Lecture at MIND Summer School  
+*Dartmouth College (Hanover, NH)*
+
+__Computational tools for neuroscience: jupyter notebooks__   
+Lecture at MIND Summer School  
+*Dartmouth College (Hanover, NH)*
+
+__Functional Alignment Techniques in fMRI__  
+Lecture at Sao Paulo Summer School on Social and Affective Neuroscience (SPSAN)  
+*Mackenzie Presbyterian University (Sao Paulo, Brazil)*  
+
+`2017`
+__Computational tools for neuroscience: Containers and jupyter notebooks__    
+Lecture at MIND Summer School  
+*Dartmouth College (Hanover, NH)*
+
+__Introduction to Singularity: Running containers on a HPC__  
+Lecture at MIND Summer School  
+*Dartmouth College (Hanover NH)*
+
+__Introduction to Git and Gitub for social psychologists__  
+Lecture at the Reproducible Psychological Science workshop  
+*Annual Meeting for the Association for Psychological Science (Boston, MA)* 
+
+__Introduction to jupyter notebooks (and why you should love them!)__  
+Tutorial at BrainHack Local  
+*Dartmouth College (Hanover, NH)*
+
+__Online research methods for the experimental study of social behavior__  
+Research Methods, Guest Lecturer  
+*Dartmouth College (Hanover, NH)*
+
+`2016`
+__Online research methods for the experimental study of social behavior__  
+Research Methods, Guest Lecturer  
+*Dartmouth College (Hanover, NH)*
+
+__The social benefits of gossip__  
+Social Psychology, Guest Lecturer  
+*Dartmouth College (Hanover, NH)*
+
+__Contemporary fMRI pre-processing: Introduction to Nipype and Docker__   
+fMRI Methods, Guest Lecturer  
+*Dartmouth College (Hanover, NH)*
+
+`2015`
+__fMRI Methods: Brain Mapping with functional MRI__  
+Course TA and Guest Lecturer  
+*Dartmouth College (Hanover, NH)*
+
+__Research Methods: Laboratory in Psychological Science\*__  
+Course TA and Guest Lecturer  
+ \*Mentored award winning undergraduate group  
+*Dartmouth College (Hanover, NH)*
+
+`2014`
+__Introductory Statistics: Experimental Design and Methodology__  
+Course TA and Guest Lecturer    
+*Dartmouth College (Hanover, NH)*
+
+`2013`
+__Research Methods: Laboratory in Psychological Science__  
+Course TA and Guest Lecturer  
+*Dartmouth College (Hanover, NH)*
+
+`2011`
+__Introduction to MATLAB for Behavioral Research__  
+Workshop organizer   
+*Harvard University (Cambridge, MA)*
+
+__Mind Perception__  
+Workshop organizer  
+*Harvard University (Cambridge, MA)*
 
 ## Awards
 
-`2022`  
+`2023`
+ICN Talk Award  
+*Innovators in Cognitive Neuroscience*
+
+Trainee Data Blitz Award  
+*Social and Affective Neuroscience Society*
+
+`2022`
 Complex Systems Summer School (CSSS)  
 *Santa Fe Institute*
 
-`2021`  
+`2021`
 Mistletoe Research Fellowship finalist  
 *Dartmouth College*
 
-`2020`  
-Scientific Computing with Python Scholarship Award  
-*Scipy*
+`2020` 
+SciPy Scholarship Award  
+*Scientific Computing with Python Conference*
 
 Poster Award  
-*SANS*
+*Social and Affective Neuroscience Society*
 
-`2019`  
+`2019`
 Kavli Summer Institute in Cognitive Neuroscience  
 *UC Santa Barbara*
 
@@ -322,7 +384,7 @@ Thayer Consulting Case Competition 1st Place
 Hack Dartmouth Finalist  
 *Dartmouth College*
 
-`2018`  
+`2018`
 Hack Dartmouth Best Community Hack  
 *Dartmouth College*
 
@@ -338,7 +400,7 @@ PBS Graduate Travel Award
 Neukom Institute Travel Award  
 *Dartmouth College*
 
-`2017`  
+`2017`
 Graduate Alumni Research Award  
 *Dartmouth College*
 
@@ -351,122 +413,70 @@ Methods in Neuroscience Computational Summer School
 Summer School in Social Neuroscience and Neuroeconomics  
 *Duke University*
 
-Social Affective Neuroscience Society Trainee Data Blitz Award  
-*SANS*
+Trainee Data Blitz Award  
+*Social and Affective Neuroscience Society*
 
 Human Neuroimaging Methods Travel Award  
-*OHBM*
+*Organization for Human Brain Mapping*
 
-`2016`  
+`2016`
 Hack Dartmouth 2nd Place project award  
-*Dartmouth College*
+*Dartmouth College, Thayer School of Engineering*
 
 Neurohackweek Summer School  
 *University of Washington eScience Institute*
 
-
-`2015`  
+`2015`
 Social Affective Neuroscience Society Poster Award  
-*SANS*
+*Social and Affective Neuroscience Society*
 
 PBS Graduate Travel Award  
 *Dartmouth College*
 
-`2013-2016`  
+`2013-2016`
 National Science Foundation Graduate Research Fellowship  
 *Dartmouth College*
 
-`2010`  
+`2010`
 BCS Dept: Highest Honors in research  
 *University of Rochester*
 
-`2006-2010`  
+`2006-2010`
 Wilder-Trustee Scholarship  
 *University of Rochester*
 
-## Teaching
-
-`2019`  
-Methods in Neuroscience Computational Summer School (TA)  
-*Dartmouth College*
-
-`2018`  
-Functional Alignment Techniques in fMRI (Guest Lecturer)  
-*Mackenzie Presbyterian University, SPSAN, Sao Paulo, Brazil*  
-
-Methods in Neuroscience Computational Summer School (TA)  
-*Dartmouth College*
-
-`2017`  
-Methods in Neuroscience Computational Summer School (TA)  
-*Dartmouth College*
-
-Online research methods for the experimental study of social behavior (Guest Lecturer)  
-*Dartmouth College*
-
-`2016`  
-Online research methods for the experimental study of social behavior (Guest Lecturer)  
-*Dartmouth College*
-
-Social Psychology (Guest Lecturer)  
-*Dartmouth College*
-
-`2015`  
-Brain Mapping with functional MRI (TA and Lecturer)  
-*Dartmouth College*
-
-Laboratory in Psychological Science* (TA and Lecturer)  
- \*Mentored award winning undergraduate group  
-*Dartmouth College*
-
-`2014`  
-Experimental Design and Methodology (TA and Lecturer)  
-*Dartmouth College*
-
-`2013`  
-Laboratory in Psychological Science (TA and Lecturer)  
-*Dartmouth College*
-
-`2011`  
-Introduction to MATLAB for Behavioral Research (ad-hoc workshop)  
-*Harvard University*
-
-Mind Perception (ad-hoc workshop)  
-*Harvard University*
-
 ## Mentorship
 
-`2022-`
-Wasita Mahaphanit  
+`2022-Present`
+Wasita Mahaphanit   
 Graduate Student  
 *Dartmouth College*
 
-`2022-`
 Sushmita Sadhukha  
 Graduate Student  
 *Dartmouth College*
 
-`2021-2022`  
+`2021-2022`
 Maxwell Ranger '22  
 Honors Thesis  
 *Dartmouth College*
 
-`2017-2021`  
+`2017-2021`
 Maryam Iqbal ’21  
 Presidential Scholar/Honors Thesis  
 *Dartmouth College*
 
-`2020-2021`  
+`2020-2021`
 Liza Begunova ’21  
 Honors Thesis  
 *Dartmouth College*
 
-`2019-2020`  
+`2019-2020`
 Max Farrens '20  
 Full-time Research Assistant  
 *Dartmouth College*
 
-`2017-2019`  
+`2017-2019`
 Nathan P. Greenstein ‘19   
 Presidential Scholar  
 *Dartmouth College*
@@ -475,12 +485,12 @@ Sushmita Sadhukha ’18
 Full-time Research Assistant  
 *Dartmouth College*
 
-`2015-2018`  
+`2015-2018`
 Arati A. Gangadharan ’18  
 Honors Thesis  
 *Dartmouth College*  
 
-`2015-2017`  
+`2015-2017`
 Hirsh Elhence ’17  
 Presidential Scholar  
 *Dartmouth College*
@@ -515,8 +525,7 @@ Git/Github, TravisCI, Tox, Pytest, Moab-Torque
 ## Professional Activities
 
 __Reviewer__  
-Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognition and Emotion, JESP, PLoS One, GigaScience, JOSS     
-*ad-hoc*: Nature Communications, SIGCHI, Frontiers in Psych, JPSP 
+Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognition and Emotion, JESP, PLoS One, GigaScience, JOSS, Nature Communications, SIGCHI, Frontiers in Psych, JPSP, JEP:G, Journal of Neuroscience, Scientific Reports  
 
 __Society Memberships__  
 Social and Affective Neuroscience Society, Society for Affective Science, Organization for Human Brain Mapping, Cognitive Neuroscience Society, Society for Personality and Social Psychology
@@ -529,29 +538,31 @@ __Committee Member__
 [Inclusivity, Diversity, and Culture Advisory Committee](https://pbs.dartmouth.edu/our-commitment-diversity)  
 *Dartmouth College, Hanover, NH*  
 
-`2018-2020`  
-__VP of Client Outreach__  
-*[Dartmouth Graduate Consulting Group](https://sites.dartmouth.edu/dgcg/), Hanover, NH*  
-
-`2020-2021`  
+`2020-2021`
 __Board Member__  
-*[Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/), Hanover NH*  
+*[Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/)*  
+*Dartmouth College, Hanover NH*
 
-`2017-2020`  
+`2018-2020`
+__VP of Client Outreach__  
+[Dartmouth Graduate Consulting Group](https://sites.dartmouth.edu/dgcg/)  
+*Dartmouth College, Hanover, NH*
+
+`2017-2020`
 __Co-Founder__  
 [Line@ Project](https://lineatkaf.com/)  
 *Dartmouth College, Hanover, NH*
 
-`2017`  
+`2017`
 __Organizing committee member__  
 *Dartmouth Brainhack, Hanover, NH*    
 
-`2014`  
+`2014`
 __Station Leader__  
 GWISE Science day for local middle schools  
 *Dartmouth College, Hanover, NH*
 
-`2013-2015`  
+`2013-2015`
 __Primary Organizer__  
 Social Brain Sciences Symposium talk series  
 *Dartmouth College, Hanover, NH*
@@ -559,15 +570,8 @@ Social Brain Sciences Symposium talk series
 __Graduate Representative__  
 Social Area Graduate Student Representative  
 *Dartmouth College, Hanover, NH*  
-
-`2019-`  
-__Freelance Software Developer__  
-Web and Desktop Application Development  
-
-__Private Tutor__  
-Introductory data analysis with Python  
 __
 
-Last updated: July 2023
+Last updated: August 2023
 
 
