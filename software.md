@@ -10,7 +10,7 @@ layout: page
 Python toolbox for facial expression analysis.  
 [Github](https://github.com/cosanlab/py-feat) |  [Docs](https://py-feat.org)  |  [Slides](https://ejolly-py-feat.surge.sh/)  
 
-[![arXiv-badge](https://img.shields.io/badge/arXiv-2104.03509-red.svg)](https://arxiv.org/abs/2104.03509) [![Downloads-badge](https://pepy.tech/badge/py-feat)](https://pepy.tech/project/py-feat)
+[![arXiv-badge](https://img.shields.io/badge/arXiv-2104.03509-red.svg)](https://arxiv.org/abs/2104.03509) [![Downloads-badge](https://static.pepy.tech/badge/py-feat)](https://pepy.tech/project/py-feat)
 {:.not-prose}
 
 ### Neighbors
@@ -18,7 +18,7 @@ Python toolbox for facial expression analysis.
 A Python package for using collaborative filtering to predict affective responses from sparse data.  
 [Github](https://github.com/cosanlab/neighbors) |  [Docs](https://cosanlab.github.io/neighbors)   
 
-[![arXiv-badge](https://img.shields.io/badge/arXiv-2109.06906-red.svg)](https://arxiv.org/abs/2109.06906)  [![Downloads-badge](https://pepy.tech/badge/neighbors)](https://pepy.tech/project/neighbors)
+[![arXiv-badge](https://img.shields.io/badge/arXiv-2109.06906-red.svg)](https://arxiv.org/abs/2109.06906)  [![Downloads-badge](https://static.pepy.tech/badge/neighbors)](https://pepy.tech/project/neighbors)
 {:.not-prose}
 
 ### Pymer4
@@ -26,7 +26,7 @@ A Python package for using collaborative filtering to predict affective response
 A Python package for analyzing and simulating standard and multi-level regression data. Performs standard and robust regression, but also features a wrapper around the [lme4](https://cran.r-project.org/web/packages/lme4/index.html) mixed-modeling [R](https://www.r-project.org/) package. Makes it much easier to use lme4 from within python and in conjunction with data analysis libraries like [pandas](https://pandas.pydata.org/).  
 [Github](https://github.com/ejolly/pymer4) |  [Docs](https://eshinjolly.com/pymer4/)  
 
-[![DOI-badge](https://zenodo.org/badge/90598701.svg)](https://zenodo.org/record/1523205) [![DOI-badge](http://joss.theoj.org/papers/10.21105/joss.00862/status.svg)](https://doi.org/10.21105/joss.00862) [![Downloads-badge](https://pepy.tech/badge/pymer4)](https://pepy.tech/project/pymer4)
+[![DOI-badge](https://zenodo.org/badge/90598701.svg)](https://zenodo.org/record/1523205) [![DOI-badge](http://joss.theoj.org/papers/10.21105/joss.00862/status.svg)](https://doi.org/10.21105/joss.00862) [![Downloads-badge](https://static.pepy.tech/badge/pymer4)](https://pepy.tech/project/pymer4)
 {:.not-prose}
 
 ### Nltools
@@ -34,12 +34,12 @@ A Python package for analyzing and simulating standard and multi-level regressio
 A Python package for analyzing brain-imaging data, though also usable for other types of data. Makes data manipulation, model building and fitting quite simple. Builds upon several popular python libraries for [brain-imaging analysis](http://nipy.org/) and [machine learning](http://scikit-learn.org/stable/) more generally.         
 [Github](https://github.com/cosanlab/nltools) |  [Docs](https://nltools.org) | [Scipy 2020 talk](https://youtu.be/1c1AnXLs7xM)   
 
-[![DOI-badge](https://zenodo.org/badge/DOI/10.5281/zenodo.2229813.svg)](https://doi.org/10.5281/zenodo.2229813) [![Downloads-badge](https://pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
+[![DOI-badge](https://zenodo.org/badge/DOI/10.5281/zenodo.2229813.svg)](https://doi.org/10.5281/zenodo.2229813) [![Downloads-badge](https://static.pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
 {:.not-prose}
 
 ### SvelteTurk
 
-An desktop application for easily adminstering tasks and experiments on [Amazon Mechanical Turk](https://www.mturk.com/). Provides an GUI-based alternative to tools like [psiturk](http://psiturk.org/). Built in javascript using [svelte](https://svelte.dev/) and [electron](https://www.electronjs.org/).          
+An desktop application for easily administering tasks and experiments on [Amazon Mechanical Turk](https://www.mturk.com/). Provides an GUI-based alternative to tools like [psiturk](http://psiturk.org/). Built in javascript using [svelte](https://svelte.dev/) and [electron](https://www.electronjs.org/).          
 [Github](https://github.com/ejolly/svelte-turk) |  [Website](https://eshinjolly.com/svelteturk)   
 
 ### Py-utilz
