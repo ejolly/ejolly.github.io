@@ -17,7 +17,7 @@ Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., & Chang, L.J. (under revision
 
 ### 2023
 
-**Jolly, E.**\*, Cheong, J.H.\*, Xie, T.\*, Byrne, S. Kenny, M., & Chang, L.J. (2023). Py-Feat: Python Facial Expression Analysis Toolbox. *Affective Science*. [[arXiv preprint]](https://arxiv.org/abs/2104.03509) [[toolbox]](https://py-feat.org/)  
+**Jolly, E.**\*, Cheong, J.H.\*, Xie, T.\*, Byrne, S. Kenny, M., & Chang, L.J. (2023). Py-Feat: Python Facial Expression Analysis Toolbox. *Affective Science*. [[Link]](https://doi.org/10.1007/s42761-023-00191-4) [[toolbox]](https://py-feat.org/)  
 \*Equal contribution
 
 ### 2022
