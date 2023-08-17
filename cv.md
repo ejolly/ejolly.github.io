@@ -106,13 +106,13 @@ Uncovering the represention of self: A multivariate approach
 __[Py-feat](https://py-feat.org/)__  
 *Analysis of facial expressions from images and videos, (Core Developer)*  
 [[Documentation]](https://py-feat.org) [[Slides]](https://ejolly-py-feat.surge.sh/) [[Github]](https://github.com/cosanlab/py-feat)  
-[![Downloads](https://pepy.tech/badge/py-feat)](https://pepy.tech/project/py-feat)
+[![Downloads](https://static.pepy.tech/badge/py-feat)](https://pepy.tech/project/py-feat)
 
 `2020-Present`
 __[Neighbors](https://neighbors.cosanlab.com)__  
 *Predicting affective responses from sparse measurement data, (Project Author)*  
 [[Documentation]](https://cosanlab.github.io/neighbors) [[Github]](https://github.com/cosanlab/neighbors)  
-[![Downloads](https://pepy.tech/badge/neighbors)](https://pepy.tech/project/neighbors)
+[![Downloads](https://static.pepy.tech/badge/neighbors)](https://pepy.tech/project/neighbors)
 
 __[SvelteTurk](https://eshinjolly.com/svelteturk)__  
 *Graphical User Interface for managing experiments on Mturk, (Project Author)*  
@@ -122,13 +122,13 @@ __[SvelteTurk](https://eshinjolly.com/svelteturk)__
 __[Pymer4](https://eshinjolly.com/pymer4/)__  
 *Statistics library for estimating linear mixed-effects models, (Project Author)*  
 [[Documentation]](https://eshinjolly.com/pymer4/) [[Github]](https://github.com/ejolly/pymer4)  
-[![Downloads](https://pepy.tech/badge/pymer4)](https://pepy.tech/project/pymer4)
+[![Downloads](https://static.pepy.tech/badge/pymer4)](https://pepy.tech/project/pymer4)
 
 `2016-Present`
 __[Nltools](https://nltools.org)__  
 *Toolbox for intuitively analyzing neuroimaging data, (Core Developer)*  
 [[Documentation]](https://nltools.org/) [[Video Talk]](https://youtu.be/1c1AnXLs7xM) [[Github]](https://github.com/cosanlab/nltools)  
-[![Downloads](https://pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
+[![Downloads](https://static.pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
 
 ## Invited Talks & Presentations 
 
@@ -140,10 +140,10 @@ The structure of social memory: People as contexts.
 *Presentation at the Social and Affective Neuroscience Society conference (Santa Barbara, CA)*
 
 Navigating the social world: A relational account of how we represent, remember, and talk about people.  
-*Invited talk at Stanford University (Stanford, CA)*
+*Invited talk at Stanford University (Stanford, CA)* 
 
 People as contexts: A relational account of person representation and memory.  
-*Invited talk for Innovators in Cognitive Neuroscience (virtual).*
+*Invited talk for Innovators in Cognitive Neuroscience (virtual).* [[Video]](https://youtu.be/27jiQAbcFwo)
 
 `2022`
 Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
@@ -265,36 +265,40 @@ Peltz, J.S. Toth, S.L., Rogosch, F.A., **Jolly, E.**, & Cicchetti, D. (2010). Pa
 ## Teaching
 
 `2023`
+__Methods in Neuroscience at Dartmouth Summer School__  
+Invited Faculty  
+*Dartmouth College (Hanover, NH)* [[Resources]](https://mindsummerschool.org/current_year.html)    
+
 __Introduction to facial expression analysis with py-feat__  
 Tutorial at the Consortium for Interacting Minds  
 *Dartmouth College (Hanover, NH)* [[Slides]](https://ejolly-py-feat.surge.sh/)    
 
 `2019`
 __Introduction to version control for neuroscientists__  
-Lecture at MIND Summer School  
-*Dartmouth College (Hanover, NH)*
+Lecturer and TA at MIND Summer School  
+*Dartmouth College (Hanover, NH)* [[Resources]](https://github.com/Summer-MIND/mind_2018/blob/master/tutorials/git_github/git_github_slides.pdf) [[Video]](https://www.youtube.com/watch?v=9VvWJ05dFkg&list=PLEE6ggCEJ0H0f6RNTKmxDj-YE4LYEeu7w&index=3)
 
 `2018`
 __Introduction to version control for neuroscientists__  
-Lecture at MIND Summer School  
-*Dartmouth College (Hanover, NH)*
+Lecturer and TA at MIND Summer School  
+*Dartmouth College (Hanover, NH)* [[Resources]](https://github.com/Summer-MIND/mind_2018/tree/master/tutorials/git_github) [[Video]](https://www.youtube.com/watch?v=0DGCnBZBoc0&index=2&t=0s&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9)
 
-__Computational tools for neuroscience: jupyter notebooks__   
-Lecture at MIND Summer School  
-*Dartmouth College (Hanover, NH)*
+__Computational tools for neuroscience: Jupyter notebooks__   
+Lecturer and TA at MIND Summer School  
+*Dartmouth College (Hanover, NH)* [[Resources]](https://github.com/dartmouth-brainhack-2017/IntroToJupyter/tree/9a2cca0a88b837745430b234a3002ba6165ed6ce) [[Video]](https://www.youtube.com/watch?v=CSkTJRNBTME&list=PLEE6ggCEJ0H0KOlMKx_PUVB_16VoCfGj9&index=4)
 
 __Functional Alignment Techniques in fMRI__  
 Lecture at Sao Paulo Summer School on Social and Affective Neuroscience (SPSAN)  
 *Mackenzie Presbyterian University (Sao Paulo, Brazil)*  
 
 `2017`
-__Computational tools for neuroscience: Containers and jupyter notebooks__    
-Lecture at MIND Summer School  
-*Dartmouth College (Hanover, NH)*
+__Computational tools for neuroscience: Jupyter notebooks__    
+Lecturer and TA at MIND Summer School  
+*Dartmouth College (Hanover, NH)* [[Resources]](https://github.com/dartmouth-brainhack-2017/IntroToJupyter/tree/9a2cca0a88b837745430b234a3002ba6165ed6ce) [[Video]](https://youtu.be/gofxewOS9Gg)
 
-__Introduction to Singularity: Running containers on a HPC__  
-Lecture at MIND Summer School  
-*Dartmouth College (Hanover NH)*
+__Introduction to containers for reproducible research__  
+Lecturer and TA at MIND Summer School  
+*Dartmouth College (Hanover NH)* [[Resources]](https://github.com/Summer-MIND/mind-tools)
 
 __Introduction to Git and Gitub for social psychologists__  
 Lecture at the Reproducible Psychological Science workshop  
