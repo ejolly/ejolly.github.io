@@ -145,6 +145,10 @@ Navigating the social world: A relational account of how we represent, remember,
 People as contexts: A relational account of person representation and memory.  
 *Invited talk for Innovators in Cognitive Neuroscience (virtual).* [[Video]](https://youtu.be/27jiQAbcFwo)
 
+`2021`
+Methodological considerations in social and affective neuroscience.  
+*Invited talk at NYU Freeman Lab (NYC, NY)*
+
 `2022`
 Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
 *Symposium presentation at the International Society for Research on Emotion, USC (Los Angeles, CA)*
@@ -544,7 +548,7 @@ __Committee Member__
 
 `2020-2021`
 __Board Member__  
-*[Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/)*  
+[Dartmouth College Postdoctoral Association](https://sites.dartmouth.edu/dcpda/)  
 *Dartmouth College, Hanover NH*
 
 `2018-2020`
