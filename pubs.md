@@ -11,11 +11,11 @@
 
 **Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (under review). People are represented and remembered through their relationships with others.  [[psyarxiv preprint]](https://psyarxiv.com/bw9r2)
 
-Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., & Chang, L.J. (under revision). The hidden cost of receiving favors: A theory of indebtedness. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
-
 ## Published
 
 ### 2023
+
+Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., & Chang, L.J. (in press). The psychological, computational, and neural foundations of indebtedness. *Nature Communications*. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
 
 **Jolly, E.**\*, Cheong, J.H.\*, Xie, T.\*, Byrne, S. Kenny, M., & Chang, L.J. (2023). Py-Feat: Python Facial Expression Analysis Toolbox. *Affective Science*. [[Link]](https://doi.org/10.1007/s42761-023-00191-4) [[toolbox]](https://py-feat.org/)  
 \*Equal contribution
