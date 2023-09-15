@@ -13,7 +13,7 @@ eshin.jolly@gmail.com
 <a href="https://eshinjolly.com">website</a>
 | <a href="https://github.com/ejolly">github</a>
 | <a href="https://twitter.com/eshjolly">twitter</a>
-| <a href="https://littleplanet.life/@eshjolly">mastodon/fediverse</a>
+| <a href="https://bsky.app/profile/eshjolly.bsky.social">bluesky</a>
 | <a href="https://www.linkedin.com/in/eshin-jolly-phd-164863a1/">linkedin</a>
 </div>
 
