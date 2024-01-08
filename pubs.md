@@ -13,9 +13,11 @@
 
 ## Published
 
-### 2023
+### 2024
 
-Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., & Chang, L.J. (in press). The psychological, computational, and neural foundations of indebtedness. *Nature Communications*. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2020.02.03.926295v1)
+Gao, X., **Jolly, E.**, Yu, H., Liu, H., Zhou, X., & Chang, L.J. (2024). The psychological, computational, and neural foundations of indebtedness. *Nature Communications*. [[Link]](https://www.nature.com/articles/s41467-023-44286-9.epdf?sharing_token=NIf7F6ZBWfJIfbGC8ILBZdRgN0jAjWel9jnR3ZoTv0OnNr1VgUao8PGix03Ez_tPL329X4MVbjab8h0_bmcT6IcqcyihbqbYPkQGhGb8nzxaJBfs-C62qJB_ofzGcLQq2UJ8ibYvEAPQ5P2iKoh6bTqwsIP5OEmcEzy2Wyp96C4%3D)
+
+### 2023
 
 **Jolly, E.**\*, Cheong, J.H.\*, Xie, T.\*, Byrne, S. Kenny, M., & Chang, L.J. (2023). Py-Feat: Python Facial Expression Analysis Toolbox. *Affective Science*. [[Link]](https://doi.org/10.1007/s42761-023-00191-4) [[toolbox]](https://py-feat.org/)  
 \*Equal contribution
