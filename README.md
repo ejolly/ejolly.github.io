@@ -2,6 +2,10 @@
 
 Code for my personal website hosted using [Github Pages](https://pages.github.com/), built using [Jekyll](https://jekyllrb.com/), styled using the [TailwindCSS](https://tailwindcss.com) and [AnimateCSS](https://animate.style/), with CV generation handled using a [markdown-cv template](https://elipapa.github.io/markdown-cv/).
 
+Unlike a typical jekyll-based github pages site, this site **needs to be built locally** before pushing to github (`npm run build`). Github is configured to serve the files as-is from the `docs` folder, which is where build artifacts are placed.
+
+When writing or developing you can use `npm run dev` or `npm run draft/write` depending on whether you're editing styles + content or just content, respectively.
+
 ## Development
 
 - `bundle install` install all ruby packages  

@@ -79,7 +79,7 @@ __Scientific Advisor__
 [The Sukhi Project](https://www.thesukhiproject.com/)  
 *Employee well-being and mental health startup*
 
-`2019-Present`
+`2019-2023`
 __Project Manager; Technical Support Lead__  
 [Code for America (Upper Valley Brigade)](https://codeforuv.org)   
 *Rural Internet Project*
@@ -132,6 +132,16 @@ __[Nltools](https://nltools.org)__
 
 ## Invited Talks & Presentations 
 
+`2024`
+Person memory is supported by the neural reinstatement of social interactions.  
+*Symposium presentation at the Social Affective Neuroscience Society conference (Toronto, CA)*
+
+Neural, Network, and Neural Network Approaches for Social Relationship Representation.  
+*Symposium organizer at the Social Affective Neuroscience Society conference (Toronto, CA)*
+
+Introduction to Facial Expression Analysis.  
+*Presentation at Computational Social Affective Neuroscience Society Pre-conference (Toronto, CA)*
+
 `2023`
 Representing and remembering people through their relationships.  
 *Invited talk at the MIND Summer School, Dartmouth College (Hanover, NH)*  
@@ -154,11 +164,11 @@ Emotion and Social Perception in Naturalistic Contexts: Perspectives from Affect
 
 `2021`
 Methodological considerations in social and affective neuroscience.  
-*Invited talk at NYU Freeman Lab (NYC, NY)*
+*Invited talk at NYU, Freeman Lab (NYC, NY)*
 
 `2020`
 Social Cognitive Maps: A Relational Account of Person Representation and Memory.  
-*Invited talk at Harvard University (Cambridge, MA)* 
+*Invited talk at Harvard University, Somerville Lab (Cambridge, MA)* 
 
 Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn. [[Video]](https://youtu.be/1c1AnXLs7xM)  
 *Symposium presentation at the Scientific Computing with Python conference (virtual)*
@@ -203,6 +213,25 @@ The Social Benefits of Gossip.
 *Presentation at the Social Brain Sciences Brown Bag (Dartmouth College, NH)*
 
 ## Posters & Conference Proceedings
+
+`2024`
+Liang, Q., Varrier, R.S., Su, Z., Benson, T.G., **Jolly, E.**, Selesnick, J.M., Molfese, P.J. & Finn, E.S. (under review). Seeing is not being: Actively participating in an interaction changes social perception relative to passive viewing.  
+*Poster at the Society for Neuroscience (Chicago, IL)*
+
+Varrier, R.S., Su, Z., Benson, T.G., Liang, Q. Selesnick, J.M., **Jolly, E.**, Molfese, P.J. & Finn, E.S. (under review). Behavioral signatures of social signal detection.  
+*Poster at the Computational Cognitive Neuroscience conference (Cambridge, MA)*
+
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2024). Person memory is supported by the neural reinstatement of social interactions.  
+*Poster at the Organization for Human Brain Mapping conference (Seoul, South Korea)*
+
+Kwon, D., **Jolly, E.**, Chang, L.J., & Shim, W.M. (2024). Neural representations of map and graph-based knowledge structures for two distinct types of social information during naturalistic social interaction.  
+*Poster at the Social and Affective Neuroscience Society conference (Toronto, CA)*
+
+Varrier, R.S., Su, Z., Benson, T.G., Liang, Q. Selesnick, J.M., **Jolly, E.**, Molfese, P.J. & Finn, E.S. (2024). Behavioral and neural signatures of social signal detection.  
+*Poster at the Social and Affective Neuroscience Society conference (Toronto, CA)*
+
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2024). People are represented and remembered through their relationships with others.  
+*Poster at the Society for Personality and Social Psychology conference (San Diego, CA)*
 
 `2023`
 **Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2023). The structure of social memory: People as contexts.  
@@ -267,6 +296,11 @@ Peltz, J.S. Toth, S.L., Rogosch, F.A., **Jolly, E.**, & Cicchetti, D. (2010). Pa
 *Poster at the Annual Meeting of the Association for Psychological Science (Boston, MA)*
 
 ## Teaching
+
+`2024`
+__Computational Social Affective Neuroscience Pre-conference__
+Organizer and Lecturer  
+*Annual Meeting for the Social Affective Neuroscience Society (Toronto, CA)* 
 
 `2023`
 __Methods in Neuroscience at Dartmouth Summer School__  
@@ -580,6 +614,6 @@ Social Area Graduate Student Representative
 *Dartmouth College, Hanover, NH*  
 __
 
-Last updated: August 2023
+Last updated: May 2024
 
 

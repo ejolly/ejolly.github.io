@@ -8,7 +8,7 @@
    <meta name=description content="Postdoctoral Fellow at Dartmouth College">
    <meta name=author content="Eshin Jolly">
 <title>Vector similarity reference | Eshin Jolly</title>
-<meta name="generator" content="Jekyll v4.2.2" />
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Vector similarity reference" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="How different similarity measures are related to each other" />
@@ -228,34 +228,34 @@
  </div>
 <p>This is a quick post to illustrate with python code how several common vector similarity computations are related to each other. For more details I highly encourage you to check out Brendan O’Connor’s really nice <a href="https://brenocon.com/blog/2012/03/cosine-similarity-pearson-correlation-and-ols-coefficients/">elaboration</a>.</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Import some stuff
-</span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-<span class="kn">import</span> <span class="nn">scipy.spatial.distance</span> <span class="k">as</span> <span class="n">spd</span>
-<span class="kn">from</span> <span class="nn">pymer4.simulate</span> <span class="kn">import</span> <span class="n">easy_multivariate_normal</span>
-<span class="kn">from</span> <span class="nn">pymer4.models</span> <span class="kn">import</span> <span class="n">Lm</span>
+</span><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="n">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="n">scipy.spatial.distance</span> <span class="k">as</span> <span class="n">spd</span>
+<span class="kn">from</span> <span class="n">pymer4.simulate</span> <span class="kn">import</span> <span class="n">easy_multivariate_normal</span>
+<span class="kn">from</span> <span class="n">pymer4.models</span> <span class="kn">import</span> <span class="n">Lm</span>
 </code></pre></div></div>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Simulate some data
 # 2, 50 dimensional vectors correlated ~ r = -0.05
-</span><span class="n">X</span> <span class="o">=</span> <span class="n">easy_multivariate_normal</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="n">corrs</span><span class="o">=-</span><span class="p">.</span><span class="mi">05</span><span class="p">)</span>
+</span><span class="n">X</span> <span class="o">=</span> <span class="nf">easy_multivariate_normal</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="n">corrs</span><span class="o">=-</span><span class="p">.</span><span class="mi">05</span><span class="p">)</span>
 <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span><span class="mi">0</span><span class="p">],</span> <span class="n">X</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span>
 </code></pre></div></div>
 <h2 id="inner-product">Inner product</h2>
 <p><strong>Sum of element wise multiplication</strong></p>
 \[\sum_i {x_iy_i} = x \cdot y\]
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">np</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">np</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
 <span class="o">-</span><span class="mf">2.8071010155482368</span>
 </code></pre></div></div>
 <h2 id="covariance">Covariance</h2>
 <p><strong>Average centered inner product</strong></p>
 \[\frac{(x - \bar x) \cdot (y - \bar y)}{n}\]
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a_centered</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="n">a</span><span class="p">.</span><span class="n">mean</span><span class="p">()</span>
-<span class="n">b_centered</span> <span class="o">=</span> <span class="n">b</span> <span class="o">-</span> <span class="n">b</span><span class="p">.</span><span class="n">mean</span><span class="p">()</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a_centered</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="n">a</span><span class="p">.</span><span class="nf">mean</span><span class="p">()</span>
+<span class="n">b_centered</span> <span class="o">=</span> <span class="n">b</span> <span class="o">-</span> <span class="n">b</span><span class="p">.</span><span class="nf">mean</span><span class="p">()</span>
 
-<span class="n">np</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">a_centered</span><span class="p">,</span><span class="n">b_centered</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="n">np</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">a_centered</span><span class="p">,</span><span class="n">b_centered</span><span class="p">)</span> <span class="o">/</span> <span class="nf">len</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 <span class="o">-</span><span class="mf">0.06920945007922867</span>
 </code></pre></div></div>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Check our work
-</span><span class="n">np</span><span class="p">.</span><span class="n">cov</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">ddof</span><span class="o">=</span><span class="mi">0</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+</span><span class="n">np</span><span class="p">.</span><span class="nf">cov</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">ddof</span><span class="o">=</span><span class="mi">0</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
 <span class="o">-</span><span class="mf">0.06920945007922867</span>
 </code></pre></div></div>
 <h2 id="cosine-similarity">Cosine Similarity</h2>
@@ -263,41 +263,41 @@
 \[\frac{x \cdot y}{||x|| \ ||y||}\]
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Euclidean/L2 norm = square root of sum of squared values
 # algebra form
-</span><span class="n">a_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">power</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mi">2</span><span class="p">)))</span>
+</span><span class="n">a_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">sqrt</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">sum</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">power</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mi">2</span><span class="p">)))</span>
 <span class="c1"># matrix form; transpose is not strictly needed here, just for illustration
-</span><span class="n">b_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="n">b</span><span class="p">.</span><span class="n">T</span><span class="p">))</span>
+</span><span class="n">b_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">sqrt</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="n">b</span><span class="p">.</span><span class="n">T</span><span class="p">))</span>
 
 <span class="c1"># numpy short-cut: np.linalg.norm(a)
-</span><span class="n">np</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a_norm</span> <span class="o">*</span> <span class="n">b_norm</span><span class="p">)</span>
+</span><span class="n">np</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a_norm</span> <span class="o">*</span> <span class="n">b_norm</span><span class="p">)</span>
 <span class="o">-</span><span class="mf">0.049727707335311774</span>
 </code></pre></div></div>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Check our work (subtract 1 because scipy returns distances)
-</span><span class="mi">1</span> <span class="o">-</span> <span class="n">spd</span><span class="p">.</span><span class="n">cosine</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+</span><span class="mi">1</span> <span class="o">-</span> <span class="n">spd</span><span class="p">.</span><span class="nf">cosine</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
 <span class="o">-</span><span class="mf">0.04972770733531173</span>
 </code></pre></div></div>
 <h2 id="pearson-correlation">Pearson Correlation</h2>
 <p><strong>Centered, normalized (L2) inner product</strong></p>
 \[\frac{(x - \bar x) \cdot (y - \bar y)}{||x - \bar x|| \ ||y - \bar y||}\]
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Can think of this as normalized covariance OR centered cosine similarity
-</span><span class="n">a_centered_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="n">norm</span><span class="p">(</span><span class="n">a_centered</span><span class="p">)</span>
-<span class="n">b_centered_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="n">norm</span><span class="p">(</span><span class="n">b_centered</span><span class="p">)</span>
-<span class="n">np</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">a_centered</span><span class="p">,</span><span class="n">b_centered</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a_centered_norm</span> <span class="o">*</span> <span class="n">b_centered_norm</span><span class="p">)</span>
+</span><span class="n">a_centered_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">a_centered</span><span class="p">)</span>
+<span class="n">b_centered_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">b_centered</span><span class="p">)</span>
+<span class="n">np</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">a_centered</span><span class="p">,</span><span class="n">b_centered</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a_centered_norm</span> <span class="o">*</span> <span class="n">b_centered_norm</span><span class="p">)</span>
 <span class="o">-</span><span class="mf">0.06299972596364047</span>
 </code></pre></div></div>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Check our work
-</span><span class="mi">1</span> <span class="o">-</span> <span class="n">spd</span><span class="p">.</span><span class="n">correlation</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+</span><span class="mi">1</span> <span class="o">-</span> <span class="n">spd</span><span class="p">.</span><span class="nf">correlation</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
 <span class="o">-</span><span class="mf">0.06299972596364034</span>
 </code></pre></div></div>
 <h2 id="ols-univariate-wo-intercept">OLS (univariate w/o intercept)</h2>
 <p><strong>Partially normalized inner product, where partially means using a single vector’s norm</strong></p>
 \[\frac{x \cdot y}{||x||^2}\]
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Can think of this as cosine similarity using only one vector's norm
-</span><span class="n">np</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a_norm</span> <span class="o">*</span> <span class="n">a_norm</span><span class="p">)</span>
+</span><span class="n">np</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a_norm</span> <span class="o">*</span> <span class="n">a_norm</span><span class="p">)</span>
 <span class="o">-</span><span class="mf">0.06164964567554537</span>
 </code></pre></div></div>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Check our work against a regression in pymer4
-</span><span class="n">model</span> <span class="o">=</span> <span class="n">Lm</span><span class="p">(</span><span class="s">'B ~ 0 + A'</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'A'</span><span class="p">:</span><span class="n">a</span><span class="p">,</span><span class="s">'B'</span><span class="p">:</span><span class="n">b</span><span class="p">}))</span>
-<span class="n">model</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">summarize</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+</span><span class="n">model</span> <span class="o">=</span> <span class="nc">Lm</span><span class="p">(</span><span class="sh">'</span><span class="s">B ~ 0 + A</span><span class="sh">'</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="p">.</span><span class="nc">DataFrame</span><span class="p">({</span><span class="sh">'</span><span class="s">A</span><span class="sh">'</span><span class="p">:</span><span class="n">a</span><span class="p">,</span><span class="sh">'</span><span class="s">B</span><span class="sh">'</span><span class="p">:</span><span class="n">b</span><span class="p">}))</span>
+<span class="n">model</span><span class="p">.</span><span class="nf">fit</span><span class="p">(</span><span class="n">summarize</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
 <span class="c1"># Grab the beta value directly from the coefficients table.
 </span><span class="n">model</span><span class="p">.</span><span class="n">coefs</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
 <span class="o">-</span><span class="mf">0.06164964567554537</span>
@@ -306,12 +306,12 @@
 <p><strong>Centered, partially normalized inner product</strong></p>
 \[\frac{(x - \bar x) \cdot y}{||x - \bar x||^2}\]
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># In the numerator we could actually center a or b, or both.
-</span><span class="n">np</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">a_centered</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a_centered_norm</span> <span class="o">*</span> <span class="n">a_centered_norm</span><span class="p">)</span>
+</span><span class="n">np</span><span class="p">.</span><span class="nf">dot</span><span class="p">(</span><span class="n">a_centered</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">a_centered_norm</span> <span class="o">*</span> <span class="n">a_centered_norm</span><span class="p">)</span>
 <span class="o">-</span><span class="mf">0.07620054357106859</span>
 </code></pre></div></div>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Check our work
-</span><span class="n">model</span> <span class="o">=</span> <span class="n">Lm</span><span class="p">(</span><span class="s">'B ~ A'</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'A'</span><span class="p">:</span><span class="n">a</span><span class="p">,</span><span class="s">'B'</span><span class="p">:</span><span class="n">b</span><span class="p">}))</span>
-<span class="n">model</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">summarize</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+</span><span class="n">model</span> <span class="o">=</span> <span class="nc">Lm</span><span class="p">(</span><span class="sh">'</span><span class="s">B ~ A</span><span class="sh">'</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="p">.</span><span class="nc">DataFrame</span><span class="p">({</span><span class="sh">'</span><span class="s">A</span><span class="sh">'</span><span class="p">:</span><span class="n">a</span><span class="p">,</span><span class="sh">'</span><span class="s">B</span><span class="sh">'</span><span class="p">:</span><span class="n">b</span><span class="p">}))</span>
+<span class="n">model</span><span class="p">.</span><span class="nf">fit</span><span class="p">(</span><span class="n">summarize</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
 <span class="n">model</span><span class="p">.</span><span class="n">coefs</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
 <span class="o">-</span><span class="mf">0.07620054357106855</span>
 </code></pre></div></div>
