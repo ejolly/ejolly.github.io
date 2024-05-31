@@ -1,6 +1,11 @@
 <nav class="nav">
   <ul class="nav-row">
-    {% if site.about == true %} {% if page.title != "About" %}
+    {% if site.lab == true %} {% if page.title != "Lab" %}
+    <li class="item attention bounce">
+      <a class="my-highlight" href="{{ site.url }}/lab">Lab</a>
+    </li>
+    {% endif %} {% endif %} {% if site.about == true %} {% if page.title !=
+    "About" %}
     <li class="item">
       <a class="link-red" href="{{ site.url }}/about">About</a>
     </li>
@@ -19,7 +24,7 @@
     <li class="item">
       <a class="link-red" href="{{ site.url }}/publications">Publications</a>
     </li>
-    {% endif %} {% endif %} {% if site.pubs == true %} {% if page.title !=
+    {% endif %} {% endif %} {% if site.portfolio == true %} {% if page.title !=
     "Portfolio" %}
     <li class="item">
       <a class="link-red" href="{{ site.url }}/portfolio">Portfolio</a>
@@ -37,3 +42,57 @@
     {% endif %} {% endif %}
   </ul>
 </nav>
+
+<style>
+  .attention {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+@keyframes bounce {
+  from,
+  0%,
+  8%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  5%,
+  12% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0) scaleY(1.1) rotate(-10deg);
+  }
+
+  12% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0) scaleY(1.05);
+  }
+
+  16% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0) scaleY(0.95);
+  }
+
+  /* 20% {
+    transform: translate3d(0, -4px, 0) scaleY(1.02);
+  } */
+
+  /* 24% {
+    transform: translate3d(0, 0, 0);
+  } */
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  } 
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+</style>

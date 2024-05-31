@@ -44,7 +44,7 @@
   }
   /* home.html */
   .home-container {
-    @apply flex flex-col justify-between gap-y-8 mt-2 md:mt-8 lg:mt-28;
+    @apply flex flex-col justify-between gap-y-8 mt-2 md:mt-8 lg:mt-14;
   }
   .title {
     @apply text-5xl md:text-6xl text-center font-bold !important;
@@ -103,6 +103,9 @@
   }
   .link-red {
     @apply hover:fill-rose-400 hover:text-rose-400;
+  }
+  .my-highlight {
+    @apply font-bold bg-gradient-to-r from-cyan-400  to-fuchsia-400 text-transparent bg-clip-text border-dotted border-white border-[3px] p-0.5 hover:border-sky-400;  
   }
   .icon {
     @apply h-5 w-5 md:h-6 md:w-6 stroke-current text-black fill-black;
@@ -259,6 +262,26 @@
   .portfolio .content .link {
     @apply font-semibold text-sky-500 hover:underline hover:decoration-dotted hover:underline-offset-4 hover:text-rose-400;
   }
+
+  /*Lab  */
+  /* .lab .content .animate-gradient {
+    background-size: 300%;
+    -webkit-animation: animatedgradient 6s ease infinite alternate;
+    -moz-animation: animatedgradient 6s ease infinite alternate;
+    animation: animatedgradient 6s ease infinite alternate;
+  } */
+
+  /* @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } */
 
   /* Within blog posts */
   /*  can be appled to markdown with {:.class} syntax under an element */

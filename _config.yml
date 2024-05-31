@@ -19,6 +19,8 @@ pubs: true
 music: true
 research: true
 software: true
+portfolio: true
+lab: true
 
 permalink: pretty
 markdown: kramdown
