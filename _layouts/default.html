@@ -14,6 +14,12 @@ layout: compress
     <meta name=author content="{{ site.name }}">
 
     {% seo %}
+    {%if page.title == "Lab" %}
+      <meta property="og:image" content="{{ site.url }}/assets/images/sketch.png">
+      <meta property="og:description" content="I'm starting as an Asst Prof at @UCSDPsychology in Jan 2025! Starting a lab and hiring, checkout for more details.
+    {% else %}
+      <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
+    {% endif %}
 
     {% include favicon.html %}
 
