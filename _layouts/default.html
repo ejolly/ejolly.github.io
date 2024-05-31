@@ -14,14 +14,10 @@ layout: compress
     <meta name=author content="{{ site.name }}">
 
     {% seo %}
+    <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
     {%if page.title == "Lab" %}
-      <meta property="og:image" content="{{ site.url }}/assets/images/sketch.png">
-      <meta property="og:description" content="I'm joining @UCSDPsychology as an Asst Prof in Jan 2025! Starting a lab and hiring, checkout for more details.">
-
-      <meta property="twitter:image" content="{{ site.url }}/assets/images/sketch.png">
-      <meta name="twitter:description" content="I'm joining @UCSDPsychology as an Asst Prof in Jan 2025! Starting a lab and hiring, checkout for more details.">
-    {% else %}
-      <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
+      <meta property="og:description" content="I'm joining @UCSDPsychology as an Assstant Professor in Jan 2025! I'll be starting a lab group and hiring, checkout for more details.">
+      <meta name="twitter:description" content="I'm joining @UCSDPsychology as an Assstant Professor in Jan 2025! I'll be starting a lab group and hiring, checkout for more details.">
     {% endif %}
 
     {% include favicon.html %}
