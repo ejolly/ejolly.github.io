@@ -4,7 +4,9 @@ bio: Postdoctoral Fellow at Dartmouth College
 url: https://eshinjolly.com
 
 picture: assets/images/slices.png
-twitter: Eshjolly
+twitter: 
+  username: Eshjolly
+  card: summary
 mastodon: eshjolly
 bluesky: eshjolly
 linkedin: eshin-jolly-phd-164863a1
