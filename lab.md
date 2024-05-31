@@ -15,7 +15,7 @@ layout: page
 
 I'm thrilled to be joining [UC San Diego's awesome Department of Psychology](https://psychology.ucsd.edu/) as an Assistant Professor in **January 2025**! I'll be starting a lab group with the current broad aims of understanding how we *learn* about, *represent*, *remember*, and *share* information about other people by observing or participating in different kinds of *social interactions*. 
 
-I'm a big believer in taking an *interdisciplinary* approach to asking these questions and in particular, the mutually-informative relationship between scientific inquiry and methodological development. New tools are just as exciting as new findings because they offer us [new perspectives](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12404) on how to explore our psychological questions. 
+I love taking an *interdisciplinary* approach to asking these questions drawing inspiration from: cognitive neuroscience, social psychology, behavioral economics, affective computing, and machine-learning & AI. In particular, I'm a big believer in the mutually-beneficial relationship between scientific inquiry and methodological development. New tools are just as exciting as new findings because they offer us [new perspectives](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12404) on how to explore our psychological questions. 
 
 <div class="image">
   <img src="{{site.url}}/assets/images/sketch.png" alt="Alt Text" >
