@@ -20,6 +20,11 @@ eshin.jolly@gmail.com
 
 ## Currently
 
+`Jan 2025-`
+__Assistant Professor (incoming)__  
+Department of Psychology  
+*University of California San Diego, (San Diego, CA)*  
+
 `2020-Present`
 __Postdoctoral Fellow__  
 Consortium for Interacting Minds  

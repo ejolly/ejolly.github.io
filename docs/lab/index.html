@@ -7,22 +7,19 @@
    <meta name=viewport content="width=device-width, initial-scale=1">
    <meta name=description content="Postdoctoral Fellow at Dartmouth College">
    <meta name=author content="Eshin Jolly">
-<title>Analysis containers and compute clusters | Eshin Jolly</title>
+<title>Lab | Eshin Jolly</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Analysis containers and compute clusters" />
+<meta property="og:title" content="Lab" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Using containers on a compute cluster for reproducible science" />
-<meta property="og:description" content="Using containers on a compute cluster for reproducible science" />
-<link rel="canonical" href="https://eshinjolly.com/2017/06/03/singularity-intro/" />
-<meta property="og:url" content="https://eshinjolly.com/2017/06/03/singularity-intro/" />
+<link rel="canonical" href="https://eshinjolly.com/lab/" />
+<meta property="og:url" content="https://eshinjolly.com/lab/" />
 <meta property="og:site_name" content="Eshin Jolly" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2017-06-03T00:00:00-04:00" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Analysis containers and compute clusters" />
+<meta property="twitter:title" content="Lab" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2017-06-03T00:00:00-04:00","datePublished":"2017-06-03T00:00:00-04:00","description":"Using containers on a compute cluster for reproducible science","headline":"Analysis containers and compute clusters","mainEntityOfPage":{"@type":"WebPage","@id":"https://eshinjolly.com/2017/06/03/singularity-intro/"},"url":"https://eshinjolly.com/2017/06/03/singularity-intro/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Lab","url":"https://eshinjolly.com/lab/"}</script>
   <link rel="apple-touch-icon-precomposed" sizes="16x16" href="https://eshinjolly.com/assets/images/favicon/favicon-16x16.png"/>
 <link rel="apple-touch-icon-precomposed" sizes="24x24" href="https://eshinjolly.com/assets/images/favicon/favicon-24x24.png"/>
 <link rel="apple-touch-icon-precomposed" sizes="32x32" href="https://eshinjolly.com/assets/images/favicon/favicon-32x32.png"/>
@@ -47,14 +44,14 @@
 <meta name="msapplication-square72x72logo" content="favicon-72x72.png"/>
 <meta name="msapplication-square128x128logo" content="favicon-128x128.png"/>
 <meta name="msapplication-square256x256logo" content="favicon-256x256.png"/>
-  <link rel="canonical" href="https://eshinjolly.com/2017/06/03/singularity-intro/">
+  <link rel="canonical" href="https://eshinjolly.com/lab/">
   <link rel="alternate" type="application/rss+xml" title="" href="https://eshinjolly.com/feed.xml"/>
   <link rel="stylesheet" href="/assets/css/tailwind.css">
   <link rel="stylesheet" href="/assets/css/syntax.min.css">
     <script async data-website-id="4a8aa9aa-84ea-4c68-b908-c32d9488972b" src="https://umami.eshin.codes/script.js" data-domains="eshinjolly.com"></script>
  <body class="body">
    <div class="page">
-       <div class="post">
+         <div class="lab">
         <header class="header-container">
   <a class="cover-photo-container" href="/">
     <img
@@ -175,8 +172,6 @@
 </div>
 <nav class="nav">
  <ul class="nav-row">
-   <li class="item attention bounce">
-      <a class="my-highlight" href="https://eshinjolly.com/lab">Lab</a>
    <li class="item">
       <a class="link-red" href="https://eshinjolly.com/about">About</a>
    <li class="item">
@@ -240,55 +235,31 @@
 </style>
  <hr class="divider" />
 </header>
-<div class="content">
-<h1 class="title">Analysis containers and compute clusters
-</h1>
-<div class="responsive-metadata-container">
-  <span class="post-date">
-    <time datetime="03-06-2017">Saturday. June 03, 2017
-    </time>
-      <span class="reading-time" title="Estimated read time">
-    (~1m read)
-</span>
-  </span>
- <div>
-      <a class="hidden tag" href="https://eshinjolly.com/tags/#tutorial">tutorial
-      </a>
-      <a class="hidden tag" href="https://eshinjolly.com/tags/#analysis">analysis
-      </a>
- </div>
-</div>
-<p>Recently <a href="http://pbs.dartmouth.edu/">Dartmouth graduate students</a> collectively organized a full day of workshops to share and help each other out with the plethora of data analysis tools we regularly use in our respective research endeavors. Amongst these was a brief hands-on tutorial I gave with <a href="http://mvdoc.me/">Matteo Visconti</a> on utilizing container-based analysis environment with <a href="http://techdoc.dartmouth.edu/discovery/">Discovery</a>, Dartmouth’s high-performance compute cluster (HPC).</p>
-<p>For a nice primer on what containers are and how they can be useful for sharing and reproducing research I highly recommend checking out Matteo’s <a href="http://mvdoc.me/2017/using-singularity-to-make-analyses-reproducible.html">blog post</a>. The general idea is to create a portable computing environment that has all the tools one might need to conduct a particular analysis workflow (i.e. the actual programs and system architecture that your analysis scripts can be executed with).</p>
-<p>While tools like <a href="https://www.docker.com/">Docker</a> have been especially popular in the software development world for this purpose, utilizing them in a computing environment where one does not have root privileges (e.g. a university HPC maintained by system administrators) is largely not possible. <a href="http://singularity.lbl.gov/">Singularity</a> was developed for exactly this purpose: the benefits of a containerized analysis environment, that <em>can</em> be utilized on a HPC. Because getting setup can be a bit tricky, our tutorial provides basic HPC users (particularly those with personal computers running OSX) with the steps required to get going with Singularity. Just follow the link below. Enjoy.</p>
-<div style="text-align: center; font-size: 2em"><a class="nounderline" href="https://github.com/ejolly/IntroToSingularity">Intro to Singularity</a>
-</div>
-<script
-  defer
-  src="https://polyfill.io/v3/polyfill.min.js?features=es6"
-></script>
-<script
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-></script>
-<script async src="https://eshinjolly.com/assets/js/copyCode.js"></script>
-<style>
-  /* Need style here because selectors get purged by tailwind since button is created via js */
-  div[class*="language-"] {
-    position: relative;
+<div class="content"><style>
+  .image {
+    max-width: 35%;
+    margin: 0 auto;
   }
-  .copy-button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    background: #cbd5e1;
-    color: #1e293b;
-    font-size: 0.85rem;
-    padding: 0.35rem 0.75rem;
-    border-radius: 0.8rem;
-  }
-</style></div>
+</style>
+<h1 id="im-starting-a-lab">I’m starting a lab!</h1>
+<p><em>Note: I’ll be updating this page with more information in the coming months. There’s also a new lab name, logo, and official website on the way. Please check back for more details or reach out if something is unclear!</em></p>
+<p>I’m thrilled to be joining <a href="https://psychology.ucsd.edu/">UC San Diego’s Department of Psychology</a> as an Assistant Professor in <strong>January 2025</strong>! Right now the broad aims of the lab are understanding how we <em>learn</em> about, <em>represent</em>, <em>remember</em>, and <em>share</em> information about other people by observing or participating in different kinds of <em>social interactions</em>.</p>
+<p>I’m a big believer in taking an <em>interdisciplinary</em> approach to asking these questions and in particular, the mutually-informative relationship between scientific inquiry and methodological development. New tools are just as exciting as new findings because they offer us <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12404">new perspectives</a> on how to explore our psychological questions.</p>
+<div class="image">
+  <img src="https://eshinjolly.com/assets/images/sketch.png" alt="Alt Text" />
+</div>
+<p>So far this has included stuff like: (a) using <a href="https://www.interactingminds.com/research-projects/why-do-we-gossip">online games</a> to study <a href="https://www.sciencedirect.com/science/article/pii/S0960982221004632">gossip</a><sup id="a1"><a href="#f1">1</a></sup> ; (b) scanning brains while people watch movies to <a href="https://doi.org/10.1126/sciadv.abf7129">model neural &amp; affective state dynamics</a> using hidden-markov-models and <a href="https://link.springer.com/article/10.1007/s42761-022-00161-2">collaborative filtering</a> (hello Netflix recommender system!); (c) using character dramas and natural-language-processing to study how <a href="https://psyarxiv.com/bw9r2">relationships drive our representations and memories of people</a>; (d) exploring how <a href="https://www.nature.com/articles/s41467-023-44286-9.epdf?sharing_token=NIf7F6ZBWfJIfbGC8ILBZdRgN0jAjWel9jnR3ZoTv0OnNr1VgUao8PGix03Ez_tPL329X4MVbjab8h0_bmcT6IcqcyihbqbYPkQGhGb8nzxaJBfs-C62qJB_ofzGcLQq2UJ8ibYvEAPQ5P2iKoh6bTqwsIP5OEmcEzy2Wyp96C4%3D">social emotions like guilt and indebtedness drive our decision-making</a> with psychological utility-models of brain and behavior; and (e) building <a href="https://py-feat.org">open-source tools</a> for making <a href="https://www.youtube.com/watch?v=BpZ3EqSxEXk">facial expression analysis via deep-nets</a> accessible to all social scientists; making <a href="https://nltools.org/">fMRI analysis more intuitive</a>; and bringing <a href="https://eshinjolly.com/pymer4">multi-level models to Python</a>.</p>
+<p>If any of this sounds interesting to you and if any of the positions below sound like a good fit, feel free to <a href="mailto:eshin.jolly@gmail.com">reach out</a>:</p>
+<h1 id="opportunities-to-join-the-lab">Opportunities to join the lab</h1>
+<h2 id="1-lab-managerdeveloperresearch-assistant">1. Lab manager/developer/research assistant</h2>
+<p>I’m hoping to hire a full-time lab manager to start alongside me, in <strong>January 2025</strong>. This is a great opportunity for someone who wants experience with all phases of the research process and is maybe considering grad-school down the line. You’ll be helping to build up the lab infrastructure and culture, while learning about project management, research design, software development, and data analysis. You don’t need to have a background in any particular field, just an excitement for learning new things and a curiosity about exploring creative solutions to tough problems.</p>
+<h2 id="2-phd-students">2. PhD students</h2>
+<p>I will be recruiting <a href="https://psychology.ucsd.edu/graduate-program/prospective-students/index.html">PhD applicants</a> from the upcoming cycle: <strong>anticipated application deadline December 2024</strong>; <strong>anticipated start Fall 2025.</strong> I’ll add additional details on what that process looks like later this year.</p>
+<p>This is great opportunity for anyone who thinks the research directions above sound interesting or has some related ideas they want to explore together. Pursuing a PhD is a big journey that can often looks pretty different from what you might expect. At the same time, the most rewarding parts of that journey differ from person-to-person and even from <em>past</em>-you to <em>future</em>-you! You don’t need to have things figured out at this stage, but you do have to bring an uncompromising willingness to to fail, to learn, and to <em>grow</em>.</p>
+<h2 id="3-post-doctoral-researchers">3. Post-doctoral researchers</h2>
+<p>Feel free to reach out if you think it would be fun to work together! This could be a great opportunity to explore new research directions and funding avenues, learn/develop new methods, and help build lab infrastructure and culture. It’s also a good opportunity for someone who’s still undecided about their long-term career goals and is considering academia, industry, or other paths.</p>
+<p><b id="f1">1. </b><em>If podcasts are more your thing, I had the awesome opportunity to be on <a href="https://open.spotify.com/episode/1qTwJx3tt6O4KlIZcxfEyo?si=30eeedd5271d47ad"> Normal Gossip </a> and talk about my work a bit! </em><a href="#a1">↩</a></p>
+</div>
        </div>
      </div>
      <footer class="footer">

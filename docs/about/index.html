@@ -172,6 +172,8 @@
 </div>
 <nav class="nav">
  <ul class="nav-row">
+   <li class="item attention bounce">
+      <a class="my-highlight" href="https://eshinjolly.com/lab">Lab</a>
    <li class="item">
       <a class="link-red" href="https://eshinjolly.com/research">Research</a>
    <li class="item">
@@ -186,6 +188,51 @@
       <a class="link-red" href="https://eshinjolly.com/blog">Blog</a>
  </ul>
 </nav>
+<style>
+  .attention {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+@keyframes bounce {
+  from,
+  0%,
+  8%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+  5%,
+  12% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0) scaleY(1.1) rotate(-10deg);
+  }
+  12% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0) scaleY(1.05);
+  }
+  16% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0) scaleY(0.95);
+  }
+  /* 20% {
+    transform: translate3d(0, -4px, 0) scaleY(1.02);
+  } */
+  /* 24% {
+    transform: translate3d(0, 0, 0);
+  } */
+  100% {
+    transform: translate3d(0, 0, 0);
+  } 
+}
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+</style>
  <hr class="divider" />
 </header>
 <div class="content"><div class="side-by-side">
@@ -194,7 +241,7 @@
         <img class="image" style="border-radius:35px" src="https://eshinjolly.com/assets/images/cosanlab_logo.jpg" alt="Alt Text" /> </a>
    </div>
    <div class="text">
-       <p>I'm currently a post-doctoral researcher in the <a class="nounderline" href="http://cosanlab.com">Computational Social Affective Neuroscience Laboratory</a> at Dartmouth college working with <a class="nounderline" href="http://lukejchang.com">Luke Chang</a> where I also competed my PhD. My research broadly focuses on how humans form psychological impressions and construct neural representations of other people and ultimately how these representations change as they are transmitted between individuals.  Checkout my <a class="nounderline" href="https://eshinjolly.com/research">research</a> for more info.</p>
+       <p>I'm currently a post-doctoral researcher in the <a class="" href="http://cosanlab.com">Computational Social Affective Neuroscience Laboratory</a> at Dartmouth college working with <a class="nounderline" href="http://lukejchang.com">Luke Chang</a> where I also competed my PhD. My research broadly focuses on how humans form psychological impressions and construct neural representations of other people and ultimately how these representations change as they are transmitted between individuals.  Checkout my <a class="nounderline" href="https://eshinjolly.com/research">research</a> for more info.</p>
    </div>
 </div>
 <div class="side-by-side-reversed">
