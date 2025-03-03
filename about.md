@@ -2,6 +2,17 @@
 title: About
 layout: page
 ---
+
+<div class="side-by-side-reversed">
+    <div class="text">
+        <p>As of January 2025, I joined the Department of Psychology at the University of California San Diego as an Assistant Professor. I'm currently teaching Graduate Statistics and growing the lab. Check out my (<em>temporary</em>) <a class="link" href="{{site.url}}/lab">lab page</a> or <a href="{{site.url}}/research">research</a> for more information!</p>
+    </div>
+    <div class="image">
+    	<a class="link" href="{{site.url}}/lab">
+        <img class="image" src="{{site.url}}/assets/images/UCSD_logo.jpg" alt="Alt Text"> </a>
+    </div>
+</div>
+
 <div class="side-by-side">
     <div class="image">
     	<a href="https://www.cosanlab.com/">

@@ -1,17 +1,22 @@
 
 ## In Prep
 
-**Jolly, E.**, Chang, L.J. (in prep). Neural encoding and reinstatement of social motifs.  
+<!-- **Jolly, E.**, Ranger, M.S. & Chang, L.J. (in prep). The neural basis of guilt diffusion in interpersonal harm-minimization. -->
 
-**Jolly, E.**, Ranger, M.S. & Chang, L.J. (in prep). The neural basis of guilt diffusion in interpersonal harm-minimization.
+Choi, Y.J., **Jolly, E.** , Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Balancing Guilt and Costs: The Role of Emotions and Exogenous Constraints for End-of-Life Care
 
-**Jolly, E.**, Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (in prep). Guilt-aversion motivates harm-minimization in surrogate decision-making.
+Kwon, D. **Jolly, E.**, Chang, L.J., Shim, W.M. (in prep). Neural encoding and reconstruction of social relationships.
 
-## Under review/revision
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Chen, J. & Chang, L.J. (in prep). Person memory is supported by the neural reinstatement of social interactions.
 
-**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (under review). People are represented and remembered through their relationships with others.  [[psyarxiv preprint]](https://psyarxiv.com/bw9r2)
+Le, K.\* Jadhav, A.\* & **Jolly, E.** (in prep). Statistical Intuitions for Social Scientists. [[open course materials]](https://stat-intuitions.com/)  
+\*Equal contribution
 
-## Published
+### 2025
+
+Varrier, R.S., Su, Z. Liang, Q., Benson, T. **Jolly, E.**, & Finn, E.S. (under review). Shared and individual tuning curves for social vision. [[bioRxiv preprint]](https://www.biorxiv.org/content/10.1101/2025.01.19.633772v1)
+
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (under revision). People are represented and remembered through their relationships with others.  [[psyarxiv preprint]](https://psyarxiv.com/bw9r2)
 
 ### 2024
 

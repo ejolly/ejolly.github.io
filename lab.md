@@ -9,11 +9,19 @@ layout: page
   }
 </style>
 
-# I'm starting a lab and hiring!
+# I'm growing a lab!
 
-*Note: I'll be updating this page with more information in the coming months. There's also a new lab name, logo, and official website on-the-way. Please check back for more details or reach out if something is unclear!*
+<!-- *I had some fun trying to make a podcast summary of my work courtesy of [NotebookLM](https://notebooklm.google.com/), and it's only half-bad! Blame Google for errors, social faux pas, cringe, and the poor Lil John impersonator shouting 'yea' in the background every once in a while.*
 
-I'm thrilled to be joining [UC San Diego's awesome Department of Psychology](https://psychology.ucsd.edu/) as an Assistant Professor in **January 2025**! I'll be starting a lab group with the current broad aims of understanding how we *learn* about, *represent*, *remember*, and *share* information about other people by observing or participating in different kinds of *social interactions*. 
+<div class="obp-grid">
+  <audio controls class="obp-audio" src="https://dl.dropboxusercontent.com/s/6ipllqop17zlgr9/Ain%27t%20It%20The%20Truth.mp3?dl=0">
+  </audio>
+</div>
+-->
+*Last Updated: 03/02/25*   
+*Note: I have limited availability for meetings until April 2025*
+
+As of **January 2025** I've [officially started](https://psychology.ucsd.edu/people/profiles/ejolly.html) as a new Assistant Professor in [UC San Diego's awesome Department of Psychology](https://psychology.ucsd.edu/). I'm currently growing a research group with the current broad aims of understanding how we *learn* about, *represent*, *remember*, and *share* information about other people by observing or participating in different kinds of *social interactions*. Until we're up and running I'll continue to post updates here.
 
 I love taking an *interdisciplinary* approach to asking these questions drawing inspiration from: cognitive neuroscience, social psychology, behavioral economics, affective computing, and machine-learning & AI. In particular, I'm a big believer in the mutually-beneficial relationship between scientific inquiry and methodological development. New tools are just as exciting as new findings because they offer us [new perspectives](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12404) on how to explore our psychological questions. 
 
@@ -28,15 +36,23 @@ If any of this sounds interesting to you and if any of the positions below sound
 # Opportunities to join the lab
 
 ## 1. Lab manager/developer/research assistant
-I'm hoping to hire a full-time lab manager to start alongside me, in **January 2025**. This is a great opportunity for someone who wants experience with all phases of the research process and is maybe considering grad-school down the line. You'll be helping to build up the lab infrastructure and culture, while learning about project management, research design, software development, and data analysis. You don't need to have a background in any particular field, just an excitement for learning new things and a curiosity about exploring creative solutions to tough problems.
+
+*I'm not currently considering new applicants at this time*
+
+ ~~I'm hoping to hire currently hiring for~~ a full-time lab manager to start alongside me, in **January 2025** (*click the title link to apply*). 
+
+This is a great opportunity for someone who wants experience with all phases of the research process and is maybe considering grad-school down the line. You'll be helping to build up the lab infrastructure and culture, while learning about project management, research design, software development, and data analysis. You don't need to have a background in any particular field, just an excitement for learning new things and a curiosity about exploring creative solutions to tough problems. 
 
 ## 2. PhD students
-I will be recruiting [PhD applicants](https://psychology.ucsd.edu/graduate-program/prospective-students/index.html) from the upcoming cycle: **anticipated application deadline December 2024**; **anticipated start Fall 2025.** I'll add additional details on what that process looks like later this year.
+
+*The 2025 PhD Application cycle is now closed*
+
+~~I'm will be currently recruiting [PhD applicants](https://psychology.ucsd.edu/graduate-program/prospective-students/index.html): **application deadline December 4th**; anticipated start Fall 2025 (*click the title link above to apply*).~~
 
 This is a great opportunity for anyone who thinks the research directions above sound interesting or has some related ideas they want to explore together. Pursuing a PhD is a big journey that can often looks pretty different from what you might expect. At the same time, the most rewarding parts of that journey differ from person-to-person and even from [*past*-you to *future*-you!](https://eshinjolly.com/2021/05/03/delightful-journey/) You don't need to have things figured out at this stage, but you do have to bring an uncompromising willingness to fail, learn, and *grow*.
 
 ## 3. Post-doctoral researchers
-Feel free to reach out if you think it would be fun to work together! This could be a great opportunity to explore new research directions and funding avenues, learn/develop new methods, and help build lab infrastructure and culture. It's also a good opportunity for someone who's still undecided about their long-term career goals and is considering academia, [industry or other paths](https://eshinjolly.com/portfolio/).
+Feel free to reach out if you think it would be fun to work together! This could be a great opportunity to explore new research directions and funding avenues, learn/develop new methods, and help build lab infrastructure and culture. It's also a good opportunity for someone who's still undecided about their long-term career goals and is considering academia, [industry or other paths](https://eshinjolly.com/portfolio/). 
 
 
 <b id="f1">1. </b><em>If podcasts are more your thing, I had the awesome opportunity to be on <a href="https://open.spotify.com/episode/1qTwJx3tt6O4KlIZcxfEyo?si=30eeedd5271d47ad"> Normal Gossip </a> and talk about my work a bit! </em>[↩](#a1)

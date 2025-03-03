@@ -3,11 +3,10 @@ layout: cv
 title: Eshin Jolly
 ---
 # Eshin Jolly
-Dartmouth College  
-Dept of Psychological and Brain Sciences  
-6207 Moore Hall, Hanover, NH, 03755  
-(917) 376 3340  
-eshin.jolly@gmail.com
+University of California San Diego  
+Dept of Psychology (Mandler Hall)  
+9500 Gilman Drive #0109, La Jolla, CA, 92093  
+e3jolly@ucsd.edu  
 
 <div id="webaddress">
 <a href="https://eshinjolly.com">website</a>
@@ -21,18 +20,18 @@ eshin.jolly@gmail.com
 ## Currently
 
 `Jan 2025-`
-__Assistant Professor (incoming)__  
+__Assistant Professor__  
 Department of Psychology  
 *University of California San Diego, (San Diego, CA)*  
 
-`2020-Present`
+## Education & Training
+
+`2020-2024`
 __Postdoctoral Fellow__  
 Consortium for Interacting Minds  
 Center for Cognitive Neuroscience  
 *Dartmouth College (Hanover, NH)*  
-Mentors: [Luke Chang](https://pbs.dartmouth.edu/people/luke-j-chang-0), [Thalia Wheatley](https://pbs.dartmouth.edu/people/thalia-wheatley), [Emily Finn](https://pbs.dartmouth.edu/people/emily-s-finn), [Jeremy Manning](https://pbs.dartmouth.edu/people/jeremy-r-manning)
-
-## Education & Training
+Mentors: [Emily Finn](https://pbs.dartmouth.edu/people/emily-s-finn), [Luke Chang](https://pbs.dartmouth.edu/people/luke-j-chang-0), [Thalia Wheatley](https://pbs.dartmouth.edu/people/thalia-wheatley), [Jeremy Manning](http://www.context-lab.com/)
 
 `2012-2019`
 __PhD, Cognitive Neuroscience__  
@@ -91,7 +90,7 @@ __Project Manager; Technical Support Lead__
 
 ## Funding
 
-`2019-Present`
+`2019-2024`
 __Postdoctoral Fellow__  
 *National Science Foundation*, Career Award 1848370 ($886,457, PI: Luke Chang)  
 Neural and computational basis of guilt in decision-making (co-written)
@@ -302,6 +301,11 @@ Peltz, J.S. Toth, S.L., Rogosch, F.A., **Jolly, E.**, & Cicchetti, D. (2010). Pa
 
 ## Teaching
 
+`2025`
+__Statistical Intuitions for Social Scientists__
+Organizer and Lecturer  
+*University of California San Diego (La Jolla, CA)* [[Open Materials]](https://stat-intuitions.com/)
+
 `2024`
 __Computational Social Affective Neuroscience Pre-conference__
 Organizer and Lecturer  
@@ -494,6 +498,11 @@ Wilder-Trustee Scholarship
 
 ## Mentorship
 
+`2024-Present`
+Grace Choi  
+Graduate Student  
+*Dartmouth College*
+
 `2022-Present`
 Wasita Mahaphanit   
 Graduate Student  
@@ -579,6 +588,10 @@ Social and Affective Neuroscience Society, Society for Affective Science, Organi
 
 
 ## Leadership & Community  
+
+`2024-Present`
+__Director-at-Large__  
+[Social & Affective Neuroscience Society](https://socialaffectiveneuro.org/about/)  
 
 `2019-2022`
 __Committee Member__    
