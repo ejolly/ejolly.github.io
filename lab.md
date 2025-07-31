@@ -9,7 +9,8 @@ layout: page
   }
 </style>
 
-# Coming this fall...the Sciminds Research Studio
+# I'm growing a lab!
+## Coming this fall...the Sciminds Research Studio
 
 I'm excited to preview that the new lab **Sciminds**, short for the <span class="my-highlight">Social Computations and Interacting Minds Research Studio</span>will be launching this Fall! 
 
