@@ -21,6 +21,7 @@ e3jolly@ucsd.edu
 
 `Jan 2025-`
 __Assistant Professor__  
+PI: Social Computations and Interacting Minds Research Studio (Sciminds)   
 Department of Psychology  
 *University of California San Diego, (San Diego, CA)*  
 
@@ -68,7 +69,7 @@ PIs: [Sheree Toth](https://www.sas.rochester.edu/psy/people/faculty/toth_sheree/
 
 ## Industry Consulting  
 
-`2023-Present`
+`2023-2025`
 __Senior UX/UI Engineer & Designer__  
 [MoreMore AI]()  
 *Film & media arts startup*
@@ -218,11 +219,17 @@ The Social Benefits of Gossip.
 
 ## Posters & Conference Proceedings
 
+`2025`
+Sadhukha, S. **Jolly, E.**, Jacoby, Nir., Choi, Y.J., Keller, B.T., Wager, T.D, Manning, J.R. Chang, L.J. (2025). Mapping Idiographic Affective Interpretations to Brain Activity using Semantic Embeddings.  **Poster at the Society for Neurobiology of Language conference Washington, D.C.)*
+
+Choi, Y.J., **Jolly, E.** , Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (2025). Balancing Guilt and Costs: The Role of Emotions and Exogenous Constraints for End-of-Life Care.  
+*Poster at the Social and Affective Neuroscience Society conference (Chicago, IL)*
+
 `2024`
-Liang, Q., Varrier, R.S., Su, Z., Benson, T.G., **Jolly, E.**, Selesnick, J.M., Molfese, P.J. & Finn, E.S. (under review). Seeing is not being: Actively participating in an interaction changes social perception relative to passive viewing.  
+Liang, Q., Varrier, R.S., Su, Z., Benson, T.G., **Jolly, E.**, Selesnick, J.M., Molfese, P.J. & Finn, E.S. (2025). Seeing is not being: Actively participating in an interaction changes social perception relative to passive viewing.  
 *Poster at the Society for Neuroscience (Chicago, IL)*
 
-Varrier, R.S., Su, Z., Benson, T.G., Liang, Q. Selesnick, J.M., **Jolly, E.**, Molfese, P.J. & Finn, E.S. (under review). Behavioral signatures of social signal detection.  
+Varrier, R.S., Su, Z., Benson, T.G., Liang, Q. Selesnick, J.M., **Jolly, E.**, Molfese, P.J. & Finn, E.S. (2025). Behavioral signatures of social signal detection.  
 *Poster at the Computational Cognitive Neuroscience conference (Cambridge, MA)*
 
 **Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2024). Person memory is supported by the neural reinstatement of social interactions.  
@@ -632,6 +639,6 @@ Social Area Graduate Student Representative
 *Dartmouth College, Hanover, NH*  
 __
 
-Last updated: May 2024
+Last updated: July 2025
 
 

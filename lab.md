@@ -9,7 +9,11 @@ layout: page
   }
 </style>
 
-# I'm growing a lab!
+# Coming this fall...the Sciminds Research Studio
+
+I'm excited to preview that the new lab **Sciminds**, short for the <span class="my-highlight">Social Computations and Interacting Minds Research Studio</span>will be launching this Fall! 
+
+Look out for a new website with team-member bios and more details about opportunities to get involved!
 
 <!-- *I had some fun trying to make a podcast summary of my work courtesy of [NotebookLM](https://notebooklm.google.com/), and it's only half-bad! Blame Google for errors, social faux pas, cringe, and the poor Lil John impersonator shouting 'yea' in the background every once in a while.*
 
@@ -18,8 +22,7 @@ layout: page
   </audio>
 </div>
 -->
-*Last Updated: 03/02/25*   
-*Note: I have limited availability for meetings until April 2025*
+*Last Updated: 07/30/25*   
 
 As of **January 2025** I've [officially started](https://psychology.ucsd.edu/people/profiles/ejolly.html) as a new Assistant Professor in [UC San Diego's awesome Department of Psychology](https://psychology.ucsd.edu/). I'm currently growing a research group with the current broad aims of understanding how we *learn* about, *represent*, *remember*, and *share* information about other people by observing or participating in different kinds of *social interactions*. Until we're up and running I'll continue to post updates here.
 
@@ -35,24 +38,14 @@ If any of this sounds interesting to you and if any of the positions below sound
 
 # Opportunities to join the lab
 
-## 1. Lab manager/developer/research assistant
+## PhD students
 
-*I'm not currently considering new applicants at this time*
-
- ~~I'm hoping to hire currently hiring for~~ a full-time lab manager to start alongside me, in **January 2025** (*click the title link to apply*). 
-
-This is a great opportunity for someone who wants experience with all phases of the research process and is maybe considering grad-school down the line. You'll be helping to build up the lab infrastructure and culture, while learning about project management, research design, software development, and data analysis. You don't need to have a background in any particular field, just an excitement for learning new things and a curiosity about exploring creative solutions to tough problems. 
-
-## 2. PhD students
-
-*The 2025 PhD Application cycle is now closed*
-
-~~I'm will be currently recruiting [PhD applicants](https://psychology.ucsd.edu/graduate-program/prospective-students/index.html): **application deadline December 4th**; anticipated start Fall 2025 (*click the title link above to apply*).~~
+*I'm not actively recruiting for the 2026 PhD cycle, but will be reviewing applications. Please checkout [UCSD Psychology's prospective student page](https://psychology.ucsd.edu/graduate-program/prospective-students/index.html) for more details.*
 
 This is a great opportunity for anyone who thinks the research directions above sound interesting or has some related ideas they want to explore together. Pursuing a PhD is a big journey that can often looks pretty different from what you might expect. At the same time, the most rewarding parts of that journey differ from person-to-person and even from [*past*-you to *future*-you!](https://eshinjolly.com/2021/05/03/delightful-journey/) You don't need to have things figured out at this stage, but you do have to bring an uncompromising willingness to fail, learn, and *grow*.
 
-## 3. Post-doctoral researchers
-Feel free to reach out if you think it would be fun to work together! This could be a great opportunity to explore new research directions and funding avenues, learn/develop new methods, and help build lab infrastructure and culture. It's also a good opportunity for someone who's still undecided about their long-term career goals and is considering academia, [industry or other paths](https://eshinjolly.com/portfolio/). 
+## Post-doctoral researchers
+Feel free to reach out if you think it would be fun to work together! While the lab doesn't currently have funding for a full-time position, this could be a great opportunity to explore new research directions and funding avenues and learn/develop new methods together. It's also a good opportunity for someone who's still undecided about their long-term career goals and is considering academia, [industry or other paths](https://eshinjolly.com/portfolio/). 
 
 
 <b id="f1">1. </b><em>If podcasts are more your thing, I had the awesome opportunity to be on <a href="https://open.spotify.com/episode/1qTwJx3tt6O4KlIZcxfEyo?si=30eeedd5271d47ad"> Normal Gossip </a> and talk about my work a bit! </em>[↩](#a1)
