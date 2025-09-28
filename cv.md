@@ -21,9 +21,9 @@ e3jolly@ucsd.edu
 
 `Jan 2025-`
 __Assistant Professor__  
-PI: Social Computations and Interacting Minds Research Studio (Sciminds)   
 Department of Psychology  
-*University of California San Diego, (San Diego, CA)*  
+*University of California San Diego*  
+PI: Social Computations and Interacting Minds Research Studio (Sciminds)   
 
 ## Education & Training
 
@@ -74,8 +74,13 @@ __Senior UX/UI Engineer & Designer__
 [MoreMore AI]()  
 *Film & media arts startup*
 
-`2020-Present`
-__Co-Founder & CTO; Scientific Advisor__  
+`2022-Present`
+__Scientific Advisor__  
+[Parsnip.ai](https://www.parsnip.ai/)  
+*Food and ed-tech startup*
+
+`2020-2022`
+__Co-Founder & CTO__  
 [Parsnip.ai](https://www.parsnip.ai/)  
 *Food and ed-tech startup*
 
@@ -91,15 +96,41 @@ __Project Manager; Technical Support Lead__
 
 ## Funding
 
+`Aug 2025-`  
+__Collaborator__  
+*U.S. Army Research Institute*, ($839,635, PI: [Michael E. McCullough](https://www.michael-mccullough.com/))  
+Validated Measurement of Internalized Prosocial Motivation, with Implications for Teamwork  
+
+
 `2019-2024`
 __Postdoctoral Fellow__  
-*National Science Foundation*, Career Award 1848370 ($886,457, PI: Luke Chang)  
+*National Science Foundation*, Career Award 1848370 ($886,457, PI: [Luke Chang](https://lukejchang.com/))  
 Neural and computational basis of guilt in decision-making (co-written)
 
 `2013-2016`
 __Graduate Fellow__    
 *National Science Foundation*, Graduate Research Fellowship ($90,000)  
 Uncovering the represention of self: A multivariate approach
+
+## Academic Teaching
+
+`2025-Present`
+__Social Cognition__  
+Lecturer - Undergraduate  
+UCSD PSYC-137 (~350)  
+*University of California San Diego (La Jolla, CA)*  
+
+`2025-Present`
+__Statistical Intuitions for Social Scientists__  
+Lecturer - Graduate  
+UCSD PSYC-201B (~15)  
+*University of California San Diego (La Jolla, CA)* [[Open Materials]](https://stat-intuitions.com/)
+
+`2025-Present`
+__Computing Funadamentals Workshop__  
+Co-Lecturer - Graduate (w/ [Bria Long](https://www.brialong.com/))  
+1st year PhD Workshop (~15)  
+*University of California San Diego (La Jolla, CA)* [[Open Materials]](https://jolly.ucsd.edu/fundamentals-workshop/)
 
 ## Manuscripts
 
@@ -135,186 +166,31 @@ __[Nltools](https://nltools.org)__
 [[Documentation]](https://nltools.org/) [[Video Talk]](https://youtu.be/1c1AnXLs7xM) [[Github]](https://github.com/cosanlab/nltools)  
 [![Downloads](https://static.pepy.tech/badge/nltools)](https://pepy.tech/project/nltools)
 
-## Invited Talks & Presentations 
-
-`2024`
-Person memory is supported by the neural reinstatement of social interactions.  
-*Symposium presentation at the Social Affective Neuroscience Society conference (Toronto, CA)*
-
-Neural, Network, and Neural Network Approaches for Social Relationship Representation.  
-*Symposium organizer at the Social Affective Neuroscience Society conference (Toronto, CA)*
-
-Introduction to Facial Expression Analysis.  
-*Presentation at Computational Social Affective Neuroscience Society Pre-conference (Toronto, CA)*
-
-`2023`
-Representing and remembering people through their relationships.  
-*Invited talk at the MIND Summer School, Dartmouth College (Hanover, NH)*  
-
-The structure of social memory: People as contexts.  
-*Presentation at the Social and Affective Neuroscience Society conference (Santa Barbara, CA)*
-
-Navigating the social world: A relational account of how we represent, remember, and talk about people.  
-*Invited talk at Stanford University (Stanford, CA)* 
-
-People as contexts: A relational account of person representation and memory.  
-*Invited talk for Innovators in Cognitive Neuroscience (virtual).* [[Video]](https://youtu.be/27jiQAbcFwo)
-
-`2022`
-Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
-*Symposium presentation at the International Society for Research on Emotion, USC (Los Angeles, CA)*
-
-Emotion and Social Perception in Naturalistic Contexts: Perspectives from Affective Computing and Affective Neuroscience.  
-*Symposium organizer at the International Society for Research on Emotion, USC (Los Angeles, CA)*
-
-`2021`
-Methodological considerations in social and affective neuroscience.  
-*Invited talk at NYU, Freeman Lab (NYC, NY)*
-
-`2020`
-Social Cognitive Maps: A Relational Account of Person Representation and Memory.  
-*Invited talk at Harvard University, Somerville Lab (Cambridge, MA)* 
-
-Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn. [[Video]](https://youtu.be/1c1AnXLs7xM)  
-*Symposium presentation at the Scientific Computing with Python conference (virtual)*
-
-Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
-*Symposium presentation at the Society for Affective Science conference (San Francisco, CA; cancelled due to COVID-19).* 
-
-Methodological challenges in contemporary fMRI studies.  
-*Invited talk at the Neuroimaging Analysis Methods meeting, Princeton University (Princeton, NJ)*
-
-`2018`
-Introduction to functional alignment methods for fMRI.  
-*Invited lecture at the Sao Paulo School of Advanced Science on Social and Affective Neuroscience (Sao Paulo, Brazil)*
-
-`2017`
-Naturalistic approaches towards an understanding of social reasoning and communication.  
-*Invited talk at Stanford University (Stanford, CA)*
-
-The social benefits of gossip  
-*Presentation at the New England Research on Decision-Making conference, Brown University (Providence, RI)*
-
-Introduction to Git and Github for psychologists.  
-*Invited talk at the Reproducible Psychological Science workshop at the Annual Meeting for the Association for Psychological Science (Boston, MA)* 
-
-Interpersonal dynamics and the inelasticity of social guilt.  
-*Invited talk at the Boston Area Moral Cognition Group (Boston, MA)*
-
-Interpersonal dynamics and the inelasticity of social guilt.  
-*Invited talk at Affectiva Inc (Boston, MA)*
-
-Spontaneous impression-formation about parasocial relationships.  
-*Presentation at the Social and Affective Neuroscience Society conference (Los Angeles, CA)*
-
-State of the Data: Annual Dartmouth Brain Imaging Center Quality Assurance Report.  
-*Presentation at Dartmouth College (Hanover, NH)*
-
-`2016`
-Field experiments on human prosociality using Mechanical Turk.  
-*Presentation at Microsoft Research (New York City, NY)*
-
-The Social Benefits of Gossip.  
-*Presentation at the Social Brain Sciences Brown Bag (Dartmouth College, NH)*
-
-## Posters & Conference Proceedings
+## Open Teaching
 
 `2025`
-Sadhukha, S. **Jolly, E.**, Jacoby, Nir., Choi, Y.J., Keller, B.T., Wager, T.D, Manning, J.R. Chang, L.J. (2025). Mapping Idiographic Affective Interpretations to Brain Activity using Semantic Embeddings.  **Poster at the Society for Neurobiology of Language conference Washington, D.C.)*
+__A computational perspective on love__  
+Guest Speaker  
+*Dartmouth College, Hanover, NH* [[App](https://ejlove.app/)]  
 
-Choi, Y.J., **Jolly, E.** , Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (2025). Balancing Guilt and Costs: The Role of Emotions and Exogenous Constraints for End-of-Life Care.  
-*Poster at the Social and Affective Neuroscience Society conference (Chicago, IL)*
+__Towards a naturalistic science of social interactions__    
+Undergraduate Junior Honors, Guest Lecturer  
+*University of California San Diego*  
 
-`2024`
-Liang, Q., Varrier, R.S., Su, Z., Benson, T.G., **Jolly, E.**, Selesnick, J.M., Molfese, P.J. & Finn, E.S. (2025). Seeing is not being: Actively participating in an interaction changes social perception relative to passive viewing.  
-*Poster at the Society for Neuroscience (Chicago, IL)*
+__Towards a naturalistic science of social interactions__    
+Graduate, Guest Lecturer  
+*University of California San Diego*  
 
-Varrier, R.S., Su, Z., Benson, T.G., Liang, Q. Selesnick, J.M., **Jolly, E.**, Molfese, P.J. & Finn, E.S. (2025). Behavioral signatures of social signal detection.  
-*Poster at the Computational Cognitive Neuroscience conference (Cambridge, MA)*
+__Towards a naturalistic science of social interactions__    
+Staff, Guest Lecturer  
+*University of California San Diego*  
 
-**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2024). Person memory is supported by the neural reinstatement of social interactions.  
-*Poster at the Organization for Human Brain Mapping conference (Seoul, South Korea)*
-
-Kwon, D., **Jolly, E.**, Chang, L.J., & Shim, W.M. (2024). Neural representations of map and graph-based knowledge structures for two distinct types of social information during naturalistic social interaction.  
-*Poster at the Social and Affective Neuroscience Society conference (Toronto, CA)*
-
-Varrier, R.S., Su, Z., Benson, T.G., Liang, Q. Selesnick, J.M., **Jolly, E.**, Molfese, P.J. & Finn, E.S. (2024). Behavioral and neural signatures of social signal detection.  
-*Poster at the Social and Affective Neuroscience Society conference (Toronto, CA)*
-
-**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2024). People are represented and remembered through their relationships with others.  
-*Poster at the Society for Personality and Social Psychology conference (San Diego, CA)*
-
-`2023`
-**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2023). The structure of social memory: People as contexts.  
-*Poster at the Social and Affective Neuroscience Society conference (Santa Barbara, CA)*
-
-Kwon, D., **Jolly, E.**, Chang, L.J., & Shim, W.M. (2023). Neural representations of dynamic social interactions.  
-*Poster at the 26th Annual Meeting of the Korean Society for Brain and Neural Sciences (Busan, Korea)*
-
-`2022`
-**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D., & Chang, L.J. (2022). Recovering individual emotional states from sparse ratings using collaborative filtering.  
-*Poster at the Society for Affective Science conference (virtual)*
-
-`2021`
-**Jolly, E.** & Chang, L.J. (2021). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
-*Poster at the Social and Affective Neuroscience Society conference (virtual)*  
-**Winner Poster Award**
-
-`2020`
-**Jolly, E.** (2020). Pymer4: Bringing R's Powerful Mixed-modeling to Python.  
-*Poster at the Scientific Computing with Python conference (virtual)*    
-**Winner Scipy Scholarship**
-
-`2019`
-**Jolly, E.** & Chang, L.J. (2019). Gossip drives vicarious learning and facilitates robust social connections.  
-*Poster at the Social and Affective Neuroscience Society conference (Miami, FL)*
-
-Cheong, J.C., Chen, P.A., **Jolly, E.**, Elhence, H., Wager, T.D., & Chang, L.J. (2019). Socially transmitted placebo effects.  
-*Poster at the Society for Affective Science conference (Boston, MA)*
-
-`2018`
-**Jolly, E.**, Reddan, M.C., Gianaros, P.J., Manuck, S.M. Chang, L.J., & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of complex brain models.  
-*Poster at the Social and Affective Neuroscience Society conference (New York, NY)*
-
-Reddan, M.C., **Jolly, E.**, & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
-*Poster at the Organization for Human Brain Mapping conference (Singapore, Singapore)*
-
-Reddan, M.C., **Jolly, E.**, & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
-*Poster at the Computational and Systems Neuroscience conference (Denver, CO)*
-
-`2017`
-**Jolly, E.** & Chang, L.J. (2017). Gossip drives vicarious learning and facilitates robust social connections.  
-*Poster at the Annual Meeting of the Association for Psychological Science (Boston, MA)*
-
-Cheong, J.H., **Jolly, E.**, & Chang, L.J. (2017). A window into the mind: A computational approach to measuring emotions in response to naturalistic stimuli.  
-*Poster the Social and Affective Neuroscience Society conference (Los Angeles, CA)*
-
-`2016`
-**Jolly, E.** & Chang, L.J. (2016). Groups, gossip and social dilemmas.  
-*Poster at the International Conference on Computational Social Science (Evanston, IL)*
-
-`2015`
-**Jolly, E.**, Tamir, D.I., & Mitchell, J.P. (2015). The social value of sharing experiences.  
-*Poster at the Social and Affective Neuroscience Society conference (Boston, MA)*  
-**Winner Poster Award**
- 
-`2012`
-Moran, J.M., **Jolly, E.**, & Mitchell, J.P. (2012). Spontaneous mentalizing supports the fundamental attribution error.  
-*Poster at the Cognitive Neuroscience Society conference (Chicago, IL)*
-
-`2010`
-Peltz, J.S. Toth, S.L., Rogosch, F.A., **Jolly, E.**, & Cicchetti, D. (2010). Paternal emotional availability’s effects on children’s socioemotional functioning in maternal depression contexts.  
-*Poster at the Annual Meeting of the Association for Psychological Science (Boston, MA)*
-
-## Teaching
-
-`2025`
-__Statistical Intuitions for Social Scientists__
-Organizer and Lecturer  
-*University of California San Diego (La Jolla, CA)* [[Open Materials]](https://stat-intuitions.com/)
+__People are represented and remembered through their relationships with others__  
+Social Brown Bag, Speaker  
+*University of California San Diego*  
 
 `2024`
-__Computational Social Affective Neuroscience Pre-conference__
+__Computational Social Affective Neuroscience Pre-conference__  
 Organizer and Lecturer  
 *Annual Meeting for the Social Affective Neuroscience Society (Toronto, CA)* 
 
@@ -408,7 +284,224 @@ __Mind Perception__
 Workshop organizer  
 *Harvard University (Cambridge, MA)*
 
+## Invited Talks & Presentations 
+
+`2026`
+People are represented and remembered through their relationships with others.  
+*Invited talk at University of California Santa Barbara (Santa Barbara, CA)*
+
+`2025`
+
+Towards a naturalistic science of social interactions: People are represented and remembered through their relationships with others.  
+*Invited talk at University of California Los Angeles (Los Angeles, CA)*
+
+`2024`
+People are represented and remembered through their relationships with others.  
+*Symposium presentation at the Society for Experimental Social Psychology (SESP) (Santa Fe, NM)*
+
+Person memory is supported by the neural reinstatement of social interactions.  
+*Symposium presentation at the Social Affective Neuroscience Society conference (Toronto, CA)*
+
+Neural, Network, and Neural Network Approaches for Social Relationship Representation.  
+*Symposium organizer at the Social Affective Neuroscience Society conference (Toronto, CA)*
+
+Introduction to Facial Expression Analysis.  
+*Presentation at the Computational Social Affective Neuroscience Society Pre-conference (Toronto, CA)*
+
+Towards a naturalistic science of social interactions.  
+*Invited talk at the University of California San Diego (La Jolla, CA)*   
+
+Towards a naturalistic science of social interactions.  
+*Invited talk at the University of California Riverside (Riverside, CA)*   
+
+Towards a naturalistic science of social interactions.  
+*Invited talk at the Princeton University (Princeton, NJ)*   
+
+Towards a naturalistic science of social interactions.  
+*Invited talk at the University of Southern California (Los Angeles, CA)*   
+
+Towards a naturalistic science of social interactions.  
+*Invited talk at the University of Miami (Miami, FL)*   
+
+Towards a naturalistic science of social interactions.  
+*Invited talk at the Massachuesetts Institute of Technology (virtual)*   
+
+Towards a naturalistic science of social interactions.  
+*Invited talk at the University of Notre Dame (Notre Dame, IN)*   
+
+Towards a naturalistic science of social interactions.  
+*Invited talk at the University of Florida Gainsville (Gainsville, FL)*   
+
+
+`2023`
+Representing and remembering people through their relationships.  
+*Invited talk at the MIND Summer School, Dartmouth College (Hanover, NH)*  
+
+The structure of social memory: People as contexts.  
+*Presentation at the Social and Affective Neuroscience Society conference (Santa Barbara, CA)*
+
+Navigating the social world: A relational account of how we represent, remember, and talk about people.  
+*Invited talk at Stanford University (Stanford, CA)* 
+
+People as contexts: A relational account of person representation and memory.  
+*Invited talk for Innovators in Cognitive Neuroscience (virtual).* [[Video]](https://youtu.be/27jiQAbcFwo)
+
+`2022`
+Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
+*Symposium presentation at the International Society for Research on Emotion, USC (Los Angeles, CA)*
+
+Emotion and Social Perception in Naturalistic Contexts: Perspectives from Affective Computing and Affective Neuroscience.  
+*Symposium organizer at the International Society for Research on Emotion, USC (Los Angeles, CA)*
+
+`2021`
+Methodological considerations in social and affective neuroscience.  
+*Invited talk at NYU, Freeman Lab (NYC, NY)*
+
+`2020`
+Social Cognitive Maps: A Relational Account of Person Representation and Memory.  
+*Invited talk at Harvard University, Somerville Lab (Cambridge, MA)* 
+
+Why Design Abstractions Matters for Analytics Tools: Neuroimaging analysis with Neuro-Learn. [[Video]](https://youtu.be/1c1AnXLs7xM)  
+*Symposium presentation at the Scientific Computing with Python conference (virtual)*
+
+Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
+*Symposium presentation at the Society for Affective Science conference (San Francisco, CA; cancelled due to COVID-19).* 
+
+Methodological challenges in contemporary fMRI studies.  
+*Invited talk at the Neuroimaging Analysis Methods meeting, Princeton University (Princeton, NJ)*
+
+`2018`
+Introduction to functional alignment methods for fMRI.  
+*Invited lecture at the Sao Paulo School of Advanced Science on Social and Affective Neuroscience (Sao Paulo, Brazil)*
+
+`2017`
+Naturalistic approaches towards an understanding of social reasoning and communication.  
+*Invited talk at Stanford University (Stanford, CA)*
+
+The social benefits of gossip  
+*Presentation at the New England Research on Decision-Making conference, Brown University (Providence, RI)*
+
+Introduction to Git and Github for psychologists.  
+*Invited talk at the Reproducible Psychological Science workshop at the Annual Meeting for the Association for Psychological Science (Boston, MA)* 
+
+Interpersonal dynamics and the inelasticity of social guilt.  
+*Invited talk at the Boston Area Moral Cognition Group (Boston, MA)*
+
+Interpersonal dynamics and the inelasticity of social guilt.  
+*Invited talk at Affectiva Inc (Boston, MA)*
+
+Spontaneous impression-formation about parasocial relationships.  
+*Presentation at the Social and Affective Neuroscience Society conference (Los Angeles, CA)*
+
+State of the Data: Annual Dartmouth Brain Imaging Center Quality Assurance Report.  
+*Presentation at Dartmouth College (Hanover, NH)*
+
+`2016`
+Field experiments on human prosociality using Mechanical Turk.  
+*Presentation at Microsoft Research (New York City, NY)*
+
+The Social Benefits of Gossip.  
+*Presentation at the Social Brain Sciences Brown Bag (Dartmouth College, NH)*
+
+## Posters & Conference Proceedings
+
+`2025`
+Sadhukha, S. **Jolly, E.**, Jacoby, Nir., Choi, Y.J., Keller, B.T., Wager, T.D, Manning, J.R. Chang, L.J. (2025). Mapping Idiographic Affective Interpretations to Brain Activity using Semantic Embeddings.   
+*Poster at the Society for Neurobiology of Language conference (Washington, D.C.)*
+
+Kwon, D. **Jolly, E.**, Chang, L.J., Shim, W.M. (2025). Neural Representation of Social Relationship Graphs through Multidimensional Modeling of Dynamic Social Interactions.  
+*Poster at the Cognitive Computational Neuroscience conference (Amsterdam, The Netherlands)*  
+
+Choi, Y.J., **Jolly, E.** , Smith A., Gangadharan, A.A., Hoidal, A.S. & Chang, L.J.  (2025). Balancing Guilt and Costs: The Role of Emotions and Exogenous Constraints for End-of-Life Care.  
+*Poster at the Social and Affective Neuroscience Society conference (Chicago, IL)*
+
+`2024`
+Liang, Q., Varrier, R.S., Su, Z., Benson, T.G., **Jolly, E.**, Selesnick, J.M., Molfese, P.J. & Finn, E.S. (2025). Seeing is not being: Actively participating in an interaction changes social perception relative to passive viewing.  
+*Poster at the Society for Neuroscience (Chicago, IL)*
+
+Varrier, R.S., Su, Z., Benson, T.G., Liang, Q. Selesnick, J.M., **Jolly, E.**, Molfese, P.J. & Finn, E.S. (2025). Behavioral signatures of social signal detection.  
+*Poster at the Computational Cognitive Neuroscience conference (Cambridge, MA)*
+
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2024). Person memory is supported by the neural reinstatement of social interactions.  
+*Poster at the Organization for Human Brain Mapping conference (Seoul, South Korea)*
+
+Kwon, D., **Jolly, E.**, Chang, L.J., & Shim, W.M. (2024). Neural representations of map and graph-based knowledge structures for two distinct types of social information during naturalistic social interaction.  
+*Poster at the Social and Affective Neuroscience Society conference (Toronto, CA)*
+
+Varrier, R.S., Su, Z., Benson, T.G., Liang, Q. Selesnick, J.M., **Jolly, E.**, Molfese, P.J. & Finn, E.S. (2024). Behavioral and neural signatures of social signal detection.  
+*Poster at the Social and Affective Neuroscience Society conference (Toronto, CA)*
+
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2024). People are represented and remembered through their relationships with others.  
+*Poster at the Society for Personality and Social Psychology conference (San Diego, CA)*
+
+`2023`
+**Jolly, E.**, Sadhukha, S., Iqbal, M., Molani, Z., Walsh, T.M., Manning, J.R., & Chang, L.J. (2023). The structure of social memory: People as contexts.  
+*Poster at the Social and Affective Neuroscience Society conference (Santa Barbara, CA)*
+
+Kwon, D., **Jolly, E.**, Chang, L.J., & Shim, W.M. (2023). Neural representations of dynamic social interactions.  
+*Poster at the 26th Annual Meeting of the Korean Society for Brain and Neural Sciences (Busan, Korea)*
+
+`2022`
+**Jolly, E.**, Farrens, M., Greenstein, N., Eisenbarth, H., Reddan, M.C., Andrew, E., Wager, T.D., & Chang, L.J. (2022). Recovering individual emotional states from sparse ratings using collaborative filtering.  
+*Poster at the Society for Affective Science conference (virtual)*
+
+`2021`
+**Jolly, E.** & Chang, L.J. (2021). Spontaneous Neural Representations of Social Relationships in Naturalistic Contexts.  
+*Poster at the Social and Affective Neuroscience Society conference (virtual)*  
+**Winner Poster Award**
+
+`2020`
+**Jolly, E.** (2020). Pymer4: Bringing R's Powerful Mixed-modeling to Python.  
+*Poster at the Scientific Computing with Python conference (virtual)*    
+**Winner Scipy Scholarship**
+
+`2019`
+**Jolly, E.** & Chang, L.J. (2019). Gossip drives vicarious learning and facilitates robust social connections.  
+*Poster at the Social and Affective Neuroscience Society conference (Miami, FL)*
+
+Cheong, J.C., Chen, P.A., **Jolly, E.**, Elhence, H., Wager, T.D., & Chang, L.J. (2019). Socially transmitted placebo effects.  
+*Poster at the Society for Affective Science conference (Boston, MA)*
+
+`2018`
+**Jolly, E.**, Reddan, M.C., Gianaros, P.J., Manuck, S.M. Chang, L.J., & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of complex brain models.  
+*Poster at the Social and Affective Neuroscience Society conference (New York, NY)*
+
+Reddan, M.C., **Jolly, E.**, & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
+*Poster at the Organization for Human Brain Mapping conference (Singapore, Singapore)*
+
+Reddan, M.C., **Jolly, E.**, & Wager, T.D. (2018). NeuroLIME: A novel tool for explaining the predictions of nonlinear neuroimaging classifiers.  
+*Poster at the Computational and Systems Neuroscience conference (Denver, CO)*
+
+`2017`
+**Jolly, E.** & Chang, L.J. (2017). Gossip drives vicarious learning and facilitates robust social connections.  
+*Poster at the Annual Meeting of the Association for Psychological Science (Boston, MA)*
+
+Cheong, J.H., **Jolly, E.**, & Chang, L.J. (2017). A window into the mind: A computational approach to measuring emotions in response to naturalistic stimuli.  
+*Poster the Social and Affective Neuroscience Society conference (Los Angeles, CA)*
+
+`2016`
+**Jolly, E.** & Chang, L.J. (2016). Groups, gossip and social dilemmas.  
+*Poster at the International Conference on Computational Social Science (Evanston, IL)*
+
+`2015`
+**Jolly, E.**, Tamir, D.I., & Mitchell, J.P. (2015). The social value of sharing experiences.  
+*Poster at the Social and Affective Neuroscience Society conference (Boston, MA)*  
+**Winner Poster Award**
+ 
+`2012`
+Moran, J.M., **Jolly, E.**, & Mitchell, J.P. (2012). Spontaneous mentalizing supports the fundamental attribution error.  
+*Poster at the Cognitive Neuroscience Society conference (Chicago, IL)*
+
+`2010`
+Peltz, J.S. Toth, S.L., Rogosch, F.A., **Jolly, E.**, & Cicchetti, D. (2010). Paternal emotional availability’s effects on children’s socioemotional functioning in maternal depression contexts.  
+*Poster at the Annual Meeting of the Association for Psychological Science (Boston, MA)*
+
+
 ## Awards
+
+`2025`
+CIMER Mentorship Training  
+*University of California San Diego*  
 
 `2023`
 ICN Talk Award  
@@ -503,21 +596,32 @@ BCS Dept: Highest Honors in research
 Wilder-Trustee Scholarship  
 *University of Rochester*
 
-## Mentorship
+## Primary Mentorship
 
-`2024-Present`
-Grace Choi  
-Graduate Student  
-*Dartmouth College*
+`2025-Present`
+[Jacob Zimmerman](https://jacobzm.com/)  
+PhD Student - Psychology  
+*University of California San Diego*  
 
-`2022-Present`
-Wasita Mahaphanit   
-Graduate Student  
-*Dartmouth College*
+[Jinwoo Lee](https://jinwoo-lee.com/)  
+PhD Student - Psychology  
+*University of California San Diego*  
 
-Sushmita Sadhukha  
-Graduate Student  
-*Dartmouth College*
+[Chaolin Lin](https://www.chaolanlin.com/)  
+PhD Student - Cognitive Science  
+*University of California San Diego*   
+
+[Aaron Broukhim](https://aabroukh.github.io/)  
+PhD Student - Computer Science  
+*University of California San Diego*  
+
+[Justin Moran](https://lchcautobio.ucsd.edu/justin-moran/)  
+post-bacc Research Scientist  
+*University of California San Diego*  
+
+[Emma Seidfathi](https://profiles.ucsd.edu/emma.seidfathi)  
+Lab Coordinator & Research Assistant   
+*University of California San Diego*  
 
 `2021-2022`
 Maxwell Ranger '22  
@@ -527,11 +631,6 @@ Honors Thesis
 `2017-2021`
 Maryam Iqbal ’21  
 Presidential Scholar/Honors Thesis  
-*Dartmouth College*
-
-`2020-2021`
-Liza Begunova ’21  
-Honors Thesis  
 *Dartmouth College*
 
 `2019-2020`
@@ -558,46 +657,52 @@ Hirsh Elhence ’17
 Presidential Scholar  
 *Dartmouth College*
 
-## Technical Skills
+## Additional Mentorship
 
-__Programming Languages__  
-Python, Javascript, Matlab, R, Bash
+`2025-Present`
+Jae Kwon  
+PhD Student (2nd year) - Psychology - Qualifying Committee Member  
+*University of California San Diego*  
 
-__Frontend Web Development__  
-HTML, CSS, Svelte, Vue
+Coxin Yang  
+PhD Student (2nd year) - Psychology - Qualifying Committee Member  
+*University of California San Diego*  
 
-__Backend/Fullstack/App Development__  
-Node, Express, Meteor, Mongodb, Firebase, Flask, Electron
+Phuc Le Jian
+PhD Student (1st year) - Psychology - Qualifying Committee Member  
+*University of California San Diego*  
 
-__Stimulus Presentation__  
-Psychopy, Psychophysics toolbox, E-prime, Presentation
+Sophia North   
+PhD Student (1st year) - Psychology - Qualifying Committee Member  
+*University of California San Diego*  
 
-__Data Analysis__  
-Scientific-Python, Statsmodels, Scikit-learn, Lme4
+`2024-Present`
+Grace Choi  
+PhD Student - Collaborator  
+*Dartmouth College*  
 
-__Neuroimaging Analysis__  
-FSL, AFNI, SPM, Nipype, Nilearn  
+Sushmita Sadhukha  
+PhD Student - Collaborator  
+*Dartmouth College*
 
-__Data Visualization__  
-Seaborn/Matplotlib, D3, Dash/Plotly, ggplot  
+`2022-2024`
+Wasita Mahaphanit   
+PhD Student - Collaborator    
+*Dartmouth College*
 
-__Dev Ops__  
-Git/Github, TravisCI, Tox, Pytest, Moab-Torque  
-
-
-## Professional Activities
-
-__Reviewer__  
-Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognition and Emotion, JESP, PLoS One, GigaScience, JOSS, Nature Communications, SIGCHI, Frontiers in Psych, JPSP, JEP:G, Journal of Neuroscience, Scientific Reports  
-
-__Society Memberships__  
-Social and Affective Neuroscience Society, Society for Affective Science, Organization for Human Brain Mapping, Cognitive Neuroscience Society, Society for Personality and Social Psychology
-
+`2020-2021`
+Liza Begunova ’21  
+Honors Thesis  
+*Dartmouth College*
 
 ## Leadership & Community  
 
+`2025-Present`
+__SANS Representative (support)__  
+[Federation of Associations in Behavioral & Brain Sciences](https://fabbs.org/)  
+
 `2024-Present`
-__Director-at-Large__  
+__Director-at-Large (Partnerships)__  
 [Social & Affective Neuroscience Society](https://socialaffectiveneuro.org/about/)  
 
 `2019-2022`
@@ -637,8 +742,43 @@ Social Brain Sciences Symposium talk series
 __Graduate Representative__  
 Social Area Graduate Student Representative  
 *Dartmouth College, Hanover, NH*  
+
+## Technical Skills
+
+__Programming Languages__  
+Python, Javascript, Matlab, R, Bash
+
+__Frontend Web Development__  
+HTML, CSS, Svelte, Vue
+
+__Backend/Fullstack/App Development__  
+Node, Express, Meteor, Mongodb, Firebase, Flask, Electron
+
+__Stimulus Presentation__  
+Psychopy, Psychophysics toolbox, E-prime, Presentation
+
+__Data Analysis__  
+Scientific-Python, Statsmodels, Scikit-learn, Lme4
+
+__Neuroimaging Analysis__  
+FSL, AFNI, SPM, Nipype, Nilearn  
+
+__Data Visualization__  
+Seaborn/Matplotlib, D3, Dash/Plotly, ggplot  
+
+__Dev Ops__  
+Git/Github, TravisCI, Tox, Pytest, Moab-Torque  
+
+
+## Professional Activities
+
+__Reviewer__  
+Cerebral Cortex, Neuroimage, Human Brain Mapping, SCAN, Neuropsychologia, Cognition and Emotion, JESP, PLoS One, GigaScience, JOSS, Nature Communications, SIGCHI, Frontiers in Psych, JPSP, JEP:G, Journal of Neuroscience, Scientific Reports  
+
+__Society Memberships__  
+Social and Affective Neuroscience Society, Society for Affective Science, Organization for Human Brain Mapping, Cognitive Neuroscience Society, Society for Personality and Social Psychology
 __
 
-Last updated: July 2025
+Last updated: September 2025
 
 
