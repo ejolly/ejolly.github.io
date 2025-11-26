@@ -5,7 +5,7 @@ layout: page
 
 <div class="side-by-side-reversed">
     <div class="text">
-        <p>As of January 2025, I joined the Department of Psychology at the University of California San Diego as an Assistant Professor. I'm currently teaching Graduate Statistics and growing the lab. Check out my (<em>temporary</em>) <a class="link" href="{{site.url}}/lab">lab page</a> or <a href="{{site.url}}/research">research</a> for more information!</p>
+        <p>As of January 2025, I joined the Department of Psychology at the University of California San Diego as an Assistant Professor. I'm currently teaching Graduate Statistics, Undergraduate Social Cognition, and growing  <a class="link" href="https://sciminds.studio">research studio</a>.</p>
     </div>
     <div class="image">
     	<a class="link" href="{{site.url}}/lab">
